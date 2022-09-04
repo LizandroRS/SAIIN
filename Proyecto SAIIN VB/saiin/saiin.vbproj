@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C2EA12E0-CB60-4E7F-BCBB-DA981B8E93B2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>saiin.My.MyApplication</StartupObject>
+    <RootNamespace>saiin</RootNamespace>
+    <AssemblyName>saiin</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>saiin.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>saiin.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>C:\Users\user\Documents\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI">
+      <HintPath>..\..\..\Guna.UI-Framework-Lib-master\Guna.UI-Framework-Lib-master\Guna.UI WinForms\.net 4.0\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Edicion.Designer.vb">
+      <DependentUpon>Edicion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edicion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="enlaces.vb" />
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inicio.Designer.vb">
+      <DependentUpon>inicio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="inicio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modulos.Designer.vb">
+      <DependentUpon>modulos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="modulos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Edicion.resx">
+      <DependentUpon>Edicion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="inicio.resx">
+      <DependentUpon>inicio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="modulos.resx">
+      <DependentUpon>modulos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next_arrow_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back_arrow_.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\administracion-blanco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DiagnosticoDeLaIdea-blanco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finanzas-blanco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LegalyFiscal-blanco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_blanco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mercadotecnia-blanco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modo_noche_blanco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\produccion-blanco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reporte-blanco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\administracion-negro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diagnosticoDeLaIdea-negro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\finanzas-negro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LegalyFiscal-negro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mercadotecnia-negro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\modo_noche_enNegro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Produccion-negro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reporte-negro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editar-azul.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editar-blanco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guardar-azul.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guardar-blanco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Modulo1-15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Recursos-ProyectoSaiin-11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redondes-azul.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seleccionar-azul.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\siguiente-azul.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\siguiente-blanco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start-azul.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start-blanco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start-desplegado-azul.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start-desplegado-blanco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\texbox-blanco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redondes_Titulos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loading-13.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrar-blanco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inicio-blanco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimizar-blanco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Modulo_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Modulo-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Modulo-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Modulo-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Modulo-5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Modulo-6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar_otro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus_plus.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

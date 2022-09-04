@@ -1,0 +1,202 @@
+c:\users\alemi\documents\visual studio 2015\Projects\saiin\saiin\bin\Debug\saiin.exe.config
+c:\users\alemi\documents\visual studio 2015\Projects\saiin\saiin\bin\Debug\saiin.exe
+c:\users\alemi\documents\visual studio 2015\Projects\saiin\saiin\bin\Debug\saiin.pdb
+c:\users\alemi\documents\visual studio 2015\Projects\saiin\saiin\bin\Debug\saiin.xml
+c:\users\alemi\documents\visual studio 2015\Projects\saiin\saiin\obj\Debug\saiin.vbprojResolveAssemblyReference.cache
+c:\users\alemi\documents\visual studio 2015\Projects\saiin\saiin\obj\Debug\saiin.Form1.resources
+c:\users\alemi\documents\visual studio 2015\Projects\saiin\saiin\obj\Debug\saiin.modulos.resources
+c:\users\alemi\documents\visual studio 2015\Projects\saiin\saiin\obj\Debug\saiin.Resources.resources
+c:\users\alemi\documents\visual studio 2015\Projects\saiin\saiin\obj\Debug\saiin.vbproj.GenerateResource.Cache
+c:\users\alemi\documents\visual studio 2015\Projects\saiin\saiin\obj\Debug\saiin.exe
+c:\users\alemi\documents\visual studio 2015\Projects\saiin\saiin\obj\Debug\saiin.xml
+c:\users\alemi\documents\visual studio 2015\Projects\saiin\saiin\obj\Debug\saiin.pdb
+C:\Users\SUNY\Downloads\saiin\saiin\bin\Debug\saiin.exe.config
+C:\Users\SUNY\Downloads\saiin\saiin\obj\Debug\saiin.exe
+C:\Users\SUNY\Downloads\saiin\saiin\obj\Debug\saiin.xml
+C:\Users\SUNY\Downloads\saiin\saiin\obj\Debug\saiin.pdb
+C:\Users\SUNY\Downloads\saiin\saiin\bin\Debug\saiin.exe
+C:\Users\SUNY\Downloads\saiin\saiin\bin\Debug\saiin.pdb
+C:\Users\SUNY\Downloads\saiin\saiin\bin\Debug\saiin.xml
+C:\Users\SUNY\Downloads\saiin\saiin\obj\Debug\saiin.vbprojResolveAssemblyReference.cache
+C:\Users\SUNY\Downloads\saiin\saiin\obj\Debug\saiin.Form1.resources
+C:\Users\SUNY\Downloads\saiin\saiin\obj\Debug\saiin.modulos.resources
+C:\Users\SUNY\Downloads\saiin\saiin\obj\Debug\saiin.Resources.resources
+C:\Users\SUNY\Downloads\saiin\saiin\obj\Debug\saiin.vbproj.GenerateResource.Cache
+C:\Users\yaradith\Desktop\ITSA TEC Acuña\8° Semestre\Arquitectura y diseño de software\Team_Diseño\saiin\saiin\bin\Debug\saiin.exe.config
+C:\Users\yaradith\Desktop\ITSA TEC Acuña\8° Semestre\Arquitectura y diseño de software\Team_Diseño\saiin\saiin\obj\Debug\saiin.exe
+C:\Users\yaradith\Desktop\ITSA TEC Acuña\8° Semestre\Arquitectura y diseño de software\Team_Diseño\saiin\saiin\obj\Debug\saiin.xml
+C:\Users\yaradith\Desktop\ITSA TEC Acuña\8° Semestre\Arquitectura y diseño de software\Team_Diseño\saiin\saiin\obj\Debug\saiin.pdb
+C:\Users\yaradith\Desktop\ITSA TEC Acuña\8° Semestre\Arquitectura y diseño de software\Team_Diseño\saiin\saiin\bin\Debug\saiin.exe
+C:\Users\yaradith\Desktop\ITSA TEC Acuña\8° Semestre\Arquitectura y diseño de software\Team_Diseño\saiin\saiin\bin\Debug\saiin.pdb
+C:\Users\yaradith\Desktop\ITSA TEC Acuña\8° Semestre\Arquitectura y diseño de software\Team_Diseño\saiin\saiin\bin\Debug\saiin.xml
+C:\Users\yaradith\Desktop\ITSA TEC Acuña\8° Semestre\Arquitectura y diseño de software\Team_Diseño\saiin\saiin\obj\Debug\saiin.vbprojResolveAssemblyReference.cache
+C:\Users\yaradith\Desktop\ITSA TEC Acuña\8° Semestre\Arquitectura y diseño de software\Team_Diseño\saiin\saiin\obj\Debug\saiin.Form1.resources
+C:\Users\yaradith\Desktop\ITSA TEC Acuña\8° Semestre\Arquitectura y diseño de software\Team_Diseño\saiin\saiin\obj\Debug\saiin.modulos.resources
+C:\Users\yaradith\Desktop\ITSA TEC Acuña\8° Semestre\Arquitectura y diseño de software\Team_Diseño\saiin\saiin\obj\Debug\saiin.Resources.resources
+C:\Users\yaradith\Desktop\ITSA TEC Acuña\8° Semestre\Arquitectura y diseño de software\Team_Diseño\saiin\saiin\obj\Debug\saiin.vbproj.GenerateResource.Cache
+E:\Descargas\Proyecto\saiin\saiin\bin\Debug\saiin.exe.config
+E:\Descargas\Proyecto\saiin\saiin\bin\Debug\saiin.exe
+E:\Descargas\Proyecto\saiin\saiin\bin\Debug\saiin.pdb
+E:\Descargas\Proyecto\saiin\saiin\bin\Debug\saiin.xml
+E:\Descargas\Proyecto\saiin\saiin\obj\Debug\saiin.vbproj.AssemblyReference.cache
+E:\Descargas\Proyecto\saiin\saiin\obj\Debug\saiin.inicio.resources
+E:\Descargas\Proyecto\saiin\saiin\obj\Debug\saiin.modulos.resources
+E:\Descargas\Proyecto\saiin\saiin\obj\Debug\saiin.Resources.resources
+E:\Descargas\Proyecto\saiin\saiin\obj\Debug\saiin.vbproj.GenerateResource.cache
+E:\Descargas\Proyecto\saiin\saiin\obj\Debug\saiin.vbproj.CoreCompileInputs.cache
+E:\Descargas\Proyecto\saiin\saiin\obj\Debug\saiin.exe
+E:\Descargas\Proyecto\saiin\saiin\obj\Debug\saiin.xml
+E:\Descargas\Proyecto\saiin\saiin\obj\Debug\saiin.pdb
+E:\Descargas\Proyecto\saiin\saiin\obj\Debug\saiin.btnMenu.resources
+E:\Proyecto\saiin\saiin\bin\Debug\saiin.exe.config
+E:\Proyecto\saiin\saiin\bin\Debug\saiin.exe
+E:\Proyecto\saiin\saiin\bin\Debug\saiin.pdb
+E:\Proyecto\saiin\saiin\bin\Debug\saiin.xml
+E:\Proyecto\saiin\saiin\obj\Debug\saiin.vbproj.AssemblyReference.cache
+E:\Proyecto\saiin\saiin\obj\Debug\saiin.vbproj.SuggestedBindingRedirects.cache
+E:\Proyecto\saiin\saiin\obj\Debug\saiin.btnMenu.resources
+E:\Proyecto\saiin\saiin\obj\Debug\saiin.inicio.resources
+E:\Proyecto\saiin\saiin\obj\Debug\saiin.modulos.resources
+E:\Proyecto\saiin\saiin\obj\Debug\saiin.Resources.resources
+E:\Proyecto\saiin\saiin\obj\Debug\saiin.vbproj.GenerateResource.cache
+E:\Proyecto\saiin\saiin\obj\Debug\saiin.vbproj.CoreCompileInputs.cache
+E:\Proyecto\saiin\saiin\obj\Debug\saiin.exe
+E:\Proyecto\saiin\saiin\obj\Debug\saiin.xml
+E:\Proyecto\saiin\saiin\obj\Debug\saiin.pdb
+D:\Proyecto\saiin\saiin\bin\Debug\saiin.exe.config
+D:\Proyecto\saiin\saiin\bin\Debug\saiin.exe
+D:\Proyecto\saiin\saiin\bin\Debug\saiin.pdb
+D:\Proyecto\saiin\saiin\bin\Debug\saiin.xml
+D:\Proyecto\saiin\saiin\obj\Debug\saiin.vbproj.AssemblyReference.cache
+D:\Proyecto\saiin\saiin\obj\Debug\saiin.btnMenu.resources
+D:\Proyecto\saiin\saiin\obj\Debug\saiin.inicio.resources
+D:\Proyecto\saiin\saiin\obj\Debug\saiin.modulos.resources
+D:\Proyecto\saiin\saiin\obj\Debug\saiin.Resources.resources
+D:\Proyecto\saiin\saiin\obj\Debug\saiin.vbproj.GenerateResource.cache
+D:\Proyecto\saiin\saiin\obj\Debug\saiin.vbproj.CoreCompileInputs.cache
+D:\Proyecto\saiin\saiin\obj\Debug\saiin.exe
+D:\Proyecto\saiin\saiin\obj\Debug\saiin.xml
+D:\Proyecto\saiin\saiin\obj\Debug\saiin.pdb
+D:\Proyecto\saiin\saiin\bin\Debug\Bunifu_UI_v1.5.3.dll
+D:\Proyecto\saiin\saiin\obj\Debug\saiin.vbproj.CopyComplete
+C:\Users\alemi\Documents\Proyecto.mando\saiin\saiin\bin\Debug\saiin.exe.config
+C:\Users\alemi\Documents\Proyecto.mando\saiin\saiin\obj\Debug\saiin.exe
+C:\Users\alemi\Documents\Proyecto.mando\saiin\saiin\obj\Debug\saiin.xml
+C:\Users\alemi\Documents\Proyecto.mando\saiin\saiin\obj\Debug\saiin.pdb
+C:\Users\alemi\Documents\Proyecto.mando\saiin\saiin\bin\Debug\saiin.exe
+C:\Users\alemi\Documents\Proyecto.mando\saiin\saiin\bin\Debug\saiin.pdb
+C:\Users\alemi\Documents\Proyecto.mando\saiin\saiin\bin\Debug\saiin.xml
+C:\Users\alemi\Documents\Proyecto.mando\saiin\saiin\obj\Debug\saiin.vbprojResolveAssemblyReference.cache
+C:\Users\alemi\Documents\Proyecto.mando\saiin\saiin\obj\Debug\saiin.btnMenu.resources
+C:\Users\alemi\Documents\Proyecto.mando\saiin\saiin\obj\Debug\saiin.inicio.resources
+C:\Users\alemi\Documents\Proyecto.mando\saiin\saiin\obj\Debug\saiin.modulos.resources
+C:\Users\alemi\Documents\Proyecto.mando\saiin\saiin\obj\Debug\saiin.Resources.resources
+C:\Users\alemi\Documents\Proyecto.mando\saiin\saiin\obj\Debug\saiin.vbproj.GenerateResource.Cache
+C:\Users\SUNY\Documents\8vo Semestre\Proyecto Saiin\saiin\saiin\bin\Debug\saiin.exe.config
+C:\Users\SUNY\Documents\8vo Semestre\Proyecto Saiin\saiin\saiin\obj\Debug\saiin.exe
+C:\Users\SUNY\Documents\8vo Semestre\Proyecto Saiin\saiin\saiin\obj\Debug\saiin.xml
+C:\Users\SUNY\Documents\8vo Semestre\Proyecto Saiin\saiin\saiin\obj\Debug\saiin.pdb
+C:\Users\SUNY\Documents\8vo Semestre\Proyecto Saiin\saiin\saiin\bin\Debug\saiin.exe
+C:\Users\SUNY\Documents\8vo Semestre\Proyecto Saiin\saiin\saiin\bin\Debug\saiin.pdb
+C:\Users\SUNY\Documents\8vo Semestre\Proyecto Saiin\saiin\saiin\bin\Debug\saiin.xml
+C:\Users\SUNY\Documents\8vo Semestre\Proyecto Saiin\saiin\saiin\obj\Debug\saiin.vbprojResolveAssemblyReference.cache
+C:\Users\SUNY\Documents\8vo Semestre\Proyecto Saiin\saiin\saiin\obj\Debug\saiin.inicio.resources
+C:\Users\SUNY\Documents\8vo Semestre\Proyecto Saiin\saiin\saiin\obj\Debug\saiin.modulos.resources
+C:\Users\SUNY\Documents\8vo Semestre\Proyecto Saiin\saiin\saiin\obj\Debug\saiin.Resources.resources
+C:\Users\SUNY\Documents\8vo Semestre\Proyecto Saiin\saiin\saiin\obj\Debug\saiin.vbproj.GenerateResource.Cache
+C:\Users\SUNY\Documents\8vo Semestre\Proyecto Saiin\saiin\saiin\obj\Debug\saiin.principal.resources
+D:\saiin\saiin\bin\Debug\saiin.exe.config
+D:\saiin\saiin\obj\Debug\saiin.exe
+D:\saiin\saiin\obj\Debug\saiin.xml
+D:\saiin\saiin\obj\Debug\saiin.pdb
+D:\saiin\saiin\bin\Debug\saiin.exe
+D:\saiin\saiin\bin\Debug\saiin.pdb
+D:\saiin\saiin\bin\Debug\saiin.xml
+D:\saiin\saiin\obj\Debug\saiin.vbprojResolveAssemblyReference.cache
+D:\saiin\saiin\obj\Debug\saiin.principal.resources
+D:\saiin\saiin\obj\Debug\saiin.inicio.resources
+D:\saiin\saiin\obj\Debug\saiin.modulos.resources
+D:\saiin\saiin\obj\Debug\saiin.Resources.resources
+D:\saiin\saiin\obj\Debug\saiin.vbproj.GenerateResource.Cache
+D:\saiin\saiin\obj\Debug\saiin.Edicion.resources
+C:\Users\Mary Cruz Santiago\Downloads\saiin\saiin\bin\Debug\saiin.exe.config
+C:\Users\Mary Cruz Santiago\Downloads\saiin\saiin\bin\Debug\saiin.exe
+C:\Users\Mary Cruz Santiago\Downloads\saiin\saiin\bin\Debug\saiin.pdb
+C:\Users\Mary Cruz Santiago\Downloads\saiin\saiin\bin\Debug\saiin.xml
+C:\Users\Mary Cruz Santiago\Downloads\saiin\saiin\obj\Debug\saiin.vbprojAssemblyReference.cache
+C:\Users\Mary Cruz Santiago\Downloads\saiin\saiin\obj\Debug\saiin.Edicion.resources
+C:\Users\Mary Cruz Santiago\Downloads\saiin\saiin\obj\Debug\saiin.principal.resources
+C:\Users\Mary Cruz Santiago\Downloads\saiin\saiin\obj\Debug\saiin.inicio.resources
+C:\Users\Mary Cruz Santiago\Downloads\saiin\saiin\obj\Debug\saiin.modulos.resources
+C:\Users\Mary Cruz Santiago\Downloads\saiin\saiin\obj\Debug\saiin.Resources.resources
+C:\Users\Mary Cruz Santiago\Downloads\saiin\saiin\obj\Debug\saiin.vbproj.GenerateResource.cache
+C:\Users\Mary Cruz Santiago\Downloads\saiin\saiin\obj\Debug\saiin.vbproj.CoreCompileInputs.cache
+C:\Users\Mary Cruz Santiago\Downloads\saiin\saiin\obj\Debug\saiin.vbproj.CopyComplete
+C:\Users\Mary Cruz Santiago\Downloads\saiin\saiin\obj\Debug\saiin.exe
+C:\Users\Mary Cruz Santiago\Downloads\saiin\saiin\obj\Debug\saiin.xml
+C:\Users\Mary Cruz Santiago\Downloads\saiin\saiin\obj\Debug\saiin.pdb
+C:\Users\Black-Hawk Tower\Downloads\saiin100422\saiin\saiin\bin\Debug\saiin.exe.config
+C:\Users\Black-Hawk Tower\Downloads\saiin100422\saiin\saiin\obj\Debug\saiin.exe
+C:\Users\Black-Hawk Tower\Downloads\saiin100422\saiin\saiin\obj\Debug\saiin.xml
+C:\Users\Black-Hawk Tower\Downloads\saiin100422\saiin\saiin\obj\Debug\saiin.pdb
+C:\Users\Black-Hawk Tower\Downloads\saiin100422\saiin\saiin\bin\Debug\saiin.exe
+C:\Users\Black-Hawk Tower\Downloads\saiin100422\saiin\saiin\bin\Debug\saiin.pdb
+C:\Users\Black-Hawk Tower\Downloads\saiin100422\saiin\saiin\bin\Debug\saiin.xml
+C:\Users\Black-Hawk Tower\Downloads\saiin100422\saiin\saiin\bin\Debug\Guna.UI.dll
+C:\Users\Black-Hawk Tower\Downloads\saiin100422\saiin\saiin\obj\Debug\saiin.vbprojResolveAssemblyReference.cache
+C:\Users\Black-Hawk Tower\Downloads\saiin100422\saiin\saiin\obj\Debug\saiin.Edicion.resources
+C:\Users\Black-Hawk Tower\Downloads\saiin100422\saiin\saiin\obj\Debug\saiin.principal.resources
+C:\Users\Black-Hawk Tower\Downloads\saiin100422\saiin\saiin\obj\Debug\saiin.inicio.resources
+C:\Users\Black-Hawk Tower\Downloads\saiin100422\saiin\saiin\obj\Debug\saiin.modulos.resources
+C:\Users\Black-Hawk Tower\Downloads\saiin100422\saiin\saiin\obj\Debug\saiin.Resources.resources
+C:\Users\Black-Hawk Tower\Downloads\saiin100422\saiin\saiin\obj\Debug\saiin.vbproj.GenerateResource.Cache
+C:\Users\alemi\Downloads\saiin100422\saiin100422\saiin\saiin\bin\Debug\saiin.exe.config
+C:\Users\alemi\Downloads\saiin100422\saiin100422\saiin\saiin\obj\Debug\saiin.exe
+C:\Users\alemi\Downloads\saiin100422\saiin100422\saiin\saiin\obj\Debug\saiin.xml
+C:\Users\alemi\Downloads\saiin100422\saiin100422\saiin\saiin\obj\Debug\saiin.pdb
+C:\Users\alemi\Downloads\saiin100422\saiin100422\saiin\saiin\bin\Debug\saiin.exe
+C:\Users\alemi\Downloads\saiin100422\saiin100422\saiin\saiin\bin\Debug\saiin.pdb
+C:\Users\alemi\Downloads\saiin100422\saiin100422\saiin\saiin\bin\Debug\saiin.xml
+C:\Users\alemi\Downloads\saiin100422\saiin100422\saiin\saiin\obj\Debug\saiin.vbprojResolveAssemblyReference.cache
+C:\Users\alemi\Downloads\saiin100422\saiin100422\saiin\saiin\obj\Debug\saiin.Edicion.resources
+C:\Users\alemi\Downloads\saiin100422\saiin100422\saiin\saiin\obj\Debug\saiin.principal.resources
+C:\Users\alemi\Downloads\saiin100422\saiin100422\saiin\saiin\obj\Debug\saiin.inicio.resources
+C:\Users\alemi\Downloads\saiin100422\saiin100422\saiin\saiin\obj\Debug\saiin.modulos.resources
+C:\Users\alemi\Downloads\saiin100422\saiin100422\saiin\saiin\obj\Debug\saiin.Resources.resources
+C:\Users\alemi\Downloads\saiin100422\saiin100422\saiin\saiin\obj\Debug\saiin.vbproj.GenerateResource.Cache
+C:\Users\alemi\Downloads\saiin100422\saiin030522\saiin\saiin\bin\Debug\saiin.exe.config
+C:\Users\alemi\Downloads\saiin100422\saiin030522\saiin\saiin\obj\Debug\saiin.exe
+C:\Users\alemi\Downloads\saiin100422\saiin030522\saiin\saiin\obj\Debug\saiin.xml
+C:\Users\alemi\Downloads\saiin100422\saiin030522\saiin\saiin\obj\Debug\saiin.pdb
+C:\Users\alemi\Downloads\saiin100422\saiin030522\saiin\saiin\bin\Debug\saiin.exe
+C:\Users\alemi\Downloads\saiin100422\saiin030522\saiin\saiin\bin\Debug\saiin.pdb
+C:\Users\alemi\Downloads\saiin100422\saiin030522\saiin\saiin\bin\Debug\saiin.xml
+C:\Users\alemi\Downloads\saiin100422\saiin030522\saiin\saiin\obj\Debug\saiin.vbprojResolveAssemblyReference.cache
+C:\Users\alemi\Downloads\saiin100422\saiin030522\saiin\saiin\obj\Debug\saiin.Edicion.resources
+C:\Users\alemi\Downloads\saiin100422\saiin030522\saiin\saiin\obj\Debug\saiin.principal.resources
+C:\Users\alemi\Downloads\saiin100422\saiin030522\saiin\saiin\obj\Debug\saiin.inicio.resources
+C:\Users\alemi\Downloads\saiin100422\saiin030522\saiin\saiin\obj\Debug\saiin.modulos.resources
+C:\Users\alemi\Downloads\saiin100422\saiin030522\saiin\saiin\obj\Debug\saiin.Resources.resources
+C:\Users\alemi\Downloads\saiin100422\saiin030522\saiin\saiin\obj\Debug\saiin.vbproj.GenerateResource.Cache
+C:\Users\Celia Burke\Desktop\saiin030522\saiin\saiin\bin\Debug\saiin.exe.config
+C:\Users\Celia Burke\Desktop\saiin030522\saiin\saiin\obj\Debug\saiin.exe
+C:\Users\Celia Burke\Desktop\saiin030522\saiin\saiin\obj\Debug\saiin.xml
+C:\Users\Celia Burke\Desktop\saiin030522\saiin\saiin\obj\Debug\saiin.pdb
+C:\Users\Celia Burke\Documents\Visual Master Folder\Proyecto SAIIN\SAIIN Limpio - Copy051822\saiin\saiin\bin\Debug\saiin.exe.config
+C:\Users\Celia Burke\Documents\Visual Master Folder\Proyecto SAIIN\SAIIN Limpio - Copy051822\saiin\saiin\bin\Debug\saiin.exe
+C:\Users\Celia Burke\Documents\Visual Master Folder\Proyecto SAIIN\SAIIN Limpio - Copy051822\saiin\saiin\bin\Debug\saiin.pdb
+C:\Users\Celia Burke\Documents\Visual Master Folder\Proyecto SAIIN\SAIIN Limpio - Copy051822\saiin\saiin\bin\Debug\saiin.xml
+C:\Users\Celia Burke\Documents\Visual Master Folder\Proyecto SAIIN\SAIIN Limpio - Copy051822\saiin\saiin\obj\Debug\saiin.vbprojResolveAssemblyReference.cache
+C:\Users\Celia Burke\Documents\Visual Master Folder\Proyecto SAIIN\SAIIN Limpio - Copy051822\saiin\saiin\obj\Debug\saiin.Edicion.resources
+C:\Users\Celia Burke\Documents\Visual Master Folder\Proyecto SAIIN\SAIIN Limpio - Copy051822\saiin\saiin\obj\Debug\saiin.principal.resources
+C:\Users\Celia Burke\Documents\Visual Master Folder\Proyecto SAIIN\SAIIN Limpio - Copy051822\saiin\saiin\obj\Debug\saiin.inicio.resources
+C:\Users\Celia Burke\Documents\Visual Master Folder\Proyecto SAIIN\SAIIN Limpio - Copy051822\saiin\saiin\obj\Debug\saiin.modulos.resources
+C:\Users\Celia Burke\Documents\Visual Master Folder\Proyecto SAIIN\SAIIN Limpio - Copy051822\saiin\saiin\obj\Debug\saiin.Resources.resources
+C:\Users\Celia Burke\Documents\Visual Master Folder\Proyecto SAIIN\SAIIN Limpio - Copy051822\saiin\saiin\obj\Debug\saiin.vbproj.GenerateResource.Cache
+C:\Users\Celia Burke\Documents\Visual Master Folder\Proyecto SAIIN\SAIIN Limpio - Copy051822\saiin\saiin\obj\Debug\saiin.exe
+C:\Users\Celia Burke\Documents\Visual Master Folder\Proyecto SAIIN\SAIIN Limpio - Copy051822\saiin\saiin\obj\Debug\saiin.xml
+C:\Users\Celia Burke\Documents\Visual Master Folder\Proyecto SAIIN\SAIIN Limpio - Copy051822\saiin\saiin\obj\Debug\saiin.pdb
+C:\Users\Celia Burke\Documents\Visual Master Folder\Proyecto SAIIN\SAIIN Limpio -26_05_22\saiin\saiin\bin\Debug\saiin.exe.config
+C:\Users\Celia Burke\Documents\Visual Master Folder\Proyecto SAIIN\SAIIN Limpio -26_05_22\saiin\saiin\obj\Debug\saiin.exe
+C:\Users\Celia Burke\Documents\Visual Master Folder\Proyecto SAIIN\SAIIN Limpio -26_05_22\saiin\saiin\obj\Debug\saiin.xml
+C:\Users\Celia Burke\Documents\Visual Master Folder\Proyecto SAIIN\SAIIN Limpio -26_05_22\saiin\saiin\obj\Debug\saiin.pdb
