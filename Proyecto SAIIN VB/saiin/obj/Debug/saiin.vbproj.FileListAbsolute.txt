@@ -200,3 +200,53 @@ C:\Users\Celia Burke\Documents\Visual Master Folder\Proyecto SAIIN\SAIIN Limpio 
 C:\Users\Celia Burke\Documents\Visual Master Folder\Proyecto SAIIN\SAIIN Limpio -26_05_22\saiin\saiin\obj\Debug\saiin.exe
 C:\Users\Celia Burke\Documents\Visual Master Folder\Proyecto SAIIN\SAIIN Limpio -26_05_22\saiin\saiin\obj\Debug\saiin.xml
 C:\Users\Celia Burke\Documents\Visual Master Folder\Proyecto SAIIN\SAIIN Limpio -26_05_22\saiin\saiin\obj\Debug\saiin.pdb
+C:\Users\jj\Documents\ProyectoGitSain\SAIIN-main\Proyecto SAIIN VB\saiin\bin\Debug\saiin.exe.config
+C:\Users\jj\Documents\ProyectoGitSain\SAIIN-main\Proyecto SAIIN VB\saiin\obj\Debug\saiin.exe
+C:\Users\jj\Documents\ProyectoGitSain\SAIIN-main\Proyecto SAIIN VB\saiin\obj\Debug\saiin.xml
+C:\Users\jj\Documents\ProyectoGitSain\SAIIN-main\Proyecto SAIIN VB\saiin\obj\Debug\saiin.pdb
+C:\Users\jj\Documents\ProyectoGitSain\SAIIN-main\Proyecto SAIIN VB\saiin\bin\Debug\saiin.exe
+C:\Users\jj\Documents\ProyectoGitSain\SAIIN-main\Proyecto SAIIN VB\saiin\bin\Debug\saiin.pdb
+C:\Users\jj\Documents\ProyectoGitSain\SAIIN-main\Proyecto SAIIN VB\saiin\bin\Debug\saiin.xml
+C:\Users\jj\Documents\ProyectoGitSain\SAIIN-main\Proyecto SAIIN VB\saiin\obj\Debug\saiin.vbprojResolveAssemblyReference.cache
+C:\Users\jj\Documents\ProyectoGitSain\SAIIN-main\Proyecto SAIIN VB\saiin\obj\Debug\saiin.Edicion.resources
+C:\Users\jj\Documents\ProyectoGitSain\SAIIN-main\Proyecto SAIIN VB\saiin\obj\Debug\saiin.principal.resources
+C:\Users\jj\Documents\ProyectoGitSain\SAIIN-main\Proyecto SAIIN VB\saiin\obj\Debug\saiin.inicio.resources
+C:\Users\jj\Documents\ProyectoGitSain\SAIIN-main\Proyecto SAIIN VB\saiin\obj\Debug\saiin.modulos.resources
+C:\Users\jj\Documents\ProyectoGitSain\SAIIN-main\Proyecto SAIIN VB\saiin\obj\Debug\saiin.Resources.resources
+C:\Users\jj\Documents\ProyectoGitSain\SAIIN-main\Proyecto SAIIN VB\saiin\obj\Debug\saiin.vbproj.GenerateResource.Cache
+C:\Users\jj\Documents\ProyectoGitSain\SAIIN-Actual\Proyecto SAIIN VB\saiin\bin\Debug\saiin.exe.config
+C:\Users\jj\Documents\ProyectoGitSain\SAIIN-Actual\Proyecto SAIIN VB\saiin\obj\Debug\saiin.exe
+C:\Users\jj\Documents\ProyectoGitSain\SAIIN-Actual\Proyecto SAIIN VB\saiin\obj\Debug\saiin.xml
+C:\Users\jj\Documents\ProyectoGitSain\SAIIN-Actual\Proyecto SAIIN VB\saiin\obj\Debug\saiin.pdb
+C:\Users\jj\Desktop\SAIIN-Actual\Proyecto SAIIN VB\saiin\bin\Debug\saiin.exe.config
+C:\Users\jj\Desktop\SAIIN-Actual\Proyecto SAIIN VB\saiin\obj\Debug\saiin.exe
+C:\Users\jj\Desktop\SAIIN-Actual\Proyecto SAIIN VB\saiin\obj\Debug\saiin.xml
+C:\Users\jj\Desktop\SAIIN-Actual\Proyecto SAIIN VB\saiin\obj\Debug\saiin.pdb
+C:\Users\jj\Desktop\SAIIN-Actual\Proyecto SAIIN VB\saiin\bin\Debug\saiin.exe
+C:\Users\jj\Desktop\SAIIN-Actual\Proyecto SAIIN VB\saiin\bin\Debug\saiin.pdb
+C:\Users\jj\Desktop\SAIIN-Actual\Proyecto SAIIN VB\saiin\bin\Debug\saiin.xml
+C:\Users\jj\Desktop\SAIIN-Actual\Proyecto SAIIN VB\saiin\obj\Debug\saiin.vbprojResolveAssemblyReference.cache
+C:\Users\jj\Desktop\SAIIN-Actual\Proyecto SAIIN VB\saiin\obj\Debug\saiin.Edicion.resources
+C:\Users\jj\Desktop\SAIIN-Actual\Proyecto SAIIN VB\saiin\obj\Debug\saiin.principal.resources
+C:\Users\jj\Desktop\SAIIN-Actual\Proyecto SAIIN VB\saiin\obj\Debug\saiin.inicio.resources
+C:\Users\jj\Desktop\SAIIN-Actual\Proyecto SAIIN VB\saiin\obj\Debug\saiin.modulos.resources
+C:\Users\jj\Desktop\SAIIN-Actual\Proyecto SAIIN VB\saiin\obj\Debug\saiin.Resources.resources
+C:\Users\jj\Desktop\SAIIN-Actual\Proyecto SAIIN VB\saiin\obj\Debug\saiin.vbproj.GenerateResource.Cache
+C:\Users\Angel Zavala\Documents\Semestre 9\SAIIN-Actual\Proyecto SAIIN VB\saiin\bin\Debug\saiin.exe.config
+C:\Users\Angel Zavala\Documents\Semestre 9\SAIIN-Actual\Proyecto SAIIN VB\saiin\obj\Debug\saiin.exe
+C:\Users\Angel Zavala\Documents\Semestre 9\SAIIN-Actual\Proyecto SAIIN VB\saiin\obj\Debug\saiin.xml
+C:\Users\Angel Zavala\Documents\Semestre 9\SAIIN-Actual\Proyecto SAIIN VB\saiin\obj\Debug\saiin.pdb
+C:\Users\Vicente Hernández\Desktop\Proyecto SAIIN VB\saiin\bin\Debug\saiin.exe.config
+C:\Users\Vicente Hernández\Desktop\Proyecto SAIIN VB\saiin\obj\Debug\saiin.exe
+C:\Users\Vicente Hernández\Desktop\Proyecto SAIIN VB\saiin\obj\Debug\saiin.xml
+C:\Users\Vicente Hernández\Desktop\Proyecto SAIIN VB\saiin\obj\Debug\saiin.pdb
+C:\Users\Vicente Hernández\Desktop\Proyecto SAIIN VB\saiin\bin\Debug\saiin.exe
+C:\Users\Vicente Hernández\Desktop\Proyecto SAIIN VB\saiin\bin\Debug\saiin.pdb
+C:\Users\Vicente Hernández\Desktop\Proyecto SAIIN VB\saiin\bin\Debug\saiin.xml
+C:\Users\Vicente Hernández\Desktop\Proyecto SAIIN VB\saiin\obj\Debug\saiin.vbprojResolveAssemblyReference.cache
+C:\Users\Vicente Hernández\Desktop\Proyecto SAIIN VB\saiin\obj\Debug\saiin.Edicion.resources
+C:\Users\Vicente Hernández\Desktop\Proyecto SAIIN VB\saiin\obj\Debug\saiin.principal.resources
+C:\Users\Vicente Hernández\Desktop\Proyecto SAIIN VB\saiin\obj\Debug\saiin.inicio.resources
+C:\Users\Vicente Hernández\Desktop\Proyecto SAIIN VB\saiin\obj\Debug\saiin.modulos.resources
+C:\Users\Vicente Hernández\Desktop\Proyecto SAIIN VB\saiin\obj\Debug\saiin.Resources.resources
+C:\Users\Vicente Hernández\Desktop\Proyecto SAIIN VB\saiin\obj\Debug\saiin.vbproj.GenerateResource.Cache

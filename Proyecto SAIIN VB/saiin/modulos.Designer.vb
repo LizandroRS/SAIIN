@@ -192,37 +192,19 @@ Partial Class modulos
         Me.Label274 = New System.Windows.Forms.Label()
         Me.PictureBox81 = New System.Windows.Forms.PictureBox()
         Me.TabPage4 = New System.Windows.Forms.TabPage()
-        Me.PictureBox59 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox51 = New System.Windows.Forms.PictureBox()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.TextBox96 = New System.Windows.Forms.TextBox()
+        Me.PictureBox142 = New System.Windows.Forms.PictureBox()
         Me.PictureBox25 = New System.Windows.Forms.PictureBox()
         Me.TextBox103 = New System.Windows.Forms.TextBox()
-        Me.TextBox102 = New System.Windows.Forms.TextBox()
-        Me.TextBox101 = New System.Windows.Forms.TextBox()
-        Me.TextBox100 = New System.Windows.Forms.TextBox()
-        Me.TextBox98 = New System.Windows.Forms.TextBox()
-        Me.TextBox97 = New System.Windows.Forms.TextBox()
         Me.Label16 = New System.Windows.Forms.Label()
         Me.Label19 = New System.Windows.Forms.Label()
         Me.Label15 = New System.Windows.Forms.Label()
-        Me.Label22 = New System.Windows.Forms.Label()
-        Me.Label33 = New System.Windows.Forms.Label()
-        Me.Label32 = New System.Windows.Forms.Label()
-        Me.Label31 = New System.Windows.Forms.Label()
-        Me.Label30 = New System.Windows.Forms.Label()
-        Me.Label21 = New System.Windows.Forms.Label()
-        Me.Label28 = New System.Windows.Forms.Label()
-        Me.Label27 = New System.Windows.Forms.Label()
         Me.Label29 = New System.Windows.Forms.Label()
         Me.CB2 = New System.Windows.Forms.ComboBox()
         Me.Label18 = New System.Windows.Forms.Label()
-        Me.CB1 = New System.Windows.Forms.ComboBox()
         Me.PictureBox63 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox62 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox61 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox60 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox58 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox57 = New System.Windows.Forms.PictureBox()
         Me.btn_guardar_m4 = New System.Windows.Forms.PictureBox()
         Me.TabPage3 = New System.Windows.Forms.TabPage()
         Me.m3TabControl1 = New System.Windows.Forms.TabControl()
@@ -244,6 +226,7 @@ Partial Class modulos
         Me.m3ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.m3PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.m3TabPage2 = New System.Windows.Forms.TabPage()
+        Me.M3empladosnecesarios = New System.Windows.Forms.ComboBox()
         Me.ComboBox17 = New System.Windows.Forms.ComboBox()
         Me.TextBox104 = New System.Windows.Forms.TextBox()
         Me.TextBox34 = New System.Windows.Forms.TextBox()
@@ -402,6 +385,7 @@ Partial Class modulos
         Me.PictureBox48 = New System.Windows.Forms.PictureBox()
         Me.PictureBox54 = New System.Windows.Forms.PictureBox()
         Me.TabPage12 = New System.Windows.Forms.TabPage()
+        Me.Button4 = New System.Windows.Forms.Button()
         Me.PictureBoxCanva = New System.Windows.Forms.PictureBox()
         Me.cargarcanva = New System.Windows.Forms.Button()
         Me.Label20 = New System.Windows.Forms.Label()
@@ -747,6 +731,38 @@ Partial Class modulos
         Me.PictureBox86 = New System.Windows.Forms.PictureBox()
         Me.PictureBox87 = New System.Windows.Forms.PictureBox()
         Me.TabPage20 = New System.Windows.Forms.TabPage()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.TextBox182 = New System.Windows.Forms.TextBox()
+        Me.PictureBox145 = New System.Windows.Forms.PictureBox()
+        Me.TextBox181 = New System.Windows.Forms.TextBox()
+        Me.PictureBox144 = New System.Windows.Forms.PictureBox()
+        Me.TextBox180 = New System.Windows.Forms.TextBox()
+        Me.PictureBox143 = New System.Windows.Forms.PictureBox()
+        Me.TextBox179 = New System.Windows.Forms.TextBox()
+        Me.TextBox99 = New System.Windows.Forms.TextBox()
+        Me.PictureBox10 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox59 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox51 = New System.Windows.Forms.PictureBox()
+        Me.TextBox102 = New System.Windows.Forms.TextBox()
+        Me.TextBox101 = New System.Windows.Forms.TextBox()
+        Me.TextBox100 = New System.Windows.Forms.TextBox()
+        Me.TextBox98 = New System.Windows.Forms.TextBox()
+        Me.TextBox97 = New System.Windows.Forms.TextBox()
+        Me.Label22 = New System.Windows.Forms.Label()
+        Me.Label33 = New System.Windows.Forms.Label()
+        Me.Label32 = New System.Windows.Forms.Label()
+        Me.Label31 = New System.Windows.Forms.Label()
+        Me.Label30 = New System.Windows.Forms.Label()
+        Me.Label21 = New System.Windows.Forms.Label()
+        Me.Label28 = New System.Windows.Forms.Label()
+        Me.Label27 = New System.Windows.Forms.Label()
+        Me.CB1 = New System.Windows.Forms.ComboBox()
+        Me.PictureBox62 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox61 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox60 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox58 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox57 = New System.Windows.Forms.PictureBox()
         Me.TabPage13 = New System.Windows.Forms.TabPage()
         Me.Label172 = New System.Windows.Forms.Label()
         Me.Label171 = New System.Windows.Forms.Label()
@@ -945,16 +961,9 @@ Partial Class modulos
         CType(Me.guardar_m5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox81, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPage4.SuspendLayout()
-        CType(Me.PictureBox59, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox51, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox142, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox25, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox63, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox62, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox61, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox60, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox58, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox57, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.btn_guardar_m4, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPage3.SuspendLayout()
         Me.m3TabControl1.SuspendLayout()
@@ -1070,6 +1079,19 @@ Partial Class modulos
         CType(Me.PictureBox84, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox86, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox87, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabPage20.SuspendLayout()
+        CType(Me.PictureBox145, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox144, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox143, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox59, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox51, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox62, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox61, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox60, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox58, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox57, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox75, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox76, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox77, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -1095,18 +1117,16 @@ Partial Class modulos
         Me.Panel1.Controls.Add(Me.cerrar)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(3360, 107)
+        Me.Panel1.Size = New System.Drawing.Size(1195, 45)
         Me.Panel1.TabIndex = 1
         '
         'home
         '
         Me.home.Image = Global.saiin.My.Resources.Resources.inicio_blanco
-        Me.home.Location = New System.Drawing.Point(107, 29)
-        Me.home.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.home.Location = New System.Drawing.Point(40, 12)
         Me.home.Name = "home"
-        Me.home.Size = New System.Drawing.Size(59, 52)
+        Me.home.Size = New System.Drawing.Size(22, 22)
         Me.home.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.home.TabIndex = 55
         Me.home.TabStop = False
@@ -1114,10 +1134,9 @@ Partial Class modulos
         'minimizar
         '
         Me.minimizar.Image = Global.saiin.My.Resources.Resources.minimizar_blanco
-        Me.minimizar.Location = New System.Drawing.Point(3181, 24)
-        Me.minimizar.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.minimizar.Location = New System.Drawing.Point(1193, 10)
         Me.minimizar.Name = "minimizar"
-        Me.minimizar.Size = New System.Drawing.Size(51, 45)
+        Me.minimizar.Size = New System.Drawing.Size(19, 19)
         Me.minimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.minimizar.TabIndex = 1
         Me.minimizar.TabStop = False
@@ -1125,10 +1144,9 @@ Partial Class modulos
         'cerrar
         '
         Me.cerrar.Image = Global.saiin.My.Resources.Resources.cerrar_blanco
-        Me.cerrar.Location = New System.Drawing.Point(3259, 21)
-        Me.cerrar.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.cerrar.Location = New System.Drawing.Point(1222, 9)
         Me.cerrar.Name = "cerrar"
-        Me.cerrar.Size = New System.Drawing.Size(59, 52)
+        Me.cerrar.Size = New System.Drawing.Size(22, 22)
         Me.cerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.cerrar.TabIndex = 0
         Me.cerrar.TabStop = False
@@ -1137,11 +1155,10 @@ Partial Class modulos
         '
         Me.TabPage5.Controls.Add(Me.m5TabControl)
         Me.TabPage5.Controls.Add(Me.PictureBox81)
-        Me.TabPage5.Location = New System.Drawing.Point(10, 48)
-        Me.TabPage5.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TabPage5.Location = New System.Drawing.Point(4, 22)
         Me.TabPage5.Name = "TabPage5"
-        Me.TabPage5.Padding = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.TabPage5.Size = New System.Drawing.Size(3351, 1227)
+        Me.TabPage5.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage5.Size = New System.Drawing.Size(1173, 463)
         Me.TabPage5.TabIndex = 4
         Me.TabPage5.Text = "Modulo 5"
         Me.TabPage5.UseVisualStyleBackColor = True
@@ -1152,11 +1169,10 @@ Partial Class modulos
         Me.m5TabControl.Controls.Add(Me.TabPage18)
         Me.m5TabControl.Controls.Add(Me.TabPage16)
         Me.m5TabControl.ItemSize = New System.Drawing.Size(0, 6)
-        Me.m5TabControl.Location = New System.Drawing.Point(-11, -2)
-        Me.m5TabControl.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.m5TabControl.Location = New System.Drawing.Point(-4, -1)
         Me.m5TabControl.Name = "m5TabControl"
         Me.m5TabControl.SelectedIndex = 0
-        Me.m5TabControl.Size = New System.Drawing.Size(3371, 1228)
+        Me.m5TabControl.Size = New System.Drawing.Size(1264, 515)
         Me.m5TabControl.TabIndex = 116
         '
         'TabPage17
@@ -1220,21 +1236,19 @@ Partial Class modulos
         Me.TabPage17.Controls.Add(Me.Label227)
         Me.TabPage17.Controls.Add(Me.Label226)
         Me.TabPage17.Controls.Add(Me.next1_m5)
-        Me.TabPage17.Location = New System.Drawing.Point(10, 16)
-        Me.TabPage17.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TabPage17.Location = New System.Drawing.Point(4, 10)
         Me.TabPage17.Name = "TabPage17"
-        Me.TabPage17.Padding = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.TabPage17.Size = New System.Drawing.Size(3351, 1202)
+        Me.TabPage17.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage17.Size = New System.Drawing.Size(1256, 501)
         Me.TabPage17.TabIndex = 2
         Me.TabPage17.Text = "TapPage17"
         Me.TabPage17.UseVisualStyleBackColor = True
         '
         'PictureBoxProceso
         '
-        Me.PictureBoxProceso.Location = New System.Drawing.Point(1173, 258)
-        Me.PictureBoxProceso.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBoxProceso.Location = New System.Drawing.Point(440, 108)
         Me.PictureBoxProceso.Name = "PictureBoxProceso"
-        Me.PictureBoxProceso.Size = New System.Drawing.Size(912, 365)
+        Me.PictureBoxProceso.Size = New System.Drawing.Size(342, 153)
         Me.PictureBoxProceso.TabIndex = 515
         Me.PictureBoxProceso.TabStop = False
         '
@@ -1242,10 +1256,9 @@ Partial Class modulos
         '
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.Image = Global.saiin.My.Resources.Resources.start_azul
-        Me.Button2.Location = New System.Drawing.Point(1816, 129)
-        Me.Button2.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.Button2.Location = New System.Drawing.Point(681, 54)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(253, 79)
+        Me.Button2.Size = New System.Drawing.Size(95, 33)
         Me.Button2.TabIndex = 514
         Me.Button2.Text = "Examinar"
         Me.Button2.UseVisualStyleBackColor = True
@@ -1255,10 +1268,9 @@ Partial Class modulos
         Me.Label275.AutoSize = True
         Me.Label275.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label275.ForeColor = System.Drawing.Color.Navy
-        Me.Label275.Location = New System.Drawing.Point(1155, 145)
-        Me.Label275.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label275.Location = New System.Drawing.Point(433, 61)
         Me.Label275.Name = "Label275"
-        Me.Label275.Size = New System.Drawing.Size(516, 44)
+        Me.Label275.Size = New System.Drawing.Size(202, 18)
         Me.Label275.TabIndex = 513
         Me.Label275.Text = "Cargar diagrama del Proceso"
         '
@@ -1266,20 +1278,18 @@ Partial Class modulos
         '
         Me.TextBox211.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox211.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox211.Location = New System.Drawing.Point(133, 1044)
-        Me.TextBox211.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox211.Location = New System.Drawing.Point(50, 438)
         Me.TextBox211.Multiline = True
         Me.TextBox211.Name = "TextBox211"
-        Me.TextBox211.Size = New System.Drawing.Size(731, 91)
+        Me.TextBox211.Size = New System.Drawing.Size(274, 38)
         Me.TextBox211.TabIndex = 511
         '
         'PictureBox125
         '
         Me.PictureBox125.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox125.Location = New System.Drawing.Point(120, 1033)
-        Me.PictureBox125.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox125.Location = New System.Drawing.Point(45, 433)
         Me.PictureBox125.Name = "PictureBox125"
-        Me.PictureBox125.Size = New System.Drawing.Size(757, 114)
+        Me.PictureBox125.Size = New System.Drawing.Size(284, 48)
         Me.PictureBox125.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox125.TabIndex = 512
         Me.PictureBox125.TabStop = False
@@ -1288,20 +1298,18 @@ Partial Class modulos
         '
         Me.TextBox210.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox210.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox210.Location = New System.Drawing.Point(133, 825)
-        Me.TextBox210.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox210.Location = New System.Drawing.Point(50, 346)
         Me.TextBox210.Multiline = True
         Me.TextBox210.Name = "TextBox210"
-        Me.TextBox210.Size = New System.Drawing.Size(731, 91)
+        Me.TextBox210.Size = New System.Drawing.Size(274, 38)
         Me.TextBox210.TabIndex = 509
         '
         'PictureBox92
         '
         Me.PictureBox92.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox92.Location = New System.Drawing.Point(120, 813)
-        Me.PictureBox92.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox92.Location = New System.Drawing.Point(45, 341)
         Me.PictureBox92.Name = "PictureBox92"
-        Me.PictureBox92.Size = New System.Drawing.Size(757, 114)
+        Me.PictureBox92.Size = New System.Drawing.Size(284, 48)
         Me.PictureBox92.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox92.TabIndex = 510
         Me.PictureBox92.TabStop = False
@@ -1310,20 +1318,18 @@ Partial Class modulos
         '
         Me.TextBox209.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox209.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox209.Location = New System.Drawing.Point(120, 532)
-        Me.TextBox209.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox209.Location = New System.Drawing.Point(45, 223)
         Me.TextBox209.Multiline = True
         Me.TextBox209.Name = "TextBox209"
-        Me.TextBox209.Size = New System.Drawing.Size(731, 157)
+        Me.TextBox209.Size = New System.Drawing.Size(274, 66)
         Me.TextBox209.TabIndex = 507
         '
         'PictureBox67
         '
         Me.PictureBox67.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox67.Location = New System.Drawing.Point(107, 520)
-        Me.PictureBox67.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox67.Location = New System.Drawing.Point(40, 218)
         Me.PictureBox67.Name = "PictureBox67"
-        Me.PictureBox67.Size = New System.Drawing.Size(757, 181)
+        Me.PictureBox67.Size = New System.Drawing.Size(284, 76)
         Me.PictureBox67.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox67.TabIndex = 508
         Me.PictureBox67.TabStop = False
@@ -1332,20 +1338,18 @@ Partial Class modulos
         '
         Me.TextBox170.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox170.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox170.Location = New System.Drawing.Point(2008, 1064)
-        Me.TextBox170.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox170.Location = New System.Drawing.Point(753, 446)
         Me.TextBox170.Multiline = True
         Me.TextBox170.Name = "TextBox170"
-        Me.TextBox170.Size = New System.Drawing.Size(243, 67)
+        Me.TextBox170.Size = New System.Drawing.Size(91, 28)
         Me.TextBox170.TabIndex = 505
         '
         'PictureBox124
         '
         Me.PictureBox124.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox124.Location = New System.Drawing.Point(1995, 1052)
-        Me.PictureBox124.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox124.Location = New System.Drawing.Point(748, 441)
         Me.PictureBox124.Name = "PictureBox124"
-        Me.PictureBox124.Size = New System.Drawing.Size(269, 91)
+        Me.PictureBox124.Size = New System.Drawing.Size(101, 38)
         Me.PictureBox124.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox124.TabIndex = 506
         Me.PictureBox124.TabStop = False
@@ -1355,10 +1359,9 @@ Partial Class modulos
         Me.Label240.AutoSize = True
         Me.Label240.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label240.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label240.Location = New System.Drawing.Point(1648, 1030)
-        Me.Label240.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label240.Location = New System.Drawing.Point(618, 432)
         Me.Label240.Name = "Label240"
-        Me.Label240.Size = New System.Drawing.Size(328, 132)
+        Me.Label240.Size = New System.Drawing.Size(129, 54)
         Me.Label240.TabIndex = 504
         Me.Label240.Text = "Tiempo promedio " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "de fabricación de" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "unidad. **"
         '
@@ -1366,20 +1369,18 @@ Partial Class modulos
         '
         Me.TextBox169.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox169.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox169.Location = New System.Drawing.Point(2952, 672)
-        Me.TextBox169.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox169.Location = New System.Drawing.Point(1107, 282)
         Me.TextBox169.Multiline = True
         Me.TextBox169.Name = "TextBox169"
-        Me.TextBox169.Size = New System.Drawing.Size(243, 67)
+        Me.TextBox169.Size = New System.Drawing.Size(91, 28)
         Me.TextBox169.TabIndex = 502
         '
         'PictureBox123
         '
         Me.PictureBox123.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox123.Location = New System.Drawing.Point(2939, 661)
-        Me.PictureBox123.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox123.Location = New System.Drawing.Point(1102, 277)
         Me.PictureBox123.Name = "PictureBox123"
-        Me.PictureBox123.Size = New System.Drawing.Size(269, 91)
+        Me.PictureBox123.Size = New System.Drawing.Size(101, 38)
         Me.PictureBox123.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox123.TabIndex = 503
         Me.PictureBox123.TabStop = False
@@ -1388,20 +1389,18 @@ Partial Class modulos
         '
         Me.TextBox168.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox168.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox168.Location = New System.Drawing.Point(2952, 575)
-        Me.TextBox168.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox168.Location = New System.Drawing.Point(1107, 241)
         Me.TextBox168.Multiline = True
         Me.TextBox168.Name = "TextBox168"
-        Me.TextBox168.Size = New System.Drawing.Size(243, 67)
+        Me.TextBox168.Size = New System.Drawing.Size(91, 28)
         Me.TextBox168.TabIndex = 500
         '
         'PictureBox122
         '
         Me.PictureBox122.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox122.Location = New System.Drawing.Point(2939, 563)
-        Me.PictureBox122.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox122.Location = New System.Drawing.Point(1102, 236)
         Me.PictureBox122.Name = "PictureBox122"
-        Me.PictureBox122.Size = New System.Drawing.Size(269, 91)
+        Me.PictureBox122.Size = New System.Drawing.Size(101, 38)
         Me.PictureBox122.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox122.TabIndex = 501
         Me.PictureBox122.TabStop = False
@@ -1410,20 +1409,18 @@ Partial Class modulos
         '
         Me.TextBox167.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox167.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox167.Location = New System.Drawing.Point(2445, 668)
-        Me.TextBox167.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox167.Location = New System.Drawing.Point(917, 280)
         Me.TextBox167.Multiline = True
         Me.TextBox167.Name = "TextBox167"
-        Me.TextBox167.Size = New System.Drawing.Size(243, 67)
+        Me.TextBox167.Size = New System.Drawing.Size(91, 28)
         Me.TextBox167.TabIndex = 498
         '
         'PictureBox121
         '
         Me.PictureBox121.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox121.Location = New System.Drawing.Point(2432, 656)
-        Me.PictureBox121.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox121.Location = New System.Drawing.Point(912, 275)
         Me.PictureBox121.Name = "PictureBox121"
-        Me.PictureBox121.Size = New System.Drawing.Size(269, 91)
+        Me.PictureBox121.Size = New System.Drawing.Size(101, 38)
         Me.PictureBox121.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox121.TabIndex = 499
         Me.PictureBox121.TabStop = False
@@ -1432,20 +1429,18 @@ Partial Class modulos
         '
         Me.TextBox166.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox166.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox166.Location = New System.Drawing.Point(2445, 575)
-        Me.TextBox166.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox166.Location = New System.Drawing.Point(917, 241)
         Me.TextBox166.Multiline = True
         Me.TextBox166.Name = "TextBox166"
-        Me.TextBox166.Size = New System.Drawing.Size(243, 67)
+        Me.TextBox166.Size = New System.Drawing.Size(91, 28)
         Me.TextBox166.TabIndex = 496
         '
         'PictureBox120
         '
         Me.PictureBox120.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox120.Location = New System.Drawing.Point(2432, 563)
-        Me.PictureBox120.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox120.Location = New System.Drawing.Point(912, 236)
         Me.PictureBox120.Name = "PictureBox120"
-        Me.PictureBox120.Size = New System.Drawing.Size(269, 91)
+        Me.PictureBox120.Size = New System.Drawing.Size(101, 38)
         Me.PictureBox120.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox120.TabIndex = 497
         Me.PictureBox120.TabStop = False
@@ -1454,20 +1449,18 @@ Partial Class modulos
         '
         Me.TextBox165.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox165.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox165.Location = New System.Drawing.Point(1829, 894)
-        Me.TextBox165.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox165.Location = New System.Drawing.Point(686, 375)
         Me.TextBox165.Multiline = True
         Me.TextBox165.Name = "TextBox165"
-        Me.TextBox165.Size = New System.Drawing.Size(243, 67)
+        Me.TextBox165.Size = New System.Drawing.Size(91, 28)
         Me.TextBox165.TabIndex = 494
         '
         'PictureBox119
         '
         Me.PictureBox119.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox119.Location = New System.Drawing.Point(1816, 882)
-        Me.PictureBox119.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox119.Location = New System.Drawing.Point(681, 370)
         Me.PictureBox119.Name = "PictureBox119"
-        Me.PictureBox119.Size = New System.Drawing.Size(269, 91)
+        Me.PictureBox119.Size = New System.Drawing.Size(101, 38)
         Me.PictureBox119.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox119.TabIndex = 495
         Me.PictureBox119.TabStop = False
@@ -1477,10 +1470,9 @@ Partial Class modulos
         Me.Label233.AutoSize = True
         Me.Label233.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label233.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label233.Location = New System.Drawing.Point(1635, 909)
-        Me.Label233.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label233.Location = New System.Drawing.Point(613, 381)
         Me.Label233.Name = "Label233"
-        Me.Label233.Size = New System.Drawing.Size(173, 44)
+        Me.Label233.Size = New System.Drawing.Size(67, 18)
         Me.Label233.TabIndex = 493
         Me.Label233.Text = "Prueba 5"
         '
@@ -1488,20 +1480,18 @@ Partial Class modulos
         '
         Me.TextBox164.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox164.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox164.Location = New System.Drawing.Point(1829, 780)
-        Me.TextBox164.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox164.Location = New System.Drawing.Point(686, 327)
         Me.TextBox164.Multiline = True
         Me.TextBox164.Name = "TextBox164"
-        Me.TextBox164.Size = New System.Drawing.Size(269, 67)
+        Me.TextBox164.Size = New System.Drawing.Size(101, 28)
         Me.TextBox164.TabIndex = 491
         '
         'PictureBox118
         '
         Me.PictureBox118.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox118.Location = New System.Drawing.Point(1816, 768)
-        Me.PictureBox118.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox118.Location = New System.Drawing.Point(681, 322)
         Me.PictureBox118.Name = "PictureBox118"
-        Me.PictureBox118.Size = New System.Drawing.Size(296, 91)
+        Me.PictureBox118.Size = New System.Drawing.Size(111, 38)
         Me.PictureBox118.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox118.TabIndex = 492
         Me.PictureBox118.TabStop = False
@@ -1510,20 +1500,18 @@ Partial Class modulos
         '
         Me.TextBox163.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox163.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox163.Location = New System.Drawing.Point(1349, 1011)
-        Me.TextBox163.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox163.Location = New System.Drawing.Point(506, 424)
         Me.TextBox163.Multiline = True
         Me.TextBox163.Name = "TextBox163"
-        Me.TextBox163.Size = New System.Drawing.Size(269, 67)
+        Me.TextBox163.Size = New System.Drawing.Size(101, 28)
         Me.TextBox163.TabIndex = 489
         '
         'PictureBox117
         '
         Me.PictureBox117.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox117.Location = New System.Drawing.Point(1336, 999)
-        Me.PictureBox117.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox117.Location = New System.Drawing.Point(501, 419)
         Me.PictureBox117.Name = "PictureBox117"
-        Me.PictureBox117.Size = New System.Drawing.Size(296, 91)
+        Me.PictureBox117.Size = New System.Drawing.Size(111, 38)
         Me.PictureBox117.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox117.TabIndex = 490
         Me.PictureBox117.TabStop = False
@@ -1532,20 +1520,18 @@ Partial Class modulos
         '
         Me.TextBox162.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox162.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox162.Location = New System.Drawing.Point(1349, 913)
-        Me.TextBox162.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox162.Location = New System.Drawing.Point(506, 383)
         Me.TextBox162.Multiline = True
         Me.TextBox162.Name = "TextBox162"
-        Me.TextBox162.Size = New System.Drawing.Size(269, 67)
+        Me.TextBox162.Size = New System.Drawing.Size(101, 28)
         Me.TextBox162.TabIndex = 487
         '
         'PictureBox116
         '
         Me.PictureBox116.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox116.Location = New System.Drawing.Point(1336, 901)
-        Me.PictureBox116.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox116.Location = New System.Drawing.Point(501, 378)
         Me.PictureBox116.Name = "PictureBox116"
-        Me.PictureBox116.Size = New System.Drawing.Size(296, 91)
+        Me.PictureBox116.Size = New System.Drawing.Size(111, 38)
         Me.PictureBox116.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox116.TabIndex = 488
         Me.PictureBox116.TabStop = False
@@ -1554,20 +1540,18 @@ Partial Class modulos
         '
         Me.TextBox161.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox161.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox161.Location = New System.Drawing.Point(1349, 813)
-        Me.TextBox161.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox161.Location = New System.Drawing.Point(506, 341)
         Me.TextBox161.Multiline = True
         Me.TextBox161.Name = "TextBox161"
-        Me.TextBox161.Size = New System.Drawing.Size(269, 67)
+        Me.TextBox161.Size = New System.Drawing.Size(101, 28)
         Me.TextBox161.TabIndex = 485
         '
         'PictureBox115
         '
         Me.PictureBox115.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox115.Location = New System.Drawing.Point(1336, 801)
-        Me.PictureBox115.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox115.Location = New System.Drawing.Point(501, 336)
         Me.PictureBox115.Name = "PictureBox115"
-        Me.PictureBox115.Size = New System.Drawing.Size(296, 91)
+        Me.PictureBox115.Size = New System.Drawing.Size(111, 38)
         Me.PictureBox115.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox115.TabIndex = 486
         Me.PictureBox115.TabStop = False
@@ -1576,20 +1560,18 @@ Partial Class modulos
         '
         Me.TextBox160.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox160.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox160.Location = New System.Drawing.Point(2307, 205)
-        Me.TextBox160.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox160.Location = New System.Drawing.Point(865, 86)
         Me.TextBox160.Multiline = True
         Me.TextBox160.Name = "TextBox160"
-        Me.TextBox160.Size = New System.Drawing.Size(800, 134)
+        Me.TextBox160.Size = New System.Drawing.Size(300, 56)
         Me.TextBox160.TabIndex = 483
         '
         'PictureBox114
         '
         Me.PictureBox114.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox114.Location = New System.Drawing.Point(2293, 193)
-        Me.PictureBox114.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox114.Location = New System.Drawing.Point(860, 81)
         Me.PictureBox114.Name = "PictureBox114"
-        Me.PictureBox114.Size = New System.Drawing.Size(827, 157)
+        Me.PictureBox114.Size = New System.Drawing.Size(310, 66)
         Me.PictureBox114.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox114.TabIndex = 484
         Me.PictureBox114.TabStop = False
@@ -1600,10 +1582,9 @@ Partial Class modulos
         Me.ComboBox14.ForeColor = System.Drawing.Color.Navy
         Me.ComboBox14.FormattingEnabled = True
         Me.ComboBox14.Items.AddRange(New Object() {"Enero", "Febrero", "Marzo", "Abril ", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"})
-        Me.ComboBox14.Location = New System.Drawing.Point(2445, 1099)
-        Me.ComboBox14.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.ComboBox14.Location = New System.Drawing.Point(917, 461)
         Me.ComboBox14.Name = "ComboBox14"
-        Me.ComboBox14.Size = New System.Drawing.Size(372, 50)
+        Me.ComboBox14.Size = New System.Drawing.Size(142, 26)
         Me.ComboBox14.TabIndex = 401
         Me.ComboBox14.Text = "Selecciona mes"
         '
@@ -1612,20 +1593,18 @@ Partial Class modulos
         Me.Label249.AutoSize = True
         Me.Label249.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label249.ForeColor = System.Drawing.Color.Navy
-        Me.Label249.Location = New System.Drawing.Point(2331, 892)
-        Me.Label249.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label249.Location = New System.Drawing.Point(874, 374)
         Me.Label249.Name = "Label249"
-        Me.Label249.Size = New System.Drawing.Size(692, 55)
+        Me.Label249.Size = New System.Drawing.Size(291, 24)
         Me.Label249.TabIndex = 400
         Me.Label249.Text = "Cantidad de producción diaria"
         '
         'PictureBox52
         '
         Me.PictureBox52.Image = Global.saiin.My.Resources.Resources.plus_plus
-        Me.PictureBox52.Location = New System.Drawing.Point(2731, 777)
-        Me.PictureBox52.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox52.Location = New System.Drawing.Point(1024, 326)
         Me.PictureBox52.Name = "PictureBox52"
-        Me.PictureBox52.Size = New System.Drawing.Size(125, 100)
+        Me.PictureBox52.Size = New System.Drawing.Size(47, 42)
         Me.PictureBox52.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox52.TabIndex = 399
         Me.PictureBox52.TabStop = False
@@ -1635,10 +1614,9 @@ Partial Class modulos
         Me.Label247.AutoSize = True
         Me.Label247.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label247.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label247.Location = New System.Drawing.Point(2333, 982)
-        Me.Label247.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label247.Location = New System.Drawing.Point(875, 412)
         Me.Label247.Name = "Label247"
-        Me.Label247.Size = New System.Drawing.Size(683, 88)
+        Me.Label247.Size = New System.Drawing.Size(270, 36)
         Me.Label247.TabIndex = 397
         Me.Label247.Text = "Escribe el pronóstico de producción de " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "producto por hora de trabajo"
         '
@@ -1647,10 +1625,9 @@ Partial Class modulos
         Me.Label246.AutoSize = True
         Me.Label246.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label246.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label246.Location = New System.Drawing.Point(2749, 682)
-        Me.Label246.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label246.Location = New System.Drawing.Point(1031, 286)
         Me.Label246.Name = "Label246"
-        Me.Label246.Size = New System.Drawing.Size(176, 44)
+        Me.Label246.Size = New System.Drawing.Size(70, 18)
         Me.Label246.TabIndex = 396
         Me.Label246.Text = "Modelo 4"
         '
@@ -1659,10 +1636,9 @@ Partial Class modulos
         Me.Label245.AutoSize = True
         Me.Label245.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label245.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label245.Location = New System.Drawing.Point(2749, 591)
-        Me.Label245.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label245.Location = New System.Drawing.Point(1031, 248)
         Me.Label245.Name = "Label245"
-        Me.Label245.Size = New System.Drawing.Size(176, 44)
+        Me.Label245.Size = New System.Drawing.Size(70, 18)
         Me.Label245.TabIndex = 395
         Me.Label245.Text = "Modelo 3"
         '
@@ -1671,10 +1647,9 @@ Partial Class modulos
         Me.Label244.AutoSize = True
         Me.Label244.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label244.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label244.Location = New System.Drawing.Point(2237, 675)
-        Me.Label244.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label244.Location = New System.Drawing.Point(839, 283)
         Me.Label244.Name = "Label244"
-        Me.Label244.Size = New System.Drawing.Size(176, 44)
+        Me.Label244.Size = New System.Drawing.Size(70, 18)
         Me.Label244.TabIndex = 394
         Me.Label244.Text = "Modelo 2"
         '
@@ -1683,10 +1658,9 @@ Partial Class modulos
         Me.Label243.AutoSize = True
         Me.Label243.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label243.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label243.Location = New System.Drawing.Point(2235, 591)
-        Me.Label243.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label243.Location = New System.Drawing.Point(838, 248)
         Me.Label243.Name = "Label243"
-        Me.Label243.Size = New System.Drawing.Size(176, 44)
+        Me.Label243.Size = New System.Drawing.Size(70, 18)
         Me.Label243.TabIndex = 393
         Me.Label243.Text = "Modelo 1"
         '
@@ -1695,10 +1669,9 @@ Partial Class modulos
         Me.Label242.AutoSize = True
         Me.Label242.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label242.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label242.Location = New System.Drawing.Point(2416, 475)
-        Me.Label242.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label242.Location = New System.Drawing.Point(906, 199)
         Me.Label242.Name = "Label242"
-        Me.Label242.Size = New System.Drawing.Size(570, 44)
+        Me.Label242.Size = New System.Drawing.Size(222, 18)
         Me.Label242.TabIndex = 392
         Me.Label242.Text = "Agrega el modelo de tu producto"
         '
@@ -1707,10 +1680,9 @@ Partial Class modulos
         Me.Label241.AutoSize = True
         Me.Label241.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label241.ForeColor = System.Drawing.Color.Navy
-        Me.Label241.Location = New System.Drawing.Point(2384, 377)
-        Me.Label241.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label241.Location = New System.Drawing.Point(894, 158)
         Me.Label241.Name = "Label241"
-        Me.Label241.Size = New System.Drawing.Size(591, 55)
+        Me.Label241.Size = New System.Drawing.Size(251, 24)
         Me.Label241.TabIndex = 391
         Me.Label241.Text = "Pronóstico de producción"
         '
@@ -1719,10 +1691,9 @@ Partial Class modulos
         Me.Label239.AutoSize = True
         Me.Label239.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label239.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label239.Location = New System.Drawing.Point(1635, 794)
-        Me.Label239.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label239.Location = New System.Drawing.Point(613, 333)
         Me.Label239.Name = "Label239"
-        Me.Label239.Size = New System.Drawing.Size(173, 44)
+        Me.Label239.Size = New System.Drawing.Size(67, 18)
         Me.Label239.TabIndex = 389
         Me.Label239.Text = "Prueba 4"
         '
@@ -1731,10 +1702,9 @@ Partial Class modulos
         Me.Label238.AutoSize = True
         Me.Label238.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label238.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label238.Location = New System.Drawing.Point(1155, 1025)
-        Me.Label238.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label238.Location = New System.Drawing.Point(433, 430)
         Me.Label238.Name = "Label238"
-        Me.Label238.Size = New System.Drawing.Size(173, 44)
+        Me.Label238.Size = New System.Drawing.Size(67, 18)
         Me.Label238.TabIndex = 388
         Me.Label238.Text = "Prueba 3"
         '
@@ -1743,10 +1713,9 @@ Partial Class modulos
         Me.Label237.AutoSize = True
         Me.Label237.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label237.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label237.Location = New System.Drawing.Point(1155, 928)
-        Me.Label237.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label237.Location = New System.Drawing.Point(433, 389)
         Me.Label237.Name = "Label237"
-        Me.Label237.Size = New System.Drawing.Size(173, 44)
+        Me.Label237.Size = New System.Drawing.Size(67, 18)
         Me.Label237.TabIndex = 387
         Me.Label237.Text = "Prueba 2"
         '
@@ -1755,10 +1724,9 @@ Partial Class modulos
         Me.Label236.AutoSize = True
         Me.Label236.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label236.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label236.Location = New System.Drawing.Point(1155, 835)
-        Me.Label236.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label236.Location = New System.Drawing.Point(433, 350)
         Me.Label236.Name = "Label236"
-        Me.Label236.Size = New System.Drawing.Size(173, 44)
+        Me.Label236.Size = New System.Drawing.Size(67, 18)
         Me.Label236.TabIndex = 386
         Me.Label236.Text = "Prueba 1"
         '
@@ -1767,10 +1735,9 @@ Partial Class modulos
         Me.Label235.AutoSize = True
         Me.Label235.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label235.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label235.Location = New System.Drawing.Point(1171, 723)
-        Me.Label235.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label235.Location = New System.Drawing.Point(439, 303)
         Me.Label235.Name = "Label235"
-        Me.Label235.Size = New System.Drawing.Size(482, 44)
+        Me.Label235.Size = New System.Drawing.Size(207, 18)
         Me.Label235.TabIndex = 385
         Me.Label235.Text = "Medición con cronómetro "
         '
@@ -1779,10 +1746,9 @@ Partial Class modulos
         Me.Label234.AutoSize = True
         Me.Label234.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label234.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label234.Location = New System.Drawing.Point(1157, 632)
-        Me.Label234.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label234.Location = New System.Drawing.Point(434, 265)
         Me.Label234.Name = "Label234"
-        Me.Label234.Size = New System.Drawing.Size(737, 55)
+        Me.Label234.Size = New System.Drawing.Size(313, 24)
         Me.Label234.TabIndex = 384
         Me.Label234.Text = "Tiempo estimado de producción"
         '
@@ -1791,10 +1757,9 @@ Partial Class modulos
         Me.Label232.AutoSize = True
         Me.Label232.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label232.ForeColor = System.Drawing.Color.Navy
-        Me.Label232.Location = New System.Drawing.Point(1168, 57)
-        Me.Label232.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label232.Location = New System.Drawing.Point(438, 24)
         Me.Label232.Name = "Label232"
-        Me.Label232.Size = New System.Drawing.Size(538, 55)
+        Me.Label232.Size = New System.Drawing.Size(229, 24)
         Me.Label232.TabIndex = 382
         Me.Label232.Text = "Proceso de producción"
         '
@@ -1803,10 +1768,9 @@ Partial Class modulos
         Me.Label231.AutoSize = True
         Me.Label231.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label231.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label231.Location = New System.Drawing.Point(2299, 67)
-        Me.Label231.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label231.Location = New System.Drawing.Point(862, 28)
         Me.Label231.Name = "Label231"
-        Me.Label231.Size = New System.Drawing.Size(802, 88)
+        Me.Label231.Size = New System.Drawing.Size(317, 36)
         Me.Label231.TabIndex = 381
         Me.Label231.Text = "Describe el proceso de producción clasificado " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "por fases"
         '
@@ -1815,10 +1779,9 @@ Partial Class modulos
         Me.Label230.AutoSize = True
         Me.Label230.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label230.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label230.Location = New System.Drawing.Point(99, 959)
-        Me.Label230.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label230.Location = New System.Drawing.Point(37, 402)
         Me.Label230.Name = "Label230"
-        Me.Label230.Size = New System.Drawing.Size(526, 44)
+        Me.Label230.Size = New System.Drawing.Size(206, 18)
         Me.Label230.TabIndex = 380
         Me.Label230.Text = "Máximos de producción diaria"
         '
@@ -1827,10 +1790,9 @@ Partial Class modulos
         Me.Label229.AutoSize = True
         Me.Label229.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label229.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label229.Location = New System.Drawing.Point(99, 746)
-        Me.Label229.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label229.Location = New System.Drawing.Point(37, 313)
         Me.Label229.Name = "Label229"
-        Me.Label229.Size = New System.Drawing.Size(516, 44)
+        Me.Label229.Size = New System.Drawing.Size(202, 18)
         Me.Label229.TabIndex = 379
         Me.Label229.Text = "Mínimos de producción diaria"
         '
@@ -1839,10 +1801,9 @@ Partial Class modulos
         Me.Label228.AutoSize = True
         Me.Label228.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label228.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label228.Location = New System.Drawing.Point(99, 386)
-        Me.Label228.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label228.Location = New System.Drawing.Point(37, 162)
         Me.Label228.Name = "Label228"
-        Me.Label228.Size = New System.Drawing.Size(870, 88)
+        Me.Label228.Size = New System.Drawing.Size(344, 36)
         Me.Label228.TabIndex = 378
         Me.Label228.Text = "Potencial de producción de acuerdo a los recursos" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "disponibles, instalados y equi" &
     "pos de producción"
@@ -1851,20 +1812,18 @@ Partial Class modulos
         '
         Me.TextBox132.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox132.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox132.Location = New System.Drawing.Point(117, 269)
-        Me.TextBox132.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox132.Location = New System.Drawing.Point(44, 113)
         Me.TextBox132.Multiline = True
         Me.TextBox132.Name = "TextBox132"
-        Me.TextBox132.Size = New System.Drawing.Size(696, 69)
+        Me.TextBox132.Size = New System.Drawing.Size(261, 29)
         Me.TextBox132.TabIndex = 376
         '
         'PictureBox11
         '
         Me.PictureBox11.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox11.Location = New System.Drawing.Point(104, 258)
-        Me.PictureBox11.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox11.Location = New System.Drawing.Point(39, 108)
         Me.PictureBox11.Name = "PictureBox11"
-        Me.PictureBox11.Size = New System.Drawing.Size(723, 93)
+        Me.PictureBox11.Size = New System.Drawing.Size(271, 39)
         Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox11.TabIndex = 377
         Me.PictureBox11.TabStop = False
@@ -1874,10 +1833,9 @@ Partial Class modulos
         Me.Label227.AutoSize = True
         Me.Label227.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label227.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label227.Location = New System.Drawing.Point(99, 181)
-        Me.Label227.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label227.Location = New System.Drawing.Point(37, 76)
         Me.Label227.Name = "Label227"
-        Me.Label227.Size = New System.Drawing.Size(365, 44)
+        Me.Label227.Size = New System.Drawing.Size(140, 18)
         Me.Label227.TabIndex = 375
         Me.Label227.Text = "Capacidad Instalada"
         '
@@ -1886,20 +1844,18 @@ Partial Class modulos
         Me.Label226.AutoSize = True
         Me.Label226.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label226.ForeColor = System.Drawing.Color.Navy
-        Me.Label226.Location = New System.Drawing.Point(93, 45)
-        Me.Label226.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label226.Location = New System.Drawing.Point(35, 19)
         Me.Label226.Name = "Label226"
-        Me.Label226.Size = New System.Drawing.Size(449, 69)
+        Me.Label226.Size = New System.Drawing.Size(186, 29)
         Me.Label226.TabIndex = 374
         Me.Label226.Text = "PRODUCCIÓN"
         '
         'next1_m5
         '
         Me.next1_m5.Image = Global.saiin.My.Resources.Resources.next_arrow_
-        Me.next1_m5.Location = New System.Drawing.Point(3240, 558)
-        Me.next1_m5.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.next1_m5.Location = New System.Drawing.Point(1215, 234)
         Me.next1_m5.Name = "next1_m5"
-        Me.next1_m5.Size = New System.Drawing.Size(93, 83)
+        Me.next1_m5.Size = New System.Drawing.Size(35, 35)
         Me.next1_m5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.next1_m5.TabIndex = 373
         Me.next1_m5.TabStop = False
@@ -1951,11 +1907,10 @@ Partial Class modulos
         Me.TabPage18.Controls.Add(Me.PictureBox68)
         Me.TabPage18.Controls.Add(Me.PictureBox53)
         Me.TabPage18.Controls.Add(Me.anterior1_m5)
-        Me.TabPage18.Location = New System.Drawing.Point(10, 16)
-        Me.TabPage18.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TabPage18.Location = New System.Drawing.Point(4, 10)
         Me.TabPage18.Name = "TabPage18"
-        Me.TabPage18.Padding = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.TabPage18.Size = New System.Drawing.Size(3351, 1202)
+        Me.TabPage18.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage18.Size = New System.Drawing.Size(1256, 501)
         Me.TabPage18.TabIndex = 3
         Me.TabPage18.Text = "TabPage18"
         Me.TabPage18.UseVisualStyleBackColor = True
@@ -1963,10 +1918,9 @@ Partial Class modulos
         'guardarM5
         '
         Me.guardarM5.Image = Global.saiin.My.Resources.Resources.guardar_azul
-        Me.guardarM5.Location = New System.Drawing.Point(2405, 1006)
-        Me.guardarM5.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.guardarM5.Location = New System.Drawing.Point(902, 422)
         Me.guardarM5.Name = "guardarM5"
-        Me.guardarM5.Size = New System.Drawing.Size(536, 117)
+        Me.guardarM5.Size = New System.Drawing.Size(201, 49)
         Me.guardarM5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.guardarM5.TabIndex = 442
         Me.guardarM5.TabStop = False
@@ -1974,10 +1928,9 @@ Partial Class modulos
         'next2_m5
         '
         Me.next2_m5.Image = Global.saiin.My.Resources.Resources.next_arrow_
-        Me.next2_m5.Location = New System.Drawing.Point(3213, 525)
-        Me.next2_m5.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.next2_m5.Location = New System.Drawing.Point(1205, 220)
         Me.next2_m5.Name = "next2_m5"
-        Me.next2_m5.Size = New System.Drawing.Size(93, 83)
+        Me.next2_m5.Size = New System.Drawing.Size(35, 35)
         Me.next2_m5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.next2_m5.TabIndex = 441
         Me.next2_m5.TabStop = False
@@ -1986,99 +1939,90 @@ Partial Class modulos
         '
         Me.TextBox141.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox141.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox141.Location = New System.Drawing.Point(2405, 658)
-        Me.TextBox141.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox141.Location = New System.Drawing.Point(902, 276)
         Me.TextBox141.Multiline = True
         Me.TextBox141.Name = "TextBox141"
-        Me.TextBox141.Size = New System.Drawing.Size(512, 69)
+        Me.TextBox141.Size = New System.Drawing.Size(192, 29)
         Me.TextBox141.TabIndex = 439
         '
         'TextBox140
         '
         Me.TextBox140.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox140.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox140.Location = New System.Drawing.Point(2400, 467)
-        Me.TextBox140.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox140.Location = New System.Drawing.Point(900, 196)
         Me.TextBox140.Multiline = True
         Me.TextBox140.Name = "TextBox140"
-        Me.TextBox140.Size = New System.Drawing.Size(512, 69)
+        Me.TextBox140.Size = New System.Drawing.Size(192, 29)
         Me.TextBox140.TabIndex = 437
         '
         'TextBox139
         '
         Me.TextBox139.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox139.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox139.Location = New System.Drawing.Point(2400, 286)
-        Me.TextBox139.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox139.Location = New System.Drawing.Point(900, 120)
         Me.TextBox139.Multiline = True
         Me.TextBox139.Name = "TextBox139"
-        Me.TextBox139.Size = New System.Drawing.Size(512, 69)
+        Me.TextBox139.Size = New System.Drawing.Size(192, 29)
         Me.TextBox139.TabIndex = 435
         '
         'TextBox138
         '
         Me.TextBox138.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox138.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox138.Location = New System.Drawing.Point(1731, 1028)
-        Me.TextBox138.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox138.Location = New System.Drawing.Point(649, 431)
         Me.TextBox138.Multiline = True
         Me.TextBox138.Name = "TextBox138"
-        Me.TextBox138.Size = New System.Drawing.Size(512, 69)
+        Me.TextBox138.Size = New System.Drawing.Size(192, 29)
         Me.TextBox138.TabIndex = 433
         '
         'TextBox137
         '
         Me.TextBox137.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox137.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox137.Location = New System.Drawing.Point(1285, 885)
-        Me.TextBox137.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox137.Location = New System.Drawing.Point(482, 371)
         Me.TextBox137.Multiline = True
         Me.TextBox137.Name = "TextBox137"
-        Me.TextBox137.Size = New System.Drawing.Size(600, 69)
+        Me.TextBox137.Size = New System.Drawing.Size(225, 29)
         Me.TextBox137.TabIndex = 431
         '
         'TextBox136
         '
         Me.TextBox136.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox136.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox136.Location = New System.Drawing.Point(1285, 670)
-        Me.TextBox136.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox136.Location = New System.Drawing.Point(482, 281)
         Me.TextBox136.Multiline = True
         Me.TextBox136.Name = "TextBox136"
-        Me.TextBox136.Size = New System.Drawing.Size(600, 69)
+        Me.TextBox136.Size = New System.Drawing.Size(225, 29)
         Me.TextBox136.TabIndex = 429
         '
         'TextBox135
         '
         Me.TextBox135.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox135.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox135.Location = New System.Drawing.Point(1608, 455)
-        Me.TextBox135.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox135.Location = New System.Drawing.Point(603, 191)
         Me.TextBox135.Multiline = True
         Me.TextBox135.Name = "TextBox135"
-        Me.TextBox135.Size = New System.Drawing.Size(512, 69)
+        Me.TextBox135.Size = New System.Drawing.Size(192, 29)
         Me.TextBox135.TabIndex = 427
         '
         'TextBox134
         '
         Me.TextBox134.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox134.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox134.Location = New System.Drawing.Point(1608, 324)
-        Me.TextBox134.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox134.Location = New System.Drawing.Point(603, 136)
         Me.TextBox134.Multiline = True
         Me.TextBox134.Name = "TextBox134"
-        Me.TextBox134.Size = New System.Drawing.Size(512, 69)
+        Me.TextBox134.Size = New System.Drawing.Size(192, 29)
         Me.TextBox134.TabIndex = 425
         '
         'TextBox133
         '
         Me.TextBox133.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox133.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox133.Location = New System.Drawing.Point(1608, 200)
-        Me.TextBox133.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox133.Location = New System.Drawing.Point(603, 84)
         Me.TextBox133.Multiline = True
         Me.TextBox133.Name = "TextBox133"
-        Me.TextBox133.Size = New System.Drawing.Size(512, 69)
+        Me.TextBox133.Size = New System.Drawing.Size(192, 29)
         Me.TextBox133.TabIndex = 423
         '
         'Label264
@@ -2086,10 +2030,9 @@ Partial Class modulos
         Me.Label264.AutoSize = True
         Me.Label264.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label264.ForeColor = System.Drawing.Color.Navy
-        Me.Label264.Location = New System.Drawing.Point(2344, 389)
-        Me.Label264.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label264.Location = New System.Drawing.Point(879, 163)
         Me.Label264.Name = "Label264"
-        Me.Label264.Size = New System.Drawing.Size(577, 44)
+        Me.Label264.Size = New System.Drawing.Size(227, 18)
         Me.Label264.TabIndex = 417
         Me.Label264.Text = "Piezas de producción mensual **"
         '
@@ -2098,10 +2041,9 @@ Partial Class modulos
         Me.Label263.AutoSize = True
         Me.Label263.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label263.ForeColor = System.Drawing.Color.Navy
-        Me.Label263.Location = New System.Drawing.Point(2344, 577)
-        Me.Label263.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label263.Location = New System.Drawing.Point(879, 242)
         Me.Label263.Name = "Label263"
-        Me.Label263.Size = New System.Drawing.Size(353, 44)
+        Me.Label263.Size = New System.Drawing.Size(140, 18)
         Me.Label263.TabIndex = 416
         Me.Label263.Text = "Pronóstico anual ** "
         '
@@ -2110,10 +2052,9 @@ Partial Class modulos
         Me.Label262.AutoSize = True
         Me.Label262.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label262.ForeColor = System.Drawing.Color.Navy
-        Me.Label262.Location = New System.Drawing.Point(1256, 1028)
-        Me.Label262.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label262.Location = New System.Drawing.Point(471, 431)
         Me.Label262.Name = "Label262"
-        Me.Label262.Size = New System.Drawing.Size(429, 44)
+        Me.Label262.Size = New System.Drawing.Size(167, 18)
         Me.Label262.TabIndex = 415
         Me.Label262.Text = "Días reales de trabajo **"
         '
@@ -2122,10 +2063,9 @@ Partial Class modulos
         Me.Label261.AutoSize = True
         Me.Label261.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label261.ForeColor = System.Drawing.Color.Navy
-        Me.Label261.Location = New System.Drawing.Point(2344, 169)
-        Me.Label261.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label261.Location = New System.Drawing.Point(879, 71)
         Me.Label261.Name = "Label261"
-        Me.Label261.Size = New System.Drawing.Size(628, 88)
+        Me.Label261.Size = New System.Drawing.Size(246, 36)
         Me.Label261.TabIndex = 414
         Me.Label261.Text = "Piezas de producción diarias según " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "pronóstico **"
         '
@@ -2134,10 +2074,9 @@ Partial Class modulos
         Me.Label260.AutoSize = True
         Me.Label260.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label260.ForeColor = System.Drawing.Color.Navy
-        Me.Label260.Location = New System.Drawing.Point(1253, 556)
-        Me.Label260.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label260.Location = New System.Drawing.Point(470, 233)
         Me.Label260.Name = "Label260"
-        Me.Label260.Size = New System.Drawing.Size(593, 88)
+        Me.Label260.Size = New System.Drawing.Size(234, 36)
         Me.Label260.TabIndex = 413
         Me.Label260.Text = "Días de vacaciones programados " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "por la empresa " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
@@ -2146,10 +2085,9 @@ Partial Class modulos
         Me.Label259.AutoSize = True
         Me.Label259.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label259.ForeColor = System.Drawing.Color.Navy
-        Me.Label259.Location = New System.Drawing.Point(1253, 768)
-        Me.Label259.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label259.Location = New System.Drawing.Point(470, 322)
         Me.Label259.Name = "Label259"
-        Me.Label259.Size = New System.Drawing.Size(667, 88)
+        Me.Label259.Size = New System.Drawing.Size(261, 36)
         Me.Label259.TabIndex = 412
         Me.Label259.Text = "Días de inventario físico programados " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "por la empresa "
         '
@@ -2158,10 +2096,9 @@ Partial Class modulos
         Me.Label258.AutoSize = True
         Me.Label258.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label258.ForeColor = System.Drawing.Color.Navy
-        Me.Label258.Location = New System.Drawing.Point(1253, 455)
-        Me.Label258.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label258.Location = New System.Drawing.Point(470, 191)
         Me.Label258.Name = "Label258"
-        Me.Label258.Size = New System.Drawing.Size(202, 44)
+        Me.Label258.Size = New System.Drawing.Size(80, 18)
         Me.Label258.TabIndex = 411
         Me.Label258.Text = "Festivos **"
         '
@@ -2170,10 +2107,9 @@ Partial Class modulos
         Me.martes_RadioButton6.AutoSize = True
         Me.martes_RadioButton6.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.martes_RadioButton6.ForeColor = System.Drawing.Color.Navy
-        Me.martes_RadioButton6.Location = New System.Drawing.Point(309, 458)
-        Me.martes_RadioButton6.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.martes_RadioButton6.Location = New System.Drawing.Point(116, 192)
         Me.martes_RadioButton6.Name = "martes_RadioButton6"
-        Me.martes_RadioButton6.Size = New System.Drawing.Size(174, 48)
+        Me.martes_RadioButton6.Size = New System.Drawing.Size(72, 22)
         Me.martes_RadioButton6.TabIndex = 410
         Me.martes_RadioButton6.TabStop = True
         Me.martes_RadioButton6.Text = "Martes"
@@ -2184,10 +2120,9 @@ Partial Class modulos
         Me.viernes_RadioButton5.AutoSize = True
         Me.viernes_RadioButton5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.viernes_RadioButton5.ForeColor = System.Drawing.Color.Navy
-        Me.viernes_RadioButton5.Location = New System.Drawing.Point(608, 391)
-        Me.viernes_RadioButton5.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.viernes_RadioButton5.Location = New System.Drawing.Point(228, 164)
         Me.viernes_RadioButton5.Name = "viernes_RadioButton5"
-        Me.viernes_RadioButton5.Size = New System.Drawing.Size(186, 48)
+        Me.viernes_RadioButton5.Size = New System.Drawing.Size(75, 22)
         Me.viernes_RadioButton5.TabIndex = 409
         Me.viernes_RadioButton5.TabStop = True
         Me.viernes_RadioButton5.Text = "Viernes"
@@ -2198,10 +2133,9 @@ Partial Class modulos
         Me.sabado_RadioButton4.AutoSize = True
         Me.sabado_RadioButton4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.sabado_RadioButton4.ForeColor = System.Drawing.Color.Navy
-        Me.sabado_RadioButton4.Location = New System.Drawing.Point(608, 458)
-        Me.sabado_RadioButton4.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.sabado_RadioButton4.Location = New System.Drawing.Point(228, 192)
         Me.sabado_RadioButton4.Name = "sabado_RadioButton4"
-        Me.sabado_RadioButton4.Size = New System.Drawing.Size(187, 48)
+        Me.sabado_RadioButton4.Size = New System.Drawing.Size(77, 22)
         Me.sabado_RadioButton4.TabIndex = 408
         Me.sabado_RadioButton4.TabStop = True
         Me.sabado_RadioButton4.Text = "Sábado"
@@ -2212,10 +2146,9 @@ Partial Class modulos
         Me.domingo_RadioButton3.AutoSize = True
         Me.domingo_RadioButton3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.domingo_RadioButton3.ForeColor = System.Drawing.Color.Navy
-        Me.domingo_RadioButton3.Location = New System.Drawing.Point(608, 525)
-        Me.domingo_RadioButton3.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.domingo_RadioButton3.Location = New System.Drawing.Point(228, 220)
         Me.domingo_RadioButton3.Name = "domingo_RadioButton3"
-        Me.domingo_RadioButton3.Size = New System.Drawing.Size(210, 48)
+        Me.domingo_RadioButton3.Size = New System.Drawing.Size(87, 22)
         Me.domingo_RadioButton3.TabIndex = 407
         Me.domingo_RadioButton3.TabStop = True
         Me.domingo_RadioButton3.Text = "Domingo"
@@ -2226,10 +2159,9 @@ Partial Class modulos
         Me.miercoles_RadioButton2.AutoSize = True
         Me.miercoles_RadioButton2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.miercoles_RadioButton2.ForeColor = System.Drawing.Color.Navy
-        Me.miercoles_RadioButton2.Location = New System.Drawing.Point(309, 525)
-        Me.miercoles_RadioButton2.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.miercoles_RadioButton2.Location = New System.Drawing.Point(116, 220)
         Me.miercoles_RadioButton2.Name = "miercoles_RadioButton2"
-        Me.miercoles_RadioButton2.Size = New System.Drawing.Size(221, 48)
+        Me.miercoles_RadioButton2.Size = New System.Drawing.Size(91, 22)
         Me.miercoles_RadioButton2.TabIndex = 406
         Me.miercoles_RadioButton2.TabStop = True
         Me.miercoles_RadioButton2.Text = "Miércoles"
@@ -2240,10 +2172,9 @@ Partial Class modulos
         Me.jueves_RadioButton1.AutoSize = True
         Me.jueves_RadioButton1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.jueves_RadioButton1.ForeColor = System.Drawing.Color.Navy
-        Me.jueves_RadioButton1.Location = New System.Drawing.Point(309, 591)
-        Me.jueves_RadioButton1.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.jueves_RadioButton1.Location = New System.Drawing.Point(116, 248)
         Me.jueves_RadioButton1.Name = "jueves_RadioButton1"
-        Me.jueves_RadioButton1.Size = New System.Drawing.Size(177, 48)
+        Me.jueves_RadioButton1.Size = New System.Drawing.Size(73, 22)
         Me.jueves_RadioButton1.TabIndex = 405
         Me.jueves_RadioButton1.TabStop = True
         Me.jueves_RadioButton1.Text = "Jueves"
@@ -2254,10 +2185,9 @@ Partial Class modulos
         Me.lunes_RadioButton1.AutoSize = True
         Me.lunes_RadioButton1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lunes_RadioButton1.ForeColor = System.Drawing.Color.Navy
-        Me.lunes_RadioButton1.Location = New System.Drawing.Point(309, 391)
-        Me.lunes_RadioButton1.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.lunes_RadioButton1.Location = New System.Drawing.Point(116, 164)
         Me.lunes_RadioButton1.Name = "lunes_RadioButton1"
-        Me.lunes_RadioButton1.Size = New System.Drawing.Size(160, 48)
+        Me.lunes_RadioButton1.Size = New System.Drawing.Size(66, 22)
         Me.lunes_RadioButton1.TabIndex = 404
         Me.lunes_RadioButton1.TabStop = True
         Me.lunes_RadioButton1.Text = "Lunes"
@@ -2269,10 +2199,9 @@ Partial Class modulos
         Me.horas_ComboBox17.ForeColor = System.Drawing.Color.Navy
         Me.horas_ComboBox17.FormattingEnabled = True
         Me.horas_ComboBox17.Items.AddRange(New Object() {"8 ", "7", "7.5", "9.6", "8.4", "9", "12"})
-        Me.horas_ComboBox17.Location = New System.Drawing.Point(245, 825)
-        Me.horas_ComboBox17.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.horas_ComboBox17.Location = New System.Drawing.Point(92, 346)
         Me.horas_ComboBox17.Name = "horas_ComboBox17"
-        Me.horas_ComboBox17.Size = New System.Drawing.Size(372, 50)
+        Me.horas_ComboBox17.Size = New System.Drawing.Size(142, 26)
         Me.horas_ComboBox17.TabIndex = 403
         Me.horas_ComboBox17.Text = "Seleccionar"
         '
@@ -2282,10 +2211,9 @@ Partial Class modulos
         Me.jornada_ComboBox16.ForeColor = System.Drawing.Color.Navy
         Me.jornada_ComboBox16.FormattingEnabled = True
         Me.jornada_ComboBox16.Items.AddRange(New Object() {"Diurna ", "Nocturna", "Mixta", "Especial 1", "Especial 2", "Especial 3"})
-        Me.jornada_ComboBox16.Location = New System.Drawing.Point(245, 169)
-        Me.jornada_ComboBox16.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.jornada_ComboBox16.Location = New System.Drawing.Point(92, 71)
         Me.jornada_ComboBox16.Name = "jornada_ComboBox16"
-        Me.jornada_ComboBox16.Size = New System.Drawing.Size(372, 50)
+        Me.jornada_ComboBox16.Size = New System.Drawing.Size(142, 26)
         Me.jornada_ComboBox16.TabIndex = 402
         Me.jornada_ComboBox16.Text = "Seleccionar"
         '
@@ -2294,10 +2222,9 @@ Partial Class modulos
         Me.Label272.AutoSize = True
         Me.Label272.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label272.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label272.Location = New System.Drawing.Point(1245, 188)
-        Me.Label272.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label272.Location = New System.Drawing.Point(467, 79)
         Me.Label272.Name = "Label272"
-        Me.Label272.Size = New System.Drawing.Size(0, 44)
+        Me.Label272.Size = New System.Drawing.Size(0, 18)
         Me.Label272.TabIndex = 238
         '
         'Label273
@@ -2305,10 +2232,9 @@ Partial Class modulos
         Me.Label273.AutoSize = True
         Me.Label273.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label273.ForeColor = System.Drawing.Color.Navy
-        Me.Label273.Location = New System.Drawing.Point(1243, 69)
-        Me.Label273.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label273.Location = New System.Drawing.Point(466, 29)
         Me.Label273.Name = "Label273"
-        Me.Label273.Size = New System.Drawing.Size(602, 55)
+        Me.Label273.Size = New System.Drawing.Size(254, 24)
         Me.Label273.TabIndex = 237
         Me.Label273.Text = "Calendario de Producción"
         '
@@ -2317,10 +2243,9 @@ Partial Class modulos
         Me.dias_calendario.AutoSize = True
         Me.dias_calendario.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.dias_calendario.ForeColor = System.Drawing.Color.Navy
-        Me.dias_calendario.Location = New System.Drawing.Point(1251, 215)
-        Me.dias_calendario.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.dias_calendario.Location = New System.Drawing.Point(469, 90)
         Me.dias_calendario.Name = "dias_calendario"
-        Me.dias_calendario.Size = New System.Drawing.Size(322, 44)
+        Me.dias_calendario.Size = New System.Drawing.Size(126, 18)
         Me.dias_calendario.TabIndex = 223
         Me.dias_calendario.Text = "Días calendario **"
         '
@@ -2329,10 +2254,9 @@ Partial Class modulos
         Me.laborales_dias.AutoSize = True
         Me.laborales_dias.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.laborales_dias.ForeColor = System.Drawing.Color.Navy
-        Me.laborales_dias.Location = New System.Drawing.Point(1253, 351)
-        Me.laborales_dias.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.laborales_dias.Location = New System.Drawing.Point(470, 147)
         Me.laborales_dias.Name = "laborales_dias"
-        Me.laborales_dias.Size = New System.Drawing.Size(301, 44)
+        Me.laborales_dias.Size = New System.Drawing.Size(118, 18)
         Me.laborales_dias.TabIndex = 222
         Me.laborales_dias.Text = "Días laborales **"
         '
@@ -2341,10 +2265,9 @@ Partial Class modulos
         Me.Label276.AutoSize = True
         Me.Label276.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label276.ForeColor = System.Drawing.Color.Navy
-        Me.Label276.Location = New System.Drawing.Point(213, 854)
-        Me.Label276.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label276.Location = New System.Drawing.Point(80, 358)
         Me.Label276.Name = "Label276"
-        Me.Label276.Size = New System.Drawing.Size(0, 44)
+        Me.Label276.Size = New System.Drawing.Size(0, 18)
         Me.Label276.TabIndex = 221
         '
         'Label277
@@ -2352,10 +2275,9 @@ Partial Class modulos
         Me.Label277.AutoSize = True
         Me.Label277.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label277.ForeColor = System.Drawing.Color.Navy
-        Me.Label277.Location = New System.Drawing.Point(237, 723)
-        Me.Label277.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label277.Location = New System.Drawing.Point(89, 303)
         Me.Label277.Name = "Label277"
-        Me.Label277.Size = New System.Drawing.Size(423, 44)
+        Me.Label277.Size = New System.Drawing.Size(165, 18)
         Me.Label277.TabIndex = 220
         Me.Label277.Text = "Horas de trabajo diarias"
         '
@@ -2364,10 +2286,9 @@ Partial Class modulos
         Me.Label278.AutoSize = True
         Me.Label278.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label278.ForeColor = System.Drawing.Color.Navy
-        Me.Label278.Location = New System.Drawing.Point(237, 286)
-        Me.Label278.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label278.Location = New System.Drawing.Point(89, 120)
         Me.Label278.Name = "Label278"
-        Me.Label278.Size = New System.Drawing.Size(755, 44)
+        Me.Label278.Size = New System.Drawing.Size(293, 18)
         Me.Label278.TabIndex = 219
         Me.Label278.Text = "Selecciona días de trabajo según la jornada"
         '
@@ -2376,20 +2297,18 @@ Partial Class modulos
         Me.Label279.AutoSize = True
         Me.Label279.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label279.ForeColor = System.Drawing.Color.Navy
-        Me.Label279.Location = New System.Drawing.Point(237, 69)
-        Me.Label279.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label279.Location = New System.Drawing.Point(89, 29)
         Me.Label279.Name = "Label279"
-        Me.Label279.Size = New System.Drawing.Size(283, 44)
+        Me.Label279.Size = New System.Drawing.Size(110, 18)
         Me.Label279.TabIndex = 218
         Me.Label279.Text = "Tipo de jornada"
         '
         'PictureBox95
         '
         Me.PictureBox95.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox95.Location = New System.Drawing.Point(2392, 646)
-        Me.PictureBox95.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox95.Location = New System.Drawing.Point(897, 271)
         Me.PictureBox95.Name = "PictureBox95"
-        Me.PictureBox95.Size = New System.Drawing.Size(539, 93)
+        Me.PictureBox95.Size = New System.Drawing.Size(202, 39)
         Me.PictureBox95.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox95.TabIndex = 440
         Me.PictureBox95.TabStop = False
@@ -2397,10 +2316,9 @@ Partial Class modulos
         'PictureBox94
         '
         Me.PictureBox94.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox94.Location = New System.Drawing.Point(2387, 455)
-        Me.PictureBox94.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox94.Location = New System.Drawing.Point(895, 191)
         Me.PictureBox94.Name = "PictureBox94"
-        Me.PictureBox94.Size = New System.Drawing.Size(539, 93)
+        Me.PictureBox94.Size = New System.Drawing.Size(202, 39)
         Me.PictureBox94.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox94.TabIndex = 438
         Me.PictureBox94.TabStop = False
@@ -2408,10 +2326,9 @@ Partial Class modulos
         'PictureBox93
         '
         Me.PictureBox93.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox93.Location = New System.Drawing.Point(2387, 274)
-        Me.PictureBox93.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox93.Location = New System.Drawing.Point(895, 115)
         Me.PictureBox93.Name = "PictureBox93"
-        Me.PictureBox93.Size = New System.Drawing.Size(539, 93)
+        Me.PictureBox93.Size = New System.Drawing.Size(202, 39)
         Me.PictureBox93.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox93.TabIndex = 436
         Me.PictureBox93.TabStop = False
@@ -2419,10 +2336,9 @@ Partial Class modulos
         'PictureBox90
         '
         Me.PictureBox90.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox90.Location = New System.Drawing.Point(1717, 1016)
-        Me.PictureBox90.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox90.Location = New System.Drawing.Point(644, 426)
         Me.PictureBox90.Name = "PictureBox90"
-        Me.PictureBox90.Size = New System.Drawing.Size(539, 93)
+        Me.PictureBox90.Size = New System.Drawing.Size(202, 39)
         Me.PictureBox90.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox90.TabIndex = 434
         Me.PictureBox90.TabStop = False
@@ -2430,10 +2346,9 @@ Partial Class modulos
         'PictureBox89
         '
         Me.PictureBox89.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox89.Location = New System.Drawing.Point(1272, 873)
-        Me.PictureBox89.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox89.Location = New System.Drawing.Point(477, 366)
         Me.PictureBox89.Name = "PictureBox89"
-        Me.PictureBox89.Size = New System.Drawing.Size(627, 93)
+        Me.PictureBox89.Size = New System.Drawing.Size(235, 39)
         Me.PictureBox89.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox89.TabIndex = 432
         Me.PictureBox89.TabStop = False
@@ -2441,10 +2356,9 @@ Partial Class modulos
         'PictureBox88
         '
         Me.PictureBox88.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox88.Location = New System.Drawing.Point(1272, 658)
-        Me.PictureBox88.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox88.Location = New System.Drawing.Point(477, 276)
         Me.PictureBox88.Name = "PictureBox88"
-        Me.PictureBox88.Size = New System.Drawing.Size(627, 93)
+        Me.PictureBox88.Size = New System.Drawing.Size(235, 39)
         Me.PictureBox88.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox88.TabIndex = 430
         Me.PictureBox88.TabStop = False
@@ -2452,10 +2366,9 @@ Partial Class modulos
         'PictureBox82
         '
         Me.PictureBox82.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox82.Location = New System.Drawing.Point(1595, 444)
-        Me.PictureBox82.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox82.Location = New System.Drawing.Point(598, 186)
         Me.PictureBox82.Name = "PictureBox82"
-        Me.PictureBox82.Size = New System.Drawing.Size(539, 93)
+        Me.PictureBox82.Size = New System.Drawing.Size(202, 39)
         Me.PictureBox82.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox82.TabIndex = 428
         Me.PictureBox82.TabStop = False
@@ -2463,10 +2376,9 @@ Partial Class modulos
         'PictureBox68
         '
         Me.PictureBox68.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox68.Location = New System.Drawing.Point(1595, 312)
-        Me.PictureBox68.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox68.Location = New System.Drawing.Point(598, 131)
         Me.PictureBox68.Name = "PictureBox68"
-        Me.PictureBox68.Size = New System.Drawing.Size(539, 93)
+        Me.PictureBox68.Size = New System.Drawing.Size(202, 39)
         Me.PictureBox68.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox68.TabIndex = 426
         Me.PictureBox68.TabStop = False
@@ -2474,10 +2386,9 @@ Partial Class modulos
         'PictureBox53
         '
         Me.PictureBox53.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox53.Location = New System.Drawing.Point(1595, 188)
-        Me.PictureBox53.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox53.Location = New System.Drawing.Point(598, 79)
         Me.PictureBox53.Name = "PictureBox53"
-        Me.PictureBox53.Size = New System.Drawing.Size(539, 93)
+        Me.PictureBox53.Size = New System.Drawing.Size(202, 39)
         Me.PictureBox53.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox53.TabIndex = 424
         Me.PictureBox53.TabStop = False
@@ -2485,10 +2396,9 @@ Partial Class modulos
         'anterior1_m5
         '
         Me.anterior1_m5.Image = Global.saiin.My.Resources.Resources.back_arrow_
-        Me.anterior1_m5.Location = New System.Drawing.Point(19, 525)
-        Me.anterior1_m5.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.anterior1_m5.Location = New System.Drawing.Point(7, 220)
         Me.anterior1_m5.Name = "anterior1_m5"
-        Me.anterior1_m5.Size = New System.Drawing.Size(93, 83)
+        Me.anterior1_m5.Size = New System.Drawing.Size(35, 35)
         Me.anterior1_m5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.anterior1_m5.TabIndex = 235
         Me.anterior1_m5.TabStop = False
@@ -2550,11 +2460,10 @@ Partial Class modulos
         Me.TabPage16.Controls.Add(Me.guardar_m5)
         Me.TabPage16.Controls.Add(Me.Label280)
         Me.TabPage16.Controls.Add(Me.Label274)
-        Me.TabPage16.Location = New System.Drawing.Point(10, 16)
-        Me.TabPage16.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TabPage16.Location = New System.Drawing.Point(4, 10)
         Me.TabPage16.Name = "TabPage16"
-        Me.TabPage16.Padding = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.TabPage16.Size = New System.Drawing.Size(3351, 1202)
+        Me.TabPage16.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage16.Size = New System.Drawing.Size(1256, 501)
         Me.TabPage16.TabIndex = 4
         Me.TabPage16.Text = "TabPage16"
         Me.TabPage16.UseVisualStyleBackColor = True
@@ -2562,10 +2471,9 @@ Partial Class modulos
         'anterior2_m5
         '
         Me.anterior2_m5.Image = Global.saiin.My.Resources.Resources.back_arrow_
-        Me.anterior2_m5.Location = New System.Drawing.Point(32, 503)
-        Me.anterior2_m5.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.anterior2_m5.Location = New System.Drawing.Point(12, 211)
         Me.anterior2_m5.Name = "anterior2_m5"
-        Me.anterior2_m5.Size = New System.Drawing.Size(93, 83)
+        Me.anterior2_m5.Size = New System.Drawing.Size(35, 35)
         Me.anterior2_m5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.anterior2_m5.TabIndex = 500
         Me.anterior2_m5.TabStop = False
@@ -2574,20 +2482,18 @@ Partial Class modulos
         '
         Me.TextBox159.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox159.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox159.Location = New System.Drawing.Point(2477, 787)
-        Me.TextBox159.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox159.Location = New System.Drawing.Point(929, 330)
         Me.TextBox159.Multiline = True
         Me.TextBox159.Name = "TextBox159"
-        Me.TextBox159.Size = New System.Drawing.Size(384, 67)
+        Me.TextBox159.Size = New System.Drawing.Size(144, 28)
         Me.TextBox159.TabIndex = 497
         '
         'PictureBox113
         '
         Me.PictureBox113.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox113.Location = New System.Drawing.Point(2464, 775)
-        Me.PictureBox113.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox113.Location = New System.Drawing.Point(924, 325)
         Me.PictureBox113.Name = "PictureBox113"
-        Me.PictureBox113.Size = New System.Drawing.Size(411, 91)
+        Me.PictureBox113.Size = New System.Drawing.Size(154, 38)
         Me.PictureBox113.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox113.TabIndex = 498
         Me.PictureBox113.TabStop = False
@@ -2596,20 +2502,18 @@ Partial Class modulos
         '
         Me.TextBox158.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox158.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox158.Location = New System.Drawing.Point(2413, 475)
-        Me.TextBox158.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox158.Location = New System.Drawing.Point(905, 199)
         Me.TextBox158.Multiline = True
         Me.TextBox158.Name = "TextBox158"
-        Me.TextBox158.Size = New System.Drawing.Size(784, 246)
+        Me.TextBox158.Size = New System.Drawing.Size(294, 103)
         Me.TextBox158.TabIndex = 495
         '
         'PictureBox112
         '
         Me.PictureBox112.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox112.Location = New System.Drawing.Point(2400, 463)
-        Me.PictureBox112.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox112.Location = New System.Drawing.Point(900, 194)
         Me.PictureBox112.Name = "PictureBox112"
-        Me.PictureBox112.Size = New System.Drawing.Size(811, 269)
+        Me.PictureBox112.Size = New System.Drawing.Size(304, 113)
         Me.PictureBox112.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox112.TabIndex = 496
         Me.PictureBox112.TabStop = False
@@ -2618,20 +2522,18 @@ Partial Class modulos
         '
         Me.TextBox157.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox157.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox157.Location = New System.Drawing.Point(2413, 272)
-        Me.TextBox157.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox157.Location = New System.Drawing.Point(905, 114)
         Me.TextBox157.Multiline = True
         Me.TextBox157.Name = "TextBox157"
-        Me.TextBox157.Size = New System.Drawing.Size(384, 67)
+        Me.TextBox157.Size = New System.Drawing.Size(144, 28)
         Me.TextBox157.TabIndex = 493
         '
         'PictureBox111
         '
         Me.PictureBox111.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox111.Location = New System.Drawing.Point(2400, 260)
-        Me.PictureBox111.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox111.Location = New System.Drawing.Point(900, 109)
         Me.PictureBox111.Name = "PictureBox111"
-        Me.PictureBox111.Size = New System.Drawing.Size(411, 91)
+        Me.PictureBox111.Size = New System.Drawing.Size(154, 38)
         Me.PictureBox111.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox111.TabIndex = 494
         Me.PictureBox111.TabStop = False
@@ -2640,20 +2542,18 @@ Partial Class modulos
         '
         Me.TextBox156.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox156.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox156.Location = New System.Drawing.Point(2413, 95)
-        Me.TextBox156.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox156.Location = New System.Drawing.Point(905, 40)
         Me.TextBox156.Multiline = True
         Me.TextBox156.Name = "TextBox156"
-        Me.TextBox156.Size = New System.Drawing.Size(384, 67)
+        Me.TextBox156.Size = New System.Drawing.Size(144, 28)
         Me.TextBox156.TabIndex = 491
         '
         'PictureBox110
         '
         Me.PictureBox110.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox110.Location = New System.Drawing.Point(2400, 83)
-        Me.PictureBox110.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox110.Location = New System.Drawing.Point(900, 35)
         Me.PictureBox110.Name = "PictureBox110"
-        Me.PictureBox110.Size = New System.Drawing.Size(411, 91)
+        Me.PictureBox110.Size = New System.Drawing.Size(154, 38)
         Me.PictureBox110.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox110.TabIndex = 492
         Me.PictureBox110.TabStop = False
@@ -2662,20 +2562,18 @@ Partial Class modulos
         '
         Me.TextBox155.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox155.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox155.Location = New System.Drawing.Point(1112, 959)
-        Me.TextBox155.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox155.Location = New System.Drawing.Point(417, 402)
         Me.TextBox155.Multiline = True
         Me.TextBox155.Name = "TextBox155"
-        Me.TextBox155.Size = New System.Drawing.Size(384, 67)
+        Me.TextBox155.Size = New System.Drawing.Size(144, 28)
         Me.TextBox155.TabIndex = 489
         '
         'PictureBox109
         '
         Me.PictureBox109.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox109.Location = New System.Drawing.Point(1099, 947)
-        Me.PictureBox109.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox109.Location = New System.Drawing.Point(412, 397)
         Me.PictureBox109.Name = "PictureBox109"
-        Me.PictureBox109.Size = New System.Drawing.Size(411, 91)
+        Me.PictureBox109.Size = New System.Drawing.Size(154, 38)
         Me.PictureBox109.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox109.TabIndex = 490
         Me.PictureBox109.TabStop = False
@@ -2685,10 +2583,9 @@ Partial Class modulos
         Me.Label268.AutoSize = True
         Me.Label268.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label268.ForeColor = System.Drawing.Color.Navy
-        Me.Label268.Location = New System.Drawing.Point(285, 911)
-        Me.Label268.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label268.Location = New System.Drawing.Point(107, 382)
         Me.Label268.Name = "Label268"
-        Me.Label268.Size = New System.Drawing.Size(767, 176)
+        Me.Label268.Size = New System.Drawing.Size(299, 72)
         Me.Label268.TabIndex = 486
         Me.Label268.Text = "Pronóstico de horas que se deben atender " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "físicamente por los empleados para cum" &
     "plir " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "con los pronósticos de producción y las " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "metas de productividad. **"
@@ -2698,10 +2595,9 @@ Partial Class modulos
         Me.Label267.AutoSize = True
         Me.Label267.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label267.ForeColor = System.Drawing.Color.Navy
-        Me.Label267.Location = New System.Drawing.Point(1637, 76)
-        Me.Label267.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label267.Location = New System.Drawing.Point(614, 32)
         Me.Label267.Name = "Label267"
-        Me.Label267.Size = New System.Drawing.Size(668, 132)
+        Me.Label267.Size = New System.Drawing.Size(265, 54)
         Me.Label267.TabIndex = 485
         Me.Label267.Text = "Pronóstico de personas que debemos " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "contratar para producir dicha cantidad" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "de p" &
     "roducto. **"
@@ -2711,10 +2607,9 @@ Partial Class modulos
         Me.Label266.AutoSize = True
         Me.Label266.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label266.ForeColor = System.Drawing.Color.Navy
-        Me.Label266.Location = New System.Drawing.Point(1637, 775)
-        Me.Label266.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label266.Location = New System.Drawing.Point(614, 325)
         Me.Label266.Name = "Label266"
-        Me.Label266.Size = New System.Drawing.Size(729, 88)
+        Me.Label266.Size = New System.Drawing.Size(282, 36)
         Me.Label266.TabIndex = 484
         Me.Label266.Text = "Líneas de producción según fases de" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "trabajo y cantidad de personal requerido**"
         '
@@ -2723,10 +2618,9 @@ Partial Class modulos
         Me.Label265.AutoSize = True
         Me.Label265.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label265.ForeColor = System.Drawing.Color.Navy
-        Me.Label265.Location = New System.Drawing.Point(1637, 463)
-        Me.Label265.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label265.Location = New System.Drawing.Point(614, 194)
         Me.Label265.Name = "Label265"
-        Me.Label265.Size = New System.Drawing.Size(723, 176)
+        Me.Label265.Size = New System.Drawing.Size(284, 72)
         Me.Label265.TabIndex = 483
         Me.Label265.Text = "Según las fases de producción menciona " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "que tipo de soporte técnico o mano de " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) &
     "obra indirecta se requiere para que las " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "líneas funcionen sin problemática"
@@ -2735,20 +2629,18 @@ Partial Class modulos
         '
         Me.TextBox148.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox148.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox148.Location = New System.Drawing.Point(1099, 708)
-        Me.TextBox148.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox148.Location = New System.Drawing.Point(412, 297)
         Me.TextBox148.Multiline = True
         Me.TextBox148.Name = "TextBox148"
-        Me.TextBox148.Size = New System.Drawing.Size(384, 67)
+        Me.TextBox148.Size = New System.Drawing.Size(144, 28)
         Me.TextBox148.TabIndex = 481
         '
         'PictureBox102
         '
         Me.PictureBox102.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox102.Location = New System.Drawing.Point(1085, 696)
-        Me.PictureBox102.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox102.Location = New System.Drawing.Point(407, 292)
         Me.PictureBox102.Name = "PictureBox102"
-        Me.PictureBox102.Size = New System.Drawing.Size(411, 91)
+        Me.PictureBox102.Size = New System.Drawing.Size(154, 38)
         Me.PictureBox102.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox102.TabIndex = 482
         Me.PictureBox102.TabStop = False
@@ -2757,20 +2649,18 @@ Partial Class modulos
         '
         Me.TextBox149.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox149.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox149.Location = New System.Drawing.Point(1099, 603)
-        Me.TextBox149.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox149.Location = New System.Drawing.Point(412, 253)
         Me.TextBox149.Multiline = True
         Me.TextBox149.Name = "TextBox149"
-        Me.TextBox149.Size = New System.Drawing.Size(384, 67)
+        Me.TextBox149.Size = New System.Drawing.Size(144, 28)
         Me.TextBox149.TabIndex = 479
         '
         'PictureBox103
         '
         Me.PictureBox103.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox103.Location = New System.Drawing.Point(1085, 591)
-        Me.PictureBox103.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox103.Location = New System.Drawing.Point(407, 248)
         Me.PictureBox103.Name = "PictureBox103"
-        Me.PictureBox103.Size = New System.Drawing.Size(411, 91)
+        Me.PictureBox103.Size = New System.Drawing.Size(154, 38)
         Me.PictureBox103.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox103.TabIndex = 480
         Me.PictureBox103.TabStop = False
@@ -2779,20 +2669,18 @@ Partial Class modulos
         '
         Me.TextBox150.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox150.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox150.Location = New System.Drawing.Point(1099, 503)
-        Me.TextBox150.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox150.Location = New System.Drawing.Point(412, 211)
         Me.TextBox150.Multiline = True
         Me.TextBox150.Name = "TextBox150"
-        Me.TextBox150.Size = New System.Drawing.Size(384, 67)
+        Me.TextBox150.Size = New System.Drawing.Size(144, 28)
         Me.TextBox150.TabIndex = 477
         '
         'PictureBox104
         '
         Me.PictureBox104.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox104.Location = New System.Drawing.Point(1085, 491)
-        Me.PictureBox104.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox104.Location = New System.Drawing.Point(407, 206)
         Me.PictureBox104.Name = "PictureBox104"
-        Me.PictureBox104.Size = New System.Drawing.Size(411, 91)
+        Me.PictureBox104.Size = New System.Drawing.Size(154, 38)
         Me.PictureBox104.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox104.TabIndex = 478
         Me.PictureBox104.TabStop = False
@@ -2801,20 +2689,18 @@ Partial Class modulos
         '
         Me.TextBox151.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox151.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox151.Location = New System.Drawing.Point(1099, 389)
-        Me.TextBox151.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox151.Location = New System.Drawing.Point(412, 163)
         Me.TextBox151.Multiline = True
         Me.TextBox151.Name = "TextBox151"
-        Me.TextBox151.Size = New System.Drawing.Size(384, 67)
+        Me.TextBox151.Size = New System.Drawing.Size(144, 28)
         Me.TextBox151.TabIndex = 475
         '
         'PictureBox105
         '
         Me.PictureBox105.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox105.Location = New System.Drawing.Point(1085, 377)
-        Me.PictureBox105.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox105.Location = New System.Drawing.Point(407, 158)
         Me.PictureBox105.Name = "PictureBox105"
-        Me.PictureBox105.Size = New System.Drawing.Size(411, 91)
+        Me.PictureBox105.Size = New System.Drawing.Size(154, 38)
         Me.PictureBox105.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox105.TabIndex = 476
         Me.PictureBox105.TabStop = False
@@ -2823,20 +2709,18 @@ Partial Class modulos
         '
         Me.TextBox152.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox152.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox152.Location = New System.Drawing.Point(1099, 284)
-        Me.TextBox152.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox152.Location = New System.Drawing.Point(412, 119)
         Me.TextBox152.Multiline = True
         Me.TextBox152.Name = "TextBox152"
-        Me.TextBox152.Size = New System.Drawing.Size(384, 67)
+        Me.TextBox152.Size = New System.Drawing.Size(144, 28)
         Me.TextBox152.TabIndex = 473
         '
         'PictureBox106
         '
         Me.PictureBox106.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox106.Location = New System.Drawing.Point(1085, 272)
-        Me.PictureBox106.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox106.Location = New System.Drawing.Point(407, 114)
         Me.PictureBox106.Name = "PictureBox106"
-        Me.PictureBox106.Size = New System.Drawing.Size(411, 91)
+        Me.PictureBox106.Size = New System.Drawing.Size(154, 38)
         Me.PictureBox106.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox106.TabIndex = 474
         Me.PictureBox106.TabStop = False
@@ -2845,20 +2729,18 @@ Partial Class modulos
         '
         Me.TextBox153.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox153.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox153.Location = New System.Drawing.Point(1099, 184)
-        Me.TextBox153.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox153.Location = New System.Drawing.Point(412, 77)
         Me.TextBox153.Multiline = True
         Me.TextBox153.Name = "TextBox153"
-        Me.TextBox153.Size = New System.Drawing.Size(384, 67)
+        Me.TextBox153.Size = New System.Drawing.Size(144, 28)
         Me.TextBox153.TabIndex = 471
         '
         'PictureBox107
         '
         Me.PictureBox107.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox107.Location = New System.Drawing.Point(1085, 172)
-        Me.PictureBox107.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox107.Location = New System.Drawing.Point(407, 72)
         Me.PictureBox107.Name = "PictureBox107"
-        Me.PictureBox107.Size = New System.Drawing.Size(411, 91)
+        Me.PictureBox107.Size = New System.Drawing.Size(154, 38)
         Me.PictureBox107.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox107.TabIndex = 472
         Me.PictureBox107.TabStop = False
@@ -2867,20 +2749,18 @@ Partial Class modulos
         '
         Me.TextBox145.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox145.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox145.Location = New System.Drawing.Point(453, 708)
-        Me.TextBox145.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox145.Location = New System.Drawing.Point(170, 297)
         Me.TextBox145.Multiline = True
         Me.TextBox145.Name = "TextBox145"
-        Me.TextBox145.Size = New System.Drawing.Size(384, 67)
+        Me.TextBox145.Size = New System.Drawing.Size(144, 28)
         Me.TextBox145.TabIndex = 469
         '
         'PictureBox99
         '
         Me.PictureBox99.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox99.Location = New System.Drawing.Point(440, 696)
-        Me.PictureBox99.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox99.Location = New System.Drawing.Point(165, 292)
         Me.PictureBox99.Name = "PictureBox99"
-        Me.PictureBox99.Size = New System.Drawing.Size(411, 91)
+        Me.PictureBox99.Size = New System.Drawing.Size(154, 38)
         Me.PictureBox99.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox99.TabIndex = 470
         Me.PictureBox99.TabStop = False
@@ -2889,20 +2769,18 @@ Partial Class modulos
         '
         Me.TextBox146.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox146.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox146.Location = New System.Drawing.Point(453, 603)
-        Me.TextBox146.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox146.Location = New System.Drawing.Point(170, 253)
         Me.TextBox146.Multiline = True
         Me.TextBox146.Name = "TextBox146"
-        Me.TextBox146.Size = New System.Drawing.Size(384, 67)
+        Me.TextBox146.Size = New System.Drawing.Size(144, 28)
         Me.TextBox146.TabIndex = 467
         '
         'PictureBox100
         '
         Me.PictureBox100.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox100.Location = New System.Drawing.Point(440, 591)
-        Me.PictureBox100.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox100.Location = New System.Drawing.Point(165, 248)
         Me.PictureBox100.Name = "PictureBox100"
-        Me.PictureBox100.Size = New System.Drawing.Size(411, 91)
+        Me.PictureBox100.Size = New System.Drawing.Size(154, 38)
         Me.PictureBox100.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox100.TabIndex = 468
         Me.PictureBox100.TabStop = False
@@ -2911,20 +2789,18 @@ Partial Class modulos
         '
         Me.TextBox147.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox147.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox147.Location = New System.Drawing.Point(453, 503)
-        Me.TextBox147.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox147.Location = New System.Drawing.Point(170, 211)
         Me.TextBox147.Multiline = True
         Me.TextBox147.Name = "TextBox147"
-        Me.TextBox147.Size = New System.Drawing.Size(384, 67)
+        Me.TextBox147.Size = New System.Drawing.Size(144, 28)
         Me.TextBox147.TabIndex = 465
         '
         'PictureBox101
         '
         Me.PictureBox101.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox101.Location = New System.Drawing.Point(440, 491)
-        Me.PictureBox101.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox101.Location = New System.Drawing.Point(165, 206)
         Me.PictureBox101.Name = "PictureBox101"
-        Me.PictureBox101.Size = New System.Drawing.Size(411, 91)
+        Me.PictureBox101.Size = New System.Drawing.Size(154, 38)
         Me.PictureBox101.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox101.TabIndex = 466
         Me.PictureBox101.TabStop = False
@@ -2933,20 +2809,18 @@ Partial Class modulos
         '
         Me.TextBox144.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox144.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox144.Location = New System.Drawing.Point(453, 389)
-        Me.TextBox144.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox144.Location = New System.Drawing.Point(170, 163)
         Me.TextBox144.Multiline = True
         Me.TextBox144.Name = "TextBox144"
-        Me.TextBox144.Size = New System.Drawing.Size(384, 67)
+        Me.TextBox144.Size = New System.Drawing.Size(144, 28)
         Me.TextBox144.TabIndex = 463
         '
         'PictureBox98
         '
         Me.PictureBox98.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox98.Location = New System.Drawing.Point(440, 377)
-        Me.PictureBox98.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox98.Location = New System.Drawing.Point(165, 158)
         Me.PictureBox98.Name = "PictureBox98"
-        Me.PictureBox98.Size = New System.Drawing.Size(411, 91)
+        Me.PictureBox98.Size = New System.Drawing.Size(154, 38)
         Me.PictureBox98.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox98.TabIndex = 464
         Me.PictureBox98.TabStop = False
@@ -2955,20 +2829,18 @@ Partial Class modulos
         '
         Me.TextBox143.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox143.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox143.Location = New System.Drawing.Point(453, 284)
-        Me.TextBox143.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox143.Location = New System.Drawing.Point(170, 119)
         Me.TextBox143.Multiline = True
         Me.TextBox143.Name = "TextBox143"
-        Me.TextBox143.Size = New System.Drawing.Size(384, 67)
+        Me.TextBox143.Size = New System.Drawing.Size(144, 28)
         Me.TextBox143.TabIndex = 461
         '
         'PictureBox97
         '
         Me.PictureBox97.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox97.Location = New System.Drawing.Point(440, 272)
-        Me.PictureBox97.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox97.Location = New System.Drawing.Point(165, 114)
         Me.PictureBox97.Name = "PictureBox97"
-        Me.PictureBox97.Size = New System.Drawing.Size(411, 91)
+        Me.PictureBox97.Size = New System.Drawing.Size(154, 38)
         Me.PictureBox97.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox97.TabIndex = 462
         Me.PictureBox97.TabStop = False
@@ -2977,20 +2849,18 @@ Partial Class modulos
         '
         Me.TextBox142.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox142.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox142.Location = New System.Drawing.Point(453, 184)
-        Me.TextBox142.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox142.Location = New System.Drawing.Point(170, 77)
         Me.TextBox142.Multiline = True
         Me.TextBox142.Name = "TextBox142"
-        Me.TextBox142.Size = New System.Drawing.Size(384, 67)
+        Me.TextBox142.Size = New System.Drawing.Size(144, 28)
         Me.TextBox142.TabIndex = 459
         '
         'PictureBox96
         '
         Me.PictureBox96.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox96.Location = New System.Drawing.Point(440, 172)
-        Me.PictureBox96.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox96.Location = New System.Drawing.Point(165, 72)
         Me.PictureBox96.Name = "PictureBox96"
-        Me.PictureBox96.Size = New System.Drawing.Size(411, 91)
+        Me.PictureBox96.Size = New System.Drawing.Size(154, 38)
         Me.PictureBox96.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox96.TabIndex = 460
         Me.PictureBox96.TabStop = False
@@ -3000,10 +2870,9 @@ Partial Class modulos
         Me.Label289.AutoSize = True
         Me.Label289.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label289.ForeColor = System.Drawing.Color.Navy
-        Me.Label289.Location = New System.Drawing.Point(869, 618)
-        Me.Label289.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label289.Location = New System.Drawing.Point(326, 259)
         Me.Label289.Name = "Label289"
-        Me.Label289.Size = New System.Drawing.Size(205, 44)
+        Me.Label289.Size = New System.Drawing.Size(80, 18)
         Me.Label289.TabIndex = 458
         Me.Label289.Text = "Noviembre"
         '
@@ -3012,10 +2881,9 @@ Partial Class modulos
         Me.Label290.AutoSize = True
         Me.Label290.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label290.ForeColor = System.Drawing.Color.Navy
-        Me.Label290.Location = New System.Drawing.Point(869, 711)
-        Me.Label290.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label290.Location = New System.Drawing.Point(326, 298)
         Me.Label290.Name = "Label290"
-        Me.Label290.Size = New System.Drawing.Size(193, 44)
+        Me.Label290.Size = New System.Drawing.Size(75, 18)
         Me.Label290.TabIndex = 457
         Me.Label290.Text = "Diciembre"
         '
@@ -3024,10 +2892,9 @@ Partial Class modulos
         Me.Label291.AutoSize = True
         Me.Label291.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label291.ForeColor = System.Drawing.Color.Navy
-        Me.Label291.Location = New System.Drawing.Point(869, 401)
-        Me.Label291.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label291.Location = New System.Drawing.Point(326, 168)
         Me.Label291.Name = "Label291"
-        Me.Label291.Size = New System.Drawing.Size(195, 44)
+        Me.Label291.Size = New System.Drawing.Size(75, 18)
         Me.Label291.TabIndex = 456
         Me.Label291.Text = "Septimbre"
         '
@@ -3036,10 +2903,9 @@ Partial Class modulos
         Me.Label292.AutoSize = True
         Me.Label292.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label292.ForeColor = System.Drawing.Color.Navy
-        Me.Label292.Location = New System.Drawing.Point(869, 513)
-        Me.Label292.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label292.Location = New System.Drawing.Point(326, 215)
         Me.Label292.Name = "Label292"
-        Me.Label292.Size = New System.Drawing.Size(156, 44)
+        Me.Label292.Size = New System.Drawing.Size(61, 18)
         Me.Label292.TabIndex = 455
         Me.Label292.Text = "Octubre"
         '
@@ -3048,10 +2914,9 @@ Partial Class modulos
         Me.Label286.AutoSize = True
         Me.Label286.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label286.ForeColor = System.Drawing.Color.Navy
-        Me.Label286.Location = New System.Drawing.Point(235, 618)
-        Me.Label286.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label286.Location = New System.Drawing.Point(88, 259)
         Me.Label286.Name = "Label286"
-        Me.Label286.Size = New System.Drawing.Size(113, 44)
+        Me.Label286.Size = New System.Drawing.Size(45, 18)
         Me.Label286.TabIndex = 454
         Me.Label286.Text = "Mayo"
         '
@@ -3060,10 +2925,9 @@ Partial Class modulos
         Me.Label287.AutoSize = True
         Me.Label287.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label287.ForeColor = System.Drawing.Color.Navy
-        Me.Label287.Location = New System.Drawing.Point(235, 713)
-        Me.Label287.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label287.Location = New System.Drawing.Point(88, 299)
         Me.Label287.Name = "Label287"
-        Me.Label287.Size = New System.Drawing.Size(111, 44)
+        Me.Label287.Size = New System.Drawing.Size(44, 18)
         Me.Label287.TabIndex = 453
         Me.Label287.Text = "Junio"
         '
@@ -3072,10 +2936,9 @@ Partial Class modulos
         Me.Label288.AutoSize = True
         Me.Label288.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label288.ForeColor = System.Drawing.Color.Navy
-        Me.Label288.Location = New System.Drawing.Point(235, 510)
-        Me.Label288.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label288.Location = New System.Drawing.Point(88, 214)
         Me.Label288.Name = "Label288"
-        Me.Label288.Size = New System.Drawing.Size(97, 44)
+        Me.Label288.Size = New System.Drawing.Size(36, 18)
         Me.Label288.TabIndex = 452
         Me.Label288.Text = "Abril"
         '
@@ -3084,10 +2947,9 @@ Partial Class modulos
         Me.Label285.AutoSize = True
         Me.Label285.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label285.ForeColor = System.Drawing.Color.Navy
-        Me.Label285.Location = New System.Drawing.Point(235, 308)
-        Me.Label285.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label285.Location = New System.Drawing.Point(88, 129)
         Me.Label285.Name = "Label285"
-        Me.Label285.Size = New System.Drawing.Size(153, 44)
+        Me.Label285.Size = New System.Drawing.Size(60, 18)
         Me.Label285.TabIndex = 451
         Me.Label285.Text = "Febrero"
         '
@@ -3096,10 +2958,9 @@ Partial Class modulos
         Me.Label284.AutoSize = True
         Me.Label284.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label284.ForeColor = System.Drawing.Color.Navy
-        Me.Label284.Location = New System.Drawing.Point(235, 398)
-        Me.Label284.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label284.Location = New System.Drawing.Point(88, 167)
         Me.Label284.Name = "Label284"
-        Me.Label284.Size = New System.Drawing.Size(136, 44)
+        Me.Label284.Size = New System.Drawing.Size(55, 18)
         Me.Label284.TabIndex = 450
         Me.Label284.Text = "Marzo "
         '
@@ -3108,10 +2969,9 @@ Partial Class modulos
         Me.Label283.AutoSize = True
         Me.Label283.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label283.ForeColor = System.Drawing.Color.Navy
-        Me.Label283.Location = New System.Drawing.Point(869, 198)
-        Me.Label283.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label283.Location = New System.Drawing.Point(326, 83)
         Me.Label283.Name = "Label283"
-        Me.Label283.Size = New System.Drawing.Size(99, 44)
+        Me.Label283.Size = New System.Drawing.Size(39, 18)
         Me.Label283.TabIndex = 449
         Me.Label283.Text = "Julio"
         '
@@ -3120,10 +2980,9 @@ Partial Class modulos
         Me.Label282.AutoSize = True
         Me.Label282.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label282.ForeColor = System.Drawing.Color.Navy
-        Me.Label282.Location = New System.Drawing.Point(869, 303)
-        Me.Label282.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label282.Location = New System.Drawing.Point(326, 127)
         Me.Label282.Name = "Label282"
-        Me.Label282.Size = New System.Drawing.Size(138, 44)
+        Me.Label282.Size = New System.Drawing.Size(55, 18)
         Me.Label282.TabIndex = 448
         Me.Label282.Text = "Agosto"
         '
@@ -3132,10 +2991,9 @@ Partial Class modulos
         Me.Label281.AutoSize = True
         Me.Label281.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label281.ForeColor = System.Drawing.Color.Navy
-        Me.Label281.Location = New System.Drawing.Point(235, 198)
-        Me.Label281.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label281.Location = New System.Drawing.Point(88, 83)
         Me.Label281.Name = "Label281"
-        Me.Label281.Size = New System.Drawing.Size(131, 44)
+        Me.Label281.Size = New System.Drawing.Size(52, 18)
         Me.Label281.TabIndex = 447
         Me.Label281.Text = "Enero "
         '
@@ -3144,20 +3002,18 @@ Partial Class modulos
         Me.Label269.AutoSize = True
         Me.Label269.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label269.ForeColor = System.Drawing.Color.Navy
-        Me.Label269.Location = New System.Drawing.Point(264, 76)
-        Me.Label269.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label269.Location = New System.Drawing.Point(99, 32)
         Me.Label269.Name = "Label269"
-        Me.Label269.Size = New System.Drawing.Size(899, 44)
+        Me.Label269.Size = New System.Drawing.Size(349, 18)
         Me.Label269.TabIndex = 446
         Me.Label269.Text = "Metas de productividad establecidas por la empresa"
         '
         'guardar_m5
         '
         Me.guardar_m5.Image = Global.saiin.My.Resources.Resources.guardar_azul
-        Me.guardar_m5.Location = New System.Drawing.Point(2693, 1042)
-        Me.guardar_m5.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.guardar_m5.Location = New System.Drawing.Point(1010, 437)
         Me.guardar_m5.Name = "guardar_m5"
-        Me.guardar_m5.Size = New System.Drawing.Size(536, 117)
+        Me.guardar_m5.Size = New System.Drawing.Size(201, 49)
         Me.guardar_m5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.guardar_m5.TabIndex = 437
         Me.guardar_m5.TabStop = False
@@ -3167,10 +3023,9 @@ Partial Class modulos
         Me.Label280.AutoSize = True
         Me.Label280.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label280.ForeColor = System.Drawing.Color.Navy
-        Me.Label280.Location = New System.Drawing.Point(1637, 260)
-        Me.Label280.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label280.Location = New System.Drawing.Point(614, 109)
         Me.Label280.Name = "Label280"
-        Me.Label280.Size = New System.Drawing.Size(673, 88)
+        Me.Label280.Size = New System.Drawing.Size(263, 36)
         Me.Label280.TabIndex = 432
         Me.Label280.Text = "Personal necesario para el armado de " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "líneas de producción. **"
         '
@@ -3179,107 +3034,95 @@ Partial Class modulos
         Me.Label274.AutoSize = True
         Me.Label274.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label274.ForeColor = System.Drawing.Color.Navy
-        Me.Label274.Location = New System.Drawing.Point(1672, 658)
-        Me.Label274.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label274.Location = New System.Drawing.Point(627, 276)
         Me.Label274.Name = "Label274"
-        Me.Label274.Size = New System.Drawing.Size(607, 64)
+        Me.Label274.Size = New System.Drawing.Size(224, 26)
         Me.Label274.TabIndex = 430
         Me.Label274.Text = "Ejemplo (materialistas, técnicos, supervisores, " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "líderes, mecánicos, relevos)"
         '
         'PictureBox81
         '
         Me.PictureBox81.Image = Global.saiin.My.Resources.Resources.next_arrow_
-        Me.PictureBox81.Location = New System.Drawing.Point(3213, 627)
-        Me.PictureBox81.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox81.Location = New System.Drawing.Point(1205, 263)
         Me.PictureBox81.Name = "PictureBox81"
-        Me.PictureBox81.Size = New System.Drawing.Size(93, 83)
+        Me.PictureBox81.Size = New System.Drawing.Size(35, 35)
         Me.PictureBox81.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox81.TabIndex = 115
         Me.PictureBox81.TabStop = False
         '
         'TabPage4
         '
-        Me.TabPage4.Controls.Add(Me.PictureBox59)
-        Me.TabPage4.Controls.Add(Me.PictureBox2)
-        Me.TabPage4.Controls.Add(Me.PictureBox51)
+        Me.TabPage4.Controls.Add(Me.Label11)
+        Me.TabPage4.Controls.Add(Me.Label4)
+        Me.TabPage4.Controls.Add(Me.TextBox96)
+        Me.TabPage4.Controls.Add(Me.PictureBox142)
         Me.TabPage4.Controls.Add(Me.PictureBox25)
         Me.TabPage4.Controls.Add(Me.TextBox103)
-        Me.TabPage4.Controls.Add(Me.TextBox102)
-        Me.TabPage4.Controls.Add(Me.TextBox101)
-        Me.TabPage4.Controls.Add(Me.TextBox100)
-        Me.TabPage4.Controls.Add(Me.TextBox98)
-        Me.TabPage4.Controls.Add(Me.TextBox97)
         Me.TabPage4.Controls.Add(Me.Label16)
         Me.TabPage4.Controls.Add(Me.Label19)
         Me.TabPage4.Controls.Add(Me.Label15)
-        Me.TabPage4.Controls.Add(Me.Label22)
-        Me.TabPage4.Controls.Add(Me.Label33)
-        Me.TabPage4.Controls.Add(Me.Label32)
-        Me.TabPage4.Controls.Add(Me.Label31)
-        Me.TabPage4.Controls.Add(Me.Label30)
-        Me.TabPage4.Controls.Add(Me.Label21)
-        Me.TabPage4.Controls.Add(Me.Label28)
-        Me.TabPage4.Controls.Add(Me.Label27)
         Me.TabPage4.Controls.Add(Me.Label29)
         Me.TabPage4.Controls.Add(Me.CB2)
         Me.TabPage4.Controls.Add(Me.Label18)
-        Me.TabPage4.Controls.Add(Me.CB1)
         Me.TabPage4.Controls.Add(Me.PictureBox63)
-        Me.TabPage4.Controls.Add(Me.PictureBox62)
-        Me.TabPage4.Controls.Add(Me.PictureBox61)
-        Me.TabPage4.Controls.Add(Me.PictureBox60)
-        Me.TabPage4.Controls.Add(Me.PictureBox58)
-        Me.TabPage4.Controls.Add(Me.PictureBox57)
         Me.TabPage4.Controls.Add(Me.btn_guardar_m4)
-        Me.TabPage4.Location = New System.Drawing.Point(10, 48)
-        Me.TabPage4.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TabPage4.Location = New System.Drawing.Point(4, 22)
         Me.TabPage4.Name = "TabPage4"
-        Me.TabPage4.Padding = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.TabPage4.Size = New System.Drawing.Size(3351, 1227)
+        Me.TabPage4.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage4.Size = New System.Drawing.Size(1173, 463)
         Me.TabPage4.TabIndex = 3
         Me.TabPage4.Text = "Modulo 4"
         Me.TabPage4.UseVisualStyleBackColor = True
         '
-        'PictureBox59
+        'Label11
         '
-        Me.PictureBox59.Image = Global.saiin.My.Resources.Resources.plus_plus
-        Me.PictureBox59.Location = New System.Drawing.Point(1837, 596)
-        Me.PictureBox59.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.PictureBox59.Name = "PictureBox59"
-        Me.PictureBox59.Size = New System.Drawing.Size(80, 72)
-        Me.PictureBox59.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox59.TabIndex = 430
-        Me.PictureBox59.TabStop = False
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.ForeColor = System.Drawing.Color.MidnightBlue
+        Me.Label11.Location = New System.Drawing.Point(128, 295)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(165, 18)
+        Me.Label11.TabIndex = 431
+        Me.Label11.Text = "Descripción de permiso"
         '
-        'PictureBox2
+        'Label4
         '
-        Me.PictureBox2.Image = Global.saiin.My.Resources.Resources.plus_plus
-        Me.PictureBox2.Location = New System.Drawing.Point(1837, 491)
-        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(80, 72)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox2.TabIndex = 429
-        Me.PictureBox2.TabStop = False
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.ForeColor = System.Drawing.Color.MidnightBlue
+        Me.Label4.Location = New System.Drawing.Point(128, 186)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(115, 18)
+        Me.Label4.TabIndex = 430
+        Me.Label4.Text = "Tipo de permiso"
         '
-        'PictureBox51
+        'TextBox96
         '
-        Me.PictureBox51.Image = Global.saiin.My.Resources.Resources.plus_plus
-        Me.PictureBox51.Location = New System.Drawing.Point(1229, 861)
-        Me.PictureBox51.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.PictureBox51.Name = "PictureBox51"
-        Me.PictureBox51.Size = New System.Drawing.Size(80, 72)
-        Me.PictureBox51.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox51.TabIndex = 428
-        Me.PictureBox51.TabStop = False
+        Me.TextBox96.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox96.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox96.ForeColor = System.Drawing.Color.Navy
+        Me.TextBox96.Location = New System.Drawing.Point(136, 221)
+        Me.TextBox96.Multiline = True
+        Me.TextBox96.Name = "TextBox96"
+        Me.TextBox96.Size = New System.Drawing.Size(413, 34)
+        Me.TextBox96.TabIndex = 428
+        '
+        'PictureBox142
+        '
+        Me.PictureBox142.Image = Global.saiin.My.Resources.Resources.texbox_blanco
+        Me.PictureBox142.Location = New System.Drawing.Point(131, 216)
+        Me.PictureBox142.Name = "PictureBox142"
+        Me.PictureBox142.Size = New System.Drawing.Size(423, 44)
+        Me.PictureBox142.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox142.TabIndex = 429
+        Me.PictureBox142.TabStop = False
         '
         'PictureBox25
         '
         Me.PictureBox25.Image = Global.saiin.My.Resources.Resources.plus_plus
-        Me.PictureBox25.Location = New System.Drawing.Point(2565, 656)
-        Me.PictureBox25.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox25.Location = New System.Drawing.Point(330, 421)
         Me.PictureBox25.Name = "PictureBox25"
-        Me.PictureBox25.Size = New System.Drawing.Size(80, 72)
+        Me.PictureBox25.Size = New System.Drawing.Size(30, 30)
         Me.PictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox25.TabIndex = 427
         Me.PictureBox25.TabStop = False
@@ -3289,83 +3132,20 @@ Partial Class modulos
         Me.TextBox103.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox103.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox103.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox103.Location = New System.Drawing.Point(2032, 463)
-        Me.TextBox103.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox103.Location = New System.Drawing.Point(136, 331)
         Me.TextBox103.Multiline = True
         Me.TextBox103.Name = "TextBox103"
-        Me.TextBox103.Size = New System.Drawing.Size(1101, 160)
+        Me.TextBox103.Size = New System.Drawing.Size(413, 67)
         Me.TextBox103.TabIndex = 143
-        Me.TextBox103.Text = "Describir permiso"
-        '
-        'TextBox102
-        '
-        Me.TextBox102.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox102.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox102.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox102.Location = New System.Drawing.Point(552, 873)
-        Me.TextBox102.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.TextBox102.Multiline = True
-        Me.TextBox102.Name = "TextBox102"
-        Me.TextBox102.Size = New System.Drawing.Size(648, 43)
-        Me.TextBox102.TabIndex = 141
-        '
-        'TextBox101
-        '
-        Me.TextBox101.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox101.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox101.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox101.Location = New System.Drawing.Point(1325, 596)
-        Me.TextBox101.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.TextBox101.Multiline = True
-        Me.TextBox101.Name = "TextBox101"
-        Me.TextBox101.Size = New System.Drawing.Size(456, 43)
-        Me.TextBox101.TabIndex = 139
-        '
-        'TextBox100
-        '
-        Me.TextBox100.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox100.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox100.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox100.Location = New System.Drawing.Point(1325, 503)
-        Me.TextBox100.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.TextBox100.Multiline = True
-        Me.TextBox100.Name = "TextBox100"
-        Me.TextBox100.Size = New System.Drawing.Size(456, 43)
-        Me.TextBox100.TabIndex = 137
-        '
-        'TextBox98
-        '
-        Me.TextBox98.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox98.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox98.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox98.Location = New System.Drawing.Point(552, 596)
-        Me.TextBox98.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.TextBox98.Multiline = True
-        Me.TextBox98.Name = "TextBox98"
-        Me.TextBox98.Size = New System.Drawing.Size(648, 43)
-        Me.TextBox98.TabIndex = 133
-        '
-        'TextBox97
-        '
-        Me.TextBox97.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.TextBox97.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox97.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox97.Location = New System.Drawing.Point(552, 503)
-        Me.TextBox97.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.TextBox97.Multiline = True
-        Me.TextBox97.Name = "TextBox97"
-        Me.TextBox97.Size = New System.Drawing.Size(648, 43)
-        Me.TextBox97.TabIndex = 131
         '
         'Label16
         '
         Me.Label16.AutoSize = True
         Me.Label16.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label16.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label16.Location = New System.Drawing.Point(2163, 312)
-        Me.Label16.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label16.Location = New System.Drawing.Point(145, 133)
         Me.Label16.Name = "Label16"
-        Me.Label16.Size = New System.Drawing.Size(812, 88)
+        Me.Label16.Size = New System.Drawing.Size(316, 36)
         Me.Label16.TabIndex = 126
         Me.Label16.Text = "Tipos de permisos requeridos para la venta de " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "    tu producto o prestación de t" &
     "u servicio."
@@ -3375,10 +3155,9 @@ Partial Class modulos
         Me.Label19.AutoSize = True
         Me.Label19.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label19.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label19.Location = New System.Drawing.Point(2024, 842)
-        Me.Label19.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label19.Location = New System.Drawing.Point(673, 166)
         Me.Label19.Name = "Label19"
-        Me.Label19.Size = New System.Drawing.Size(758, 44)
+        Me.Label19.Size = New System.Drawing.Size(294, 18)
         Me.Label19.TabIndex = 125
         Me.Label19.Text = "Tipo de Régimen legal según persona física"
         '
@@ -3387,118 +3166,20 @@ Partial Class modulos
         Me.Label15.AutoSize = True
         Me.Label15.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label15.ForeColor = System.Drawing.Color.Navy
-        Me.Label15.Location = New System.Drawing.Point(2021, 746)
-        Me.Label15.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label15.Location = New System.Drawing.Point(656, 120)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(317, 55)
+        Me.Label15.Size = New System.Drawing.Size(134, 24)
         Me.Label15.TabIndex = 124
         Me.Label15.Text = "Inscripciones"
-        '
-        'Label22
-        '
-        Me.Label22.AutoSize = True
-        Me.Label22.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label22.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label22.Location = New System.Drawing.Point(560, 782)
-        Me.Label22.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
-        Me.Label22.Name = "Label22"
-        Me.Label22.Size = New System.Drawing.Size(541, 44)
-        Me.Label22.TabIndex = 123
-        Me.Label22.Text = "Tiempo de contrato o convenio"
-        '
-        'Label33
-        '
-        Me.Label33.AutoSize = True
-        Me.Label33.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label33.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label33.Location = New System.Drawing.Point(200, 880)
-        Me.Label33.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
-        Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(249, 44)
-        Me.Label33.TabIndex = 122
-        Me.Label33.Text = "Arrendatarios"
-        '
-        'Label32
-        '
-        Me.Label32.AutoSize = True
-        Me.Label32.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label32.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label32.Location = New System.Drawing.Point(200, 687)
-        Me.Label32.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
-        Me.Label32.Name = "Label32"
-        Me.Label32.Size = New System.Drawing.Size(211, 44)
-        Me.Label32.TabIndex = 121
-        Me.Label32.Text = "Empleados"
-        '
-        'Label31
-        '
-        Me.Label31.AutoSize = True
-        Me.Label31.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label31.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label31.Location = New System.Drawing.Point(200, 596)
-        Me.Label31.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
-        Me.Label31.Name = "Label31"
-        Me.Label31.Size = New System.Drawing.Size(158, 44)
-        Me.Label31.TabIndex = 120
-        Me.Label31.Text = "Clientes"
-        '
-        'Label30
-        '
-        Me.Label30.AutoSize = True
-        Me.Label30.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label30.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label30.Location = New System.Drawing.Point(200, 503)
-        Me.Label30.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
-        Me.Label30.Name = "Label30"
-        Me.Label30.Size = New System.Drawing.Size(214, 44)
-        Me.Label30.TabIndex = 119
-        Me.Label30.Text = "Acreedores"
-        '
-        'Label21
-        '
-        Me.Label21.AutoSize = True
-        Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label21.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label21.Location = New System.Drawing.Point(1408, 362)
-        Me.Label21.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
-        Me.Label21.Name = "Label21"
-        Me.Label21.Size = New System.Drawing.Size(297, 44)
-        Me.Label21.TabIndex = 117
-        Me.Label21.Text = "Periodo de pago"
-        '
-        'Label28
-        '
-        Me.Label28.AutoSize = True
-        Me.Label28.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label28.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label28.Location = New System.Drawing.Point(587, 362)
-        Me.Label28.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
-        Me.Label28.Name = "Label28"
-        Me.Label28.Size = New System.Drawing.Size(487, 44)
-        Me.Label28.TabIndex = 116
-        Me.Label28.Text = "Tipo de contrato o convenio"
-        '
-        'Label27
-        '
-        Me.Label27.AutoSize = True
-        Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label27.ForeColor = System.Drawing.Color.Navy
-        Me.Label27.Location = New System.Drawing.Point(160, 231)
-        Me.Label27.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
-        Me.Label27.Name = "Label27"
-        Me.Label27.Size = New System.Drawing.Size(538, 55)
-        Me.Label27.TabIndex = 115
-        Me.Label27.Text = "Contratos o convenios "
         '
         'Label29
         '
         Me.Label29.AutoSize = True
         Me.Label29.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label29.ForeColor = System.Drawing.Color.Navy
-        Me.Label29.Location = New System.Drawing.Point(83, 64)
-        Me.Label29.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label29.Location = New System.Drawing.Point(33, 23)
         Me.Label29.Name = "Label29"
-        Me.Label29.Size = New System.Drawing.Size(1005, 69)
+        Me.Label29.Size = New System.Drawing.Size(416, 29)
         Me.Label29.TabIndex = 114
         Me.Label29.Text = "CONSTITUCIÓN LEGAL Y FISCAL"
         '
@@ -3509,10 +3190,9 @@ Partial Class modulos
         Me.CB2.FormattingEnabled = True
         Me.CB2.Items.AddRange(New Object() {"Régimen simplificado de confianza", "Sueldos y salarios e e ingresos asimilados a salarios", "Régimen de actividades empresariales y profesionales", "Régimen simplificado de confianza", "Enajenación de bienes", "Régimen de actividades empresariales con ingresas a través de plataformas tecnoló" &
                 "gicas", "Régimen de arrendamiento", "Intereses ", "Obtención de premios", "Dividendos", "Demás ingresos", "Persona moral"})
-        Me.CB2.Location = New System.Drawing.Point(2035, 937)
-        Me.CB2.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.CB2.Location = New System.Drawing.Point(660, 221)
         Me.CB2.Name = "CB2"
-        Me.CB2.Size = New System.Drawing.Size(1151, 50)
+        Me.CB2.Size = New System.Drawing.Size(434, 26)
         Me.CB2.TabIndex = 52
         '
         'Label18
@@ -3520,98 +3200,28 @@ Partial Class modulos
         Me.Label18.AutoSize = True
         Me.Label18.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label18.ForeColor = System.Drawing.Color.Navy
-        Me.Label18.Location = New System.Drawing.Point(2021, 231)
-        Me.Label18.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label18.Location = New System.Drawing.Point(127, 92)
         Me.Label18.Name = "Label18"
-        Me.Label18.Size = New System.Drawing.Size(232, 55)
+        Me.Label18.Size = New System.Drawing.Size(96, 24)
         Me.Label18.TabIndex = 46
         Me.Label18.Text = "Permisos"
-        '
-        'CB1
-        '
-        Me.CB1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CB1.ForeColor = System.Drawing.Color.Navy
-        Me.CB1.FormattingEnabled = True
-        Me.CB1.Items.AddRange(New Object() {"Permanente", "Eventual", "Mixto"})
-        Me.CB1.Location = New System.Drawing.Point(544, 687)
-        Me.CB1.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.CB1.Name = "CB1"
-        Me.CB1.Size = New System.Drawing.Size(663, 50)
-        Me.CB1.TabIndex = 43
         '
         'PictureBox63
         '
         Me.PictureBox63.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox63.Location = New System.Drawing.Point(2019, 451)
-        Me.PictureBox63.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox63.Location = New System.Drawing.Point(131, 326)
         Me.PictureBox63.Name = "PictureBox63"
-        Me.PictureBox63.Size = New System.Drawing.Size(1128, 184)
+        Me.PictureBox63.Size = New System.Drawing.Size(423, 77)
         Me.PictureBox63.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox63.TabIndex = 144
         Me.PictureBox63.TabStop = False
         '
-        'PictureBox62
-        '
-        Me.PictureBox62.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox62.Location = New System.Drawing.Point(539, 861)
-        Me.PictureBox62.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.PictureBox62.Name = "PictureBox62"
-        Me.PictureBox62.Size = New System.Drawing.Size(675, 67)
-        Me.PictureBox62.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox62.TabIndex = 142
-        Me.PictureBox62.TabStop = False
-        '
-        'PictureBox61
-        '
-        Me.PictureBox61.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox61.Location = New System.Drawing.Point(1312, 584)
-        Me.PictureBox61.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.PictureBox61.Name = "PictureBox61"
-        Me.PictureBox61.Size = New System.Drawing.Size(483, 67)
-        Me.PictureBox61.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox61.TabIndex = 140
-        Me.PictureBox61.TabStop = False
-        '
-        'PictureBox60
-        '
-        Me.PictureBox60.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox60.Location = New System.Drawing.Point(1312, 491)
-        Me.PictureBox60.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.PictureBox60.Name = "PictureBox60"
-        Me.PictureBox60.Size = New System.Drawing.Size(483, 67)
-        Me.PictureBox60.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox60.TabIndex = 138
-        Me.PictureBox60.TabStop = False
-        '
-        'PictureBox58
-        '
-        Me.PictureBox58.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox58.Location = New System.Drawing.Point(539, 584)
-        Me.PictureBox58.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.PictureBox58.Name = "PictureBox58"
-        Me.PictureBox58.Size = New System.Drawing.Size(675, 67)
-        Me.PictureBox58.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox58.TabIndex = 134
-        Me.PictureBox58.TabStop = False
-        '
-        'PictureBox57
-        '
-        Me.PictureBox57.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox57.Location = New System.Drawing.Point(539, 491)
-        Me.PictureBox57.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.PictureBox57.Name = "PictureBox57"
-        Me.PictureBox57.Size = New System.Drawing.Size(675, 67)
-        Me.PictureBox57.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox57.TabIndex = 132
-        Me.PictureBox57.TabStop = False
-        '
         'btn_guardar_m4
         '
         Me.btn_guardar_m4.Image = Global.saiin.My.Resources.Resources.guardar_azul
-        Me.btn_guardar_m4.Location = New System.Drawing.Point(2608, 1047)
-        Me.btn_guardar_m4.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.btn_guardar_m4.Location = New System.Drawing.Point(978, 439)
         Me.btn_guardar_m4.Name = "btn_guardar_m4"
-        Me.btn_guardar_m4.Size = New System.Drawing.Size(536, 117)
+        Me.btn_guardar_m4.Size = New System.Drawing.Size(201, 49)
         Me.btn_guardar_m4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.btn_guardar_m4.TabIndex = 127
         Me.btn_guardar_m4.TabStop = False
@@ -3621,11 +3231,10 @@ Partial Class modulos
         Me.TabPage3.BackColor = System.Drawing.Color.Transparent
         Me.TabPage3.Controls.Add(Me.m3TabControl1)
         Me.TabPage3.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.TabPage3.Location = New System.Drawing.Point(10, 48)
-        Me.TabPage3.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TabPage3.Location = New System.Drawing.Point(4, 22)
         Me.TabPage3.Name = "TabPage3"
-        Me.TabPage3.Padding = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.TabPage3.Size = New System.Drawing.Size(3351, 1227)
+        Me.TabPage3.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage3.Size = New System.Drawing.Size(1173, 463)
         Me.TabPage3.TabIndex = 2
         Me.TabPage3.Text = "Modulo 3"
         Me.TabPage3.ToolTipText = "Describe tu empresa y explica  como esta organizada"
@@ -3636,11 +3245,10 @@ Partial Class modulos
         Me.m3TabControl1.Controls.Add(Me.m3TabPage2)
         Me.m3TabControl1.Controls.Add(Me.m3TabPage3)
         Me.m3TabControl1.ItemSize = New System.Drawing.Size(0, 6)
-        Me.m3TabControl1.Location = New System.Drawing.Point(-11, 0)
-        Me.m3TabControl1.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.m3TabControl1.Location = New System.Drawing.Point(-4, 0)
         Me.m3TabControl1.Name = "m3TabControl1"
         Me.m3TabControl1.SelectedIndex = 0
-        Me.m3TabControl1.Size = New System.Drawing.Size(3371, 1221)
+        Me.m3TabControl1.Size = New System.Drawing.Size(1264, 512)
         Me.m3TabControl1.TabIndex = 1
         '
         'm3TabPage1
@@ -3661,11 +3269,10 @@ Partial Class modulos
         Me.m3TabPage1.Controls.Add(Me.Label23)
         Me.m3TabPage1.Controls.Add(Me.m3ComboBox1)
         Me.m3TabPage1.Controls.Add(Me.m3PictureBox1)
-        Me.m3TabPage1.Location = New System.Drawing.Point(10, 16)
-        Me.m3TabPage1.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.m3TabPage1.Location = New System.Drawing.Point(4, 10)
         Me.m3TabPage1.Name = "m3TabPage1"
-        Me.m3TabPage1.Padding = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.m3TabPage1.Size = New System.Drawing.Size(3351, 1195)
+        Me.m3TabPage1.Padding = New System.Windows.Forms.Padding(3)
+        Me.m3TabPage1.Size = New System.Drawing.Size(1256, 498)
         Me.m3TabPage1.TabIndex = 0
         Me.m3TabPage1.Text = "m3TabPage1"
         Me.m3TabPage1.UseVisualStyleBackColor = True
@@ -3675,10 +3282,9 @@ Partial Class modulos
         Me.Label220.AutoSize = True
         Me.Label220.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label220.ForeColor = System.Drawing.Color.Navy
-        Me.Label220.Location = New System.Drawing.Point(104, 31)
-        Me.Label220.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label220.Location = New System.Drawing.Point(39, 13)
         Me.Label220.Name = "Label220"
-        Me.Label220.Size = New System.Drawing.Size(564, 69)
+        Me.Label220.Size = New System.Drawing.Size(233, 29)
         Me.Label220.TabIndex = 150
         Me.Label220.Text = "ADMINISTRACIÓN"
         '
@@ -3687,11 +3293,10 @@ Partial Class modulos
         Me.TextBox12.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox12.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox12.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox12.Location = New System.Drawing.Point(2272, 713)
-        Me.TextBox12.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox12.Location = New System.Drawing.Point(852, 299)
         Me.TextBox12.Multiline = True
         Me.TextBox12.Name = "TextBox12"
-        Me.TextBox12.Size = New System.Drawing.Size(803, 238)
+        Me.TextBox12.Size = New System.Drawing.Size(301, 100)
         Me.TextBox12.TabIndex = 149
         '
         'TextBox11
@@ -3699,11 +3304,10 @@ Partial Class modulos
         Me.TextBox11.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox11.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox11.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox11.Location = New System.Drawing.Point(1211, 713)
-        Me.TextBox11.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox11.Location = New System.Drawing.Point(454, 299)
         Me.TextBox11.Multiline = True
         Me.TextBox11.Name = "TextBox11"
-        Me.TextBox11.Size = New System.Drawing.Size(803, 238)
+        Me.TextBox11.Size = New System.Drawing.Size(301, 100)
         Me.TextBox11.TabIndex = 148
         '
         'TextBox10
@@ -3711,11 +3315,10 @@ Partial Class modulos
         Me.TextBox10.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox10.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox10.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox10.Location = New System.Drawing.Point(117, 711)
-        Me.TextBox10.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox10.Location = New System.Drawing.Point(44, 298)
         Me.TextBox10.Multiline = True
         Me.TextBox10.Name = "TextBox10"
-        Me.TextBox10.Size = New System.Drawing.Size(803, 238)
+        Me.TextBox10.Size = New System.Drawing.Size(301, 100)
         Me.TextBox10.TabIndex = 147
         '
         'TextBox8
@@ -3723,20 +3326,18 @@ Partial Class modulos
         Me.TextBox8.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox8.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox8.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox8.Location = New System.Drawing.Point(1048, 215)
-        Me.TextBox8.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox8.Location = New System.Drawing.Point(393, 90)
         Me.TextBox8.Multiline = True
         Me.TextBox8.Name = "TextBox8"
-        Me.TextBox8.Size = New System.Drawing.Size(1829, 317)
+        Me.TextBox8.Size = New System.Drawing.Size(686, 133)
         Me.TextBox8.TabIndex = 146
         '
         'PictureBox15
         '
         Me.PictureBox15.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox15.Location = New System.Drawing.Point(2248, 689)
-        Me.PictureBox15.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox15.Location = New System.Drawing.Point(843, 289)
         Me.PictureBox15.Name = "PictureBox15"
-        Me.PictureBox15.Size = New System.Drawing.Size(853, 286)
+        Me.PictureBox15.Size = New System.Drawing.Size(320, 120)
         Me.PictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox15.TabIndex = 145
         Me.PictureBox15.TabStop = False
@@ -3744,10 +3345,9 @@ Partial Class modulos
         'PictureBox14
         '
         Me.PictureBox14.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox14.Location = New System.Drawing.Point(1184, 689)
-        Me.PictureBox14.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox14.Location = New System.Drawing.Point(444, 289)
         Me.PictureBox14.Name = "PictureBox14"
-        Me.PictureBox14.Size = New System.Drawing.Size(853, 286)
+        Me.PictureBox14.Size = New System.Drawing.Size(320, 120)
         Me.PictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox14.TabIndex = 144
         Me.PictureBox14.TabStop = False
@@ -3755,10 +3355,9 @@ Partial Class modulos
         'PictureBox13
         '
         Me.PictureBox13.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox13.Location = New System.Drawing.Point(96, 689)
-        Me.PictureBox13.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox13.Location = New System.Drawing.Point(36, 289)
         Me.PictureBox13.Name = "PictureBox13"
-        Me.PictureBox13.Size = New System.Drawing.Size(853, 286)
+        Me.PictureBox13.Size = New System.Drawing.Size(320, 120)
         Me.PictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox13.TabIndex = 143
         Me.PictureBox13.TabStop = False
@@ -3766,10 +3365,9 @@ Partial Class modulos
         'PictureBox12
         '
         Me.PictureBox12.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox12.Location = New System.Drawing.Point(1003, 193)
-        Me.PictureBox12.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox12.Location = New System.Drawing.Point(376, 81)
         Me.PictureBox12.Name = "PictureBox12"
-        Me.PictureBox12.Size = New System.Drawing.Size(1936, 365)
+        Me.PictureBox12.Size = New System.Drawing.Size(726, 153)
         Me.PictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox12.TabIndex = 142
         Me.PictureBox12.TabStop = False
@@ -3779,10 +3377,9 @@ Partial Class modulos
         Me.Label26.AutoSize = True
         Me.Label26.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label26.ForeColor = System.Drawing.Color.Navy
-        Me.Label26.Location = New System.Drawing.Point(2475, 601)
-        Me.Label26.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label26.Location = New System.Drawing.Point(928, 252)
         Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(364, 44)
+        Me.Label26.Size = New System.Drawing.Size(143, 18)
         Me.Label26.TabIndex = 141
         Me.Label26.Text = "Describe tus valores"
         '
@@ -3791,10 +3388,9 @@ Partial Class modulos
         Me.Label17.AutoSize = True
         Me.Label17.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label17.ForeColor = System.Drawing.Color.Navy
-        Me.Label17.Location = New System.Drawing.Point(1413, 601)
-        Me.Label17.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label17.Location = New System.Drawing.Point(530, 252)
         Me.Label17.Name = "Label17"
-        Me.Label17.Size = New System.Drawing.Size(334, 44)
+        Me.Label17.Size = New System.Drawing.Size(131, 18)
         Me.Label17.TabIndex = 140
         Me.Label17.Text = "Describe tu misión"
         '
@@ -3803,10 +3399,9 @@ Partial Class modulos
         Me.Label25.AutoSize = True
         Me.Label25.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label25.ForeColor = System.Drawing.Color.Navy
-        Me.Label25.Location = New System.Drawing.Point(331, 601)
-        Me.Label25.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label25.Location = New System.Drawing.Point(124, 252)
         Me.Label25.Name = "Label25"
-        Me.Label25.Size = New System.Drawing.Size(320, 44)
+        Me.Label25.Size = New System.Drawing.Size(125, 18)
         Me.Label25.TabIndex = 135
         Me.Label25.Text = "Describe tu vision"
         '
@@ -3815,10 +3410,9 @@ Partial Class modulos
         Me.Label24.AutoSize = True
         Me.Label24.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label24.ForeColor = System.Drawing.Color.Navy
-        Me.Label24.Location = New System.Drawing.Point(1669, 129)
-        Me.Label24.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label24.Location = New System.Drawing.Point(626, 54)
         Me.Label24.Name = "Label24"
-        Me.Label24.Size = New System.Drawing.Size(603, 44)
+        Me.Label24.Size = New System.Drawing.Size(235, 18)
         Me.Label24.TabIndex = 134
         Me.Label24.Text = "Describe el nombre de tu empresa"
         '
@@ -3827,10 +3421,9 @@ Partial Class modulos
         Me.Label23.AutoSize = True
         Me.Label23.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label23.ForeColor = System.Drawing.Color.Navy
-        Me.Label23.Location = New System.Drawing.Point(224, 174)
-        Me.Label23.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label23.Location = New System.Drawing.Point(84, 73)
         Me.Label23.Name = "Label23"
-        Me.Label23.Size = New System.Drawing.Size(346, 44)
+        Me.Label23.Size = New System.Drawing.Size(135, 18)
         Me.Label23.TabIndex = 133
         Me.Label23.Text = "Giro de tu empresa"
         '
@@ -3842,25 +3435,24 @@ Partial Class modulos
         Me.m3ComboBox1.ForeColor = System.Drawing.Color.Navy
         Me.m3ComboBox1.FormattingEnabled = True
         Me.m3ComboBox1.Items.AddRange(New Object() {"Comercial", "Servicio", "Industrial"})
-        Me.m3ComboBox1.Location = New System.Drawing.Point(203, 262)
-        Me.m3ComboBox1.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.m3ComboBox1.Location = New System.Drawing.Point(76, 110)
         Me.m3ComboBox1.Name = "m3ComboBox1"
-        Me.m3ComboBox1.Size = New System.Drawing.Size(425, 50)
+        Me.m3ComboBox1.Size = New System.Drawing.Size(162, 26)
         Me.m3ComboBox1.TabIndex = 132
         '
         'm3PictureBox1
         '
         Me.m3PictureBox1.Image = Global.saiin.My.Resources.Resources.next_arrow_
-        Me.m3PictureBox1.Location = New System.Drawing.Point(3171, 560)
-        Me.m3PictureBox1.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.m3PictureBox1.Location = New System.Drawing.Point(1189, 235)
         Me.m3PictureBox1.Name = "m3PictureBox1"
-        Me.m3PictureBox1.Size = New System.Drawing.Size(93, 83)
+        Me.m3PictureBox1.Size = New System.Drawing.Size(35, 35)
         Me.m3PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.m3PictureBox1.TabIndex = 0
         Me.m3PictureBox1.TabStop = False
         '
         'm3TabPage2
         '
+        Me.m3TabPage2.Controls.Add(Me.M3empladosnecesarios)
         Me.m3TabPage2.Controls.Add(Me.ComboBox17)
         Me.m3TabPage2.Controls.Add(Me.TextBox104)
         Me.m3TabPage2.Controls.Add(Me.TextBox34)
@@ -3888,14 +3480,22 @@ Partial Class modulos
         Me.m3TabPage2.Controls.Add(Me.PictureBox16)
         Me.m3TabPage2.Controls.Add(Me.m3PictureBox2)
         Me.m3TabPage2.Controls.Add(Me.m3PictureBox3)
-        Me.m3TabPage2.Location = New System.Drawing.Point(10, 16)
-        Me.m3TabPage2.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.m3TabPage2.Location = New System.Drawing.Point(4, 10)
         Me.m3TabPage2.Name = "m3TabPage2"
-        Me.m3TabPage2.Padding = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.m3TabPage2.Size = New System.Drawing.Size(3351, 1195)
+        Me.m3TabPage2.Padding = New System.Windows.Forms.Padding(3)
+        Me.m3TabPage2.Size = New System.Drawing.Size(1256, 498)
         Me.m3TabPage2.TabIndex = 1
         Me.m3TabPage2.Text = "m3TabPage2"
         Me.m3TabPage2.UseVisualStyleBackColor = True
+        '
+        'M3empladosnecesarios
+        '
+        Me.M3empladosnecesarios.FormattingEnabled = True
+        Me.M3empladosnecesarios.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20"})
+        Me.M3empladosnecesarios.Location = New System.Drawing.Point(289, 47)
+        Me.M3empladosnecesarios.Name = "M3empladosnecesarios"
+        Me.M3empladosnecesarios.Size = New System.Drawing.Size(121, 21)
+        Me.M3empladosnecesarios.TabIndex = 174
         '
         'ComboBox17
         '
@@ -3903,10 +3503,9 @@ Partial Class modulos
         Me.ComboBox17.ForeColor = System.Drawing.Color.Navy
         Me.ComboBox17.FormattingEnabled = True
         Me.ComboBox17.Items.AddRange(New Object() {"Diurna ", "Nocturna", "Mixta", "Especial 1", "Especial 2", "Especial 3"})
-        Me.ComboBox17.Location = New System.Drawing.Point(163, 560)
-        Me.ComboBox17.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.ComboBox17.Location = New System.Drawing.Point(61, 235)
         Me.ComboBox17.Name = "ComboBox17"
-        Me.ComboBox17.Size = New System.Drawing.Size(545, 50)
+        Me.ComboBox17.Size = New System.Drawing.Size(207, 26)
         Me.ComboBox17.TabIndex = 173
         '
         'TextBox104
@@ -3914,11 +3513,10 @@ Partial Class modulos
         Me.TextBox104.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox104.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox104.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox104.Location = New System.Drawing.Point(2448, 548)
-        Me.TextBox104.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox104.Location = New System.Drawing.Point(918, 230)
         Me.TextBox104.Multiline = True
         Me.TextBox104.Name = "TextBox104"
-        Me.TextBox104.Size = New System.Drawing.Size(528, 74)
+        Me.TextBox104.Size = New System.Drawing.Size(198, 31)
         Me.TextBox104.TabIndex = 172
         '
         'TextBox34
@@ -3926,11 +3524,10 @@ Partial Class modulos
         Me.TextBox34.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox34.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox34.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox34.Location = New System.Drawing.Point(1688, 553)
-        Me.TextBox34.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox34.Location = New System.Drawing.Point(633, 232)
         Me.TextBox34.Multiline = True
         Me.TextBox34.Name = "TextBox34"
-        Me.TextBox34.Size = New System.Drawing.Size(528, 74)
+        Me.TextBox34.Size = New System.Drawing.Size(198, 31)
         Me.TextBox34.TabIndex = 171
         '
         'TextBox18
@@ -3938,11 +3535,10 @@ Partial Class modulos
         Me.TextBox18.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox18.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox18.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox18.Location = New System.Drawing.Point(896, 556)
-        Me.TextBox18.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox18.Location = New System.Drawing.Point(336, 233)
         Me.TextBox18.Multiline = True
         Me.TextBox18.Name = "TextBox18"
-        Me.TextBox18.Size = New System.Drawing.Size(528, 74)
+        Me.TextBox18.Size = New System.Drawing.Size(198, 31)
         Me.TextBox18.TabIndex = 168
         '
         'TextBox16
@@ -3950,11 +3546,10 @@ Partial Class modulos
         Me.TextBox16.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox16.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox16.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox16.Location = New System.Drawing.Point(2168, 277)
-        Me.TextBox16.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox16.Location = New System.Drawing.Point(813, 116)
         Me.TextBox16.Multiline = True
         Me.TextBox16.Name = "TextBox16"
-        Me.TextBox16.Size = New System.Drawing.Size(989, 143)
+        Me.TextBox16.Size = New System.Drawing.Size(371, 60)
         Me.TextBox16.TabIndex = 166
         '
         'TextBox15
@@ -3962,11 +3557,10 @@ Partial Class modulos
         Me.TextBox15.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox15.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox15.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox15.Location = New System.Drawing.Point(1504, 274)
-        Me.TextBox15.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox15.Location = New System.Drawing.Point(564, 115)
         Me.TextBox15.Multiline = True
         Me.TextBox15.Name = "TextBox15"
-        Me.TextBox15.Size = New System.Drawing.Size(528, 143)
+        Me.TextBox15.Size = New System.Drawing.Size(198, 60)
         Me.TextBox15.TabIndex = 165
         '
         'TextBox14
@@ -3974,11 +3568,10 @@ Partial Class modulos
         Me.TextBox14.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox14.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox14.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox14.Location = New System.Drawing.Point(835, 277)
-        Me.TextBox14.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox14.Location = New System.Drawing.Point(313, 116)
         Me.TextBox14.Multiline = True
         Me.TextBox14.Name = "TextBox14"
-        Me.TextBox14.Size = New System.Drawing.Size(528, 143)
+        Me.TextBox14.Size = New System.Drawing.Size(198, 60)
         Me.TextBox14.TabIndex = 164
         '
         'TextBox13
@@ -3986,11 +3579,10 @@ Partial Class modulos
         Me.TextBox13.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox13.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox13.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox13.Location = New System.Drawing.Point(187, 279)
-        Me.TextBox13.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox13.Location = New System.Drawing.Point(70, 117)
         Me.TextBox13.Multiline = True
         Me.TextBox13.Name = "TextBox13"
-        Me.TextBox13.Size = New System.Drawing.Size(528, 143)
+        Me.TextBox13.Size = New System.Drawing.Size(198, 60)
         Me.TextBox13.TabIndex = 163
         '
         'Label42
@@ -3998,10 +3590,9 @@ Partial Class modulos
         Me.Label42.AutoSize = True
         Me.Label42.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label42.ForeColor = System.Drawing.Color.Navy
-        Me.Label42.Location = New System.Drawing.Point(2661, 494)
-        Me.Label42.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label42.Location = New System.Drawing.Point(998, 207)
         Me.Label42.Name = "Label42"
-        Me.Label42.Size = New System.Drawing.Size(139, 44)
+        Me.Label42.Size = New System.Drawing.Size(54, 18)
         Me.Label42.TabIndex = 161
         Me.Label42.Text = "Salario"
         '
@@ -4010,10 +3601,9 @@ Partial Class modulos
         Me.Label41.AutoSize = True
         Me.Label41.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label41.ForeColor = System.Drawing.Color.Navy
-        Me.Label41.Location = New System.Drawing.Point(1821, 498)
-        Me.Label41.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label41.Location = New System.Drawing.Point(683, 209)
         Me.Label41.Name = "Label41"
-        Me.Label41.Size = New System.Drawing.Size(264, 44)
+        Me.Label41.Size = New System.Drawing.Size(103, 18)
         Me.Label41.TabIndex = 160
         Me.Label41.Text = "Hora de salida"
         '
@@ -4022,10 +3612,9 @@ Partial Class modulos
         Me.Label40.AutoSize = True
         Me.Label40.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label40.ForeColor = System.Drawing.Color.Navy
-        Me.Label40.Location = New System.Drawing.Point(1021, 498)
-        Me.Label40.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label40.Location = New System.Drawing.Point(383, 209)
         Me.Label40.Name = "Label40"
-        Me.Label40.Size = New System.Drawing.Size(293, 44)
+        Me.Label40.Size = New System.Drawing.Size(114, 18)
         Me.Label40.TabIndex = 159
         Me.Label40.Text = "Hora de entrada"
         '
@@ -4034,10 +3623,9 @@ Partial Class modulos
         Me.Label39.AutoSize = True
         Me.Label39.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label39.ForeColor = System.Drawing.Color.Navy
-        Me.Label39.Location = New System.Drawing.Point(357, 510)
-        Me.Label39.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label39.Location = New System.Drawing.Point(134, 214)
         Me.Label39.Name = "Label39"
-        Me.Label39.Size = New System.Drawing.Size(119, 44)
+        Me.Label39.Size = New System.Drawing.Size(47, 18)
         Me.Label39.TabIndex = 156
         Me.Label39.Text = "Turno"
         '
@@ -4046,10 +3634,9 @@ Partial Class modulos
         Me.Label38.AutoSize = True
         Me.Label38.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label38.ForeColor = System.Drawing.Color.Navy
-        Me.Label38.Location = New System.Drawing.Point(2491, 215)
-        Me.Label38.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label38.Location = New System.Drawing.Point(934, 90)
         Me.Label38.Name = "Label38"
-        Me.Label38.Size = New System.Drawing.Size(195, 44)
+        Me.Label38.Size = New System.Drawing.Size(77, 18)
         Me.Label38.TabIndex = 154
         Me.Label38.Text = "Funciones"
         '
@@ -4058,10 +3645,9 @@ Partial Class modulos
         Me.Label37.AutoSize = True
         Me.Label37.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label37.ForeColor = System.Drawing.Color.Navy
-        Me.Label37.Location = New System.Drawing.Point(1749, 215)
-        Me.Label37.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label37.Location = New System.Drawing.Point(656, 90)
         Me.Label37.Name = "Label37"
-        Me.Label37.Size = New System.Drawing.Size(108, 44)
+        Me.Label37.Size = New System.Drawing.Size(41, 18)
         Me.Label37.TabIndex = 152
         Me.Label37.Text = "Perfil"
         '
@@ -4070,10 +3656,9 @@ Partial Class modulos
         Me.Label36.AutoSize = True
         Me.Label36.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label36.ForeColor = System.Drawing.Color.Navy
-        Me.Label36.Location = New System.Drawing.Point(888, 215)
-        Me.Label36.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label36.Location = New System.Drawing.Point(333, 90)
         Me.Label36.Name = "Label36"
-        Me.Label36.Size = New System.Drawing.Size(328, 44)
+        Me.Label36.Size = New System.Drawing.Size(128, 18)
         Me.Label36.TabIndex = 149
         Me.Label36.Text = "Tipo de Empleado"
         '
@@ -4082,10 +3667,9 @@ Partial Class modulos
         Me.Label35.AutoSize = True
         Me.Label35.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label35.ForeColor = System.Drawing.Color.Navy
-        Me.Label35.Location = New System.Drawing.Point(376, 215)
-        Me.Label35.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label35.Location = New System.Drawing.Point(141, 90)
         Me.Label35.Name = "Label35"
-        Me.Label35.Size = New System.Drawing.Size(100, 44)
+        Me.Label35.Size = New System.Drawing.Size(38, 18)
         Me.Label35.TabIndex = 148
         Me.Label35.Text = "Area"
         '
@@ -4094,20 +3678,18 @@ Partial Class modulos
         Me.Label34.AutoSize = True
         Me.Label34.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label34.ForeColor = System.Drawing.Color.Navy
-        Me.Label34.Location = New System.Drawing.Point(157, 119)
-        Me.Label34.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label34.Location = New System.Drawing.Point(59, 50)
         Me.Label34.Name = "Label34"
-        Me.Label34.Size = New System.Drawing.Size(571, 44)
+        Me.Label34.Size = New System.Drawing.Size(224, 18)
         Me.Label34.TabIndex = 147
         Me.Label34.Text = "¿Cuantos empleados necesitas?"
         '
         'PictureBox65
         '
         Me.PictureBox65.Image = Global.saiin.My.Resources.Resources.plus_plus
-        Me.PictureBox65.Location = New System.Drawing.Point(1485, 746)
-        Me.PictureBox65.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox65.Location = New System.Drawing.Point(557, 313)
         Me.PictureBox65.Name = "PictureBox65"
-        Me.PictureBox65.Size = New System.Drawing.Size(184, 150)
+        Me.PictureBox65.Size = New System.Drawing.Size(69, 63)
         Me.PictureBox65.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox65.TabIndex = 169
         Me.PictureBox65.TabStop = False
@@ -4115,10 +3697,9 @@ Partial Class modulos
         'PictureBox23
         '
         Me.PictureBox23.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox23.Location = New System.Drawing.Point(2427, 544)
-        Me.PictureBox23.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox23.Location = New System.Drawing.Point(910, 228)
         Me.PictureBox23.Name = "PictureBox23"
-        Me.PictureBox23.Size = New System.Drawing.Size(573, 83)
+        Me.PictureBox23.Size = New System.Drawing.Size(215, 35)
         Me.PictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox23.TabIndex = 162
         Me.PictureBox23.TabStop = False
@@ -4126,10 +3707,9 @@ Partial Class modulos
         'PictureBox22
         '
         Me.PictureBox22.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox22.Location = New System.Drawing.Point(1667, 548)
-        Me.PictureBox22.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox22.Location = New System.Drawing.Point(625, 230)
         Me.PictureBox22.Name = "PictureBox22"
-        Me.PictureBox22.Size = New System.Drawing.Size(573, 83)
+        Me.PictureBox22.Size = New System.Drawing.Size(215, 35)
         Me.PictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox22.TabIndex = 158
         Me.PictureBox22.TabStop = False
@@ -4137,10 +3717,9 @@ Partial Class modulos
         'PictureBox21
         '
         Me.PictureBox21.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox21.Location = New System.Drawing.Point(875, 548)
-        Me.PictureBox21.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox21.Location = New System.Drawing.Point(328, 230)
         Me.PictureBox21.Name = "PictureBox21"
-        Me.PictureBox21.Size = New System.Drawing.Size(573, 83)
+        Me.PictureBox21.Size = New System.Drawing.Size(215, 35)
         Me.PictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox21.TabIndex = 157
         Me.PictureBox21.TabStop = False
@@ -4148,10 +3727,9 @@ Partial Class modulos
         'PictureBox19
         '
         Me.PictureBox19.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox19.Location = New System.Drawing.Point(2139, 265)
-        Me.PictureBox19.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox19.Location = New System.Drawing.Point(802, 111)
         Me.PictureBox19.Name = "PictureBox19"
-        Me.PictureBox19.Size = New System.Drawing.Size(1043, 167)
+        Me.PictureBox19.Size = New System.Drawing.Size(391, 70)
         Me.PictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox19.TabIndex = 153
         Me.PictureBox19.TabStop = False
@@ -4159,10 +3737,9 @@ Partial Class modulos
         'PictureBox18
         '
         Me.PictureBox18.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox18.Location = New System.Drawing.Point(1485, 265)
-        Me.PictureBox18.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox18.Location = New System.Drawing.Point(557, 111)
         Me.PictureBox18.Name = "PictureBox18"
-        Me.PictureBox18.Size = New System.Drawing.Size(573, 167)
+        Me.PictureBox18.Size = New System.Drawing.Size(215, 70)
         Me.PictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox18.TabIndex = 151
         Me.PictureBox18.TabStop = False
@@ -4170,10 +3747,9 @@ Partial Class modulos
         'PictureBox17
         '
         Me.PictureBox17.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox17.Location = New System.Drawing.Point(816, 265)
-        Me.PictureBox17.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox17.Location = New System.Drawing.Point(306, 111)
         Me.PictureBox17.Name = "PictureBox17"
-        Me.PictureBox17.Size = New System.Drawing.Size(573, 167)
+        Me.PictureBox17.Size = New System.Drawing.Size(215, 70)
         Me.PictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox17.TabIndex = 150
         Me.PictureBox17.TabStop = False
@@ -4181,10 +3757,9 @@ Partial Class modulos
         'PictureBox16
         '
         Me.PictureBox16.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox16.Location = New System.Drawing.Point(163, 265)
-        Me.PictureBox16.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox16.Location = New System.Drawing.Point(61, 111)
         Me.PictureBox16.Name = "PictureBox16"
-        Me.PictureBox16.Size = New System.Drawing.Size(573, 167)
+        Me.PictureBox16.Size = New System.Drawing.Size(215, 70)
         Me.PictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox16.TabIndex = 146
         Me.PictureBox16.TabStop = False
@@ -4192,10 +3767,9 @@ Partial Class modulos
         'm3PictureBox2
         '
         Me.m3PictureBox2.Image = Global.saiin.My.Resources.Resources.back_arrow_
-        Me.m3PictureBox2.Location = New System.Drawing.Point(16, 560)
-        Me.m3PictureBox2.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.m3PictureBox2.Location = New System.Drawing.Point(6, 235)
         Me.m3PictureBox2.Name = "m3PictureBox2"
-        Me.m3PictureBox2.Size = New System.Drawing.Size(93, 83)
+        Me.m3PictureBox2.Size = New System.Drawing.Size(35, 35)
         Me.m3PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.m3PictureBox2.TabIndex = 2
         Me.m3PictureBox2.TabStop = False
@@ -4203,10 +3777,9 @@ Partial Class modulos
         'm3PictureBox3
         '
         Me.m3PictureBox3.Image = Global.saiin.My.Resources.Resources.next_arrow_
-        Me.m3PictureBox3.Location = New System.Drawing.Point(3237, 560)
-        Me.m3PictureBox3.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.m3PictureBox3.Location = New System.Drawing.Point(1214, 235)
         Me.m3PictureBox3.Name = "m3PictureBox3"
-        Me.m3PictureBox3.Size = New System.Drawing.Size(93, 83)
+        Me.m3PictureBox3.Size = New System.Drawing.Size(35, 35)
         Me.m3PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.m3PictureBox3.TabIndex = 1
         Me.m3PictureBox3.TabStop = False
@@ -4236,21 +3809,19 @@ Partial Class modulos
         Me.m3TabPage3.Controls.Add(Me.PictureBox28)
         Me.m3TabPage3.Controls.Add(Me.PictureBox29)
         Me.m3TabPage3.Controls.Add(Me.m3PictureBox4)
-        Me.m3TabPage3.Location = New System.Drawing.Point(10, 16)
-        Me.m3TabPage3.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.m3TabPage3.Location = New System.Drawing.Point(4, 10)
         Me.m3TabPage3.Name = "m3TabPage3"
-        Me.m3TabPage3.Padding = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.m3TabPage3.Size = New System.Drawing.Size(3351, 1195)
+        Me.m3TabPage3.Padding = New System.Windows.Forms.Padding(3)
+        Me.m3TabPage3.Size = New System.Drawing.Size(1256, 498)
         Me.m3TabPage3.TabIndex = 2
         Me.m3TabPage3.Text = "m3TabPage3"
         Me.m3TabPage3.UseVisualStyleBackColor = True
         '
         'PictureBoxOrganigrama
         '
-        Me.PictureBoxOrganigrama.Location = New System.Drawing.Point(149, 277)
-        Me.PictureBoxOrganigrama.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBoxOrganigrama.Location = New System.Drawing.Point(56, 116)
         Me.PictureBoxOrganigrama.Name = "PictureBoxOrganigrama"
-        Me.PictureBoxOrganigrama.Size = New System.Drawing.Size(573, 229)
+        Me.PictureBoxOrganigrama.Size = New System.Drawing.Size(215, 96)
         Me.PictureBoxOrganigrama.TabIndex = 197
         Me.PictureBoxOrganigrama.TabStop = False
         '
@@ -4258,10 +3829,9 @@ Partial Class modulos
         '
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Image = Global.saiin.My.Resources.Resources.start_azul
-        Me.Button1.Location = New System.Drawing.Point(301, 577)
-        Me.Button1.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.Button1.Location = New System.Drawing.Point(113, 242)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(253, 79)
+        Me.Button1.Size = New System.Drawing.Size(95, 33)
         Me.Button1.TabIndex = 196
         Me.Button1.Text = "Examinar"
         Me.Button1.UseVisualStyleBackColor = True
@@ -4269,10 +3839,9 @@ Partial Class modulos
         'PictureBox66
         '
         Me.PictureBox66.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox66.Location = New System.Drawing.Point(2483, 892)
-        Me.PictureBox66.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox66.Location = New System.Drawing.Point(931, 374)
         Me.PictureBox66.Name = "PictureBox66"
-        Me.PictureBox66.Size = New System.Drawing.Size(573, 83)
+        Me.PictureBox66.Size = New System.Drawing.Size(215, 35)
         Me.PictureBox66.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox66.TabIndex = 195
         Me.PictureBox66.TabStop = False
@@ -4282,20 +3851,18 @@ Partial Class modulos
         Me.TextBox17.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox17.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox17.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox17.Location = New System.Drawing.Point(1720, 816)
-        Me.TextBox17.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox17.Location = New System.Drawing.Point(645, 342)
         Me.TextBox17.Multiline = True
         Me.TextBox17.Name = "TextBox17"
-        Me.TextBox17.Size = New System.Drawing.Size(528, 74)
+        Me.TextBox17.Size = New System.Drawing.Size(198, 31)
         Me.TextBox17.TabIndex = 194
         '
         'PictureBox20
         '
         Me.PictureBox20.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox20.Location = New System.Drawing.Point(1699, 808)
-        Me.PictureBox20.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox20.Location = New System.Drawing.Point(637, 339)
         Me.PictureBox20.Name = "PictureBox20"
-        Me.PictureBox20.Size = New System.Drawing.Size(573, 83)
+        Me.PictureBox20.Size = New System.Drawing.Size(215, 35)
         Me.PictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox20.TabIndex = 193
         Me.PictureBox20.TabStop = False
@@ -4303,10 +3870,9 @@ Partial Class modulos
         'guardar_m3
         '
         Me.guardar_m3.Image = Global.saiin.My.Resources.Resources.guardar_azul
-        Me.guardar_m3.Location = New System.Drawing.Point(2600, 1021)
-        Me.guardar_m3.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.guardar_m3.Location = New System.Drawing.Point(975, 428)
         Me.guardar_m3.Name = "guardar_m3"
-        Me.guardar_m3.Size = New System.Drawing.Size(536, 117)
+        Me.guardar_m3.Size = New System.Drawing.Size(201, 49)
         Me.guardar_m3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.guardar_m3.TabIndex = 192
         Me.guardar_m3.TabStop = False
@@ -4316,11 +3882,10 @@ Partial Class modulos
         Me.TextBox23.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox23.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox23.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox23.Location = New System.Drawing.Point(2149, 343)
-        Me.TextBox23.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox23.Location = New System.Drawing.Point(806, 144)
         Me.TextBox23.Multiline = True
         Me.TextBox23.Name = "TextBox23"
-        Me.TextBox23.Size = New System.Drawing.Size(987, 238)
+        Me.TextBox23.Size = New System.Drawing.Size(370, 100)
         Me.TextBox23.TabIndex = 190
         '
         'TextBox22
@@ -4328,21 +3893,19 @@ Partial Class modulos
         Me.TextBox22.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox22.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox22.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox22.Location = New System.Drawing.Point(907, 343)
-        Me.TextBox22.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox22.Location = New System.Drawing.Point(340, 144)
         Me.TextBox22.Multiline = True
         Me.TextBox22.Name = "TextBox22"
-        Me.TextBox22.Size = New System.Drawing.Size(987, 238)
+        Me.TextBox22.Size = New System.Drawing.Size(370, 100)
         Me.TextBox22.TabIndex = 189
         '
         'Label51
         '
         Me.Label51.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label51.ForeColor = System.Drawing.Color.Navy
-        Me.Label51.Location = New System.Drawing.Point(2475, 701)
-        Me.Label51.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label51.Location = New System.Drawing.Point(928, 294)
         Me.Label51.Name = "Label51"
-        Me.Label51.Size = New System.Drawing.Size(581, 107)
+        Me.Label51.Size = New System.Drawing.Size(218, 45)
         Me.Label51.TabIndex = 188
         Me.Label51.Text = "Tus créditos bancarios serán con una taza de interés de:  "
         Me.Label51.TextAlign = System.Drawing.ContentAlignment.TopCenter
@@ -4352,10 +3915,9 @@ Partial Class modulos
         Me.Label50.AutoSize = True
         Me.Label50.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label50.ForeColor = System.Drawing.Color.Navy
-        Me.Label50.Location = New System.Drawing.Point(1712, 758)
-        Me.Label50.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label50.Location = New System.Drawing.Point(642, 318)
         Me.Label50.Name = "Label50"
-        Me.Label50.Size = New System.Drawing.Size(530, 44)
+        Me.Label50.Size = New System.Drawing.Size(207, 18)
         Me.Label50.TabIndex = 187
         Me.Label50.Text = "Cantidad de socios a paricipar"
         '
@@ -4364,10 +3926,9 @@ Partial Class modulos
         Me.Label49.AutoSize = True
         Me.Label49.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label49.ForeColor = System.Drawing.Color.Navy
-        Me.Label49.Location = New System.Drawing.Point(1016, 765)
-        Me.Label49.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label49.Location = New System.Drawing.Point(381, 321)
         Me.Label49.Name = "Label49"
-        Me.Label49.Size = New System.Drawing.Size(471, 44)
+        Me.Label49.Size = New System.Drawing.Size(188, 18)
         Me.Label49.TabIndex = 186
         Me.Label49.Text = "Aportaciones de los socios"
         '
@@ -4376,10 +3937,9 @@ Partial Class modulos
         Me.Label48.AutoSize = True
         Me.Label48.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label48.ForeColor = System.Drawing.Color.Navy
-        Me.Label48.Location = New System.Drawing.Point(264, 765)
-        Me.Label48.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label48.Location = New System.Drawing.Point(99, 321)
         Me.Label48.Name = "Label48"
-        Me.Label48.Size = New System.Drawing.Size(324, 44)
+        Me.Label48.Size = New System.Drawing.Size(125, 18)
         Me.Label48.TabIndex = 185
         Me.Label48.Text = "Aportes de capital"
         '
@@ -4388,10 +3948,9 @@ Partial Class modulos
         Me.ComboBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox4.ForeColor = System.Drawing.Color.Navy
         Me.ComboBox4.FormattingEnabled = True
-        Me.ComboBox4.Location = New System.Drawing.Point(2483, 816)
-        Me.ComboBox4.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.ComboBox4.Location = New System.Drawing.Point(931, 342)
         Me.ComboBox4.Name = "ComboBox4"
-        Me.ComboBox4.Size = New System.Drawing.Size(567, 50)
+        Me.ComboBox4.Size = New System.Drawing.Size(215, 26)
         Me.ComboBox4.TabIndex = 184
         '
         'ComboBox2
@@ -4400,10 +3959,9 @@ Partial Class modulos
         Me.ComboBox2.ForeColor = System.Drawing.Color.Navy
         Me.ComboBox2.FormattingEnabled = True
         Me.ComboBox2.Items.AddRange(New Object() {"30 a 50%", "51 a 70%", "71 a 100%"})
-        Me.ComboBox2.Location = New System.Drawing.Point(968, 816)
-        Me.ComboBox2.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.ComboBox2.Location = New System.Drawing.Point(363, 342)
         Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(567, 50)
+        Me.ComboBox2.Size = New System.Drawing.Size(215, 26)
         Me.ComboBox2.TabIndex = 182
         '
         'ComboBox1
@@ -4412,10 +3970,9 @@ Partial Class modulos
         Me.ComboBox1.ForeColor = System.Drawing.Color.Navy
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"Personal", "Socios", "Créditos bancarios"})
-        Me.ComboBox1.Location = New System.Drawing.Point(149, 816)
-        Me.ComboBox1.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.ComboBox1.Location = New System.Drawing.Point(56, 342)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(567, 50)
+        Me.ComboBox1.Size = New System.Drawing.Size(215, 26)
         Me.ComboBox1.TabIndex = 181
         '
         'Label47
@@ -4423,10 +3980,9 @@ Partial Class modulos
         Me.Label47.AutoSize = True
         Me.Label47.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label47.ForeColor = System.Drawing.Color.Navy
-        Me.Label47.Location = New System.Drawing.Point(2237, 241)
-        Me.Label47.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label47.Location = New System.Drawing.Point(839, 101)
         Me.Label47.Name = "Label47"
-        Me.Label47.Size = New System.Drawing.Size(778, 44)
+        Me.Label47.Size = New System.Drawing.Size(307, 18)
         Me.Label47.TabIndex = 180
         Me.Label47.Text = "Enlista los recursos tecnicos que necesitarás"
         '
@@ -4435,10 +3991,9 @@ Partial Class modulos
         Me.Label46.AutoSize = True
         Me.Label46.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label46.ForeColor = System.Drawing.Color.Navy
-        Me.Label46.Location = New System.Drawing.Point(984, 174)
-        Me.Label46.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label46.Location = New System.Drawing.Point(369, 73)
         Me.Label46.Name = "Label46"
-        Me.Label46.Size = New System.Drawing.Size(816, 132)
+        Me.Label46.Size = New System.Drawing.Size(319, 54)
         Me.Label46.TabIndex = 179
         Me.Label46.Text = "Enlista los recursos materiales que necesitarás" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "para la creación de tu empresa, " &
     "producto y/o" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "servicio."
@@ -4448,10 +4003,9 @@ Partial Class modulos
         Me.Label45.AutoSize = True
         Me.Label45.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label45.ForeColor = System.Drawing.Color.Navy
-        Me.Label45.Location = New System.Drawing.Point(264, 513)
-        Me.Label45.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label45.Location = New System.Drawing.Point(99, 215)
         Me.Label45.Name = "Label45"
-        Me.Label45.Size = New System.Drawing.Size(0, 44)
+        Me.Label45.Size = New System.Drawing.Size(0, 18)
         Me.Label45.TabIndex = 175
         '
         'Label44
@@ -4459,10 +4013,9 @@ Partial Class modulos
         Me.Label44.AutoSize = True
         Me.Label44.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label44.ForeColor = System.Drawing.Color.Navy
-        Me.Label44.Location = New System.Drawing.Point(264, 210)
-        Me.Label44.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label44.Location = New System.Drawing.Point(99, 88)
         Me.Label44.Name = "Label44"
-        Me.Label44.Size = New System.Drawing.Size(370, 44)
+        Me.Label44.Size = New System.Drawing.Size(143, 18)
         Me.Label44.TabIndex = 149
         Me.Label44.Text = "Cargar Organigrama"
         '
@@ -4471,20 +4024,18 @@ Partial Class modulos
         Me.Label43.AutoSize = True
         Me.Label43.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label43.ForeColor = System.Drawing.Color.Navy
-        Me.Label43.Location = New System.Drawing.Point(139, 91)
-        Me.Label43.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label43.Location = New System.Drawing.Point(52, 38)
         Me.Label43.Name = "Label43"
-        Me.Label43.Size = New System.Drawing.Size(574, 55)
+        Me.Label43.Size = New System.Drawing.Size(239, 24)
         Me.Label43.TabIndex = 148
         Me.Label43.Text = "Describe tu organigrama"
         '
         'PictureBox28
         '
         Me.PictureBox28.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox28.Location = New System.Drawing.Point(864, 331)
-        Me.PictureBox28.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox28.Location = New System.Drawing.Point(324, 139)
         Me.PictureBox28.Name = "PictureBox28"
-        Me.PictureBox28.Size = New System.Drawing.Size(1080, 262)
+        Me.PictureBox28.Size = New System.Drawing.Size(405, 110)
         Me.PictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox28.TabIndex = 178
         Me.PictureBox28.TabStop = False
@@ -4492,10 +4043,9 @@ Partial Class modulos
         'PictureBox29
         '
         Me.PictureBox29.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox29.Location = New System.Drawing.Point(2109, 329)
-        Me.PictureBox29.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox29.Location = New System.Drawing.Point(791, 138)
         Me.PictureBox29.Name = "PictureBox29"
-        Me.PictureBox29.Size = New System.Drawing.Size(1080, 265)
+        Me.PictureBox29.Size = New System.Drawing.Size(405, 111)
         Me.PictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox29.TabIndex = 177
         Me.PictureBox29.TabStop = False
@@ -4503,10 +4053,9 @@ Partial Class modulos
         'm3PictureBox4
         '
         Me.m3PictureBox4.Image = Global.saiin.My.Resources.Resources.back_arrow_
-        Me.m3PictureBox4.Location = New System.Drawing.Point(16, 560)
-        Me.m3PictureBox4.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.m3PictureBox4.Location = New System.Drawing.Point(6, 235)
         Me.m3PictureBox4.Name = "m3PictureBox4"
-        Me.m3PictureBox4.Size = New System.Drawing.Size(93, 83)
+        Me.m3PictureBox4.Size = New System.Drawing.Size(35, 35)
         Me.m3PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.m3PictureBox4.TabIndex = 3
         Me.m3PictureBox4.TabStop = False
@@ -4514,26 +4063,27 @@ Partial Class modulos
         'TabPage2
         '
         Me.TabPage2.Controls.Add(Me.m2TabControl1)
-        Me.TabPage2.Location = New System.Drawing.Point(10, 48)
-        Me.TabPage2.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
         Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.TabPage2.Size = New System.Drawing.Size(3351, 1227)
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage2.Size = New System.Drawing.Size(1173, 463)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Modulo 2"
         Me.TabPage2.UseVisualStyleBackColor = True
         '
         'm2TabControl1
         '
+        Me.m2TabControl1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.m2TabControl1.Controls.Add(Me.TabPage9)
         Me.m2TabControl1.Controls.Add(Me.TabPage10)
         Me.m2TabControl1.Controls.Add(Me.TabPage12)
         Me.m2TabControl1.ItemSize = New System.Drawing.Size(0, 6)
-        Me.m2TabControl1.Location = New System.Drawing.Point(8, 0)
-        Me.m2TabControl1.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.m2TabControl1.Location = New System.Drawing.Point(0, 3)
         Me.m2TabControl1.Name = "m2TabControl1"
         Me.m2TabControl1.SelectedIndex = 0
-        Me.m2TabControl1.Size = New System.Drawing.Size(3341, 1219)
+        Me.m2TabControl1.Size = New System.Drawing.Size(1191, 487)
         Me.m2TabControl1.TabIndex = 139
         '
         'TabPage9
@@ -4577,21 +4127,21 @@ Partial Class modulos
         Me.TabPage9.Controls.Add(Me.Label66)
         Me.TabPage9.Controls.Add(Me.Label68)
         Me.TabPage9.Controls.Add(Me.Label69)
-        Me.TabPage9.Location = New System.Drawing.Point(10, 16)
-        Me.TabPage9.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TabPage9.Location = New System.Drawing.Point(4, 10)
         Me.TabPage9.Name = "TabPage9"
-        Me.TabPage9.Padding = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.TabPage9.Size = New System.Drawing.Size(3321, 1193)
+        Me.TabPage9.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage9.Size = New System.Drawing.Size(1183, 473)
         Me.TabPage9.TabIndex = 0
         Me.TabPage9.Text = "TabPage9"
         Me.TabPage9.UseVisualStyleBackColor = True
         '
         'PictureBoxLogo
         '
-        Me.PictureBoxLogo.Location = New System.Drawing.Point(179, 289)
-        Me.PictureBoxLogo.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBoxLogo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.PictureBoxLogo.Location = New System.Drawing.Point(58, 39)
         Me.PictureBoxLogo.Name = "PictureBoxLogo"
-        Me.PictureBoxLogo.Size = New System.Drawing.Size(784, 229)
+        Me.PictureBoxLogo.Size = New System.Drawing.Size(357, 190)
+        Me.PictureBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBoxLogo.TabIndex = 218
         Me.PictureBoxLogo.TabStop = False
         '
@@ -4599,10 +4149,9 @@ Partial Class modulos
         '
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.Image = Global.saiin.My.Resources.Resources.start_azul
-        Me.Button3.Location = New System.Drawing.Point(381, 532)
-        Me.Button3.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.Button3.Location = New System.Drawing.Point(194, 232)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(253, 79)
+        Me.Button3.Size = New System.Drawing.Size(95, 33)
         Me.Button3.TabIndex = 217
         Me.Button3.Text = "Examinar"
         Me.Button3.UseVisualStyleBackColor = True
@@ -4612,10 +4161,9 @@ Partial Class modulos
         Me.Label324.AutoSize = True
         Me.Label324.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label324.ForeColor = System.Drawing.Color.Navy
-        Me.Label324.Location = New System.Drawing.Point(373, 191)
-        Me.Label324.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label324.Location = New System.Drawing.Point(56, 232)
         Me.Label324.Name = "Label324"
-        Me.Label324.Size = New System.Drawing.Size(230, 44)
+        Me.Label324.Size = New System.Drawing.Size(91, 18)
         Me.Label324.TabIndex = 216
         Me.Label324.Text = "Cargar Logo"
         '
@@ -4624,20 +4172,18 @@ Partial Class modulos
         Me.TextBox33.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox33.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox33.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox33.Location = New System.Drawing.Point(1219, 427)
-        Me.TextBox33.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox33.Location = New System.Drawing.Point(457, 179)
         Me.TextBox33.Multiline = True
         Me.TextBox33.Name = "TextBox33"
-        Me.TextBox33.Size = New System.Drawing.Size(664, 98)
+        Me.TextBox33.Size = New System.Drawing.Size(249, 41)
         Me.TextBox33.TabIndex = 215
         '
         'PictureBox40
         '
         Me.PictureBox40.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox40.Location = New System.Drawing.Point(1197, 410)
-        Me.PictureBox40.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox40.Location = New System.Drawing.Point(449, 172)
         Me.PictureBox40.Name = "PictureBox40"
-        Me.PictureBox40.Size = New System.Drawing.Size(704, 129)
+        Me.PictureBox40.Size = New System.Drawing.Size(264, 54)
         Me.PictureBox40.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox40.TabIndex = 214
         Me.PictureBox40.TabStop = False
@@ -4647,20 +4193,18 @@ Partial Class modulos
         Me.TextBox32.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox32.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox32.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox32.Location = New System.Drawing.Point(1219, 162)
-        Me.TextBox32.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox32.Location = New System.Drawing.Point(457, 68)
         Me.TextBox32.Multiline = True
         Me.TextBox32.Name = "TextBox32"
-        Me.TextBox32.Size = New System.Drawing.Size(664, 98)
+        Me.TextBox32.Size = New System.Drawing.Size(249, 41)
         Me.TextBox32.TabIndex = 213
         '
         'PictureBox38
         '
         Me.PictureBox38.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox38.Location = New System.Drawing.Point(1197, 145)
-        Me.PictureBox38.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox38.Location = New System.Drawing.Point(449, 61)
         Me.PictureBox38.Name = "PictureBox38"
-        Me.PictureBox38.Size = New System.Drawing.Size(704, 129)
+        Me.PictureBox38.Size = New System.Drawing.Size(264, 54)
         Me.PictureBox38.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox38.TabIndex = 212
         Me.PictureBox38.TabStop = False
@@ -4670,20 +4214,18 @@ Partial Class modulos
         Me.TextBox7.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox7.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox7.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox7.Location = New System.Drawing.Point(187, 1011)
-        Me.TextBox7.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox7.Location = New System.Drawing.Point(70, 424)
         Me.TextBox7.Multiline = True
         Me.TextBox7.Name = "TextBox7"
-        Me.TextBox7.Size = New System.Drawing.Size(664, 98)
+        Me.TextBox7.Size = New System.Drawing.Size(249, 41)
         Me.TextBox7.TabIndex = 211
         '
         'PictureBox9
         '
         Me.PictureBox9.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox9.Location = New System.Drawing.Point(165, 994)
-        Me.PictureBox9.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox9.Location = New System.Drawing.Point(62, 417)
         Me.PictureBox9.Name = "PictureBox9"
-        Me.PictureBox9.Size = New System.Drawing.Size(704, 129)
+        Me.PictureBox9.Size = New System.Drawing.Size(264, 54)
         Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox9.TabIndex = 210
         Me.PictureBox9.TabStop = False
@@ -4691,10 +4233,9 @@ Partial Class modulos
         'm2next1
         '
         Me.m2next1.Image = Global.saiin.My.Resources.Resources.next_arrow_
-        Me.m2next1.Location = New System.Drawing.Point(3192, 498)
-        Me.m2next1.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.m2next1.Location = New System.Drawing.Point(1197, 209)
         Me.m2next1.Name = "m2next1"
-        Me.m2next1.Size = New System.Drawing.Size(96, 86)
+        Me.m2next1.Size = New System.Drawing.Size(36, 36)
         Me.m2next1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.m2next1.TabIndex = 209
         Me.m2next1.TabStop = False
@@ -4704,10 +4245,9 @@ Partial Class modulos
         Me.Label91.AutoSize = True
         Me.Label91.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label91.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label91.Location = New System.Drawing.Point(2256, 191)
-        Me.Label91.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label91.Location = New System.Drawing.Point(846, 80)
         Me.Label91.Name = "Label91"
-        Me.Label91.Size = New System.Drawing.Size(508, 44)
+        Me.Label91.Size = New System.Drawing.Size(198, 18)
         Me.Label91.TabIndex = 207
         Me.Label91.Text = "Específica el tipo de servicio "
         '
@@ -4716,10 +4256,9 @@ Partial Class modulos
         Me.Label90.AutoSize = True
         Me.Label90.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label90.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label90.Location = New System.Drawing.Point(1192, 868)
-        Me.Label90.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label90.Location = New System.Drawing.Point(447, 364)
         Me.Label90.Name = "Label90"
-        Me.Label90.Size = New System.Drawing.Size(651, 88)
+        Me.Label90.Size = New System.Drawing.Size(252, 36)
         Me.Label90.TabIndex = 206
         Me.Label90.Text = "¿Qué seguridad  de calidad ofrece tu " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "producto?"
         '
@@ -4728,10 +4267,9 @@ Partial Class modulos
         Me.Label89.AutoSize = True
         Me.Label89.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label89.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label89.Location = New System.Drawing.Point(1205, 322)
-        Me.Label89.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label89.Location = New System.Drawing.Point(452, 135)
         Me.Label89.Name = "Label89"
-        Me.Label89.Size = New System.Drawing.Size(435, 44)
+        Me.Label89.Size = New System.Drawing.Size(168, 18)
         Me.Label89.TabIndex = 205
         Me.Label89.Text = "¿Qué tipo de etiquetado "
         '
@@ -4740,10 +4278,9 @@ Partial Class modulos
         Me.Label88.AutoSize = True
         Me.Label88.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label88.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label88.Location = New System.Drawing.Point(147, 880)
-        Me.Label88.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label88.Location = New System.Drawing.Point(55, 369)
         Me.Label88.Name = "Label88"
-        Me.Label88.Size = New System.Drawing.Size(425, 44)
+        Me.Label88.Size = New System.Drawing.Size(164, 18)
         Me.Label88.TabIndex = 204
         Me.Label88.Text = "Identifica y describe los "
         '
@@ -4752,10 +4289,9 @@ Partial Class modulos
         Me.Label87.AutoSize = True
         Me.Label87.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label87.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label87.Location = New System.Drawing.Point(147, 630)
-        Me.Label87.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label87.Location = New System.Drawing.Point(55, 264)
         Me.Label87.Name = "Label87"
-        Me.Label87.Size = New System.Drawing.Size(420, 44)
+        Me.Label87.Size = New System.Drawing.Size(165, 18)
         Me.Label87.TabIndex = 203
         Me.Label87.Text = "Específica los atributos "
         '
@@ -4764,10 +4300,9 @@ Partial Class modulos
         Me.Label86.AutoSize = True
         Me.Label86.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label86.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label86.Location = New System.Drawing.Point(1211, 79)
-        Me.Label86.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label86.Location = New System.Drawing.Point(454, 33)
         Me.Label86.Name = "Label86"
-        Me.Label86.Size = New System.Drawing.Size(433, 44)
+        Me.Label86.Size = New System.Drawing.Size(168, 18)
         Me.Label86.TabIndex = 202
         Me.Label86.Text = "que requiere tu producto"
         '
@@ -4776,20 +4311,18 @@ Partial Class modulos
         Me.TextBox28.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox28.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox28.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox28.Location = New System.Drawing.Point(2280, 856)
-        Me.TextBox28.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox28.Location = New System.Drawing.Point(855, 359)
         Me.TextBox28.Multiline = True
         Me.TextBox28.Name = "TextBox28"
-        Me.TextBox28.Size = New System.Drawing.Size(645, 57)
+        Me.TextBox28.Size = New System.Drawing.Size(242, 24)
         Me.TextBox28.TabIndex = 183
         '
         'PictureBox34
         '
         Me.PictureBox34.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox34.Location = New System.Drawing.Point(2251, 835)
-        Me.PictureBox34.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox34.Location = New System.Drawing.Point(844, 350)
         Me.PictureBox34.Name = "PictureBox34"
-        Me.PictureBox34.Size = New System.Drawing.Size(704, 103)
+        Me.PictureBox34.Size = New System.Drawing.Size(264, 43)
         Me.PictureBox34.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox34.TabIndex = 182
         Me.PictureBox34.TabStop = False
@@ -4799,10 +4332,9 @@ Partial Class modulos
         Me.Label59.AutoSize = True
         Me.Label59.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label59.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label59.Location = New System.Drawing.Point(2248, 715)
-        Me.Label59.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label59.Location = New System.Drawing.Point(843, 300)
         Me.Label59.Name = "Label59"
-        Me.Label59.Size = New System.Drawing.Size(616, 88)
+        Me.Label59.Size = New System.Drawing.Size(239, 36)
         Me.Label59.TabIndex = 181
         Me.Label59.Text = "Estima el tiempo de duración de tu " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "servicio"
         '
@@ -4811,20 +4343,18 @@ Partial Class modulos
         Me.TextBox29.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox29.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox29.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox29.Location = New System.Drawing.Point(2275, 553)
-        Me.TextBox29.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox29.Location = New System.Drawing.Point(853, 232)
         Me.TextBox29.Multiline = True
         Me.TextBox29.Name = "TextBox29"
-        Me.TextBox29.Size = New System.Drawing.Size(645, 62)
+        Me.TextBox29.Size = New System.Drawing.Size(242, 26)
         Me.TextBox29.TabIndex = 180
         '
         'PictureBox35
         '
         Me.PictureBox35.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox35.Location = New System.Drawing.Point(2245, 532)
-        Me.PictureBox35.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox35.Location = New System.Drawing.Point(842, 223)
         Me.PictureBox35.Name = "PictureBox35"
-        Me.PictureBox35.Size = New System.Drawing.Size(704, 107)
+        Me.PictureBox35.Size = New System.Drawing.Size(264, 45)
         Me.PictureBox35.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox35.TabIndex = 179
         Me.PictureBox35.TabStop = False
@@ -4834,10 +4364,9 @@ Partial Class modulos
         Me.Label60.AutoSize = True
         Me.Label60.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label60.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label60.Location = New System.Drawing.Point(2253, 475)
-        Me.Label60.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label60.Location = New System.Drawing.Point(845, 199)
         Me.Label60.Name = "Label60"
-        Me.Label60.Size = New System.Drawing.Size(352, 44)
+        Me.Label60.Size = New System.Drawing.Size(138, 18)
         Me.Label60.TabIndex = 178
         Me.Label60.Text = "Describe tu servicio"
         '
@@ -4846,20 +4375,18 @@ Partial Class modulos
         Me.TextBox30.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox30.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox30.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox30.Location = New System.Drawing.Point(2272, 322)
-        Me.TextBox30.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox30.Location = New System.Drawing.Point(852, 135)
         Me.TextBox30.Multiline = True
         Me.TextBox30.Name = "TextBox30"
-        Me.TextBox30.Size = New System.Drawing.Size(645, 57)
+        Me.TextBox30.Size = New System.Drawing.Size(242, 24)
         Me.TextBox30.TabIndex = 177
         '
         'PictureBox36
         '
         Me.PictureBox36.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox36.Location = New System.Drawing.Point(2243, 300)
-        Me.PictureBox36.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox36.Location = New System.Drawing.Point(841, 126)
         Me.PictureBox36.Name = "PictureBox36"
-        Me.PictureBox36.Size = New System.Drawing.Size(704, 103)
+        Me.PictureBox36.Size = New System.Drawing.Size(264, 43)
         Me.PictureBox36.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox36.TabIndex = 176
         Me.PictureBox36.TabStop = False
@@ -4869,10 +4396,9 @@ Partial Class modulos
         Me.Label61.AutoSize = True
         Me.Label61.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label61.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label61.Location = New System.Drawing.Point(2267, 246)
-        Me.Label61.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label61.Location = New System.Drawing.Point(850, 103)
         Me.Label61.Name = "Label61"
-        Me.Label61.Size = New System.Drawing.Size(228, 44)
+        Me.Label61.Size = New System.Drawing.Size(90, 18)
         Me.Label61.TabIndex = 175
         Me.Label61.Text = "que ofreces "
         '
@@ -4881,10 +4407,9 @@ Partial Class modulos
         Me.Label83.AutoSize = True
         Me.Label83.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label83.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label83.Location = New System.Drawing.Point(2245, 50)
-        Me.Label83.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label83.Location = New System.Drawing.Point(842, 21)
         Me.Label83.Name = "Label83"
-        Me.Label83.Size = New System.Drawing.Size(275, 55)
+        Me.Label83.Size = New System.Drawing.Size(111, 24)
         Me.Label83.TabIndex = 172
         Me.Label83.Text = "SERVICIO:"
         '
@@ -4893,20 +4418,18 @@ Partial Class modulos
         Me.TextBox38.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox38.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox38.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox38.Location = New System.Drawing.Point(1219, 999)
-        Me.TextBox38.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox38.Location = New System.Drawing.Point(457, 419)
         Me.TextBox38.Multiline = True
         Me.TextBox38.Name = "TextBox38"
-        Me.TextBox38.Size = New System.Drawing.Size(645, 62)
+        Me.TextBox38.Size = New System.Drawing.Size(242, 26)
         Me.TextBox38.TabIndex = 171
         '
         'PictureBox39
         '
         Me.PictureBox39.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox39.Location = New System.Drawing.Point(1195, 987)
-        Me.PictureBox39.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox39.Location = New System.Drawing.Point(448, 414)
         Me.PictureBox39.Name = "PictureBox39"
-        Me.PictureBox39.Size = New System.Drawing.Size(699, 103)
+        Me.PictureBox39.Size = New System.Drawing.Size(262, 43)
         Me.PictureBox39.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox39.TabIndex = 170
         Me.PictureBox39.TabStop = False
@@ -4916,20 +4439,18 @@ Partial Class modulos
         Me.TextBox31.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox31.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox31.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox31.Location = New System.Drawing.Point(1213, 746)
-        Me.TextBox31.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox31.Location = New System.Drawing.Point(455, 313)
         Me.TextBox31.Multiline = True
         Me.TextBox31.Name = "TextBox31"
-        Me.TextBox31.Size = New System.Drawing.Size(645, 62)
+        Me.TextBox31.Size = New System.Drawing.Size(242, 26)
         Me.TextBox31.TabIndex = 168
         '
         'PictureBox37
         '
         Me.PictureBox37.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox37.Location = New System.Drawing.Point(1195, 727)
-        Me.PictureBox37.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox37.Location = New System.Drawing.Point(448, 305)
         Me.PictureBox37.Name = "PictureBox37"
-        Me.PictureBox37.Size = New System.Drawing.Size(699, 103)
+        Me.PictureBox37.Size = New System.Drawing.Size(262, 43)
         Me.PictureBox37.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox37.TabIndex = 167
         Me.PictureBox37.TabStop = False
@@ -4939,10 +4460,9 @@ Partial Class modulos
         Me.Label63.AutoSize = True
         Me.Label63.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label63.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label63.Location = New System.Drawing.Point(1221, 358)
-        Me.Label63.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label63.Location = New System.Drawing.Point(458, 150)
         Me.Label63.Name = "Label63"
-        Me.Label63.Size = New System.Drawing.Size(381, 44)
+        Me.Label63.Size = New System.Drawing.Size(148, 18)
         Me.Label63.TabIndex = 166
         Me.Label63.Text = "requiere tu producto?"
         '
@@ -4951,10 +4471,9 @@ Partial Class modulos
         Me.Label85.AutoSize = True
         Me.Label85.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label85.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label85.Location = New System.Drawing.Point(1189, 577)
-        Me.Label85.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label85.Location = New System.Drawing.Point(446, 242)
         Me.Label85.Name = "Label85"
-        Me.Label85.Size = New System.Drawing.Size(745, 132)
+        Me.Label85.Size = New System.Drawing.Size(292, 54)
         Me.Label85.TabIndex = 163
         Me.Label85.Text = "¿Cómo has considerado un embalaje para " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "el traslado de tu producto de acuerdo a " &
     "un" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " volumen requerido?" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
@@ -4964,10 +4483,9 @@ Partial Class modulos
         Me.Label64.AutoSize = True
         Me.Label64.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label64.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label64.Location = New System.Drawing.Point(1211, 33)
-        Me.Label64.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label64.Location = New System.Drawing.Point(454, 14)
         Me.Label64.Name = "Label64"
-        Me.Label64.Size = New System.Drawing.Size(513, 44)
+        Me.Label64.Size = New System.Drawing.Size(199, 18)
         Me.Label64.TabIndex = 160
         Me.Label64.Text = "Describe el tipo de empaque "
         '
@@ -4976,10 +4494,9 @@ Partial Class modulos
         Me.Label65.AutoSize = True
         Me.Label65.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label65.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label65.Location = New System.Drawing.Point(147, 925)
-        Me.Label65.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label65.Location = New System.Drawing.Point(55, 388)
         Me.Label65.Name = "Label65"
-        Me.Label65.Size = New System.Drawing.Size(444, 44)
+        Me.Label65.Size = New System.Drawing.Size(174, 18)
         Me.Label65.TabIndex = 157
         Me.Label65.Text = "beneficios de tu producto"
         '
@@ -4988,20 +4505,18 @@ Partial Class modulos
         Me.TextBox35.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox35.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox35.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox35.Location = New System.Drawing.Point(179, 749)
-        Me.TextBox35.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox35.Location = New System.Drawing.Point(67, 314)
         Me.TextBox35.Multiline = True
         Me.TextBox35.Name = "TextBox35"
-        Me.TextBox35.Size = New System.Drawing.Size(664, 98)
+        Me.TextBox35.Size = New System.Drawing.Size(249, 41)
         Me.TextBox35.TabIndex = 156
         '
         'PictureBox42
         '
         Me.PictureBox42.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox42.Location = New System.Drawing.Point(157, 732)
-        Me.PictureBox42.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox42.Location = New System.Drawing.Point(59, 307)
         Me.PictureBox42.Name = "PictureBox42"
-        Me.PictureBox42.Size = New System.Drawing.Size(704, 129)
+        Me.PictureBox42.Size = New System.Drawing.Size(264, 54)
         Me.PictureBox42.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox42.TabIndex = 155
         Me.PictureBox42.TabStop = False
@@ -5011,10 +4526,9 @@ Partial Class modulos
         Me.Label66.AutoSize = True
         Me.Label66.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label66.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label66.Location = New System.Drawing.Point(147, 675)
-        Me.Label66.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label66.Location = New System.Drawing.Point(55, 283)
         Me.Label66.Name = "Label66"
-        Me.Label66.Size = New System.Drawing.Size(266, 44)
+        Me.Label66.Size = New System.Drawing.Size(105, 18)
         Me.Label66.TabIndex = 154
         Me.Label66.Text = "de tu Producto"
         '
@@ -5023,10 +4537,9 @@ Partial Class modulos
         Me.Label68.AutoSize = True
         Me.Label68.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label68.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label68.Location = New System.Drawing.Point(155, 107)
-        Me.Label68.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label68.Location = New System.Drawing.Point(285, 10)
         Me.Label68.Name = "Label68"
-        Me.Label68.Size = New System.Drawing.Size(321, 55)
+        Me.Label68.Size = New System.Drawing.Size(130, 24)
         Me.Label68.TabIndex = 150
         Me.Label68.Text = "PRODUCTO:"
         '
@@ -5035,10 +4548,9 @@ Partial Class modulos
         Me.Label69.AutoSize = True
         Me.Label69.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label69.ForeColor = System.Drawing.Color.Navy
-        Me.Label69.Location = New System.Drawing.Point(99, 38)
-        Me.Label69.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label69.Location = New System.Drawing.Point(54, 5)
         Me.Label69.Name = "Label69"
-        Me.Label69.Size = New System.Drawing.Size(569, 69)
+        Me.Label69.Size = New System.Drawing.Size(235, 29)
         Me.Label69.TabIndex = 149
         Me.Label69.Text = "MERCADOTECNIA"
         '
@@ -5108,11 +4620,10 @@ Partial Class modulos
         Me.TabPage10.Controls.Add(Me.PictureBox48)
         Me.TabPage10.Controls.Add(Me.PictureBox54)
         Me.TabPage10.ForeColor = System.Drawing.Color.Navy
-        Me.TabPage10.Location = New System.Drawing.Point(10, 16)
-        Me.TabPage10.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TabPage10.Location = New System.Drawing.Point(4, 10)
         Me.TabPage10.Name = "TabPage10"
-        Me.TabPage10.Padding = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.TabPage10.Size = New System.Drawing.Size(3321, 1193)
+        Me.TabPage10.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage10.Size = New System.Drawing.Size(1183, 473)
         Me.TabPage10.TabIndex = 1
         Me.TabPage10.Text = "TabPage10"
         Me.TabPage10.UseVisualStyleBackColor = True
@@ -5122,20 +4633,18 @@ Partial Class modulos
         Me.TextBox197.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox197.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox197.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox197.Location = New System.Drawing.Point(1869, 479)
-        Me.TextBox197.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox197.Location = New System.Drawing.Point(701, 201)
         Me.TextBox197.Multiline = True
         Me.TextBox197.Name = "TextBox197"
-        Me.TextBox197.Size = New System.Drawing.Size(555, 165)
+        Me.TextBox197.Size = New System.Drawing.Size(208, 69)
         Me.TextBox197.TabIndex = 317
         '
         'PictureBox24
         '
         Me.PictureBox24.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox24.Location = New System.Drawing.Point(1856, 467)
-        Me.PictureBox24.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox24.Location = New System.Drawing.Point(696, 196)
         Me.PictureBox24.Name = "PictureBox24"
-        Me.PictureBox24.Size = New System.Drawing.Size(581, 188)
+        Me.PictureBox24.Size = New System.Drawing.Size(218, 79)
         Me.PictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox24.TabIndex = 318
         Me.PictureBox24.TabStop = False
@@ -5143,10 +4652,9 @@ Partial Class modulos
         'm2next
         '
         Me.m2next.Image = Global.saiin.My.Resources.Resources.next_arrow_
-        Me.m2next.Location = New System.Drawing.Point(3197, 556)
-        Me.m2next.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.m2next.Location = New System.Drawing.Point(1199, 233)
         Me.m2next.Name = "m2next"
-        Me.m2next.Size = New System.Drawing.Size(93, 83)
+        Me.m2next.Size = New System.Drawing.Size(35, 35)
         Me.m2next.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.m2next.TabIndex = 316
         Me.m2next.TabStop = False
@@ -5156,10 +4664,9 @@ Partial Class modulos
         Me.Label92.AutoSize = True
         Me.Label92.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label92.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label92.Location = New System.Drawing.Point(163, 773)
-        Me.Label92.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label92.Location = New System.Drawing.Point(61, 324)
         Me.Label92.Name = "Label92"
-        Me.Label92.Size = New System.Drawing.Size(351, 44)
+        Me.Label92.Size = New System.Drawing.Size(139, 18)
         Me.Label92.TabIndex = 315
         Me.Label92.Text = "de soporte técnico, "
         '
@@ -5168,10 +4675,9 @@ Partial Class modulos
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label2.Location = New System.Drawing.Point(136, 143)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label2.Location = New System.Drawing.Point(51, 60)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(467, 44)
+        Me.Label2.Size = New System.Drawing.Size(181, 18)
         Me.Label2.TabIndex = 314
         Me.Label2.Text = "previo o adicional? ¿Cúal?"
         '
@@ -5180,11 +4686,10 @@ Partial Class modulos
         Me.TextBox25.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox25.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox25.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox25.Location = New System.Drawing.Point(168, 579)
-        Me.TextBox25.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox25.Location = New System.Drawing.Point(63, 243)
         Me.TextBox25.Multiline = True
         Me.TextBox25.Name = "TextBox25"
-        Me.TextBox25.Size = New System.Drawing.Size(627, 86)
+        Me.TextBox25.Size = New System.Drawing.Size(235, 36)
         Me.TextBox25.TabIndex = 313
         '
         'TextBox24
@@ -5192,11 +4697,10 @@ Partial Class modulos
         Me.TextBox24.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox24.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox24.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox24.Location = New System.Drawing.Point(144, 401)
-        Me.TextBox24.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox24.Location = New System.Drawing.Point(54, 168)
         Me.TextBox24.Multiline = True
         Me.TextBox24.Name = "TextBox24"
-        Me.TextBox24.Size = New System.Drawing.Size(651, 81)
+        Me.TextBox24.Size = New System.Drawing.Size(244, 34)
         Me.TextBox24.TabIndex = 312
         '
         'Label53
@@ -5204,10 +4708,9 @@ Partial Class modulos
         Me.Label53.AutoSize = True
         Me.Label53.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label53.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label53.Location = New System.Drawing.Point(160, 899)
-        Me.Label53.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label53.Location = New System.Drawing.Point(60, 377)
         Me.Label53.Name = "Label53"
-        Me.Label53.Size = New System.Drawing.Size(510, 44)
+        Me.Label53.Size = New System.Drawing.Size(198, 18)
         Me.Label53.TabIndex = 311
         Me.Label53.Text = "de la prestación del servicio?"
         '
@@ -5216,11 +4719,10 @@ Partial Class modulos
         Me.TextBox26.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox26.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox26.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox26.Location = New System.Drawing.Point(160, 985)
-        Me.TextBox26.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox26.Location = New System.Drawing.Point(60, 413)
         Me.TextBox26.Multiline = True
         Me.TextBox26.Name = "TextBox26"
-        Me.TextBox26.Size = New System.Drawing.Size(645, 79)
+        Me.TextBox26.Size = New System.Drawing.Size(242, 33)
         Me.TextBox26.TabIndex = 310
         '
         'Label54
@@ -5228,10 +4730,9 @@ Partial Class modulos
         Me.Label54.AutoSize = True
         Me.Label54.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label54.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label54.Location = New System.Drawing.Point(157, 830)
-        Me.Label54.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label54.Location = New System.Drawing.Point(59, 348)
         Me.Label54.Name = "Label54"
-        Me.Label54.Size = New System.Drawing.Size(457, 44)
+        Me.Label54.Size = New System.Drawing.Size(178, 18)
         Me.Label54.TabIndex = 308
         Me.Label54.Text = "antes, durante o después "
         '
@@ -5240,10 +4741,9 @@ Partial Class modulos
         Me.Label55.AutoSize = True
         Me.Label55.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label55.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label55.Location = New System.Drawing.Point(157, 713)
-        Me.Label55.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label55.Location = New System.Drawing.Point(59, 299)
         Me.Label55.Name = "Label55"
-        Me.Label55.Size = New System.Drawing.Size(612, 44)
+        Me.Label55.Size = New System.Drawing.Size(236, 18)
         Me.Label55.TabIndex = 307
         Me.Label55.Text = "¿Tu servicio requiere de algún tipo "
         '
@@ -5252,10 +4752,9 @@ Partial Class modulos
         Me.Label56.AutoSize = True
         Me.Label56.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label56.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label56.Location = New System.Drawing.Point(128, 98)
-        Me.Label56.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label56.Location = New System.Drawing.Point(48, 41)
         Me.Label56.Name = "Label56"
-        Me.Label56.Size = New System.Drawing.Size(634, 44)
+        Me.Label56.Size = New System.Drawing.Size(248, 18)
         Me.Label56.TabIndex = 305
         Me.Label56.Text = "¿Tu servicio requiere de un proceso "
         '
@@ -5264,10 +4763,9 @@ Partial Class modulos
         Me.Label57.AutoSize = True
         Me.Label57.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label57.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label57.Location = New System.Drawing.Point(123, 324)
-        Me.Label57.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label57.Location = New System.Drawing.Point(46, 136)
         Me.Label57.Name = "Label57"
-        Me.Label57.Size = New System.Drawing.Size(778, 44)
+        Me.Label57.Size = New System.Drawing.Size(300, 18)
         Me.Label57.TabIndex = 303
         Me.Label57.Text = "¿Qué ventaja competitiva cuenta tu servicio?"
         '
@@ -5276,11 +4774,10 @@ Partial Class modulos
         Me.TextBox27.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox27.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox27.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox27.Location = New System.Drawing.Point(160, 215)
-        Me.TextBox27.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox27.Location = New System.Drawing.Point(60, 90)
         Me.TextBox27.Multiline = True
         Me.TextBox27.Name = "TextBox27"
-        Me.TextBox27.Size = New System.Drawing.Size(627, 79)
+        Me.TextBox27.Size = New System.Drawing.Size(235, 33)
         Me.TextBox27.TabIndex = 302
         '
         'Label58
@@ -5288,10 +4785,9 @@ Partial Class modulos
         Me.Label58.AutoSize = True
         Me.Label58.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label58.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label58.Location = New System.Drawing.Point(123, 515)
-        Me.Label58.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label58.Location = New System.Drawing.Point(46, 216)
         Me.Label58.Name = "Label58"
-        Me.Label58.Size = New System.Drawing.Size(580, 44)
+        Me.Label58.Size = New System.Drawing.Size(225, 18)
         Me.Label58.TabIndex = 300
         Me.Label58.Text = "¿Qué garantía ofrece tu servicio?"
         '
@@ -5301,10 +4797,9 @@ Partial Class modulos
         Me.ComboBox5.ForeColor = System.Drawing.Color.Navy
         Me.ComboBox5.FormattingEnabled = True
         Me.ComboBox5.Items.AddRange(New Object() {"   EMPLEADO", "   EMPLEADOR", "   TECNICO", "   PROFESIONAL INDEPENDIENTE", "   PROFESIONAL SALARIAL", "   PROFESIONBAL HONORARIOS", "   EMPLEADO COMERCIAL", "   EMPLEADO DE SERVICIO", "   EMPRENDEDOR", "   MICRO EMPRESARIO", "   EMPRESARIO"})
-        Me.ComboBox5.Location = New System.Drawing.Point(984, 520)
-        Me.ComboBox5.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.ComboBox5.Location = New System.Drawing.Point(369, 218)
         Me.ComboBox5.Name = "ComboBox5"
-        Me.ComboBox5.Size = New System.Drawing.Size(681, 50)
+        Me.ComboBox5.Size = New System.Drawing.Size(258, 26)
         Me.ComboBox5.TabIndex = 298
         '
         'ComboBox6
@@ -5313,10 +4808,9 @@ Partial Class modulos
         Me.ComboBox6.ForeColor = System.Drawing.Color.Navy
         Me.ComboBox6.FormattingEnabled = True
         Me.ComboBox6.Items.AddRange(New Object() {" BEBES                        1 -5 AÑOS", "", " NIÑOS                       6-10 AÑOS", "", " ADOLECENTES         11-14 AÑOS", "", " JOVENES                   15-24 AÑOS", "", " ADULTOS JOVENES  25-44 AÑOS", "", " ADULTOS                   45-59 AÑOS", "", " ADULTOS MAYORES 60-75 AÑOS", "", " ANCIANOS                75-85 AÑOS", "", " LONGEVOS                  85 Y MAS"})
-        Me.ComboBox6.Location = New System.Drawing.Point(984, 723)
-        Me.ComboBox6.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.ComboBox6.Location = New System.Drawing.Point(369, 303)
         Me.ComboBox6.Name = "ComboBox6"
-        Me.ComboBox6.Size = New System.Drawing.Size(681, 50)
+        Me.ComboBox6.Size = New System.Drawing.Size(258, 26)
         Me.ComboBox6.TabIndex = 297
         '
         'ComboBox7
@@ -5325,10 +4819,9 @@ Partial Class modulos
         Me.ComboBox7.ForeColor = System.Drawing.Color.Navy
         Me.ComboBox7.FormattingEnabled = True
         Me.ComboBox7.Items.AddRange(New Object() {" BAJA         PROMEDIO MENSUAL 5400", "", " ALTA         POMEDIO MENSUAL 8900", "", " M-BAJA   PROMEDIO MENSUAL 12300", "", " M- ALTA    PROMEDIO MENSUAL 19900", "", " A-BAJA      PROMEDIO MENSUAL 27800", "", " A- ALTA     PROMEDIO MENSUAL 51100"})
-        Me.ComboBox7.Location = New System.Drawing.Point(1835, 212)
-        Me.ComboBox7.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.ComboBox7.Location = New System.Drawing.Point(688, 89)
         Me.ComboBox7.Name = "ComboBox7"
-        Me.ComboBox7.Size = New System.Drawing.Size(671, 50)
+        Me.ComboBox7.Size = New System.Drawing.Size(254, 26)
         Me.ComboBox7.TabIndex = 296
         '
         'ComboBox9
@@ -5337,10 +4830,9 @@ Partial Class modulos
         Me.ComboBox9.ForeColor = System.Drawing.Color.Navy
         Me.ComboBox9.FormattingEnabled = True
         Me.ComboBox9.Items.AddRange(New Object() {"SALUDABLE", "DIGITAL", "CONSERVADOR", "DEPORTISTA", "JOVIAL", "ELEGANTE", "DE MARCAS", "EXPRESIVO", "REBELDE", "PROFESIONAL", "SOCIAL", "OTRO"})
-        Me.ComboBox9.Location = New System.Drawing.Point(1059, 1052)
-        Me.ComboBox9.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.ComboBox9.Location = New System.Drawing.Point(397, 441)
         Me.ComboBox9.Name = "ComboBox9"
-        Me.ComboBox9.Size = New System.Drawing.Size(561, 50)
+        Me.ComboBox9.Size = New System.Drawing.Size(213, 26)
         Me.ComboBox9.TabIndex = 295
         '
         'ComboBox10
@@ -5349,10 +4841,9 @@ Partial Class modulos
         Me.ComboBox10.ForeColor = System.Drawing.Color.Navy
         Me.ComboBox10.FormattingEnabled = True
         Me.ComboBox10.Items.AddRange(New Object() {"TIMIDO", "EXPERIMENTAL", "IMPULSIVO", "EMOCIONAL", "INDECISO", "TRADICIONAL O CONSERVADOR", "QUEJUMBROSO", "INFLUENCER", "ARRIESGADO", "OTRO"})
-        Me.ComboBox10.Location = New System.Drawing.Point(1848, 389)
-        Me.ComboBox10.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.ComboBox10.Location = New System.Drawing.Point(693, 163)
         Me.ComboBox10.Name = "ComboBox10"
-        Me.ComboBox10.Size = New System.Drawing.Size(657, 50)
+        Me.ComboBox10.Size = New System.Drawing.Size(249, 26)
         Me.ComboBox10.TabIndex = 294
         '
         'TextBox40
@@ -5360,22 +4851,20 @@ Partial Class modulos
         Me.TextBox40.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox40.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox40.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox40.Location = New System.Drawing.Point(2613, 568)
-        Me.TextBox40.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox40.Location = New System.Drawing.Point(980, 238)
         Me.TextBox40.Multiline = True
         Me.TextBox40.Name = "TextBox40"
-        Me.TextBox40.Size = New System.Drawing.Size(541, 210)
+        Me.TextBox40.Size = New System.Drawing.Size(203, 88)
         Me.TextBox40.TabIndex = 238
         '
         'TextBox41
         '
         Me.TextBox41.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox41.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox41.Location = New System.Drawing.Point(2613, 568)
-        Me.TextBox41.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox41.Location = New System.Drawing.Point(980, 238)
         Me.TextBox41.Multiline = True
         Me.TextBox41.Name = "TextBox41"
-        Me.TextBox41.Size = New System.Drawing.Size(555, 210)
+        Me.TextBox41.Size = New System.Drawing.Size(208, 88)
         Me.TextBox41.TabIndex = 238
         '
         'TextBox42
@@ -5383,11 +4872,10 @@ Partial Class modulos
         Me.TextBox42.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox42.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox42.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox42.Location = New System.Drawing.Point(2613, 279)
-        Me.TextBox42.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox42.Location = New System.Drawing.Point(980, 117)
         Me.TextBox42.Multiline = True
         Me.TextBox42.Name = "TextBox42"
-        Me.TextBox42.Size = New System.Drawing.Size(555, 88)
+        Me.TextBox42.Size = New System.Drawing.Size(208, 37)
         Me.TextBox42.TabIndex = 233
         '
         'TextBox43
@@ -5395,66 +4883,60 @@ Partial Class modulos
         Me.TextBox43.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox43.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox43.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox43.Location = New System.Drawing.Point(1851, 973)
-        Me.TextBox43.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox43.Location = New System.Drawing.Point(694, 408)
         Me.TextBox43.Multiline = True
         Me.TextBox43.Name = "TextBox43"
-        Me.TextBox43.Size = New System.Drawing.Size(555, 165)
+        Me.TextBox43.Size = New System.Drawing.Size(208, 69)
         Me.TextBox43.TabIndex = 229
         '
         'TextBox44
         '
         Me.TextBox44.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox44.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox44.Location = New System.Drawing.Point(1837, 219)
-        Me.TextBox44.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox44.Location = New System.Drawing.Point(689, 92)
         Me.TextBox44.Multiline = True
         Me.TextBox44.Name = "TextBox44"
-        Me.TextBox44.Size = New System.Drawing.Size(563, 48)
+        Me.TextBox44.Size = New System.Drawing.Size(211, 20)
         Me.TextBox44.TabIndex = 224
         '
         'TextBox45
         '
         Me.TextBox45.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox45.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox45.Location = New System.Drawing.Point(1848, 396)
-        Me.TextBox45.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox45.Location = New System.Drawing.Point(693, 166)
         Me.TextBox45.Multiline = True
         Me.TextBox45.Name = "TextBox45"
-        Me.TextBox45.Size = New System.Drawing.Size(555, 48)
+        Me.TextBox45.Size = New System.Drawing.Size(208, 20)
         Me.TextBox45.TabIndex = 222
         '
         'TextBox46
         '
         Me.TextBox46.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox46.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox46.Location = New System.Drawing.Point(1059, 1059)
-        Me.TextBox46.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox46.Location = New System.Drawing.Point(397, 444)
         Me.TextBox46.Multiline = True
         Me.TextBox46.Name = "TextBox46"
-        Me.TextBox46.Size = New System.Drawing.Size(568, 48)
+        Me.TextBox46.Size = New System.Drawing.Size(213, 20)
         Me.TextBox46.TabIndex = 215
         '
         'TextBox47
         '
         Me.TextBox47.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox47.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox47.Location = New System.Drawing.Point(1056, 730)
-        Me.TextBox47.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox47.Location = New System.Drawing.Point(396, 306)
         Me.TextBox47.Multiline = True
         Me.TextBox47.Name = "TextBox47"
-        Me.TextBox47.Size = New System.Drawing.Size(555, 48)
+        Me.TextBox47.Size = New System.Drawing.Size(208, 20)
         Me.TextBox47.TabIndex = 213
         '
         'TextBox48
         '
         Me.TextBox48.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox48.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox48.Location = New System.Drawing.Point(1056, 539)
-        Me.TextBox48.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox48.Location = New System.Drawing.Point(396, 226)
         Me.TextBox48.Multiline = True
         Me.TextBox48.Name = "TextBox48"
-        Me.TextBox48.Size = New System.Drawing.Size(555, 31)
+        Me.TextBox48.Size = New System.Drawing.Size(208, 13)
         Me.TextBox48.TabIndex = 209
         '
         'TextBox49
@@ -5462,11 +4944,10 @@ Partial Class modulos
         Me.TextBox49.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox49.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox49.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox49.Location = New System.Drawing.Point(1056, 336)
-        Me.TextBox49.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox49.Location = New System.Drawing.Point(396, 141)
         Me.TextBox49.Multiline = True
         Me.TextBox49.Name = "TextBox49"
-        Me.TextBox49.Size = New System.Drawing.Size(555, 48)
+        Me.TextBox49.Size = New System.Drawing.Size(208, 20)
         Me.TextBox49.TabIndex = 207
         '
         'RadioButton10
@@ -5474,10 +4955,9 @@ Partial Class modulos
         Me.RadioButton10.AutoSize = True
         Me.RadioButton10.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton10.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton10.Location = New System.Drawing.Point(3163, 973)
-        Me.RadioButton10.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RadioButton10.Location = New System.Drawing.Point(1186, 408)
         Me.RadioButton10.Name = "RadioButton10"
-        Me.RadioButton10.Size = New System.Drawing.Size(33, 32)
+        Me.RadioButton10.Size = New System.Drawing.Size(14, 13)
         Me.RadioButton10.TabIndex = 246
         Me.RadioButton10.UseVisualStyleBackColor = True
         '
@@ -5486,10 +4966,9 @@ Partial Class modulos
         Me.RadioButton9.AutoSize = True
         Me.RadioButton9.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton9.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton9.Location = New System.Drawing.Point(3163, 906)
-        Me.RadioButton9.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RadioButton9.Location = New System.Drawing.Point(1186, 380)
         Me.RadioButton9.Name = "RadioButton9"
-        Me.RadioButton9.Size = New System.Drawing.Size(33, 32)
+        Me.RadioButton9.Size = New System.Drawing.Size(14, 13)
         Me.RadioButton9.TabIndex = 245
         Me.RadioButton9.UseVisualStyleBackColor = True
         '
@@ -5498,10 +4977,9 @@ Partial Class modulos
         Me.Label75.AutoSize = True
         Me.Label75.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label75.ForeColor = System.Drawing.Color.Black
-        Me.Label75.Location = New System.Drawing.Point(2605, 899)
-        Me.Label75.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label75.Location = New System.Drawing.Point(977, 377)
         Me.Label75.Name = "Label75"
-        Me.Label75.Size = New System.Drawing.Size(429, 44)
+        Me.Label75.Size = New System.Drawing.Size(167, 18)
         Me.Label75.TabIndex = 244
         Me.Label75.Text = "Sobre pedido anticipado"
         '
@@ -5510,10 +4988,9 @@ Partial Class modulos
         Me.Label76.AutoSize = True
         Me.Label76.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label76.ForeColor = System.Drawing.Color.Black
-        Me.Label76.Location = New System.Drawing.Point(2616, 966)
-        Me.Label76.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label76.Location = New System.Drawing.Point(981, 405)
         Me.Label76.Name = "Label76"
-        Me.Label76.Size = New System.Drawing.Size(330, 44)
+        Me.Label76.Size = New System.Drawing.Size(126, 18)
         Me.Label76.TabIndex = 243
         Me.Label76.Text = "Entrega inmediata"
         '
@@ -5522,10 +4999,9 @@ Partial Class modulos
         Me.Label77.AutoSize = True
         Me.Label77.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label77.ForeColor = System.Drawing.Color.Navy
-        Me.Label77.Location = New System.Drawing.Point(2605, 832)
-        Me.Label77.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label77.Location = New System.Drawing.Point(977, 349)
         Me.Label77.Name = "Label77"
-        Me.Label77.Size = New System.Drawing.Size(566, 44)
+        Me.Label77.Size = New System.Drawing.Size(222, 18)
         Me.Label77.TabIndex = 240
         Me.Label77.Text = "¿Cómo manejarías tus pedidos?"
         '
@@ -5534,10 +5010,9 @@ Partial Class modulos
         Me.Label78.AutoSize = True
         Me.Label78.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label78.ForeColor = System.Drawing.Color.Navy
-        Me.Label78.Location = New System.Drawing.Point(2592, 496)
-        Me.Label78.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label78.Location = New System.Drawing.Point(972, 208)
         Me.Label78.Name = "Label78"
-        Me.Label78.Size = New System.Drawing.Size(427, 44)
+        Me.Label78.Size = New System.Drawing.Size(168, 18)
         Me.Label78.TabIndex = 237
         Me.Label78.Text = "no se dañe tu producto?"
         '
@@ -5546,10 +5021,9 @@ Partial Class modulos
         Me.Label79.AutoSize = True
         Me.Label79.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label79.ForeColor = System.Drawing.Color.Navy
-        Me.Label79.Location = New System.Drawing.Point(2592, 446)
-        Me.Label79.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label79.Location = New System.Drawing.Point(972, 187)
         Me.Label79.Name = "Label79"
-        Me.Label79.Size = New System.Drawing.Size(579, 44)
+        Me.Label79.Size = New System.Drawing.Size(224, 18)
         Me.Label79.TabIndex = 236
         Me.Label79.Text = "tu equipo de transporte para que "
         '
@@ -5558,10 +5032,9 @@ Partial Class modulos
         Me.Label80.AutoSize = True
         Me.Label80.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label80.ForeColor = System.Drawing.Color.Navy
-        Me.Label80.Location = New System.Drawing.Point(2592, 401)
-        Me.Label80.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label80.Location = New System.Drawing.Point(972, 168)
         Me.Label80.Name = "Label80"
-        Me.Label80.Size = New System.Drawing.Size(620, 44)
+        Me.Label80.Size = New System.Drawing.Size(244, 18)
         Me.Label80.TabIndex = 235
         Me.Label80.Text = "¿Cómo has considerado equipar tu "
         '
@@ -5570,10 +5043,9 @@ Partial Class modulos
         Me.Label81.AutoSize = True
         Me.Label81.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label81.ForeColor = System.Drawing.Color.Navy
-        Me.Label81.Location = New System.Drawing.Point(2576, 191)
-        Me.Label81.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label81.Location = New System.Drawing.Point(966, 80)
         Me.Label81.Name = "Label81"
-        Me.Label81.Size = New System.Drawing.Size(363, 44)
+        Me.Label81.Size = New System.Drawing.Size(140, 18)
         Me.Label81.TabIndex = 232
         Me.Label81.Text = "para tu distribución?"
         '
@@ -5582,10 +5054,9 @@ Partial Class modulos
         Me.Label82.AutoSize = True
         Me.Label82.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label82.ForeColor = System.Drawing.Color.Navy
-        Me.Label82.Location = New System.Drawing.Point(2576, 145)
-        Me.Label82.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label82.Location = New System.Drawing.Point(966, 61)
         Me.Label82.Name = "Label82"
-        Me.Label82.Size = New System.Drawing.Size(600, 44)
+        Me.Label82.Size = New System.Drawing.Size(234, 18)
         Me.Label82.TabIndex = 231
         Me.Label82.Text = "¿Qué tipo de transporte necesitas "
         '
@@ -5594,10 +5065,9 @@ Partial Class modulos
         Me.Label93.AutoSize = True
         Me.Label93.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label93.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label93.Location = New System.Drawing.Point(1827, 901)
-        Me.Label93.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label93.Location = New System.Drawing.Point(685, 378)
         Me.Label93.Name = "Label93"
-        Me.Label93.Size = New System.Drawing.Size(575, 44)
+        Me.Label93.Size = New System.Drawing.Size(224, 18)
         Me.Label93.TabIndex = 228
         Me.Label93.Text = "almacenamiento de tu producto?"
         '
@@ -5606,10 +5076,9 @@ Partial Class modulos
         Me.Label94.AutoSize = True
         Me.Label94.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label94.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label94.Location = New System.Drawing.Point(1827, 856)
-        Me.Label94.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label94.Location = New System.Drawing.Point(685, 359)
         Me.Label94.Name = "Label94"
-        Me.Label94.Size = New System.Drawing.Size(522, 44)
+        Me.Label94.Size = New System.Drawing.Size(206, 18)
         Me.Label94.TabIndex = 227
         Me.Label94.Text = "¿Cómo tienes considerado el "
         '
@@ -5618,10 +5087,9 @@ Partial Class modulos
         Me.Label95.AutoSize = True
         Me.Label95.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label95.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label95.Location = New System.Drawing.Point(1843, 320)
-        Me.Label95.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label95.Location = New System.Drawing.Point(691, 134)
         Me.Label95.Name = "Label95"
-        Me.Label95.Size = New System.Drawing.Size(242, 44)
+        Me.Label95.Size = New System.Drawing.Size(94, 18)
         Me.Label95.TabIndex = 226
         Me.Label95.Text = "Personalidad"
         '
@@ -5630,10 +5098,9 @@ Partial Class modulos
         Me.Label96.AutoSize = True
         Me.Label96.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label96.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label96.Location = New System.Drawing.Point(1848, 210)
-        Me.Label96.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label96.Location = New System.Drawing.Point(693, 88)
         Me.Label96.Name = "Label96"
-        Me.Label96.Size = New System.Drawing.Size(127, 44)
+        Me.Label96.Size = New System.Drawing.Size(50, 18)
         Me.Label96.TabIndex = 221
         Me.Label96.Text = "Clase "
         '
@@ -5642,10 +5109,9 @@ Partial Class modulos
         Me.Label97.AutoSize = True
         Me.Label97.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label97.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label97.Location = New System.Drawing.Point(1837, 134)
-        Me.Label97.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label97.Location = New System.Drawing.Point(689, 56)
         Me.Label97.Name = "Label97"
-        Me.Label97.Size = New System.Drawing.Size(127, 44)
+        Me.Label97.Size = New System.Drawing.Size(50, 18)
         Me.Label97.TabIndex = 221
         Me.Label97.Text = "Clase "
         '
@@ -5654,10 +5120,9 @@ Partial Class modulos
         Me.Label98.AutoSize = True
         Me.Label98.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label98.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label98.Location = New System.Drawing.Point(1056, 963)
-        Me.Label98.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label98.Location = New System.Drawing.Point(396, 404)
         Me.Label98.Name = "Label98"
-        Me.Label98.Size = New System.Drawing.Size(246, 44)
+        Me.Label98.Size = New System.Drawing.Size(95, 18)
         Me.Label98.TabIndex = 220
         Me.Label98.Text = "Estilo de vida"
         '
@@ -5666,10 +5131,9 @@ Partial Class modulos
         Me.RadioButton8.AutoSize = True
         Me.RadioButton8.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton8.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton8.Location = New System.Drawing.Point(1432, 844)
-        Me.RadioButton8.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RadioButton8.Location = New System.Drawing.Point(537, 354)
         Me.RadioButton8.Name = "RadioButton8"
-        Me.RadioButton8.Size = New System.Drawing.Size(84, 48)
+        Me.RadioButton8.Size = New System.Drawing.Size(37, 22)
         Me.RadioButton8.TabIndex = 219
         Me.RadioButton8.Text = "H"
         Me.RadioButton8.UseVisualStyleBackColor = True
@@ -5679,10 +5143,9 @@ Partial Class modulos
         Me.RadioButton7.AutoSize = True
         Me.RadioButton7.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton7.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton7.Location = New System.Drawing.Point(1296, 844)
-        Me.RadioButton7.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RadioButton7.Location = New System.Drawing.Point(486, 354)
         Me.RadioButton7.Name = "RadioButton7"
-        Me.RadioButton7.Size = New System.Drawing.Size(89, 48)
+        Me.RadioButton7.Size = New System.Drawing.Size(39, 22)
         Me.RadioButton7.TabIndex = 218
         Me.RadioButton7.Text = "M"
         Me.RadioButton7.UseVisualStyleBackColor = True
@@ -5692,10 +5155,9 @@ Partial Class modulos
         Me.Label99.AutoSize = True
         Me.Label99.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label99.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label99.Location = New System.Drawing.Point(1061, 849)
-        Me.Label99.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label99.Location = New System.Drawing.Point(398, 356)
         Me.Label99.Name = "Label99"
-        Me.Label99.Size = New System.Drawing.Size(147, 44)
+        Me.Label99.Size = New System.Drawing.Size(58, 18)
         Me.Label99.TabIndex = 217
         Me.Label99.Text = "Género"
         '
@@ -5704,10 +5166,9 @@ Partial Class modulos
         Me.Label100.AutoSize = True
         Me.Label100.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label100.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label100.Location = New System.Drawing.Point(1045, 639)
-        Me.Label100.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label100.Location = New System.Drawing.Point(392, 268)
         Me.Label100.Name = "Label100"
-        Me.Label100.Size = New System.Drawing.Size(318, 44)
+        Me.Label100.Size = New System.Drawing.Size(123, 18)
         Me.Label100.TabIndex = 212
         Me.Label100.Text = "Edad aproximada"
         '
@@ -5716,10 +5177,9 @@ Partial Class modulos
         Me.Label101.AutoSize = True
         Me.Label101.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label101.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label101.Location = New System.Drawing.Point(1045, 436)
-        Me.Label101.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label101.Location = New System.Drawing.Point(392, 183)
         Me.Label101.Name = "Label101"
-        Me.Label101.Size = New System.Drawing.Size(455, 44)
+        Me.Label101.Size = New System.Drawing.Size(178, 18)
         Me.Label101.TabIndex = 211
         Me.Label101.Text = "Ocupación de tus clientes"
         '
@@ -5728,10 +5188,9 @@ Partial Class modulos
         Me.Label102.AutoSize = True
         Me.Label102.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label102.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label102.Location = New System.Drawing.Point(1045, 248)
-        Me.Label102.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label102.Location = New System.Drawing.Point(392, 104)
         Me.Label102.Name = "Label102"
-        Me.Label102.Size = New System.Drawing.Size(473, 44)
+        Me.Label102.Size = New System.Drawing.Size(183, 18)
         Me.Label102.TabIndex = 206
         Me.Label102.Text = "¿Dónde viven tus clientes?"
         '
@@ -5740,10 +5199,9 @@ Partial Class modulos
         Me.Label103.AutoSize = True
         Me.Label103.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label103.ForeColor = System.Drawing.Color.Navy
-        Me.Label103.Location = New System.Drawing.Point(1837, 730)
-        Me.Label103.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label103.Location = New System.Drawing.Point(689, 306)
         Me.Label103.Name = "Label103"
-        Me.Label103.Size = New System.Drawing.Size(181, 55)
+        Me.Label103.Size = New System.Drawing.Size(75, 24)
         Me.Label103.TabIndex = 205
         Me.Label103.Text = "PLAZA"
         '
@@ -5752,20 +5210,18 @@ Partial Class modulos
         Me.Label104.AutoSize = True
         Me.Label104.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label104.ForeColor = System.Drawing.Color.Navy
-        Me.Label104.Location = New System.Drawing.Point(1048, 98)
-        Me.Label104.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label104.Location = New System.Drawing.Point(393, 41)
         Me.Label104.Name = "Label104"
-        Me.Label104.Size = New System.Drawing.Size(439, 55)
+        Me.Label104.Size = New System.Drawing.Size(181, 24)
         Me.Label104.TabIndex = 204
         Me.Label104.Text = "SEGMENTACION:"
         '
         'PictureBox30
         '
         Me.PictureBox30.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox30.Location = New System.Drawing.Point(131, 973)
-        Me.PictureBox30.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox30.Location = New System.Drawing.Point(49, 408)
         Me.PictureBox30.Name = "PictureBox30"
-        Me.PictureBox30.Size = New System.Drawing.Size(704, 103)
+        Me.PictureBox30.Size = New System.Drawing.Size(264, 43)
         Me.PictureBox30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox30.TabIndex = 309
         Me.PictureBox30.TabStop = False
@@ -5773,10 +5229,9 @@ Partial Class modulos
         'PictureBox31
         '
         Me.PictureBox31.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox31.Location = New System.Drawing.Point(131, 568)
-        Me.PictureBox31.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox31.Location = New System.Drawing.Point(49, 238)
         Me.PictureBox31.Name = "PictureBox31"
-        Me.PictureBox31.Size = New System.Drawing.Size(699, 110)
+        Me.PictureBox31.Size = New System.Drawing.Size(262, 46)
         Me.PictureBox31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox31.TabIndex = 306
         Me.PictureBox31.TabStop = False
@@ -5784,10 +5239,9 @@ Partial Class modulos
         'PictureBox32
         '
         Me.PictureBox32.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox32.Location = New System.Drawing.Point(123, 382)
-        Me.PictureBox32.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox32.Location = New System.Drawing.Point(46, 160)
         Me.PictureBox32.Name = "PictureBox32"
-        Me.PictureBox32.Size = New System.Drawing.Size(699, 119)
+        Me.PictureBox32.Size = New System.Drawing.Size(262, 50)
         Me.PictureBox32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox32.TabIndex = 304
         Me.PictureBox32.TabStop = False
@@ -5795,10 +5249,9 @@ Partial Class modulos
         'PictureBox33
         '
         Me.PictureBox33.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox33.Location = New System.Drawing.Point(123, 203)
-        Me.PictureBox33.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox33.Location = New System.Drawing.Point(46, 85)
         Me.PictureBox33.Name = "PictureBox33"
-        Me.PictureBox33.Size = New System.Drawing.Size(699, 103)
+        Me.PictureBox33.Size = New System.Drawing.Size(262, 43)
         Me.PictureBox33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox33.TabIndex = 301
         Me.PictureBox33.TabStop = False
@@ -5806,10 +5259,9 @@ Partial Class modulos
         'm2PictureBox2
         '
         Me.m2PictureBox2.Image = Global.saiin.My.Resources.Resources.back_arrow_
-        Me.m2PictureBox2.Location = New System.Drawing.Point(16, 560)
-        Me.m2PictureBox2.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.m2PictureBox2.Location = New System.Drawing.Point(6, 235)
         Me.m2PictureBox2.Name = "m2PictureBox2"
-        Me.m2PictureBox2.Size = New System.Drawing.Size(93, 83)
+        Me.m2PictureBox2.Size = New System.Drawing.Size(35, 35)
         Me.m2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.m2PictureBox2.TabIndex = 299
         Me.m2PictureBox2.TabStop = False
@@ -5817,10 +5269,9 @@ Partial Class modulos
         'PictureBox46
         '
         Me.PictureBox46.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox46.Location = New System.Drawing.Point(2600, 556)
-        Me.PictureBox46.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox46.Location = New System.Drawing.Point(975, 233)
         Me.PictureBox46.Name = "PictureBox46"
-        Me.PictureBox46.Size = New System.Drawing.Size(581, 234)
+        Me.PictureBox46.Size = New System.Drawing.Size(218, 98)
         Me.PictureBox46.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox46.TabIndex = 239
         Me.PictureBox46.TabStop = False
@@ -5828,10 +5279,9 @@ Partial Class modulos
         'PictureBox47
         '
         Me.PictureBox47.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox47.Location = New System.Drawing.Point(2600, 267)
-        Me.PictureBox47.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox47.Location = New System.Drawing.Point(975, 112)
         Me.PictureBox47.Name = "PictureBox47"
-        Me.PictureBox47.Size = New System.Drawing.Size(581, 112)
+        Me.PictureBox47.Size = New System.Drawing.Size(218, 47)
         Me.PictureBox47.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox47.TabIndex = 234
         Me.PictureBox47.TabStop = False
@@ -5839,10 +5289,9 @@ Partial Class modulos
         'PictureBox48
         '
         Me.PictureBox48.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox48.Location = New System.Drawing.Point(1837, 961)
-        Me.PictureBox48.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox48.Location = New System.Drawing.Point(689, 403)
         Me.PictureBox48.Name = "PictureBox48"
-        Me.PictureBox48.Size = New System.Drawing.Size(581, 188)
+        Me.PictureBox48.Size = New System.Drawing.Size(218, 79)
         Me.PictureBox48.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox48.TabIndex = 230
         Me.PictureBox48.TabStop = False
@@ -5850,16 +5299,16 @@ Partial Class modulos
         'PictureBox54
         '
         Me.PictureBox54.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox54.Location = New System.Drawing.Point(1043, 324)
-        Me.PictureBox54.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox54.Location = New System.Drawing.Point(391, 136)
         Me.PictureBox54.Name = "PictureBox54"
-        Me.PictureBox54.Size = New System.Drawing.Size(581, 72)
+        Me.PictureBox54.Size = New System.Drawing.Size(218, 30)
         Me.PictureBox54.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox54.TabIndex = 208
         Me.PictureBox54.TabStop = False
         '
         'TabPage12
         '
+        Me.TabPage12.Controls.Add(Me.Button4)
         Me.TabPage12.Controls.Add(Me.PictureBoxCanva)
         Me.TabPage12.Controls.Add(Me.cargarcanva)
         Me.TabPage12.Controls.Add(Me.Label20)
@@ -5914,21 +5363,32 @@ Partial Class modulos
         Me.TabPage12.Controls.Add(Me.Label115)
         Me.TabPage12.Controls.Add(Me.PictureBox45)
         Me.TabPage12.Controls.Add(Me.PictureBox55)
-        Me.TabPage12.Location = New System.Drawing.Point(10, 16)
-        Me.TabPage12.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TabPage12.Location = New System.Drawing.Point(4, 10)
         Me.TabPage12.Name = "TabPage12"
-        Me.TabPage12.Padding = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.TabPage12.Size = New System.Drawing.Size(3321, 1193)
+        Me.TabPage12.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage12.Size = New System.Drawing.Size(1183, 473)
         Me.TabPage12.TabIndex = 2
         Me.TabPage12.Text = "TabPage12"
         Me.TabPage12.UseVisualStyleBackColor = True
         '
+        'Button4
+        '
+        Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.Image = Global.saiin.My.Resources.Resources.start_azul
+        Me.Button4.Location = New System.Drawing.Point(852, 369)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(128, 33)
+        Me.Button4.TabIndex = 349
+        Me.Button4.Text = "CARGAR-IMG"
+        Me.Button4.UseVisualStyleBackColor = True
+        '
         'PictureBoxCanva
         '
-        Me.PictureBoxCanva.Location = New System.Drawing.Point(2272, 637)
-        Me.PictureBoxCanva.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBoxCanva.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.PictureBoxCanva.Location = New System.Drawing.Point(852, 267)
         Me.PictureBoxCanva.Name = "PictureBoxCanva"
-        Me.PictureBoxCanva.Size = New System.Drawing.Size(731, 229)
+        Me.PictureBoxCanva.Size = New System.Drawing.Size(274, 96)
+        Me.PictureBoxCanva.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBoxCanva.TabIndex = 348
         Me.PictureBoxCanva.TabStop = False
         '
@@ -5936,12 +5396,11 @@ Partial Class modulos
         '
         Me.cargarcanva.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cargarcanva.Image = Global.saiin.My.Resources.Resources.start_azul
-        Me.cargarcanva.Location = New System.Drawing.Point(2475, 880)
-        Me.cargarcanva.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.cargarcanva.Location = New System.Drawing.Point(986, 369)
         Me.cargarcanva.Name = "cargarcanva"
-        Me.cargarcanva.Size = New System.Drawing.Size(235, 79)
+        Me.cargarcanva.Size = New System.Drawing.Size(136, 33)
         Me.cargarcanva.TabIndex = 347
-        Me.cargarcanva.Text = "Examinar"
+        Me.cargarcanva.Text = "BUSCAR-IMG"
         Me.cargarcanva.UseVisualStyleBackColor = True
         '
         'Label20
@@ -5949,20 +5408,18 @@ Partial Class modulos
         Me.Label20.AutoSize = True
         Me.Label20.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label20.ForeColor = System.Drawing.Color.Navy
-        Me.Label20.Location = New System.Drawing.Point(2467, 539)
-        Me.Label20.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label20.Location = New System.Drawing.Point(925, 226)
         Me.Label20.Name = "Label20"
-        Me.Label20.Size = New System.Drawing.Size(383, 44)
+        Me.Label20.Size = New System.Drawing.Size(148, 18)
         Me.Label20.TabIndex = 346
         Me.Label20.Text = "Cargar imagen canva"
         '
         'guardar_m2
         '
         Me.guardar_m2.Image = Global.saiin.My.Resources.Resources.guardar_azul
-        Me.guardar_m2.Location = New System.Drawing.Point(2456, 992)
-        Me.guardar_m2.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.guardar_m2.Location = New System.Drawing.Point(921, 416)
         Me.guardar_m2.Name = "guardar_m2"
-        Me.guardar_m2.Size = New System.Drawing.Size(536, 117)
+        Me.guardar_m2.Size = New System.Drawing.Size(201, 49)
         Me.guardar_m2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.guardar_m2.TabIndex = 345
         Me.guardar_m2.TabStop = False
@@ -5970,10 +5427,9 @@ Partial Class modulos
         'm2_anterior_PictuBox
         '
         Me.m2_anterior_PictuBox.Image = Global.saiin.My.Resources.Resources.back_arrow_
-        Me.m2_anterior_PictuBox.Location = New System.Drawing.Point(45, 546)
-        Me.m2_anterior_PictuBox.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.m2_anterior_PictuBox.Location = New System.Drawing.Point(17, 229)
         Me.m2_anterior_PictuBox.Name = "m2_anterior_PictuBox"
-        Me.m2_anterior_PictuBox.Size = New System.Drawing.Size(93, 83)
+        Me.m2_anterior_PictuBox.Size = New System.Drawing.Size(35, 35)
         Me.m2_anterior_PictuBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.m2_anterior_PictuBox.TabIndex = 344
         Me.m2_anterior_PictuBox.TabStop = False
@@ -5983,11 +5439,10 @@ Partial Class modulos
         Me.TextBox39.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox39.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox39.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox39.Location = New System.Drawing.Point(416, 417)
-        Me.TextBox39.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox39.Location = New System.Drawing.Point(156, 175)
         Me.TextBox39.Multiline = True
         Me.TextBox39.Name = "TextBox39"
-        Me.TextBox39.Size = New System.Drawing.Size(555, 153)
+        Me.TextBox39.Size = New System.Drawing.Size(208, 64)
         Me.TextBox39.TabIndex = 313
         '
         'Label70
@@ -5995,10 +5450,9 @@ Partial Class modulos
         Me.Label70.AutoSize = True
         Me.Label70.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label70.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label70.Location = New System.Drawing.Point(405, 327)
-        Me.Label70.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label70.Location = New System.Drawing.Point(152, 137)
         Me.Label70.Name = "Label70"
-        Me.Label70.Size = New System.Drawing.Size(522, 44)
+        Me.Label70.Size = New System.Drawing.Size(201, 18)
         Me.Label70.TabIndex = 322
         Me.Label70.Text = "¿Tu punto de venta sería en?:"
         '
@@ -6007,10 +5461,9 @@ Partial Class modulos
         Me.RadioButton13.AutoSize = True
         Me.RadioButton13.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton13.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton13.Location = New System.Drawing.Point(664, 267)
-        Me.RadioButton13.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RadioButton13.Location = New System.Drawing.Point(249, 112)
         Me.RadioButton13.Name = "RadioButton13"
-        Me.RadioButton13.Size = New System.Drawing.Size(33, 32)
+        Me.RadioButton13.Size = New System.Drawing.Size(14, 13)
         Me.RadioButton13.TabIndex = 321
         Me.RadioButton13.UseVisualStyleBackColor = True
         '
@@ -6019,10 +5472,9 @@ Partial Class modulos
         Me.Label71.AutoSize = True
         Me.Label71.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label71.ForeColor = System.Drawing.Color.Black
-        Me.Label71.Location = New System.Drawing.Point(405, 250)
-        Me.Label71.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label71.Location = New System.Drawing.Point(152, 105)
         Me.Label71.Name = "Label71"
-        Me.Label71.Size = New System.Drawing.Size(175, 44)
+        Me.Label71.Size = New System.Drawing.Size(67, 18)
         Me.Label71.TabIndex = 318
         Me.Label71.Text = "Selectiva"
         '
@@ -6031,10 +5483,9 @@ Partial Class modulos
         Me.exclusiva_RB_.AutoSize = True
         Me.exclusiva_RB_.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.exclusiva_RB_.ForeColor = System.Drawing.Color.Black
-        Me.exclusiva_RB_.Location = New System.Drawing.Point(664, 162)
-        Me.exclusiva_RB_.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.exclusiva_RB_.Location = New System.Drawing.Point(249, 68)
         Me.exclusiva_RB_.Name = "exclusiva_RB_"
-        Me.exclusiva_RB_.Size = New System.Drawing.Size(33, 32)
+        Me.exclusiva_RB_.Size = New System.Drawing.Size(14, 13)
         Me.exclusiva_RB_.TabIndex = 319
         Me.exclusiva_RB_.UseVisualStyleBackColor = True
         '
@@ -6043,10 +5494,9 @@ Partial Class modulos
         Me.Label72.AutoSize = True
         Me.Label72.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label72.ForeColor = System.Drawing.Color.Black
-        Me.Label72.Location = New System.Drawing.Point(405, 203)
-        Me.Label72.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label72.Location = New System.Drawing.Point(152, 85)
         Me.Label72.Name = "Label72"
-        Me.Label72.Size = New System.Drawing.Size(172, 44)
+        Me.Label72.Size = New System.Drawing.Size(65, 18)
         Me.Label72.TabIndex = 317
         Me.Label72.Text = "Intensiva"
         '
@@ -6055,10 +5505,9 @@ Partial Class modulos
         Me.Label73.AutoSize = True
         Me.Label73.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label73.ForeColor = System.Drawing.Color.Black
-        Me.Label73.Location = New System.Drawing.Point(405, 155)
-        Me.Label73.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label73.Location = New System.Drawing.Point(152, 65)
         Me.Label73.Name = "Label73"
-        Me.Label73.Size = New System.Drawing.Size(181, 44)
+        Me.Label73.Size = New System.Drawing.Size(70, 18)
         Me.Label73.TabIndex = 316
         Me.Label73.Text = "Exclusiva"
         '
@@ -6067,10 +5516,9 @@ Partial Class modulos
         Me.Label74.AutoSize = True
         Me.Label74.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label74.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label74.Location = New System.Drawing.Point(405, 83)
-        Me.Label74.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label74.Location = New System.Drawing.Point(152, 35)
         Me.Label74.Name = "Label74"
-        Me.Label74.Size = New System.Drawing.Size(403, 44)
+        Me.Label74.Size = New System.Drawing.Size(156, 18)
         Me.Label74.TabIndex = 315
         Me.Label74.Text = "¿Tu distribución sería?"
         '
@@ -6079,10 +5527,9 @@ Partial Class modulos
         Me.RadioButton20.AutoSize = True
         Me.RadioButton20.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton20.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton20.Location = New System.Drawing.Point(2040, 341)
-        Me.RadioButton20.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RadioButton20.Location = New System.Drawing.Point(765, 143)
         Me.RadioButton20.Name = "RadioButton20"
-        Me.RadioButton20.Size = New System.Drawing.Size(33, 32)
+        Me.RadioButton20.Size = New System.Drawing.Size(14, 13)
         Me.RadioButton20.TabIndex = 342
         Me.RadioButton20.UseVisualStyleBackColor = True
         '
@@ -6091,10 +5538,9 @@ Partial Class modulos
         Me.RadioButton19.AutoSize = True
         Me.RadioButton19.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton19.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton19.Location = New System.Drawing.Point(2040, 296)
-        Me.RadioButton19.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RadioButton19.Location = New System.Drawing.Point(765, 124)
         Me.RadioButton19.Name = "RadioButton19"
-        Me.RadioButton19.Size = New System.Drawing.Size(33, 32)
+        Me.RadioButton19.Size = New System.Drawing.Size(14, 13)
         Me.RadioButton19.TabIndex = 341
         Me.RadioButton19.UseVisualStyleBackColor = True
         '
@@ -6103,10 +5549,9 @@ Partial Class modulos
         Me.RadioButton18.AutoSize = True
         Me.RadioButton18.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton18.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton18.Location = New System.Drawing.Point(2040, 250)
-        Me.RadioButton18.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RadioButton18.Location = New System.Drawing.Point(765, 105)
         Me.RadioButton18.Name = "RadioButton18"
-        Me.RadioButton18.Size = New System.Drawing.Size(33, 32)
+        Me.RadioButton18.Size = New System.Drawing.Size(14, 13)
         Me.RadioButton18.TabIndex = 340
         Me.RadioButton18.UseVisualStyleBackColor = True
         '
@@ -6115,10 +5560,9 @@ Partial Class modulos
         Me.RadioButton17.AutoSize = True
         Me.RadioButton17.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton17.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton17.Location = New System.Drawing.Point(2040, 205)
-        Me.RadioButton17.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RadioButton17.Location = New System.Drawing.Point(765, 86)
         Me.RadioButton17.Name = "RadioButton17"
-        Me.RadioButton17.Size = New System.Drawing.Size(33, 32)
+        Me.RadioButton17.Size = New System.Drawing.Size(14, 13)
         Me.RadioButton17.TabIndex = 339
         Me.RadioButton17.UseVisualStyleBackColor = True
         '
@@ -6127,10 +5571,9 @@ Partial Class modulos
         Me.Label116.AutoSize = True
         Me.Label116.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label116.ForeColor = System.Drawing.Color.Black
-        Me.Label116.Location = New System.Drawing.Point(1381, 205)
-        Me.Label116.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label116.Location = New System.Drawing.Point(518, 86)
         Me.Label116.Name = "Label116"
-        Me.Label116.Size = New System.Drawing.Size(257, 44)
+        Me.Label116.Size = New System.Drawing.Size(103, 18)
         Me.Label116.TabIndex = 338
         Me.Label116.Text = "Dar a conocer"
         '
@@ -6139,10 +5582,9 @@ Partial Class modulos
         Me.Label117.AutoSize = True
         Me.Label117.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label117.ForeColor = System.Drawing.Color.Black
-        Me.Label117.Location = New System.Drawing.Point(1381, 386)
-        Me.Label117.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label117.Location = New System.Drawing.Point(518, 162)
         Me.Label117.Name = "Label117"
-        Me.Label117.Size = New System.Drawing.Size(176, 44)
+        Me.Label117.Size = New System.Drawing.Size(70, 18)
         Me.Label117.TabIndex = 337
         Me.Label117.Text = "Recordar"
         '
@@ -6151,10 +5593,9 @@ Partial Class modulos
         Me.Label118.AutoSize = True
         Me.Label118.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label118.ForeColor = System.Drawing.Color.Black
-        Me.Label118.Location = New System.Drawing.Point(1381, 341)
-        Me.Label118.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label118.Location = New System.Drawing.Point(518, 143)
         Me.Label118.Name = "Label118"
-        Me.Label118.Size = New System.Drawing.Size(205, 44)
+        Me.Label118.Size = New System.Drawing.Size(81, 18)
         Me.Label118.TabIndex = 336
         Me.Label118.Text = "Comunicar"
         '
@@ -6163,10 +5604,9 @@ Partial Class modulos
         Me.Label119.AutoSize = True
         Me.Label119.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label119.ForeColor = System.Drawing.Color.Black
-        Me.Label119.Location = New System.Drawing.Point(1381, 296)
-        Me.Label119.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label119.Location = New System.Drawing.Point(518, 124)
         Me.Label119.Name = "Label119"
-        Me.Label119.Size = New System.Drawing.Size(183, 44)
+        Me.Label119.Size = New System.Drawing.Size(71, 18)
         Me.Label119.TabIndex = 335
         Me.Label119.Text = "Persuadir"
         '
@@ -6175,10 +5615,9 @@ Partial Class modulos
         Me.Label120.AutoSize = True
         Me.Label120.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label120.ForeColor = System.Drawing.Color.Black
-        Me.Label120.Location = New System.Drawing.Point(1381, 250)
-        Me.Label120.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label120.Location = New System.Drawing.Point(518, 105)
         Me.Label120.Name = "Label120"
-        Me.Label120.Size = New System.Drawing.Size(163, 44)
+        Me.Label120.Size = New System.Drawing.Size(63, 18)
         Me.Label120.TabIndex = 334
         Me.Label120.Text = "Informar"
         '
@@ -6187,10 +5626,9 @@ Partial Class modulos
         Me.Label121.AutoSize = True
         Me.Label121.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label121.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label121.Location = New System.Drawing.Point(1381, 129)
-        Me.Label121.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label121.Location = New System.Drawing.Point(518, 54)
         Me.Label121.Name = "Label121"
-        Me.Label121.Size = New System.Drawing.Size(422, 44)
+        Me.Label121.Size = New System.Drawing.Size(162, 18)
         Me.Label121.TabIndex = 333
         Me.Label121.Text = "¿para qué lo utilizarías?"
         '
@@ -6199,10 +5637,9 @@ Partial Class modulos
         Me.Label122.AutoSize = True
         Me.Label122.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label122.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label122.Location = New System.Drawing.Point(1381, 83)
-        Me.Label122.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label122.Location = New System.Drawing.Point(518, 35)
         Me.Label122.Name = "Label122"
-        Me.Label122.Size = New System.Drawing.Size(692, 44)
+        Me.Label122.Size = New System.Drawing.Size(270, 18)
         Me.Label122.TabIndex = 332
         Me.Label122.Text = "Del medio seleccionado anteriormente, "
         '
@@ -6211,10 +5648,9 @@ Partial Class modulos
         Me.RadioButton16.AutoSize = True
         Me.RadioButton16.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton16.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton16.Location = New System.Drawing.Point(1040, 913)
-        Me.RadioButton16.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RadioButton16.Location = New System.Drawing.Point(390, 383)
         Me.RadioButton16.Name = "RadioButton16"
-        Me.RadioButton16.Size = New System.Drawing.Size(33, 32)
+        Me.RadioButton16.Size = New System.Drawing.Size(14, 13)
         Me.RadioButton16.TabIndex = 331
         Me.RadioButton16.UseVisualStyleBackColor = True
         '
@@ -6223,10 +5659,9 @@ Partial Class modulos
         Me.RadioButton15.AutoSize = True
         Me.RadioButton15.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton15.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton15.Location = New System.Drawing.Point(1040, 963)
-        Me.RadioButton15.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RadioButton15.Location = New System.Drawing.Point(390, 404)
         Me.RadioButton15.Name = "RadioButton15"
-        Me.RadioButton15.Size = New System.Drawing.Size(33, 32)
+        Me.RadioButton15.Size = New System.Drawing.Size(14, 13)
         Me.RadioButton15.TabIndex = 330
         Me.RadioButton15.UseVisualStyleBackColor = True
         '
@@ -6235,10 +5670,9 @@ Partial Class modulos
         Me.RadioButton14.AutoSize = True
         Me.RadioButton14.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton14.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton14.Location = New System.Drawing.Point(1040, 868)
-        Me.RadioButton14.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RadioButton14.Location = New System.Drawing.Point(390, 364)
         Me.RadioButton14.Name = "RadioButton14"
-        Me.RadioButton14.Size = New System.Drawing.Size(33, 32)
+        Me.RadioButton14.Size = New System.Drawing.Size(14, 13)
         Me.RadioButton14.TabIndex = 329
         Me.RadioButton14.UseVisualStyleBackColor = True
         '
@@ -6247,10 +5681,9 @@ Partial Class modulos
         Me.Label123.AutoSize = True
         Me.Label123.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label123.ForeColor = System.Drawing.Color.Black
-        Me.Label123.Location = New System.Drawing.Point(381, 963)
-        Me.Label123.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label123.Location = New System.Drawing.Point(143, 404)
         Me.Label123.Name = "Label123"
-        Me.Label123.Size = New System.Drawing.Size(439, 44)
+        Me.Label123.Size = New System.Drawing.Size(174, 18)
         Me.Label123.TabIndex = 328
         Me.Label123.Text = "Medios de comunicación"
         '
@@ -6259,10 +5692,9 @@ Partial Class modulos
         Me.Label124.AutoSize = True
         Me.Label124.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label124.ForeColor = System.Drawing.Color.Black
-        Me.Label124.Location = New System.Drawing.Point(381, 913)
-        Me.Label124.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label124.Location = New System.Drawing.Point(143, 383)
         Me.Label124.Name = "Label124"
-        Me.Label124.Size = New System.Drawing.Size(294, 44)
+        Me.Label124.Size = New System.Drawing.Size(114, 18)
         Me.Label124.TabIndex = 327
         Me.Label124.Text = "Medios digitales"
         '
@@ -6271,10 +5703,9 @@ Partial Class modulos
         Me.Label125.AutoSize = True
         Me.Label125.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label125.ForeColor = System.Drawing.Color.Black
-        Me.Label125.Location = New System.Drawing.Point(381, 858)
-        Me.Label125.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label125.Location = New System.Drawing.Point(143, 360)
         Me.Label125.Name = "Label125"
-        Me.Label125.Size = New System.Drawing.Size(309, 44)
+        Me.Label125.Size = New System.Drawing.Size(123, 18)
         Me.Label125.TabIndex = 326
         Me.Label125.Text = "Medios impresos"
         '
@@ -6283,10 +5714,9 @@ Partial Class modulos
         Me.Label126.AutoSize = True
         Me.Label126.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label126.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label126.Location = New System.Drawing.Point(381, 794)
-        Me.Label126.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label126.Location = New System.Drawing.Point(143, 333)
         Me.Label126.Name = "Label126"
-        Me.Label126.Size = New System.Drawing.Size(614, 44)
+        Me.Label126.Size = New System.Drawing.Size(236, 18)
         Me.Label126.TabIndex = 325
         Me.Label126.Text = "¿Qué medio publicitario utilizarías?"
         '
@@ -6295,10 +5725,9 @@ Partial Class modulos
         Me.Label127.AutoSize = True
         Me.Label127.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label127.ForeColor = System.Drawing.Color.Navy
-        Me.Label127.Location = New System.Drawing.Point(387, 646)
-        Me.Label127.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label127.Location = New System.Drawing.Point(145, 271)
         Me.Label127.Name = "Label127"
-        Me.Label127.Size = New System.Drawing.Size(334, 55)
+        Me.Label127.Size = New System.Drawing.Size(136, 24)
         Me.Label127.TabIndex = 324
         Me.Label127.Text = "PROMOCIÓN"
         '
@@ -6307,10 +5736,9 @@ Partial Class modulos
         Me.Label128.AutoSize = True
         Me.Label128.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label128.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label128.Location = New System.Drawing.Point(381, 746)
-        Me.Label128.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label128.Location = New System.Drawing.Point(143, 313)
         Me.Label128.Name = "Label128"
-        Me.Label128.Size = New System.Drawing.Size(625, 44)
+        Me.Label128.Size = New System.Drawing.Size(247, 18)
         Me.Label128.TabIndex = 323
         Me.Label128.Text = "De acuerdo a tu proyecto o servicio "
         '
@@ -6319,10 +5747,9 @@ Partial Class modulos
         Me.RadioButton12.AutoSize = True
         Me.RadioButton12.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton12.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton12.Location = New System.Drawing.Point(664, 217)
-        Me.RadioButton12.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RadioButton12.Location = New System.Drawing.Point(249, 91)
         Me.RadioButton12.Name = "RadioButton12"
-        Me.RadioButton12.Size = New System.Drawing.Size(33, 32)
+        Me.RadioButton12.Size = New System.Drawing.Size(14, 13)
         Me.RadioButton12.TabIndex = 320
         Me.RadioButton12.UseVisualStyleBackColor = True
         '
@@ -6331,10 +5758,9 @@ Partial Class modulos
         Me.RadioButton28.AutoSize = True
         Me.RadioButton28.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton28.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton28.Location = New System.Drawing.Point(2040, 789)
-        Me.RadioButton28.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RadioButton28.Location = New System.Drawing.Point(765, 331)
         Me.RadioButton28.Name = "RadioButton28"
-        Me.RadioButton28.Size = New System.Drawing.Size(33, 32)
+        Me.RadioButton28.Size = New System.Drawing.Size(14, 13)
         Me.RadioButton28.TabIndex = 312
         Me.RadioButton28.UseVisualStyleBackColor = True
         '
@@ -6343,11 +5769,10 @@ Partial Class modulos
         Me.TextBox37.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox37.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox37.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox37.Location = New System.Drawing.Point(2309, 272)
-        Me.TextBox37.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox37.Location = New System.Drawing.Point(866, 114)
         Me.TextBox37.Multiline = True
         Me.TextBox37.Name = "TextBox37"
-        Me.TextBox37.Size = New System.Drawing.Size(669, 191)
+        Me.TextBox37.Size = New System.Drawing.Size(251, 80)
         Me.TextBox37.TabIndex = 310
         '
         'Label105
@@ -6355,10 +5780,9 @@ Partial Class modulos
         Me.Label105.AutoSize = True
         Me.Label105.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label105.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label105.Location = New System.Drawing.Point(2301, 174)
-        Me.Label105.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label105.Location = New System.Drawing.Point(863, 73)
         Me.Label105.Name = "Label105"
-        Me.Label105.Size = New System.Drawing.Size(163, 44)
+        Me.Label105.Size = New System.Drawing.Size(63, 18)
         Me.Label105.TabIndex = 309
         Me.Label105.Text = "objetivo."
         '
@@ -6367,10 +5791,9 @@ Partial Class modulos
         Me.Label106.AutoSize = True
         Me.Label106.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label106.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label106.Location = New System.Drawing.Point(2301, 129)
-        Me.Label106.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label106.Location = New System.Drawing.Point(863, 54)
         Me.Label106.Name = "Label106"
-        Me.Label106.Size = New System.Drawing.Size(676, 44)
+        Me.Label106.Size = New System.Drawing.Size(262, 18)
         Me.Label106.TabIndex = 308
         Me.Label106.Text = "considerando el medio publicitario y el "
         '
@@ -6379,10 +5802,9 @@ Partial Class modulos
         Me.RadioButton25.AutoSize = True
         Me.RadioButton25.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton25.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton25.Location = New System.Drawing.Point(2040, 892)
-        Me.RadioButton25.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RadioButton25.Location = New System.Drawing.Point(765, 374)
         Me.RadioButton25.Name = "RadioButton25"
-        Me.RadioButton25.Size = New System.Drawing.Size(33, 32)
+        Me.RadioButton25.Size = New System.Drawing.Size(14, 13)
         Me.RadioButton25.TabIndex = 307
         Me.RadioButton25.UseVisualStyleBackColor = True
         '
@@ -6391,10 +5813,9 @@ Partial Class modulos
         Me.RadioButton26.AutoSize = True
         Me.RadioButton26.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton26.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton26.Location = New System.Drawing.Point(2040, 942)
-        Me.RadioButton26.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RadioButton26.Location = New System.Drawing.Point(765, 395)
         Me.RadioButton26.Name = "RadioButton26"
-        Me.RadioButton26.Size = New System.Drawing.Size(33, 32)
+        Me.RadioButton26.Size = New System.Drawing.Size(14, 13)
         Me.RadioButton26.TabIndex = 306
         Me.RadioButton26.UseVisualStyleBackColor = True
         '
@@ -6403,10 +5824,9 @@ Partial Class modulos
         Me.Label107.AutoSize = True
         Me.Label107.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label107.ForeColor = System.Drawing.Color.Black
-        Me.Label107.Location = New System.Drawing.Point(1381, 928)
-        Me.Label107.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label107.Location = New System.Drawing.Point(518, 389)
         Me.Label107.Name = "Label107"
-        Me.Label107.Size = New System.Drawing.Size(177, 44)
+        Me.Label107.Size = New System.Drawing.Size(70, 18)
         Me.Label107.TabIndex = 305
         Me.Label107.Text = "Muestras"
         '
@@ -6415,10 +5835,9 @@ Partial Class modulos
         Me.Label108.AutoSize = True
         Me.Label108.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label108.ForeColor = System.Drawing.Color.Black
-        Me.Label108.Location = New System.Drawing.Point(1381, 878)
-        Me.Label108.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label108.Location = New System.Drawing.Point(518, 368)
         Me.Label108.Name = "Label108"
-        Me.Label108.Size = New System.Drawing.Size(159, 44)
+        Me.Label108.Size = New System.Drawing.Size(63, 18)
         Me.Label108.TabIndex = 304
         Me.Label108.Text = "Regalos"
         '
@@ -6427,10 +5846,9 @@ Partial Class modulos
         Me.RadioButton23.AutoSize = True
         Me.RadioButton23.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton23.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton23.Location = New System.Drawing.Point(2040, 844)
-        Me.RadioButton23.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RadioButton23.Location = New System.Drawing.Point(765, 354)
         Me.RadioButton23.Name = "RadioButton23"
-        Me.RadioButton23.Size = New System.Drawing.Size(33, 32)
+        Me.RadioButton23.Size = New System.Drawing.Size(14, 13)
         Me.RadioButton23.TabIndex = 303
         Me.RadioButton23.UseVisualStyleBackColor = True
         '
@@ -6439,10 +5857,9 @@ Partial Class modulos
         Me.RadioButton27.AutoSize = True
         Me.RadioButton27.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton27.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton27.Location = New System.Drawing.Point(2040, 730)
-        Me.RadioButton27.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RadioButton27.Location = New System.Drawing.Point(765, 306)
         Me.RadioButton27.Name = "RadioButton27"
-        Me.RadioButton27.Size = New System.Drawing.Size(33, 32)
+        Me.RadioButton27.Size = New System.Drawing.Size(14, 13)
         Me.RadioButton27.TabIndex = 302
         Me.RadioButton27.UseVisualStyleBackColor = True
         '
@@ -6451,10 +5868,9 @@ Partial Class modulos
         Me.RadioButton24.AutoSize = True
         Me.RadioButton24.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RadioButton24.ForeColor = System.Drawing.Color.Black
-        Me.RadioButton24.Location = New System.Drawing.Point(2040, 730)
-        Me.RadioButton24.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RadioButton24.Location = New System.Drawing.Point(765, 306)
         Me.RadioButton24.Name = "RadioButton24"
-        Me.RadioButton24.Size = New System.Drawing.Size(33, 32)
+        Me.RadioButton24.Size = New System.Drawing.Size(14, 13)
         Me.RadioButton24.TabIndex = 301
         Me.RadioButton24.UseVisualStyleBackColor = True
         '
@@ -6463,10 +5879,9 @@ Partial Class modulos
         Me.Label109.AutoSize = True
         Me.Label109.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label109.ForeColor = System.Drawing.Color.Black
-        Me.Label109.Location = New System.Drawing.Point(1381, 830)
-        Me.Label109.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label109.Location = New System.Drawing.Point(518, 348)
         Me.Label109.Name = "Label109"
-        Me.Label109.Size = New System.Drawing.Size(107, 44)
+        Me.Label109.Size = New System.Drawing.Size(42, 18)
         Me.Label109.TabIndex = 300
         Me.Label109.Text = "Rifas"
         '
@@ -6475,10 +5890,9 @@ Partial Class modulos
         Me.Label110.AutoSize = True
         Me.Label110.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label110.ForeColor = System.Drawing.Color.Black
-        Me.Label110.Location = New System.Drawing.Point(1381, 780)
-        Me.Label110.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label110.Location = New System.Drawing.Point(518, 327)
         Me.Label110.Name = "Label110"
-        Me.Label110.Size = New System.Drawing.Size(220, 44)
+        Me.Label110.Size = New System.Drawing.Size(88, 18)
         Me.Label110.TabIndex = 299
         Me.Label110.Text = "Descuentos"
         '
@@ -6487,10 +5901,9 @@ Partial Class modulos
         Me.Label111.AutoSize = True
         Me.Label111.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label111.ForeColor = System.Drawing.Color.Black
-        Me.Label111.Location = New System.Drawing.Point(1381, 725)
-        Me.Label111.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label111.Location = New System.Drawing.Point(518, 304)
         Me.Label111.Name = "Label111"
-        Me.Label111.Size = New System.Drawing.Size(171, 44)
+        Me.Label111.Size = New System.Drawing.Size(68, 18)
         Me.Label111.TabIndex = 298
         Me.Label111.Text = "Cupones"
         '
@@ -6499,10 +5912,9 @@ Partial Class modulos
         Me.Label112.AutoSize = True
         Me.Label112.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label112.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label112.Location = New System.Drawing.Point(2301, 81)
-        Me.Label112.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label112.Location = New System.Drawing.Point(863, 34)
         Me.Label112.Name = "Label112"
-        Me.Label112.Size = New System.Drawing.Size(674, 44)
+        Me.Label112.Size = New System.Drawing.Size(263, 18)
         Me.Label112.TabIndex = 297
         Me.Label112.Text = "Desarrolla una estrategia promocional "
         '
@@ -6511,10 +5923,9 @@ Partial Class modulos
         Me.Label113.AutoSize = True
         Me.Label113.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label113.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label113.Location = New System.Drawing.Point(1381, 637)
-        Me.Label113.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label113.Location = New System.Drawing.Point(518, 267)
         Me.Label113.Name = "Label113"
-        Me.Label113.Size = New System.Drawing.Size(390, 44)
+        Me.Label113.Size = New System.Drawing.Size(154, 18)
         Me.Label113.TabIndex = 296
         Me.Label113.Text = "producto y/o servicio?"
         '
@@ -6523,10 +5934,9 @@ Partial Class modulos
         Me.Label114.AutoSize = True
         Me.Label114.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label114.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label114.Location = New System.Drawing.Point(1381, 591)
-        Me.Label114.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label114.Location = New System.Drawing.Point(518, 248)
         Me.Label114.Name = "Label114"
-        Me.Label114.Size = New System.Drawing.Size(650, 44)
+        Me.Label114.Size = New System.Drawing.Size(254, 18)
         Me.Label114.TabIndex = 295
         Me.Label114.Text = "consideras que es más apegada  a tu"
         '
@@ -6535,20 +5945,18 @@ Partial Class modulos
         Me.Label115.AutoSize = True
         Me.Label115.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label115.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label115.Location = New System.Drawing.Point(1381, 546)
-        Me.Label115.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label115.Location = New System.Drawing.Point(518, 229)
         Me.Label115.Name = "Label115"
-        Me.Label115.Size = New System.Drawing.Size(634, 44)
+        Me.Label115.Size = New System.Drawing.Size(247, 18)
         Me.Label115.TabIndex = 294
         Me.Label115.Text = "¿Qué tipo de estrategia promocional"
         '
         'PictureBox45
         '
         Me.PictureBox45.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox45.Location = New System.Drawing.Point(403, 405)
-        Me.PictureBox45.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox45.Location = New System.Drawing.Point(151, 170)
         Me.PictureBox45.Name = "PictureBox45"
-        Me.PictureBox45.Size = New System.Drawing.Size(581, 176)
+        Me.PictureBox45.Size = New System.Drawing.Size(218, 74)
         Me.PictureBox45.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox45.TabIndex = 314
         Me.PictureBox45.TabStop = False
@@ -6556,10 +5964,9 @@ Partial Class modulos
         'PictureBox55
         '
         Me.PictureBox55.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox55.Location = New System.Drawing.Point(2296, 260)
-        Me.PictureBox55.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox55.Location = New System.Drawing.Point(861, 109)
         Me.PictureBox55.Name = "PictureBox55"
-        Me.PictureBox55.Size = New System.Drawing.Size(696, 215)
+        Me.PictureBox55.Size = New System.Drawing.Size(261, 90)
         Me.PictureBox55.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox55.TabIndex = 311
         Me.PictureBox55.TabStop = False
@@ -6593,11 +6000,10 @@ Partial Class modulos
         Me.TabPage1.Controls.Add(Me.Label5)
         Me.TabPage1.Controls.Add(Me.Label3)
         Me.TabPage1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.TabPage1.Location = New System.Drawing.Point(10, 48)
-        Me.TabPage1.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TabPage1.Location = New System.Drawing.Point(4, 22)
         Me.TabPage1.Name = "TabPage1"
-        Me.TabPage1.Padding = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.TabPage1.Size = New System.Drawing.Size(3351, 1227)
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage1.Size = New System.Drawing.Size(1173, 463)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Modulo1"
         Me.TabPage1.UseVisualStyleBackColor = True
@@ -6608,9 +6014,11 @@ Partial Class modulos
         Me.GroupBox3.Controls.Add(Me.no_RadioBtn_tiempo_m1)
         Me.GroupBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox3.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.GroupBox3.Location = New System.Drawing.Point(1176, 1033)
+        Me.GroupBox3.Location = New System.Drawing.Point(441, 433)
+        Me.GroupBox3.Margin = New System.Windows.Forms.Padding(1)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(919, 142)
+        Me.GroupBox3.Padding = New System.Windows.Forms.Padding(1)
+        Me.GroupBox3.Size = New System.Drawing.Size(345, 60)
         Me.GroupBox3.TabIndex = 122
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "¿Cuentas con disponibilidad de tiempo?"
@@ -6620,10 +6028,9 @@ Partial Class modulos
         Me.si_RadioBtn_tiempo_m1.AutoSize = True
         Me.si_RadioBtn_tiempo_m1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.si_RadioBtn_tiempo_m1.ForeColor = System.Drawing.Color.Black
-        Me.si_RadioBtn_tiempo_m1.Location = New System.Drawing.Point(269, 76)
-        Me.si_RadioBtn_tiempo_m1.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.si_RadioBtn_tiempo_m1.Location = New System.Drawing.Point(101, 32)
         Me.si_RadioBtn_tiempo_m1.Name = "si_RadioBtn_tiempo_m1"
-        Me.si_RadioBtn_tiempo_m1.Size = New System.Drawing.Size(91, 48)
+        Me.si_RadioBtn_tiempo_m1.Size = New System.Drawing.Size(39, 22)
         Me.si_RadioBtn_tiempo_m1.TabIndex = 9
         Me.si_RadioBtn_tiempo_m1.Text = "Sí"
         Me.si_RadioBtn_tiempo_m1.UseVisualStyleBackColor = True
@@ -6633,10 +6040,9 @@ Partial Class modulos
         Me.no_RadioBtn_tiempo_m1.AutoSize = True
         Me.no_RadioBtn_tiempo_m1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.no_RadioBtn_tiempo_m1.ForeColor = System.Drawing.Color.Black
-        Me.no_RadioBtn_tiempo_m1.Location = New System.Drawing.Point(488, 76)
-        Me.no_RadioBtn_tiempo_m1.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.no_RadioBtn_tiempo_m1.Location = New System.Drawing.Point(183, 32)
         Me.no_RadioBtn_tiempo_m1.Name = "no_RadioBtn_tiempo_m1"
-        Me.no_RadioBtn_tiempo_m1.Size = New System.Drawing.Size(105, 48)
+        Me.no_RadioBtn_tiempo_m1.Size = New System.Drawing.Size(46, 22)
         Me.no_RadioBtn_tiempo_m1.TabIndex = 10
         Me.no_RadioBtn_tiempo_m1.Text = "No"
         Me.no_RadioBtn_tiempo_m1.UseVisualStyleBackColor = True
@@ -6647,9 +6053,11 @@ Partial Class modulos
         Me.GroupBox5.Controls.Add(Me.no_RadioBtn_habilidad_m1)
         Me.GroupBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox5.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.GroupBox5.Location = New System.Drawing.Point(2181, 500)
+        Me.GroupBox5.Location = New System.Drawing.Point(818, 210)
+        Me.GroupBox5.Margin = New System.Windows.Forms.Padding(1)
         Me.GroupBox5.Name = "GroupBox5"
-        Me.GroupBox5.Size = New System.Drawing.Size(919, 142)
+        Me.GroupBox5.Padding = New System.Windows.Forms.Padding(1)
+        Me.GroupBox5.Size = New System.Drawing.Size(345, 60)
         Me.GroupBox5.TabIndex = 122
         Me.GroupBox5.TabStop = False
         Me.GroupBox5.Text = "¿Cuentas con alguna habilidad para llevarlo a cabo?"
@@ -6659,10 +6067,9 @@ Partial Class modulos
         Me.si_RadioBtn_habilidad_m1.AutoSize = True
         Me.si_RadioBtn_habilidad_m1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.si_RadioBtn_habilidad_m1.ForeColor = System.Drawing.Color.Black
-        Me.si_RadioBtn_habilidad_m1.Location = New System.Drawing.Point(261, 53)
-        Me.si_RadioBtn_habilidad_m1.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.si_RadioBtn_habilidad_m1.Location = New System.Drawing.Point(98, 22)
         Me.si_RadioBtn_habilidad_m1.Name = "si_RadioBtn_habilidad_m1"
-        Me.si_RadioBtn_habilidad_m1.Size = New System.Drawing.Size(91, 48)
+        Me.si_RadioBtn_habilidad_m1.Size = New System.Drawing.Size(39, 22)
         Me.si_RadioBtn_habilidad_m1.TabIndex = 13
         Me.si_RadioBtn_habilidad_m1.Text = "Sí"
         Me.si_RadioBtn_habilidad_m1.UseVisualStyleBackColor = True
@@ -6672,10 +6079,9 @@ Partial Class modulos
         Me.no_RadioBtn_habilidad_m1.AutoSize = True
         Me.no_RadioBtn_habilidad_m1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.no_RadioBtn_habilidad_m1.ForeColor = System.Drawing.Color.Black
-        Me.no_RadioBtn_habilidad_m1.Location = New System.Drawing.Point(502, 53)
-        Me.no_RadioBtn_habilidad_m1.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.no_RadioBtn_habilidad_m1.Location = New System.Drawing.Point(188, 22)
         Me.no_RadioBtn_habilidad_m1.Name = "no_RadioBtn_habilidad_m1"
-        Me.no_RadioBtn_habilidad_m1.Size = New System.Drawing.Size(105, 48)
+        Me.no_RadioBtn_habilidad_m1.Size = New System.Drawing.Size(46, 22)
         Me.no_RadioBtn_habilidad_m1.TabIndex = 14
         Me.no_RadioBtn_habilidad_m1.Text = "No"
         Me.no_RadioBtn_habilidad_m1.UseVisualStyleBackColor = True
@@ -6686,9 +6092,11 @@ Partial Class modulos
         Me.GroupBox6.Controls.Add(Me.no_RadioBtn_experiencia_m1)
         Me.GroupBox6.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox6.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.GroupBox6.Location = New System.Drawing.Point(2181, 204)
+        Me.GroupBox6.Location = New System.Drawing.Point(818, 86)
+        Me.GroupBox6.Margin = New System.Windows.Forms.Padding(1)
         Me.GroupBox6.Name = "GroupBox6"
-        Me.GroupBox6.Size = New System.Drawing.Size(919, 142)
+        Me.GroupBox6.Padding = New System.Windows.Forms.Padding(1)
+        Me.GroupBox6.Size = New System.Drawing.Size(345, 60)
         Me.GroupBox6.TabIndex = 122
         Me.GroupBox6.TabStop = False
         Me.GroupBox6.Text = "¿Cuentas con experiencia en este tipo de negocio?"
@@ -6698,10 +6106,9 @@ Partial Class modulos
         Me.si_RadioBtn_experiencia_m1.AutoSize = True
         Me.si_RadioBtn_experiencia_m1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.si_RadioBtn_experiencia_m1.ForeColor = System.Drawing.Color.Black
-        Me.si_RadioBtn_experiencia_m1.Location = New System.Drawing.Point(245, 57)
-        Me.si_RadioBtn_experiencia_m1.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.si_RadioBtn_experiencia_m1.Location = New System.Drawing.Point(92, 24)
         Me.si_RadioBtn_experiencia_m1.Name = "si_RadioBtn_experiencia_m1"
-        Me.si_RadioBtn_experiencia_m1.Size = New System.Drawing.Size(91, 48)
+        Me.si_RadioBtn_experiencia_m1.Size = New System.Drawing.Size(39, 22)
         Me.si_RadioBtn_experiencia_m1.TabIndex = 11
         Me.si_RadioBtn_experiencia_m1.Text = "Sí"
         Me.si_RadioBtn_experiencia_m1.UseVisualStyleBackColor = True
@@ -6711,10 +6118,9 @@ Partial Class modulos
         Me.no_RadioBtn_experiencia_m1.AutoSize = True
         Me.no_RadioBtn_experiencia_m1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.no_RadioBtn_experiencia_m1.ForeColor = System.Drawing.Color.Black
-        Me.no_RadioBtn_experiencia_m1.Location = New System.Drawing.Point(550, 62)
-        Me.no_RadioBtn_experiencia_m1.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.no_RadioBtn_experiencia_m1.Location = New System.Drawing.Point(206, 26)
         Me.no_RadioBtn_experiencia_m1.Name = "no_RadioBtn_experiencia_m1"
-        Me.no_RadioBtn_experiencia_m1.Size = New System.Drawing.Size(105, 48)
+        Me.no_RadioBtn_experiencia_m1.Size = New System.Drawing.Size(46, 22)
         Me.no_RadioBtn_experiencia_m1.TabIndex = 12
         Me.no_RadioBtn_experiencia_m1.Text = "No"
         Me.no_RadioBtn_experiencia_m1.UseVisualStyleBackColor = True
@@ -6725,9 +6131,11 @@ Partial Class modulos
         Me.GroupBox2.Controls.Add(Me.no_RadioBtn_fondo_m1)
         Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox2.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.GroupBox2.Location = New System.Drawing.Point(2181, 795)
+        Me.GroupBox2.Location = New System.Drawing.Point(818, 333)
+        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(1)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(919, 142)
+        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(1)
+        Me.GroupBox2.Size = New System.Drawing.Size(345, 60)
         Me.GroupBox2.TabIndex = 121
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "¿Cuentas con algún fondo económico para incubar y desarrollarlo?"
@@ -6737,10 +6145,9 @@ Partial Class modulos
         Me.si_RadioBtn_fondo_m1.AutoSize = True
         Me.si_RadioBtn_fondo_m1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.si_RadioBtn_fondo_m1.ForeColor = System.Drawing.Color.Black
-        Me.si_RadioBtn_fondo_m1.Location = New System.Drawing.Point(261, 84)
-        Me.si_RadioBtn_fondo_m1.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.si_RadioBtn_fondo_m1.Location = New System.Drawing.Point(98, 35)
         Me.si_RadioBtn_fondo_m1.Name = "si_RadioBtn_fondo_m1"
-        Me.si_RadioBtn_fondo_m1.Size = New System.Drawing.Size(91, 48)
+        Me.si_RadioBtn_fondo_m1.Size = New System.Drawing.Size(39, 22)
         Me.si_RadioBtn_fondo_m1.TabIndex = 15
         Me.si_RadioBtn_fondo_m1.Text = "Sí"
         Me.si_RadioBtn_fondo_m1.UseVisualStyleBackColor = True
@@ -6750,10 +6157,9 @@ Partial Class modulos
         Me.no_RadioBtn_fondo_m1.AutoSize = True
         Me.no_RadioBtn_fondo_m1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.no_RadioBtn_fondo_m1.ForeColor = System.Drawing.Color.Black
-        Me.no_RadioBtn_fondo_m1.Location = New System.Drawing.Point(502, 84)
-        Me.no_RadioBtn_fondo_m1.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.no_RadioBtn_fondo_m1.Location = New System.Drawing.Point(188, 35)
         Me.no_RadioBtn_fondo_m1.Name = "no_RadioBtn_fondo_m1"
-        Me.no_RadioBtn_fondo_m1.Size = New System.Drawing.Size(105, 48)
+        Me.no_RadioBtn_fondo_m1.Size = New System.Drawing.Size(46, 22)
         Me.no_RadioBtn_fondo_m1.TabIndex = 16
         Me.no_RadioBtn_fondo_m1.Text = "No"
         Me.no_RadioBtn_fondo_m1.UseVisualStyleBackColor = True
@@ -6764,9 +6170,11 @@ Partial Class modulos
         Me.GroupBox1.Controls.Add(Me.producto_RadioBtn_m1)
         Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.GroupBox1.Location = New System.Drawing.Point(163, 147)
+        Me.GroupBox1.Location = New System.Drawing.Point(61, 62)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(1)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(919, 142)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(1)
+        Me.GroupBox1.Size = New System.Drawing.Size(345, 60)
         Me.GroupBox1.TabIndex = 120
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "¿Tu idea de negocio es un producto o servicio?"
@@ -6776,10 +6184,9 @@ Partial Class modulos
         Me.servicio_RadioBtn_m1.AutoSize = True
         Me.servicio_RadioBtn_m1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.servicio_RadioBtn_m1.ForeColor = System.Drawing.Color.Navy
-        Me.servicio_RadioBtn_m1.Location = New System.Drawing.Point(209, 57)
-        Me.servicio_RadioBtn_m1.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.servicio_RadioBtn_m1.Location = New System.Drawing.Point(78, 24)
         Me.servicio_RadioBtn_m1.Name = "servicio_RadioBtn_m1"
-        Me.servicio_RadioBtn_m1.Size = New System.Drawing.Size(193, 48)
+        Me.servicio_RadioBtn_m1.Size = New System.Drawing.Size(79, 22)
         Me.servicio_RadioBtn_m1.TabIndex = 1
         Me.servicio_RadioBtn_m1.Text = "Servicio"
         Me.servicio_RadioBtn_m1.UseVisualStyleBackColor = True
@@ -6789,10 +6196,9 @@ Partial Class modulos
         Me.producto_RadioBtn_m1.AutoSize = True
         Me.producto_RadioBtn_m1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.producto_RadioBtn_m1.ForeColor = System.Drawing.Color.Navy
-        Me.producto_RadioBtn_m1.Location = New System.Drawing.Point(520, 62)
-        Me.producto_RadioBtn_m1.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.producto_RadioBtn_m1.Location = New System.Drawing.Point(195, 26)
         Me.producto_RadioBtn_m1.Name = "producto_RadioBtn_m1"
-        Me.producto_RadioBtn_m1.Size = New System.Drawing.Size(209, 48)
+        Me.producto_RadioBtn_m1.Size = New System.Drawing.Size(87, 22)
         Me.producto_RadioBtn_m1.TabIndex = 2
         Me.producto_RadioBtn_m1.Text = "Producto"
         Me.producto_RadioBtn_m1.UseVisualStyleBackColor = True
@@ -6802,20 +6208,18 @@ Partial Class modulos
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.Navy
-        Me.Label1.Location = New System.Drawing.Point(157, 48)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label1.Location = New System.Drawing.Point(59, 20)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(1227, 69)
+        Me.Label1.Size = New System.Drawing.Size(504, 29)
         Me.Label1.TabIndex = 113
         Me.Label1.Text = "DIAGNÓSTICO DE LA IDEA DE NEGOCIO"
         '
         'guardar_m1
         '
         Me.guardar_m1.Image = Global.saiin.My.Resources.Resources.guardar_azul
-        Me.guardar_m1.Location = New System.Drawing.Point(2664, 1052)
-        Me.guardar_m1.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.guardar_m1.Location = New System.Drawing.Point(999, 441)
         Me.guardar_m1.Name = "guardar_m1"
-        Me.guardar_m1.Size = New System.Drawing.Size(536, 117)
+        Me.guardar_m1.Size = New System.Drawing.Size(201, 49)
         Me.guardar_m1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.guardar_m1.TabIndex = 110
         Me.guardar_m1.TabStop = False
@@ -6824,81 +6228,74 @@ Partial Class modulos
         '
         Me.tbx6_m1_ofrece.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.tbx6_m1_ofrece.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tbx6_m1_ofrece.Location = New System.Drawing.Point(1189, 851)
-        Me.tbx6_m1_ofrece.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.tbx6_m1_ofrece.Location = New System.Drawing.Point(446, 357)
         Me.tbx6_m1_ofrece.MaxLength = 150
         Me.tbx6_m1_ofrece.Multiline = True
         Me.tbx6_m1_ofrece.Name = "tbx6_m1_ofrece"
-        Me.tbx6_m1_ofrece.Size = New System.Drawing.Size(880, 126)
+        Me.tbx6_m1_ofrece.Size = New System.Drawing.Size(330, 53)
         Me.tbx6_m1_ofrece.TabIndex = 8
         '
         'tbx5_m1_beneficios
         '
         Me.tbx5_m1_beneficios.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.tbx5_m1_beneficios.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tbx5_m1_beneficios.Location = New System.Drawing.Point(1184, 537)
-        Me.tbx5_m1_beneficios.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.tbx5_m1_beneficios.Location = New System.Drawing.Point(444, 225)
         Me.tbx5_m1_beneficios.MaxLength = 150
         Me.tbx5_m1_beneficios.Multiline = True
         Me.tbx5_m1_beneficios.Name = "tbx5_m1_beneficios"
-        Me.tbx5_m1_beneficios.Size = New System.Drawing.Size(880, 126)
+        Me.tbx5_m1_beneficios.Size = New System.Drawing.Size(330, 53)
         Me.tbx5_m1_beneficios.TabIndex = 7
         '
         'tbx1_m1
         '
         Me.tbx1_m1.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.tbx1_m1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tbx1_m1.Location = New System.Drawing.Point(173, 408)
-        Me.tbx1_m1.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.tbx1_m1.Location = New System.Drawing.Point(65, 171)
         Me.tbx1_m1.MaxLength = 150
         Me.tbx1_m1.Multiline = True
         Me.tbx1_m1.Name = "tbx1_m1"
-        Me.tbx1_m1.Size = New System.Drawing.Size(880, 126)
+        Me.tbx1_m1.Size = New System.Drawing.Size(330, 53)
         Me.tbx1_m1.TabIndex = 3
         '
         'tbx4_m1_quien
         '
         Me.tbx4_m1_quien.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.tbx4_m1_quien.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tbx4_m1_quien.Location = New System.Drawing.Point(1176, 250)
-        Me.tbx4_m1_quien.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.tbx4_m1_quien.Location = New System.Drawing.Point(441, 105)
         Me.tbx4_m1_quien.MaxLength = 90
         Me.tbx4_m1_quien.Multiline = True
         Me.tbx4_m1_quien.Name = "tbx4_m1_quien"
-        Me.tbx4_m1_quien.Size = New System.Drawing.Size(880, 126)
+        Me.tbx4_m1_quien.Size = New System.Drawing.Size(330, 53)
         Me.tbx4_m1_quien.TabIndex = 6
         '
         'tbx3_m1problematica_idea
         '
         Me.tbx3_m1problematica_idea.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.tbx3_m1problematica_idea.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tbx3_m1problematica_idea.Location = New System.Drawing.Point(160, 920)
-        Me.tbx3_m1problematica_idea.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.tbx3_m1problematica_idea.Location = New System.Drawing.Point(60, 386)
         Me.tbx3_m1problematica_idea.MaxLength = 200
         Me.tbx3_m1problematica_idea.Multiline = True
         Me.tbx3_m1problematica_idea.Name = "tbx3_m1problematica_idea"
-        Me.tbx3_m1problematica_idea.Size = New System.Drawing.Size(880, 126)
+        Me.tbx3_m1problematica_idea.Size = New System.Drawing.Size(330, 53)
         Me.tbx3_m1problematica_idea.TabIndex = 5
         '
         'tbx2_m1
         '
         Me.tbx2_m1.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.tbx2_m1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.tbx2_m1.Location = New System.Drawing.Point(165, 663)
-        Me.tbx2_m1.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.tbx2_m1.Location = New System.Drawing.Point(62, 278)
         Me.tbx2_m1.MaxLength = 150
         Me.tbx2_m1.Multiline = True
         Me.tbx2_m1.Name = "tbx2_m1"
-        Me.tbx2_m1.Size = New System.Drawing.Size(880, 126)
+        Me.tbx2_m1.Size = New System.Drawing.Size(330, 53)
         Me.tbx2_m1.TabIndex = 4
         '
         'PictureBox8
         '
         Me.PictureBox8.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox8.Location = New System.Drawing.Point(1176, 839)
-        Me.PictureBox8.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox8.Location = New System.Drawing.Point(441, 352)
         Me.PictureBox8.Name = "PictureBox8"
-        Me.PictureBox8.Size = New System.Drawing.Size(907, 150)
+        Me.PictureBox8.Size = New System.Drawing.Size(340, 63)
         Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox8.TabIndex = 103
         Me.PictureBox8.TabStop = False
@@ -6906,10 +6303,9 @@ Partial Class modulos
         'PictureBox7
         '
         Me.PictureBox7.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox7.Location = New System.Drawing.Point(1171, 525)
-        Me.PictureBox7.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox7.Location = New System.Drawing.Point(439, 220)
         Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(907, 150)
+        Me.PictureBox7.Size = New System.Drawing.Size(340, 63)
         Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox7.TabIndex = 101
         Me.PictureBox7.TabStop = False
@@ -6917,10 +6313,9 @@ Partial Class modulos
         'PictureBox3
         '
         Me.PictureBox3.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox3.Location = New System.Drawing.Point(160, 396)
-        Me.PictureBox3.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox3.Location = New System.Drawing.Point(60, 166)
         Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(907, 150)
+        Me.PictureBox3.Size = New System.Drawing.Size(340, 63)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox3.TabIndex = 99
         Me.PictureBox3.TabStop = False
@@ -6928,10 +6323,9 @@ Partial Class modulos
         'PictureBox6
         '
         Me.PictureBox6.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox6.Location = New System.Drawing.Point(1163, 238)
-        Me.PictureBox6.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox6.Location = New System.Drawing.Point(436, 100)
         Me.PictureBox6.Name = "PictureBox6"
-        Me.PictureBox6.Size = New System.Drawing.Size(907, 150)
+        Me.PictureBox6.Size = New System.Drawing.Size(340, 63)
         Me.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox6.TabIndex = 97
         Me.PictureBox6.TabStop = False
@@ -6939,10 +6333,9 @@ Partial Class modulos
         'PictureBox5
         '
         Me.PictureBox5.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox5.Location = New System.Drawing.Point(147, 909)
-        Me.PictureBox5.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox5.Location = New System.Drawing.Point(55, 381)
         Me.PictureBox5.Name = "PictureBox5"
-        Me.PictureBox5.Size = New System.Drawing.Size(907, 150)
+        Me.PictureBox5.Size = New System.Drawing.Size(340, 63)
         Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox5.TabIndex = 95
         Me.PictureBox5.TabStop = False
@@ -6950,10 +6343,9 @@ Partial Class modulos
         'PictureBox4
         '
         Me.PictureBox4.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox4.Location = New System.Drawing.Point(152, 651)
-        Me.PictureBox4.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox4.Location = New System.Drawing.Point(57, 273)
         Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(907, 150)
+        Me.PictureBox4.Size = New System.Drawing.Size(340, 63)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox4.TabIndex = 93
         Me.PictureBox4.TabStop = False
@@ -6963,10 +6355,9 @@ Partial Class modulos
         Me.Label10.AutoSize = True
         Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label10.Location = New System.Drawing.Point(152, 572)
-        Me.Label10.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label10.Location = New System.Drawing.Point(57, 240)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(613, 44)
+        Me.Label10.Size = New System.Drawing.Size(240, 18)
         Me.Label10.TabIndex = 83
         Me.Label10.Text = "¿Qué te motivó a crear tu negocio?"
         '
@@ -6975,10 +6366,9 @@ Partial Class modulos
         Me.Label9.AutoSize = True
         Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label9.Location = New System.Drawing.Point(155, 823)
-        Me.Label9.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label9.Location = New System.Drawing.Point(58, 345)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(751, 44)
+        Me.Label9.Size = New System.Drawing.Size(290, 18)
         Me.Label9.TabIndex = 82
         Me.Label9.Text = "Describe qué problemática resuelve tu idea"
         '
@@ -6987,10 +6377,9 @@ Partial Class modulos
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label8.Location = New System.Drawing.Point(1179, 169)
-        Me.Label8.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label8.Location = New System.Drawing.Point(442, 71)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(662, 44)
+        Me.Label8.Size = New System.Drawing.Size(255, 18)
         Me.Label8.TabIndex = 81
         Me.Label8.Text = "¿Quién o quiénes tienen el problema?"
         '
@@ -6999,10 +6388,9 @@ Partial Class modulos
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label7.Location = New System.Drawing.Point(1173, 434)
-        Me.Label7.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label7.Location = New System.Drawing.Point(440, 182)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(753, 44)
+        Me.Label7.Size = New System.Drawing.Size(293, 18)
         Me.Label7.TabIndex = 80
         Me.Label7.Text = "¿Qué beneficios aporta tu idea de negocio?"
         '
@@ -7011,10 +6399,9 @@ Partial Class modulos
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label6.Location = New System.Drawing.Point(1179, 706)
-        Me.Label6.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label6.Location = New System.Drawing.Point(442, 296)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(687, 88)
+        Me.Label6.Size = New System.Drawing.Size(266, 36)
         Me.Label6.TabIndex = 79
         Me.Label6.Text = "¿Qué ofreces que te hace diferente a tu" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "competencia?"
         '
@@ -7023,10 +6410,9 @@ Partial Class modulos
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label5.Location = New System.Drawing.Point(155, 322)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label5.Location = New System.Drawing.Point(58, 135)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(450, 44)
+        Me.Label5.Size = New System.Drawing.Size(175, 18)
         Me.Label5.TabIndex = 78
         Me.Label5.Text = "¿De dónde nació tu idea?"
         '
@@ -7034,36 +6420,36 @@ Partial Class modulos
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(320, 174)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label3.Location = New System.Drawing.Point(120, 73)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(167, 44)
+        Me.Label3.Size = New System.Drawing.Size(66, 18)
         Me.Label3.TabIndex = 76
         Me.Label3.Text = "modulo1"
         '
         'TabControl1
         '
+        Me.TabControl1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TabControl1.Controls.Add(Me.TabPage1)
         Me.TabControl1.Controls.Add(Me.TabPage2)
         Me.TabControl1.Controls.Add(Me.TabPage3)
         Me.TabControl1.Controls.Add(Me.TabPage4)
         Me.TabControl1.Controls.Add(Me.TabPage5)
         Me.TabControl1.Controls.Add(Me.TabPage6)
-        Me.TabControl1.Location = New System.Drawing.Point(0, 207)
-        Me.TabControl1.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TabControl1.Location = New System.Drawing.Point(31, 51)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(3371, 1285)
+        Me.TabControl1.Size = New System.Drawing.Size(1181, 489)
         Me.TabControl1.TabIndex = 0
         '
         'TabPage6
         '
         Me.TabPage6.Controls.Add(Me.m6TabControl1)
-        Me.TabPage6.Location = New System.Drawing.Point(10, 48)
-        Me.TabPage6.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TabPage6.Location = New System.Drawing.Point(4, 22)
         Me.TabPage6.Name = "TabPage6"
-        Me.TabPage6.Padding = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.TabPage6.Size = New System.Drawing.Size(3351, 1227)
+        Me.TabPage6.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage6.Size = New System.Drawing.Size(1173, 463)
         Me.TabPage6.TabIndex = 5
         Me.TabPage6.Text = "Modulo 6"
         Me.TabPage6.UseVisualStyleBackColor = True
@@ -7076,11 +6462,10 @@ Partial Class modulos
         Me.m6TabControl1.Controls.Add(Me.TabPage19)
         Me.m6TabControl1.Controls.Add(Me.TabPage20)
         Me.m6TabControl1.ItemSize = New System.Drawing.Size(0, 6)
-        Me.m6TabControl1.Location = New System.Drawing.Point(-11, 5)
-        Me.m6TabControl1.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.m6TabControl1.Location = New System.Drawing.Point(-4, 2)
         Me.m6TabControl1.Name = "m6TabControl1"
         Me.m6TabControl1.SelectedIndex = 0
-        Me.m6TabControl1.Size = New System.Drawing.Size(3371, 1228)
+        Me.m6TabControl1.Size = New System.Drawing.Size(1264, 515)
         Me.m6TabControl1.TabIndex = 0
         '
         'TabPage7
@@ -7114,11 +6499,10 @@ Partial Class modulos
         Me.TabPage7.Controls.Add(Me.Label201)
         Me.TabPage7.Controls.Add(Me.Label202)
         Me.TabPage7.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TabPage7.Location = New System.Drawing.Point(10, 16)
-        Me.TabPage7.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TabPage7.Location = New System.Drawing.Point(4, 10)
         Me.TabPage7.Name = "TabPage7"
-        Me.TabPage7.Padding = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.TabPage7.Size = New System.Drawing.Size(3351, 1202)
+        Me.TabPage7.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage7.Size = New System.Drawing.Size(1256, 501)
         Me.TabPage7.TabIndex = 1
         Me.TabPage7.Text = "TabPage7"
         Me.TabPage7.UseVisualStyleBackColor = True
@@ -7127,33 +6511,30 @@ Partial Class modulos
         '
         Me.TextBox173.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox173.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox173.Location = New System.Drawing.Point(2613, 308)
-        Me.TextBox173.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox173.Location = New System.Drawing.Point(980, 129)
         Me.TextBox173.Multiline = True
         Me.TextBox173.Name = "TextBox173"
-        Me.TextBox173.Size = New System.Drawing.Size(277, 60)
+        Me.TextBox173.Size = New System.Drawing.Size(104, 25)
         Me.TextBox173.TabIndex = 308
         '
         'TextBox172
         '
         Me.TextBox172.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox172.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox172.Location = New System.Drawing.Point(360, 382)
-        Me.TextBox172.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox172.Location = New System.Drawing.Point(135, 160)
         Me.TextBox172.Multiline = True
         Me.TextBox172.Name = "TextBox172"
-        Me.TextBox172.Size = New System.Drawing.Size(277, 60)
+        Me.TextBox172.Size = New System.Drawing.Size(104, 25)
         Me.TextBox172.TabIndex = 304
         '
         'TextBox171
         '
         Me.TextBox171.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox171.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox171.Location = New System.Drawing.Point(973, 382)
-        Me.TextBox171.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox171.Location = New System.Drawing.Point(365, 160)
         Me.TextBox171.Multiline = True
         Me.TextBox171.Name = "TextBox171"
-        Me.TextBox171.Size = New System.Drawing.Size(277, 60)
+        Me.TextBox171.Size = New System.Drawing.Size(104, 25)
         Me.TextBox171.TabIndex = 302
         '
         'Label298
@@ -7161,20 +6542,18 @@ Partial Class modulos
         Me.Label298.AutoSize = True
         Me.Label298.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label298.ForeColor = System.Drawing.Color.Navy
-        Me.Label298.Location = New System.Drawing.Point(2091, 296)
-        Me.Label298.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label298.Location = New System.Drawing.Point(784, 124)
         Me.Label298.Name = "Label298"
-        Me.Label298.Size = New System.Drawing.Size(458, 88)
+        Me.Label298.Size = New System.Drawing.Size(180, 36)
         Me.Label298.TabIndex = 310
         Me.Label298.Text = "Calculo automático según" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " la seleción. **"
         '
         'PictureBox129
         '
         Me.PictureBox129.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox129.Location = New System.Drawing.Point(2600, 296)
-        Me.PictureBox129.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox129.Location = New System.Drawing.Point(975, 124)
         Me.PictureBox129.Name = "PictureBox129"
-        Me.PictureBox129.Size = New System.Drawing.Size(304, 83)
+        Me.PictureBox129.Size = New System.Drawing.Size(114, 35)
         Me.PictureBox129.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox129.TabIndex = 309
         Me.PictureBox129.TabStop = False
@@ -7184,10 +6563,9 @@ Partial Class modulos
         Me.Label271.AutoSize = True
         Me.Label271.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label271.ForeColor = System.Drawing.Color.Navy
-        Me.Label271.Location = New System.Drawing.Point(136, 382)
-        Me.Label271.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label271.Location = New System.Drawing.Point(51, 160)
         Me.Label271.Name = "Label271"
-        Me.Label271.Size = New System.Drawing.Size(175, 44)
+        Me.Label271.Size = New System.Drawing.Size(73, 18)
         Me.Label271.TabIndex = 307
         Me.Label271.Text = "Indirecto"
         '
@@ -7196,20 +6574,18 @@ Partial Class modulos
         Me.Label270.AutoSize = True
         Me.Label270.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label270.ForeColor = System.Drawing.Color.Navy
-        Me.Label270.Location = New System.Drawing.Point(776, 393)
-        Me.Label270.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label270.Location = New System.Drawing.Point(291, 165)
         Me.Label270.Name = "Label270"
-        Me.Label270.Size = New System.Drawing.Size(148, 44)
+        Me.Label270.Size = New System.Drawing.Size(63, 18)
         Me.Label270.TabIndex = 306
         Me.Label270.Text = "Directo"
         '
         'PictureBox128
         '
         Me.PictureBox128.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox128.Location = New System.Drawing.Point(347, 370)
-        Me.PictureBox128.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox128.Location = New System.Drawing.Point(130, 155)
         Me.PictureBox128.Name = "PictureBox128"
-        Me.PictureBox128.Size = New System.Drawing.Size(304, 83)
+        Me.PictureBox128.Size = New System.Drawing.Size(114, 35)
         Me.PictureBox128.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox128.TabIndex = 305
         Me.PictureBox128.TabStop = False
@@ -7217,10 +6593,9 @@ Partial Class modulos
         'PictureBox127
         '
         Me.PictureBox127.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox127.Location = New System.Drawing.Point(960, 370)
-        Me.PictureBox127.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox127.Location = New System.Drawing.Point(360, 155)
         Me.PictureBox127.Name = "PictureBox127"
-        Me.PictureBox127.Size = New System.Drawing.Size(304, 83)
+        Me.PictureBox127.Size = New System.Drawing.Size(114, 35)
         Me.PictureBox127.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox127.TabIndex = 303
         Me.PictureBox127.TabStop = False
@@ -7229,10 +6604,9 @@ Partial Class modulos
         '
         Me.RB_capacitacion.AutoSize = True
         Me.RB_capacitacion.ForeColor = System.Drawing.Color.Navy
-        Me.RB_capacitacion.Location = New System.Drawing.Point(741, 849)
-        Me.RB_capacitacion.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RB_capacitacion.Location = New System.Drawing.Point(278, 356)
         Me.RB_capacitacion.Name = "RB_capacitacion"
-        Me.RB_capacitacion.Size = New System.Drawing.Size(277, 48)
+        Me.RB_capacitacion.Size = New System.Drawing.Size(112, 22)
         Me.RB_capacitacion.TabIndex = 281
         Me.RB_capacitacion.TabStop = True
         Me.RB_capacitacion.Text = "Capacitación"
@@ -7242,10 +6616,9 @@ Partial Class modulos
         '
         Me.RB_enfermeria.AutoSize = True
         Me.RB_enfermeria.ForeColor = System.Drawing.Color.Navy
-        Me.RB_enfermeria.Location = New System.Drawing.Point(741, 773)
-        Me.RB_enfermeria.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RB_enfermeria.Location = New System.Drawing.Point(278, 324)
         Me.RB_enfermeria.Name = "RB_enfermeria"
-        Me.RB_enfermeria.Size = New System.Drawing.Size(536, 48)
+        Me.RB_enfermeria.Size = New System.Drawing.Size(213, 22)
         Me.RB_enfermeria.TabIndex = 280
         Me.RB_enfermeria.TabStop = True
         Me.RB_enfermeria.Text = "Enfermería o medicamentos"
@@ -7255,10 +6628,9 @@ Partial Class modulos
         '
         Me.RB_act_deportivas.AutoSize = True
         Me.RB_act_deportivas.ForeColor = System.Drawing.Color.Navy
-        Me.RB_act_deportivas.Location = New System.Drawing.Point(741, 713)
-        Me.RB_act_deportivas.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RB_act_deportivas.Location = New System.Drawing.Point(278, 299)
         Me.RB_act_deportivas.Name = "RB_act_deportivas"
-        Me.RB_act_deportivas.Size = New System.Drawing.Size(438, 48)
+        Me.RB_act_deportivas.Size = New System.Drawing.Size(172, 22)
         Me.RB_act_deportivas.TabIndex = 279
         Me.RB_act_deportivas.TabStop = True
         Me.RB_act_deportivas.Text = "Actividades deportivas"
@@ -7268,10 +6640,9 @@ Partial Class modulos
         '
         Me.RB_act_sociales.AutoSize = True
         Me.RB_act_sociales.ForeColor = System.Drawing.Color.Navy
-        Me.RB_act_sociales.Location = New System.Drawing.Point(741, 646)
-        Me.RB_act_sociales.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RB_act_sociales.Location = New System.Drawing.Point(278, 271)
         Me.RB_act_sociales.Name = "RB_act_sociales"
-        Me.RB_act_sociales.Size = New System.Drawing.Size(400, 48)
+        Me.RB_act_sociales.Size = New System.Drawing.Size(159, 22)
         Me.RB_act_sociales.TabIndex = 278
         Me.RB_act_sociales.TabStop = True
         Me.RB_act_sociales.Text = "Actividades sociales"
@@ -7281,10 +6652,9 @@ Partial Class modulos
         '
         Me.RB_ISN.AutoSize = True
         Me.RB_ISN.ForeColor = System.Drawing.Color.Navy
-        Me.RB_ISN.Location = New System.Drawing.Point(741, 587)
-        Me.RB_ISN.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RB_ISN.Location = New System.Drawing.Point(278, 246)
         Me.RB_ISN.Name = "RB_ISN"
-        Me.RB_ISN.Size = New System.Drawing.Size(119, 48)
+        Me.RB_ISN.Size = New System.Drawing.Size(50, 22)
         Me.RB_ISN.TabIndex = 277
         Me.RB_ISN.TabStop = True
         Me.RB_ISN.Text = "ISN"
@@ -7294,10 +6664,9 @@ Partial Class modulos
         '
         Me.RB_prima.AutoSize = True
         Me.RB_prima.ForeColor = System.Drawing.Color.Navy
-        Me.RB_prima.Location = New System.Drawing.Point(147, 708)
-        Me.RB_prima.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RB_prima.Location = New System.Drawing.Point(55, 297)
         Me.RB_prima.Name = "RB_prima"
-        Me.RB_prima.Size = New System.Drawing.Size(354, 48)
+        Me.RB_prima.Size = New System.Drawing.Size(141, 22)
         Me.RB_prima.TabIndex = 276
         Me.RB_prima.TabStop = True
         Me.RB_prima.Text = "Prima Vacacional"
@@ -7307,10 +6676,9 @@ Partial Class modulos
         '
         Me.RB_antiguedad.AutoSize = True
         Me.RB_antiguedad.ForeColor = System.Drawing.Color.Navy
-        Me.RB_antiguedad.Location = New System.Drawing.Point(147, 775)
-        Me.RB_antiguedad.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RB_antiguedad.Location = New System.Drawing.Point(55, 325)
         Me.RB_antiguedad.Name = "RB_antiguedad"
-        Me.RB_antiguedad.Size = New System.Drawing.Size(408, 48)
+        Me.RB_antiguedad.Size = New System.Drawing.Size(160, 22)
         Me.RB_antiguedad.TabIndex = 275
         Me.RB_antiguedad.TabStop = True
         Me.RB_antiguedad.Text = "Prima de antiguedad"
@@ -7320,10 +6688,9 @@ Partial Class modulos
         '
         Me.RB_seguro.AutoSize = True
         Me.RB_seguro.ForeColor = System.Drawing.Color.Navy
-        Me.RB_seguro.Location = New System.Drawing.Point(147, 849)
-        Me.RB_seguro.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RB_seguro.Location = New System.Drawing.Point(55, 356)
         Me.RB_seguro.Name = "RB_seguro"
-        Me.RB_seguro.Size = New System.Drawing.Size(293, 48)
+        Me.RB_seguro.Size = New System.Drawing.Size(119, 22)
         Me.RB_seguro.TabIndex = 274
         Me.RB_seguro.TabStop = True
         Me.RB_seguro.Text = "Seguro Social"
@@ -7333,10 +6700,9 @@ Partial Class modulos
         '
         Me.RB_infonavit.AutoSize = True
         Me.RB_infonavit.ForeColor = System.Drawing.Color.Navy
-        Me.RB_infonavit.Location = New System.Drawing.Point(147, 916)
-        Me.RB_infonavit.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RB_infonavit.Location = New System.Drawing.Point(55, 384)
         Me.RB_infonavit.Name = "RB_infonavit"
-        Me.RB_infonavit.Size = New System.Drawing.Size(201, 48)
+        Me.RB_infonavit.Size = New System.Drawing.Size(80, 22)
         Me.RB_infonavit.TabIndex = 273
         Me.RB_infonavit.TabStop = True
         Me.RB_infonavit.Text = "Infonavit"
@@ -7346,10 +6712,9 @@ Partial Class modulos
         '
         Me.RB_rcv.AutoSize = True
         Me.RB_rcv.ForeColor = System.Drawing.Color.Navy
-        Me.RB_rcv.Location = New System.Drawing.Point(144, 982)
-        Me.RB_rcv.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RB_rcv.Location = New System.Drawing.Point(54, 412)
         Me.RB_rcv.Name = "RB_rcv"
-        Me.RB_rcv.Size = New System.Drawing.Size(136, 48)
+        Me.RB_rcv.Size = New System.Drawing.Size(57, 22)
         Me.RB_rcv.TabIndex = 272
         Me.RB_rcv.TabStop = True
         Me.RB_rcv.Text = "RCV"
@@ -7359,10 +6724,9 @@ Partial Class modulos
         '
         Me.RB_transporte.AutoSize = True
         Me.RB_transporte.ForeColor = System.Drawing.Color.Navy
-        Me.RB_transporte.Location = New System.Drawing.Point(147, 1049)
-        Me.RB_transporte.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RB_transporte.Location = New System.Drawing.Point(55, 440)
         Me.RB_transporte.Name = "RB_transporte"
-        Me.RB_transporte.Size = New System.Drawing.Size(241, 48)
+        Me.RB_transporte.Size = New System.Drawing.Size(98, 22)
         Me.RB_transporte.TabIndex = 271
         Me.RB_transporte.TabStop = True
         Me.RB_transporte.Text = "Transporte"
@@ -7372,10 +6736,9 @@ Partial Class modulos
         '
         Me.RB_ropa_y_equipo.AutoSize = True
         Me.RB_ropa_y_equipo.ForeColor = System.Drawing.Color.Navy
-        Me.RB_ropa_y_equipo.Location = New System.Drawing.Point(147, 1116)
-        Me.RB_ropa_y_equipo.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RB_ropa_y_equipo.Location = New System.Drawing.Point(55, 468)
         Me.RB_ropa_y_equipo.Name = "RB_ropa_y_equipo"
-        Me.RB_ropa_y_equipo.Size = New System.Drawing.Size(538, 48)
+        Me.RB_ropa_y_equipo.Size = New System.Drawing.Size(215, 22)
         Me.RB_ropa_y_equipo.TabIndex = 270
         Me.RB_ropa_y_equipo.TabStop = True
         Me.RB_ropa_y_equipo.Text = "Ropa y equipo de proteccion"
@@ -7385,10 +6748,9 @@ Partial Class modulos
         '
         Me.RB_vacaciones.AutoSize = True
         Me.RB_vacaciones.ForeColor = System.Drawing.Color.Navy
-        Me.RB_vacaciones.Location = New System.Drawing.Point(147, 641)
-        Me.RB_vacaciones.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RB_vacaciones.Location = New System.Drawing.Point(55, 269)
         Me.RB_vacaciones.Name = "RB_vacaciones"
-        Me.RB_vacaciones.Size = New System.Drawing.Size(253, 48)
+        Me.RB_vacaciones.Size = New System.Drawing.Size(103, 22)
         Me.RB_vacaciones.TabIndex = 263
         Me.RB_vacaciones.TabStop = True
         Me.RB_vacaciones.Text = "Vacaciones"
@@ -7398,10 +6760,9 @@ Partial Class modulos
         '
         Me.RB_aguinaldo.AutoSize = True
         Me.RB_aguinaldo.ForeColor = System.Drawing.Color.Navy
-        Me.RB_aguinaldo.Location = New System.Drawing.Point(147, 582)
-        Me.RB_aguinaldo.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RB_aguinaldo.Location = New System.Drawing.Point(55, 244)
         Me.RB_aguinaldo.Name = "RB_aguinaldo"
-        Me.RB_aguinaldo.Size = New System.Drawing.Size(226, 48)
+        Me.RB_aguinaldo.Size = New System.Drawing.Size(90, 22)
         Me.RB_aguinaldo.TabIndex = 262
         Me.RB_aguinaldo.TabStop = True
         Me.RB_aguinaldo.Text = "Aguinaldo"
@@ -7410,10 +6771,9 @@ Partial Class modulos
         'next1_m2
         '
         Me.next1_m2.Image = Global.saiin.My.Resources.Resources.next_arrow_
-        Me.next1_m2.Location = New System.Drawing.Point(3235, 560)
-        Me.next1_m2.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.next1_m2.Location = New System.Drawing.Point(1213, 235)
         Me.next1_m2.Name = "next1_m2"
-        Me.next1_m2.Size = New System.Drawing.Size(93, 83)
+        Me.next1_m2.Size = New System.Drawing.Size(35, 35)
         Me.next1_m2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.next1_m2.TabIndex = 259
         Me.next1_m2.TabStop = False
@@ -7423,10 +6783,9 @@ Partial Class modulos
         Me.Label199.AutoSize = True
         Me.Label199.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label199.ForeColor = System.Drawing.Color.Navy
-        Me.Label199.Location = New System.Drawing.Point(136, 467)
-        Me.Label199.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label199.Location = New System.Drawing.Point(51, 196)
         Me.Label199.Name = "Label199"
-        Me.Label199.Size = New System.Drawing.Size(901, 88)
+        Me.Label199.Size = New System.Drawing.Size(351, 36)
         Me.Label199.TabIndex = 185
         Me.Label199.Text = "¿Qué tipo de beneficio y/o prestaciones" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " recibirá cada uno de los empleados de l" &
     "a empresa?"
@@ -7436,10 +6795,9 @@ Partial Class modulos
         Me.Label200.AutoSize = True
         Me.Label200.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label200.ForeColor = System.Drawing.Color.Navy
-        Me.Label200.Location = New System.Drawing.Point(136, 296)
-        Me.Label200.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label200.Location = New System.Drawing.Point(51, 124)
         Me.Label200.Name = "Label200"
-        Me.Label200.Size = New System.Drawing.Size(677, 44)
+        Me.Label200.Size = New System.Drawing.Size(263, 18)
         Me.Label200.TabIndex = 183
         Me.Label200.Text = "Salarios del personal de la empresa. **"
         '
@@ -7448,10 +6806,9 @@ Partial Class modulos
         Me.Label201.AutoSize = True
         Me.Label201.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label201.ForeColor = System.Drawing.Color.Navy
-        Me.Label201.Location = New System.Drawing.Point(133, 172)
-        Me.Label201.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label201.Location = New System.Drawing.Point(50, 72)
         Me.Label201.Name = "Label201"
-        Me.Label201.Size = New System.Drawing.Size(403, 55)
+        Me.Label201.Size = New System.Drawing.Size(166, 24)
         Me.Label201.TabIndex = 182
         Me.Label201.Text = "Costos Variables"
         '
@@ -7460,10 +6817,9 @@ Partial Class modulos
         Me.Label202.AutoSize = True
         Me.Label202.Font = New System.Drawing.Font("Microsoft Sans Serif", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label202.ForeColor = System.Drawing.Color.Navy
-        Me.Label202.Location = New System.Drawing.Point(131, 41)
-        Me.Label202.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label202.Location = New System.Drawing.Point(49, 17)
         Me.Label202.Name = "Label202"
-        Me.Label202.Size = New System.Drawing.Size(335, 69)
+        Me.Label202.Size = New System.Drawing.Size(138, 29)
         Me.Label202.TabIndex = 181
         Me.Label202.Text = "FINANZAS"
         '
@@ -7553,11 +6909,10 @@ Partial Class modulos
         Me.TabPage14.Controls.Add(Me.Label196)
         Me.TabPage14.Controls.Add(Me.Label197)
         Me.TabPage14.Controls.Add(Me.Label198)
-        Me.TabPage14.Location = New System.Drawing.Point(10, 16)
-        Me.TabPage14.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TabPage14.Location = New System.Drawing.Point(4, 10)
         Me.TabPage14.Name = "TabPage14"
-        Me.TabPage14.Padding = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.TabPage14.Size = New System.Drawing.Size(3351, 1202)
+        Me.TabPage14.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage14.Size = New System.Drawing.Size(1256, 501)
         Me.TabPage14.TabIndex = 2
         Me.TabPage14.Text = "TabPage14"
         Me.TabPage14.UseVisualStyleBackColor = True
@@ -7567,11 +6922,10 @@ Partial Class modulos
         Me.TextBox177.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox177.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox177.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox177.Location = New System.Drawing.Point(2531, 568)
-        Me.TextBox177.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox177.Location = New System.Drawing.Point(949, 238)
         Me.TextBox177.Multiline = True
         Me.TextBox177.Name = "TextBox177"
-        Me.TextBox177.Size = New System.Drawing.Size(456, 43)
+        Me.TextBox177.Size = New System.Drawing.Size(171, 18)
         Me.TextBox177.TabIndex = 510
         '
         'TextBox178
@@ -7579,11 +6933,10 @@ Partial Class modulos
         Me.TextBox178.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox178.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox178.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox178.Location = New System.Drawing.Point(2525, 372)
-        Me.TextBox178.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox178.Location = New System.Drawing.Point(947, 156)
         Me.TextBox178.Multiline = True
         Me.TextBox178.Name = "TextBox178"
-        Me.TextBox178.Size = New System.Drawing.Size(461, 43)
+        Me.TextBox178.Size = New System.Drawing.Size(173, 18)
         Me.TextBox178.TabIndex = 508
         '
         'Label250
@@ -7591,10 +6944,9 @@ Partial Class modulos
         Me.Label250.AutoSize = True
         Me.Label250.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label250.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label250.Location = New System.Drawing.Point(2613, 475)
-        Me.Label250.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label250.Location = New System.Drawing.Point(980, 199)
         Me.Label250.Name = "Label250"
-        Me.Label250.Size = New System.Drawing.Size(297, 44)
+        Me.Label250.Size = New System.Drawing.Size(117, 18)
         Me.Label250.TabIndex = 507
         Me.Label250.Text = "Periodo de pago"
         '
@@ -7603,20 +6955,18 @@ Partial Class modulos
         Me.Label251.AutoSize = True
         Me.Label251.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label251.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label251.Location = New System.Drawing.Point(2501, 298)
-        Me.Label251.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label251.Location = New System.Drawing.Point(938, 125)
         Me.Label251.Name = "Label251"
-        Me.Label251.Size = New System.Drawing.Size(487, 44)
+        Me.Label251.Size = New System.Drawing.Size(193, 18)
         Me.Label251.TabIndex = 506
         Me.Label251.Text = "Tipo de contrato o convenio"
         '
         'PictureBox133
         '
         Me.PictureBox133.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox133.Location = New System.Drawing.Point(2517, 556)
-        Me.PictureBox133.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox133.Location = New System.Drawing.Point(944, 233)
         Me.PictureBox133.Name = "PictureBox133"
-        Me.PictureBox133.Size = New System.Drawing.Size(483, 67)
+        Me.PictureBox133.Size = New System.Drawing.Size(181, 28)
         Me.PictureBox133.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox133.TabIndex = 511
         Me.PictureBox133.TabStop = False
@@ -7624,10 +6974,9 @@ Partial Class modulos
         'PictureBox137
         '
         Me.PictureBox137.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox137.Location = New System.Drawing.Point(2512, 360)
-        Me.PictureBox137.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox137.Location = New System.Drawing.Point(942, 151)
         Me.PictureBox137.Name = "PictureBox137"
-        Me.PictureBox137.Size = New System.Drawing.Size(488, 67)
+        Me.PictureBox137.Size = New System.Drawing.Size(183, 28)
         Me.PictureBox137.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox137.TabIndex = 509
         Me.PictureBox137.TabStop = False
@@ -7637,11 +6986,10 @@ Partial Class modulos
         Me.TextBox175.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox175.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox175.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox175.Location = New System.Drawing.Point(1339, 568)
-        Me.TextBox175.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox175.Location = New System.Drawing.Point(502, 238)
         Me.TextBox175.Multiline = True
         Me.TextBox175.Name = "TextBox175"
-        Me.TextBox175.Size = New System.Drawing.Size(456, 43)
+        Me.TextBox175.Size = New System.Drawing.Size(171, 18)
         Me.TextBox175.TabIndex = 504
         '
         'TextBox176
@@ -7649,11 +6997,10 @@ Partial Class modulos
         Me.TextBox176.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox176.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox176.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox176.Location = New System.Drawing.Point(1333, 372)
-        Me.TextBox176.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox176.Location = New System.Drawing.Point(500, 156)
         Me.TextBox176.Multiline = True
         Me.TextBox176.Name = "TextBox176"
-        Me.TextBox176.Size = New System.Drawing.Size(461, 43)
+        Me.TextBox176.Size = New System.Drawing.Size(173, 18)
         Me.TextBox176.TabIndex = 502
         '
         'Label212
@@ -7661,10 +7008,9 @@ Partial Class modulos
         Me.Label212.AutoSize = True
         Me.Label212.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label212.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label212.Location = New System.Drawing.Point(1421, 475)
-        Me.Label212.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label212.Location = New System.Drawing.Point(533, 199)
         Me.Label212.Name = "Label212"
-        Me.Label212.Size = New System.Drawing.Size(297, 44)
+        Me.Label212.Size = New System.Drawing.Size(117, 18)
         Me.Label212.TabIndex = 501
         Me.Label212.Text = "Periodo de pago"
         '
@@ -7673,20 +7019,18 @@ Partial Class modulos
         Me.Label248.AutoSize = True
         Me.Label248.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label248.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label248.Location = New System.Drawing.Point(1309, 298)
-        Me.Label248.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label248.Location = New System.Drawing.Point(491, 125)
         Me.Label248.Name = "Label248"
-        Me.Label248.Size = New System.Drawing.Size(487, 44)
+        Me.Label248.Size = New System.Drawing.Size(193, 18)
         Me.Label248.TabIndex = 500
         Me.Label248.Text = "Tipo de contrato o convenio"
         '
         'PictureBox131
         '
         Me.PictureBox131.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox131.Location = New System.Drawing.Point(1325, 556)
-        Me.PictureBox131.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox131.Location = New System.Drawing.Point(497, 233)
         Me.PictureBox131.Name = "PictureBox131"
-        Me.PictureBox131.Size = New System.Drawing.Size(483, 67)
+        Me.PictureBox131.Size = New System.Drawing.Size(181, 28)
         Me.PictureBox131.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox131.TabIndex = 505
         Me.PictureBox131.TabStop = False
@@ -7694,10 +7038,9 @@ Partial Class modulos
         'PictureBox132
         '
         Me.PictureBox132.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox132.Location = New System.Drawing.Point(1320, 360)
-        Me.PictureBox132.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox132.Location = New System.Drawing.Point(495, 151)
         Me.PictureBox132.Name = "PictureBox132"
-        Me.PictureBox132.Size = New System.Drawing.Size(488, 67)
+        Me.PictureBox132.Size = New System.Drawing.Size(183, 28)
         Me.PictureBox132.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox132.TabIndex = 503
         Me.PictureBox132.TabStop = False
@@ -7707,11 +7050,10 @@ Partial Class modulos
         Me.TextBox116.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox116.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox116.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox116.Location = New System.Drawing.Point(235, 556)
-        Me.TextBox116.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox116.Location = New System.Drawing.Point(88, 233)
         Me.TextBox116.Multiline = True
         Me.TextBox116.Name = "TextBox116"
-        Me.TextBox116.Size = New System.Drawing.Size(456, 43)
+        Me.TextBox116.Size = New System.Drawing.Size(171, 18)
         Me.TextBox116.TabIndex = 498
         '
         'TextBox174
@@ -7719,11 +7061,10 @@ Partial Class modulos
         Me.TextBox174.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox174.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox174.ForeColor = System.Drawing.Color.Navy
-        Me.TextBox174.Location = New System.Drawing.Point(229, 360)
-        Me.TextBox174.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox174.Location = New System.Drawing.Point(86, 151)
         Me.TextBox174.Multiline = True
         Me.TextBox174.Name = "TextBox174"
-        Me.TextBox174.Size = New System.Drawing.Size(461, 43)
+        Me.TextBox174.Size = New System.Drawing.Size(173, 18)
         Me.TextBox174.TabIndex = 496
         '
         'Label214
@@ -7731,10 +7072,9 @@ Partial Class modulos
         Me.Label214.AutoSize = True
         Me.Label214.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label214.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label214.Location = New System.Drawing.Point(317, 463)
-        Me.Label214.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label214.Location = New System.Drawing.Point(119, 194)
         Me.Label214.Name = "Label214"
-        Me.Label214.Size = New System.Drawing.Size(297, 44)
+        Me.Label214.Size = New System.Drawing.Size(117, 18)
         Me.Label214.TabIndex = 494
         Me.Label214.Text = "Periodo de pago"
         '
@@ -7743,20 +7083,18 @@ Partial Class modulos
         Me.Label222.AutoSize = True
         Me.Label222.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label222.ForeColor = System.Drawing.Color.MidnightBlue
-        Me.Label222.Location = New System.Drawing.Point(205, 286)
-        Me.Label222.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label222.Location = New System.Drawing.Point(77, 120)
         Me.Label222.Name = "Label222"
-        Me.Label222.Size = New System.Drawing.Size(487, 44)
+        Me.Label222.Size = New System.Drawing.Size(193, 18)
         Me.Label222.TabIndex = 493
         Me.Label222.Text = "Tipo de contrato o convenio"
         '
         'PictureBox56
         '
         Me.PictureBox56.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox56.Location = New System.Drawing.Point(221, 544)
-        Me.PictureBox56.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox56.Location = New System.Drawing.Point(83, 228)
         Me.PictureBox56.Name = "PictureBox56"
-        Me.PictureBox56.Size = New System.Drawing.Size(483, 67)
+        Me.PictureBox56.Size = New System.Drawing.Size(181, 28)
         Me.PictureBox56.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox56.TabIndex = 499
         Me.PictureBox56.TabStop = False
@@ -7764,10 +7102,9 @@ Partial Class modulos
         'PictureBox130
         '
         Me.PictureBox130.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox130.Location = New System.Drawing.Point(216, 348)
-        Me.PictureBox130.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox130.Location = New System.Drawing.Point(81, 146)
         Me.PictureBox130.Name = "PictureBox130"
-        Me.PictureBox130.Size = New System.Drawing.Size(488, 67)
+        Me.PictureBox130.Size = New System.Drawing.Size(183, 28)
         Me.PictureBox130.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox130.TabIndex = 497
         Me.PictureBox130.TabStop = False
@@ -7775,10 +7112,9 @@ Partial Class modulos
         'PictureBox136
         '
         Me.PictureBox136.Image = Global.saiin.My.Resources.Resources.plus_plus
-        Me.PictureBox136.Location = New System.Drawing.Point(1528, 1080)
-        Me.PictureBox136.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox136.Location = New System.Drawing.Point(573, 453)
         Me.PictureBox136.Name = "PictureBox136"
-        Me.PictureBox136.Size = New System.Drawing.Size(80, 72)
+        Me.PictureBox136.Size = New System.Drawing.Size(30, 30)
         Me.PictureBox136.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox136.TabIndex = 492
         Me.PictureBox136.TabStop = False
@@ -7786,10 +7122,9 @@ Partial Class modulos
         'PictureBox135
         '
         Me.PictureBox135.Image = Global.saiin.My.Resources.Resources.plus_plus
-        Me.PictureBox135.Location = New System.Drawing.Point(2720, 1080)
-        Me.PictureBox135.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox135.Location = New System.Drawing.Point(1020, 453)
         Me.PictureBox135.Name = "PictureBox135"
-        Me.PictureBox135.Size = New System.Drawing.Size(80, 72)
+        Me.PictureBox135.Size = New System.Drawing.Size(30, 30)
         Me.PictureBox135.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox135.TabIndex = 491
         Me.PictureBox135.TabStop = False
@@ -7797,182 +7132,162 @@ Partial Class modulos
         'TextBox117
         '
         Me.TextBox117.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox117.Location = New System.Drawing.Point(2936, 982)
-        Me.TextBox117.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox117.Location = New System.Drawing.Point(1101, 412)
         Me.TextBox117.Name = "TextBox117"
-        Me.TextBox117.Size = New System.Drawing.Size(167, 50)
+        Me.TextBox117.Size = New System.Drawing.Size(65, 24)
         Me.TextBox117.TabIndex = 490
         '
         'TextBox118
         '
         Me.TextBox118.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox118.Location = New System.Drawing.Point(2619, 985)
-        Me.TextBox118.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox118.Location = New System.Drawing.Point(982, 413)
         Me.TextBox118.Name = "TextBox118"
-        Me.TextBox118.Size = New System.Drawing.Size(284, 50)
+        Me.TextBox118.Size = New System.Drawing.Size(109, 24)
         Me.TextBox118.TabIndex = 489
         '
         'TextBox119
         '
         Me.TextBox119.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox119.Location = New System.Drawing.Point(2419, 985)
-        Me.TextBox119.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox119.Location = New System.Drawing.Point(907, 413)
         Me.TextBox119.Name = "TextBox119"
-        Me.TextBox119.Size = New System.Drawing.Size(167, 50)
+        Me.TextBox119.Size = New System.Drawing.Size(65, 24)
         Me.TextBox119.TabIndex = 488
         '
         'TextBox120
         '
         Me.TextBox120.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox120.Location = New System.Drawing.Point(2936, 842)
-        Me.TextBox120.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox120.Location = New System.Drawing.Point(1101, 353)
         Me.TextBox120.Name = "TextBox120"
-        Me.TextBox120.Size = New System.Drawing.Size(167, 50)
+        Me.TextBox120.Size = New System.Drawing.Size(65, 24)
         Me.TextBox120.TabIndex = 484
         '
         'TextBox121
         '
         Me.TextBox121.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox121.Location = New System.Drawing.Point(2619, 844)
-        Me.TextBox121.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox121.Location = New System.Drawing.Point(982, 354)
         Me.TextBox121.Name = "TextBox121"
-        Me.TextBox121.Size = New System.Drawing.Size(284, 50)
+        Me.TextBox121.Size = New System.Drawing.Size(109, 24)
         Me.TextBox121.TabIndex = 483
         '
         'TextBox122
         '
         Me.TextBox122.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox122.Location = New System.Drawing.Point(2419, 844)
-        Me.TextBox122.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox122.Location = New System.Drawing.Point(907, 354)
         Me.TextBox122.Name = "TextBox122"
-        Me.TextBox122.Size = New System.Drawing.Size(167, 50)
+        Me.TextBox122.Size = New System.Drawing.Size(65, 24)
         Me.TextBox122.TabIndex = 482
         '
         'TextBox123
         '
         Me.TextBox123.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox123.Location = New System.Drawing.Point(2936, 720)
-        Me.TextBox123.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox123.Location = New System.Drawing.Point(1101, 302)
         Me.TextBox123.Name = "TextBox123"
-        Me.TextBox123.Size = New System.Drawing.Size(167, 50)
+        Me.TextBox123.Size = New System.Drawing.Size(65, 24)
         Me.TextBox123.TabIndex = 478
         '
         'TextBox124
         '
         Me.TextBox124.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox124.Location = New System.Drawing.Point(2611, 723)
-        Me.TextBox124.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox124.Location = New System.Drawing.Point(979, 303)
         Me.TextBox124.Name = "TextBox124"
-        Me.TextBox124.Size = New System.Drawing.Size(284, 50)
+        Me.TextBox124.Size = New System.Drawing.Size(109, 24)
         Me.TextBox124.TabIndex = 477
         '
         'TextBox125
         '
         Me.TextBox125.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox125.Location = New System.Drawing.Point(2419, 723)
-        Me.TextBox125.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox125.Location = New System.Drawing.Point(907, 303)
         Me.TextBox125.Name = "TextBox125"
-        Me.TextBox125.Size = New System.Drawing.Size(167, 50)
+        Me.TextBox125.Size = New System.Drawing.Size(65, 24)
         Me.TextBox125.TabIndex = 476
         '
         'TextBox126
         '
         Me.TextBox126.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox126.Location = New System.Drawing.Point(2587, 191)
-        Me.TextBox126.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox126.Location = New System.Drawing.Point(970, 80)
         Me.TextBox126.Name = "TextBox126"
-        Me.TextBox126.Size = New System.Drawing.Size(420, 50)
+        Me.TextBox126.Size = New System.Drawing.Size(160, 24)
         Me.TextBox126.TabIndex = 472
         Me.TextBox126.Text = "Nombre del Proveedor"
         '
         'TextBox1
         '
         Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(1741, 982)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox1.Location = New System.Drawing.Point(653, 412)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(167, 50)
+        Me.TextBox1.Size = New System.Drawing.Size(65, 24)
         Me.TextBox1.TabIndex = 470
         '
         'TextBox2
         '
         Me.TextBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(1424, 985)
-        Me.TextBox2.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox2.Location = New System.Drawing.Point(534, 413)
         Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(284, 50)
+        Me.TextBox2.Size = New System.Drawing.Size(109, 24)
         Me.TextBox2.TabIndex = 469
         '
         'TextBox3
         '
         Me.TextBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.Location = New System.Drawing.Point(1224, 985)
-        Me.TextBox3.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox3.Location = New System.Drawing.Point(459, 413)
         Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(167, 50)
+        Me.TextBox3.Size = New System.Drawing.Size(65, 24)
         Me.TextBox3.TabIndex = 468
         '
         'TextBox4
         '
         Me.TextBox4.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.Location = New System.Drawing.Point(1741, 842)
-        Me.TextBox4.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox4.Location = New System.Drawing.Point(653, 353)
         Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(167, 50)
+        Me.TextBox4.Size = New System.Drawing.Size(65, 24)
         Me.TextBox4.TabIndex = 464
         '
         'TextBox5
         '
         Me.TextBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox5.Location = New System.Drawing.Point(1424, 844)
-        Me.TextBox5.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox5.Location = New System.Drawing.Point(534, 354)
         Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(284, 50)
+        Me.TextBox5.Size = New System.Drawing.Size(109, 24)
         Me.TextBox5.TabIndex = 463
         '
         'TextBox6
         '
         Me.TextBox6.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox6.Location = New System.Drawing.Point(1224, 844)
-        Me.TextBox6.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox6.Location = New System.Drawing.Point(459, 354)
         Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.Size = New System.Drawing.Size(167, 50)
+        Me.TextBox6.Size = New System.Drawing.Size(65, 24)
         Me.TextBox6.TabIndex = 462
         '
         'TextBox9
         '
         Me.TextBox9.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox9.Location = New System.Drawing.Point(1741, 720)
-        Me.TextBox9.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox9.Location = New System.Drawing.Point(653, 302)
         Me.TextBox9.Name = "TextBox9"
-        Me.TextBox9.Size = New System.Drawing.Size(167, 50)
+        Me.TextBox9.Size = New System.Drawing.Size(65, 24)
         Me.TextBox9.TabIndex = 458
         '
         'TextBox89
         '
         Me.TextBox89.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox89.Location = New System.Drawing.Point(1416, 723)
-        Me.TextBox89.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox89.Location = New System.Drawing.Point(531, 303)
         Me.TextBox89.Name = "TextBox89"
-        Me.TextBox89.Size = New System.Drawing.Size(284, 50)
+        Me.TextBox89.Size = New System.Drawing.Size(109, 24)
         Me.TextBox89.TabIndex = 457
         '
         'TextBox90
         '
         Me.TextBox90.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox90.Location = New System.Drawing.Point(1224, 723)
-        Me.TextBox90.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox90.Location = New System.Drawing.Point(459, 303)
         Me.TextBox90.Name = "TextBox90"
-        Me.TextBox90.Size = New System.Drawing.Size(167, 50)
+        Me.TextBox90.Size = New System.Drawing.Size(65, 24)
         Me.TextBox90.TabIndex = 456
         '
         'TextBox111
         '
         Me.TextBox111.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox111.Location = New System.Drawing.Point(1424, 198)
-        Me.TextBox111.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox111.Location = New System.Drawing.Point(534, 83)
         Me.TextBox111.Name = "TextBox111"
-        Me.TextBox111.Size = New System.Drawing.Size(420, 50)
+        Me.TextBox111.Size = New System.Drawing.Size(160, 24)
         Me.TextBox111.TabIndex = 451
         Me.TextBox111.Text = "Nombre del Proveedor"
         '
@@ -7981,10 +7296,9 @@ Partial Class modulos
         Me.Label203.AutoSize = True
         Me.Label203.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label203.ForeColor = System.Drawing.Color.Navy
-        Me.Label203.Location = New System.Drawing.Point(2963, 932)
-        Me.Label203.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label203.Location = New System.Drawing.Point(1111, 391)
         Me.Label203.Name = "Label203"
-        Me.Label203.Size = New System.Drawing.Size(119, 44)
+        Me.Label203.Size = New System.Drawing.Size(49, 18)
         Me.Label203.TabIndex = 487
         Me.Label203.Text = "Costo"
         '
@@ -7993,10 +7307,9 @@ Partial Class modulos
         Me.Label204.AutoSize = True
         Me.Label204.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label204.ForeColor = System.Drawing.Color.Navy
-        Me.Label204.Location = New System.Drawing.Point(2648, 935)
-        Me.Label204.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label204.Location = New System.Drawing.Point(993, 392)
         Me.Label204.Name = "Label204"
-        Me.Label204.Size = New System.Drawing.Size(219, 44)
+        Me.Label204.Size = New System.Drawing.Size(87, 18)
         Me.Label204.TabIndex = 486
         Me.Label204.Text = "Descripción"
         '
@@ -8005,10 +7318,9 @@ Partial Class modulos
         Me.Label205.AutoSize = True
         Me.Label205.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label205.ForeColor = System.Drawing.Color.Navy
-        Me.Label205.Location = New System.Drawing.Point(2445, 935)
-        Me.Label205.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label205.Location = New System.Drawing.Point(917, 392)
         Me.Label205.Name = "Label205"
-        Me.Label205.Size = New System.Drawing.Size(108, 44)
+        Me.Label205.Size = New System.Drawing.Size(43, 18)
         Me.Label205.TabIndex = 485
         Me.Label205.Text = "MP 3"
         '
@@ -8017,10 +7329,9 @@ Partial Class modulos
         Me.Label206.AutoSize = True
         Me.Label206.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label206.ForeColor = System.Drawing.Color.Navy
-        Me.Label206.Location = New System.Drawing.Point(2963, 789)
-        Me.Label206.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label206.Location = New System.Drawing.Point(1111, 331)
         Me.Label206.Name = "Label206"
-        Me.Label206.Size = New System.Drawing.Size(119, 44)
+        Me.Label206.Size = New System.Drawing.Size(49, 18)
         Me.Label206.TabIndex = 481
         Me.Label206.Text = "Costo"
         '
@@ -8029,10 +7340,9 @@ Partial Class modulos
         Me.Label207.AutoSize = True
         Me.Label207.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label207.ForeColor = System.Drawing.Color.Navy
-        Me.Label207.Location = New System.Drawing.Point(2648, 794)
-        Me.Label207.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label207.Location = New System.Drawing.Point(993, 333)
         Me.Label207.Name = "Label207"
-        Me.Label207.Size = New System.Drawing.Size(219, 44)
+        Me.Label207.Size = New System.Drawing.Size(87, 18)
         Me.Label207.TabIndex = 480
         Me.Label207.Text = "Descripción"
         '
@@ -8041,10 +7351,9 @@ Partial Class modulos
         Me.Label208.AutoSize = True
         Me.Label208.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label208.ForeColor = System.Drawing.Color.Navy
-        Me.Label208.Location = New System.Drawing.Point(2451, 794)
-        Me.Label208.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label208.Location = New System.Drawing.Point(919, 333)
         Me.Label208.Name = "Label208"
-        Me.Label208.Size = New System.Drawing.Size(108, 44)
+        Me.Label208.Size = New System.Drawing.Size(43, 18)
         Me.Label208.TabIndex = 479
         Me.Label208.Text = "MP 2"
         '
@@ -8053,10 +7362,9 @@ Partial Class modulos
         Me.Label209.AutoSize = True
         Me.Label209.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label209.ForeColor = System.Drawing.Color.Navy
-        Me.Label209.Location = New System.Drawing.Point(2963, 668)
-        Me.Label209.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label209.Location = New System.Drawing.Point(1111, 280)
         Me.Label209.Name = "Label209"
-        Me.Label209.Size = New System.Drawing.Size(119, 44)
+        Me.Label209.Size = New System.Drawing.Size(49, 18)
         Me.Label209.TabIndex = 475
         Me.Label209.Text = "Costo"
         '
@@ -8065,10 +7373,9 @@ Partial Class modulos
         Me.Label210.AutoSize = True
         Me.Label210.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label210.ForeColor = System.Drawing.Color.Navy
-        Me.Label210.Location = New System.Drawing.Point(2648, 675)
-        Me.Label210.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label210.Location = New System.Drawing.Point(993, 283)
         Me.Label210.Name = "Label210"
-        Me.Label210.Size = New System.Drawing.Size(219, 44)
+        Me.Label210.Size = New System.Drawing.Size(87, 18)
         Me.Label210.TabIndex = 474
         Me.Label210.Text = "Descripción"
         '
@@ -8077,10 +7384,9 @@ Partial Class modulos
         Me.Label211.AutoSize = True
         Me.Label211.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label211.ForeColor = System.Drawing.Color.Navy
-        Me.Label211.Location = New System.Drawing.Point(2451, 675)
-        Me.Label211.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label211.Location = New System.Drawing.Point(919, 283)
         Me.Label211.Name = "Label211"
-        Me.Label211.Size = New System.Drawing.Size(108, 44)
+        Me.Label211.Size = New System.Drawing.Size(43, 18)
         Me.Label211.TabIndex = 473
         Me.Label211.Text = "MP 1"
         '
@@ -8089,10 +7395,9 @@ Partial Class modulos
         Me.Label213.AutoSize = True
         Me.Label213.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label213.ForeColor = System.Drawing.Color.Navy
-        Me.Label213.Location = New System.Drawing.Point(2301, 205)
-        Me.Label213.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label213.Location = New System.Drawing.Point(863, 86)
         Me.Label213.Name = "Label213"
-        Me.Label213.Size = New System.Drawing.Size(237, 44)
+        Me.Label213.Size = New System.Drawing.Size(100, 18)
         Me.Label213.TabIndex = 471
         Me.Label213.Text = "Proveedor 3"
         '
@@ -8101,10 +7406,9 @@ Partial Class modulos
         Me.Label144.AutoSize = True
         Me.Label144.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label144.ForeColor = System.Drawing.Color.Navy
-        Me.Label144.Location = New System.Drawing.Point(1768, 932)
-        Me.Label144.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label144.Location = New System.Drawing.Point(663, 391)
         Me.Label144.Name = "Label144"
-        Me.Label144.Size = New System.Drawing.Size(119, 44)
+        Me.Label144.Size = New System.Drawing.Size(49, 18)
         Me.Label144.TabIndex = 467
         Me.Label144.Text = "Costo"
         '
@@ -8113,10 +7417,9 @@ Partial Class modulos
         Me.Label145.AutoSize = True
         Me.Label145.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label145.ForeColor = System.Drawing.Color.Navy
-        Me.Label145.Location = New System.Drawing.Point(1453, 935)
-        Me.Label145.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label145.Location = New System.Drawing.Point(545, 392)
         Me.Label145.Name = "Label145"
-        Me.Label145.Size = New System.Drawing.Size(219, 44)
+        Me.Label145.Size = New System.Drawing.Size(87, 18)
         Me.Label145.TabIndex = 466
         Me.Label145.Text = "Descripción"
         '
@@ -8125,10 +7428,9 @@ Partial Class modulos
         Me.Label146.AutoSize = True
         Me.Label146.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label146.ForeColor = System.Drawing.Color.Navy
-        Me.Label146.Location = New System.Drawing.Point(1251, 935)
-        Me.Label146.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label146.Location = New System.Drawing.Point(469, 392)
         Me.Label146.Name = "Label146"
-        Me.Label146.Size = New System.Drawing.Size(108, 44)
+        Me.Label146.Size = New System.Drawing.Size(43, 18)
         Me.Label146.TabIndex = 465
         Me.Label146.Text = "MP 3"
         '
@@ -8137,10 +7439,9 @@ Partial Class modulos
         Me.Label179.AutoSize = True
         Me.Label179.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label179.ForeColor = System.Drawing.Color.Navy
-        Me.Label179.Location = New System.Drawing.Point(1768, 789)
-        Me.Label179.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label179.Location = New System.Drawing.Point(663, 331)
         Me.Label179.Name = "Label179"
-        Me.Label179.Size = New System.Drawing.Size(119, 44)
+        Me.Label179.Size = New System.Drawing.Size(49, 18)
         Me.Label179.TabIndex = 461
         Me.Label179.Text = "Costo"
         '
@@ -8149,10 +7450,9 @@ Partial Class modulos
         Me.Label180.AutoSize = True
         Me.Label180.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label180.ForeColor = System.Drawing.Color.Navy
-        Me.Label180.Location = New System.Drawing.Point(1453, 794)
-        Me.Label180.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label180.Location = New System.Drawing.Point(545, 333)
         Me.Label180.Name = "Label180"
-        Me.Label180.Size = New System.Drawing.Size(219, 44)
+        Me.Label180.Size = New System.Drawing.Size(87, 18)
         Me.Label180.TabIndex = 460
         Me.Label180.Text = "Descripción"
         '
@@ -8161,10 +7461,9 @@ Partial Class modulos
         Me.Label181.AutoSize = True
         Me.Label181.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label181.ForeColor = System.Drawing.Color.Navy
-        Me.Label181.Location = New System.Drawing.Point(1256, 794)
-        Me.Label181.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label181.Location = New System.Drawing.Point(471, 333)
         Me.Label181.Name = "Label181"
-        Me.Label181.Size = New System.Drawing.Size(108, 44)
+        Me.Label181.Size = New System.Drawing.Size(43, 18)
         Me.Label181.TabIndex = 459
         Me.Label181.Text = "MP 2"
         '
@@ -8173,10 +7472,9 @@ Partial Class modulos
         Me.Label182.AutoSize = True
         Me.Label182.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label182.ForeColor = System.Drawing.Color.Navy
-        Me.Label182.Location = New System.Drawing.Point(1768, 668)
-        Me.Label182.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label182.Location = New System.Drawing.Point(663, 280)
         Me.Label182.Name = "Label182"
-        Me.Label182.Size = New System.Drawing.Size(119, 44)
+        Me.Label182.Size = New System.Drawing.Size(49, 18)
         Me.Label182.TabIndex = 455
         Me.Label182.Text = "Costo"
         '
@@ -8185,10 +7483,9 @@ Partial Class modulos
         Me.Label183.AutoSize = True
         Me.Label183.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label183.ForeColor = System.Drawing.Color.Navy
-        Me.Label183.Location = New System.Drawing.Point(1453, 675)
-        Me.Label183.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label183.Location = New System.Drawing.Point(545, 283)
         Me.Label183.Name = "Label183"
-        Me.Label183.Size = New System.Drawing.Size(219, 44)
+        Me.Label183.Size = New System.Drawing.Size(87, 18)
         Me.Label183.TabIndex = 454
         Me.Label183.Text = "Descripción"
         '
@@ -8197,10 +7494,9 @@ Partial Class modulos
         Me.Label184.AutoSize = True
         Me.Label184.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label184.ForeColor = System.Drawing.Color.Navy
-        Me.Label184.Location = New System.Drawing.Point(1256, 675)
-        Me.Label184.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label184.Location = New System.Drawing.Point(471, 283)
         Me.Label184.Name = "Label184"
-        Me.Label184.Size = New System.Drawing.Size(108, 44)
+        Me.Label184.Size = New System.Drawing.Size(43, 18)
         Me.Label184.TabIndex = 453
         Me.Label184.Text = "MP 1"
         '
@@ -8209,10 +7505,9 @@ Partial Class modulos
         Me.Label191.AutoSize = True
         Me.Label191.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label191.ForeColor = System.Drawing.Color.Navy
-        Me.Label191.Location = New System.Drawing.Point(2296, 229)
-        Me.Label191.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label191.Location = New System.Drawing.Point(861, 96)
         Me.Label191.Name = "Label191"
-        Me.Label191.Size = New System.Drawing.Size(0, 38)
+        Me.Label191.Size = New System.Drawing.Size(0, 16)
         Me.Label191.TabIndex = 452
         '
         'Label195
@@ -8220,20 +7515,18 @@ Partial Class modulos
         Me.Label195.AutoSize = True
         Me.Label195.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label195.ForeColor = System.Drawing.Color.Navy
-        Me.Label195.Location = New System.Drawing.Point(1131, 212)
-        Me.Label195.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label195.Location = New System.Drawing.Point(424, 89)
         Me.Label195.Name = "Label195"
-        Me.Label195.Size = New System.Drawing.Size(237, 44)
+        Me.Label195.Size = New System.Drawing.Size(100, 18)
         Me.Label195.TabIndex = 450
         Me.Label195.Text = "Proveedor 2"
         '
         'PictureBox134
         '
         Me.PictureBox134.Image = Global.saiin.My.Resources.Resources.plus_plus
-        Me.PictureBox134.Location = New System.Drawing.Point(432, 1080)
-        Me.PictureBox134.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox134.Location = New System.Drawing.Point(162, 453)
         Me.PictureBox134.Name = "PictureBox134"
-        Me.PictureBox134.Size = New System.Drawing.Size(80, 72)
+        Me.PictureBox134.Size = New System.Drawing.Size(30, 30)
         Me.PictureBox134.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox134.TabIndex = 449
         Me.PictureBox134.TabStop = False
@@ -8241,91 +7534,81 @@ Partial Class modulos
         'TextBox92
         '
         Me.TextBox92.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox92.Location = New System.Drawing.Point(643, 985)
-        Me.TextBox92.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox92.Location = New System.Drawing.Point(241, 413)
         Me.TextBox92.Name = "TextBox92"
-        Me.TextBox92.Size = New System.Drawing.Size(167, 50)
+        Me.TextBox92.Size = New System.Drawing.Size(65, 24)
         Me.TextBox92.TabIndex = 448
         '
         'TextBox93
         '
         Me.TextBox93.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox93.Location = New System.Drawing.Point(325, 985)
-        Me.TextBox93.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox93.Location = New System.Drawing.Point(122, 413)
         Me.TextBox93.Name = "TextBox93"
-        Me.TextBox93.Size = New System.Drawing.Size(284, 50)
+        Me.TextBox93.Size = New System.Drawing.Size(109, 24)
         Me.TextBox93.TabIndex = 447
         '
         'TextBox94
         '
         Me.TextBox94.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox94.Location = New System.Drawing.Point(125, 985)
-        Me.TextBox94.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox94.Location = New System.Drawing.Point(47, 413)
         Me.TextBox94.Name = "TextBox94"
-        Me.TextBox94.Size = New System.Drawing.Size(167, 50)
+        Me.TextBox94.Size = New System.Drawing.Size(65, 24)
         Me.TextBox94.TabIndex = 446
         '
         'TextBox95
         '
         Me.TextBox95.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox95.Location = New System.Drawing.Point(643, 844)
-        Me.TextBox95.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox95.Location = New System.Drawing.Point(241, 354)
         Me.TextBox95.Name = "TextBox95"
-        Me.TextBox95.Size = New System.Drawing.Size(167, 50)
+        Me.TextBox95.Size = New System.Drawing.Size(65, 24)
         Me.TextBox95.TabIndex = 442
         '
         'TextBox106
         '
         Me.TextBox106.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox106.Location = New System.Drawing.Point(325, 844)
-        Me.TextBox106.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox106.Location = New System.Drawing.Point(122, 354)
         Me.TextBox106.Name = "TextBox106"
-        Me.TextBox106.Size = New System.Drawing.Size(284, 50)
+        Me.TextBox106.Size = New System.Drawing.Size(109, 24)
         Me.TextBox106.TabIndex = 441
         '
         'TextBox107
         '
         Me.TextBox107.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox107.Location = New System.Drawing.Point(125, 844)
-        Me.TextBox107.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox107.Location = New System.Drawing.Point(47, 354)
         Me.TextBox107.Name = "TextBox107"
-        Me.TextBox107.Size = New System.Drawing.Size(167, 50)
+        Me.TextBox107.Size = New System.Drawing.Size(65, 24)
         Me.TextBox107.TabIndex = 440
         '
         'TextBox108
         '
         Me.TextBox108.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox108.Location = New System.Drawing.Point(643, 723)
-        Me.TextBox108.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox108.Location = New System.Drawing.Point(241, 303)
         Me.TextBox108.Name = "TextBox108"
-        Me.TextBox108.Size = New System.Drawing.Size(167, 50)
+        Me.TextBox108.Size = New System.Drawing.Size(65, 24)
         Me.TextBox108.TabIndex = 436
         '
         'TextBox109
         '
         Me.TextBox109.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox109.Location = New System.Drawing.Point(317, 723)
-        Me.TextBox109.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox109.Location = New System.Drawing.Point(119, 303)
         Me.TextBox109.Name = "TextBox109"
-        Me.TextBox109.Size = New System.Drawing.Size(284, 50)
+        Me.TextBox109.Size = New System.Drawing.Size(109, 24)
         Me.TextBox109.TabIndex = 435
         '
         'TextBox110
         '
         Me.TextBox110.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox110.Location = New System.Drawing.Point(125, 723)
-        Me.TextBox110.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox110.Location = New System.Drawing.Point(47, 303)
         Me.TextBox110.Name = "TextBox110"
-        Me.TextBox110.Size = New System.Drawing.Size(167, 50)
+        Me.TextBox110.Size = New System.Drawing.Size(65, 24)
         Me.TextBox110.TabIndex = 434
         '
         'TextBox112
         '
         Me.TextBox112.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox112.Location = New System.Drawing.Point(376, 203)
-        Me.TextBox112.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox112.Location = New System.Drawing.Point(141, 85)
         Me.TextBox112.Name = "TextBox112"
-        Me.TextBox112.Size = New System.Drawing.Size(420, 50)
+        Me.TextBox112.Size = New System.Drawing.Size(160, 24)
         Me.TextBox112.TabIndex = 430
         Me.TextBox112.Text = "Nombre del Proveedor"
         '
@@ -8334,10 +7617,9 @@ Partial Class modulos
         Me.Label185.AutoSize = True
         Me.Label185.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label185.ForeColor = System.Drawing.Color.Navy
-        Me.Label185.Location = New System.Drawing.Point(669, 935)
-        Me.Label185.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label185.Location = New System.Drawing.Point(251, 392)
         Me.Label185.Name = "Label185"
-        Me.Label185.Size = New System.Drawing.Size(119, 44)
+        Me.Label185.Size = New System.Drawing.Size(49, 18)
         Me.Label185.TabIndex = 445
         Me.Label185.Text = "Costo"
         '
@@ -8346,10 +7628,9 @@ Partial Class modulos
         Me.Label186.AutoSize = True
         Me.Label186.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label186.ForeColor = System.Drawing.Color.Navy
-        Me.Label186.Location = New System.Drawing.Point(355, 935)
-        Me.Label186.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label186.Location = New System.Drawing.Point(133, 392)
         Me.Label186.Name = "Label186"
-        Me.Label186.Size = New System.Drawing.Size(219, 44)
+        Me.Label186.Size = New System.Drawing.Size(87, 18)
         Me.Label186.TabIndex = 444
         Me.Label186.Text = "Descripción"
         '
@@ -8358,10 +7639,9 @@ Partial Class modulos
         Me.Label187.AutoSize = True
         Me.Label187.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label187.ForeColor = System.Drawing.Color.Navy
-        Me.Label187.Location = New System.Drawing.Point(152, 935)
-        Me.Label187.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label187.Location = New System.Drawing.Point(57, 392)
         Me.Label187.Name = "Label187"
-        Me.Label187.Size = New System.Drawing.Size(108, 44)
+        Me.Label187.Size = New System.Drawing.Size(43, 18)
         Me.Label187.TabIndex = 443
         Me.Label187.Text = "MP 3"
         '
@@ -8370,10 +7650,9 @@ Partial Class modulos
         Me.Label188.AutoSize = True
         Me.Label188.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label188.ForeColor = System.Drawing.Color.Navy
-        Me.Label188.Location = New System.Drawing.Point(669, 792)
-        Me.Label188.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label188.Location = New System.Drawing.Point(251, 332)
         Me.Label188.Name = "Label188"
-        Me.Label188.Size = New System.Drawing.Size(119, 44)
+        Me.Label188.Size = New System.Drawing.Size(49, 18)
         Me.Label188.TabIndex = 439
         Me.Label188.Text = "Costo"
         '
@@ -8382,10 +7661,9 @@ Partial Class modulos
         Me.Label189.AutoSize = True
         Me.Label189.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label189.ForeColor = System.Drawing.Color.Navy
-        Me.Label189.Location = New System.Drawing.Point(355, 794)
-        Me.Label189.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label189.Location = New System.Drawing.Point(133, 333)
         Me.Label189.Name = "Label189"
-        Me.Label189.Size = New System.Drawing.Size(219, 44)
+        Me.Label189.Size = New System.Drawing.Size(87, 18)
         Me.Label189.TabIndex = 438
         Me.Label189.Text = "Descripción"
         '
@@ -8394,10 +7672,9 @@ Partial Class modulos
         Me.Label190.AutoSize = True
         Me.Label190.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label190.ForeColor = System.Drawing.Color.Navy
-        Me.Label190.Location = New System.Drawing.Point(157, 794)
-        Me.Label190.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label190.Location = New System.Drawing.Point(59, 333)
         Me.Label190.Name = "Label190"
-        Me.Label190.Size = New System.Drawing.Size(108, 44)
+        Me.Label190.Size = New System.Drawing.Size(43, 18)
         Me.Label190.TabIndex = 437
         Me.Label190.Text = "MP 2"
         '
@@ -8406,10 +7683,9 @@ Partial Class modulos
         Me.Label192.AutoSize = True
         Me.Label192.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label192.ForeColor = System.Drawing.Color.Navy
-        Me.Label192.Location = New System.Drawing.Point(669, 670)
-        Me.Label192.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label192.Location = New System.Drawing.Point(251, 281)
         Me.Label192.Name = "Label192"
-        Me.Label192.Size = New System.Drawing.Size(119, 44)
+        Me.Label192.Size = New System.Drawing.Size(49, 18)
         Me.Label192.TabIndex = 433
         Me.Label192.Text = "Costo"
         '
@@ -8418,10 +7694,9 @@ Partial Class modulos
         Me.Label193.AutoSize = True
         Me.Label193.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label193.ForeColor = System.Drawing.Color.Navy
-        Me.Label193.Location = New System.Drawing.Point(355, 675)
-        Me.Label193.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label193.Location = New System.Drawing.Point(133, 283)
         Me.Label193.Name = "Label193"
-        Me.Label193.Size = New System.Drawing.Size(219, 44)
+        Me.Label193.Size = New System.Drawing.Size(87, 18)
         Me.Label193.TabIndex = 432
         Me.Label193.Text = "Descripción"
         '
@@ -8430,10 +7705,9 @@ Partial Class modulos
         Me.Label194.AutoSize = True
         Me.Label194.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label194.ForeColor = System.Drawing.Color.Navy
-        Me.Label194.Location = New System.Drawing.Point(157, 675)
-        Me.Label194.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label194.Location = New System.Drawing.Point(59, 283)
         Me.Label194.Name = "Label194"
-        Me.Label194.Size = New System.Drawing.Size(108, 44)
+        Me.Label194.Size = New System.Drawing.Size(43, 18)
         Me.Label194.TabIndex = 431
         Me.Label194.Text = "MP 1"
         '
@@ -8442,10 +7716,9 @@ Partial Class modulos
         Me.Label196.AutoSize = True
         Me.Label196.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label196.ForeColor = System.Drawing.Color.Navy
-        Me.Label196.Location = New System.Drawing.Point(96, 210)
-        Me.Label196.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label196.Location = New System.Drawing.Point(36, 88)
         Me.Label196.Name = "Label196"
-        Me.Label196.Size = New System.Drawing.Size(237, 44)
+        Me.Label196.Size = New System.Drawing.Size(100, 18)
         Me.Label196.TabIndex = 429
         Me.Label196.Text = "Proveedor 1"
         '
@@ -8454,10 +7727,9 @@ Partial Class modulos
         Me.Label197.AutoSize = True
         Me.Label197.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label197.ForeColor = System.Drawing.Color.Navy
-        Me.Label197.Location = New System.Drawing.Point(88, 107)
-        Me.Label197.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label197.Location = New System.Drawing.Point(33, 45)
         Me.Label197.Name = "Label197"
-        Me.Label197.Size = New System.Drawing.Size(1865, 44)
+        Me.Label197.Size = New System.Drawing.Size(731, 18)
         Me.Label197.TabIndex = 428
         Me.Label197.Text = "Presupuesta con 3 proveedores de materia prima que te ofrezcan la calidad que bus" &
     "cas y los mejores costos."
@@ -8467,10 +7739,9 @@ Partial Class modulos
         Me.Label198.AutoSize = True
         Me.Label198.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label198.ForeColor = System.Drawing.Color.Navy
-        Me.Label198.Location = New System.Drawing.Point(80, 41)
-        Me.Label198.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label198.Location = New System.Drawing.Point(30, 17)
         Me.Label198.Name = "Label198"
-        Me.Label198.Size = New System.Drawing.Size(1148, 44)
+        Me.Label198.Size = New System.Drawing.Size(443, 18)
         Me.Label198.TabIndex = 427
         Me.Label198.Text = "¿Qué tipo de materia prima vas a utilizar para realizar tu producto?"
         '
@@ -8545,11 +7816,10 @@ Partial Class modulos
         Me.TabPage15.Controls.Add(Me.PictureBox139)
         Me.TabPage15.Controls.Add(Me.ComboBox3)
         Me.TabPage15.Controls.Add(Me.Label356)
-        Me.TabPage15.Location = New System.Drawing.Point(10, 16)
-        Me.TabPage15.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TabPage15.Location = New System.Drawing.Point(4, 10)
         Me.TabPage15.Name = "TabPage15"
-        Me.TabPage15.Padding = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.TabPage15.Size = New System.Drawing.Size(3351, 1202)
+        Me.TabPage15.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage15.Size = New System.Drawing.Size(1256, 501)
         Me.TabPage15.TabIndex = 3
         Me.TabPage15.Text = "TabPage15"
         Me.TabPage15.UseVisualStyleBackColor = True
@@ -8557,241 +7827,215 @@ Partial Class modulos
         'TextBox19
         '
         Me.TextBox19.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox19.Location = New System.Drawing.Point(2613, 768)
-        Me.TextBox19.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox19.Location = New System.Drawing.Point(980, 322)
         Me.TextBox19.Name = "TextBox19"
-        Me.TextBox19.Size = New System.Drawing.Size(284, 50)
+        Me.TextBox19.Size = New System.Drawing.Size(109, 24)
         Me.TextBox19.TabIndex = 511
         '
         'TextBox20
         '
         Me.TextBox20.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox20.Location = New System.Drawing.Point(2224, 768)
-        Me.TextBox20.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox20.Location = New System.Drawing.Point(834, 322)
         Me.TextBox20.Name = "TextBox20"
-        Me.TextBox20.Size = New System.Drawing.Size(332, 50)
+        Me.TextBox20.Size = New System.Drawing.Size(127, 24)
         Me.TextBox20.TabIndex = 510
         '
         'TextBox21
         '
         Me.TextBox21.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox21.Location = New System.Drawing.Point(2757, 467)
-        Me.TextBox21.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox21.Location = New System.Drawing.Point(1034, 196)
         Me.TextBox21.Name = "TextBox21"
-        Me.TextBox21.Size = New System.Drawing.Size(167, 50)
+        Me.TextBox21.Size = New System.Drawing.Size(65, 24)
         Me.TextBox21.TabIndex = 505
         '
         'TextBox36
         '
         Me.TextBox36.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox36.Location = New System.Drawing.Point(2432, 470)
-        Me.TextBox36.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox36.Location = New System.Drawing.Point(912, 197)
         Me.TextBox36.Name = "TextBox36"
-        Me.TextBox36.Size = New System.Drawing.Size(284, 50)
+        Me.TextBox36.Size = New System.Drawing.Size(109, 24)
         Me.TextBox36.TabIndex = 504
         '
         'TextBox208
         '
         Me.TextBox208.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox208.Location = New System.Drawing.Point(2240, 470)
-        Me.TextBox208.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox208.Location = New System.Drawing.Point(840, 197)
         Me.TextBox208.Name = "TextBox208"
-        Me.TextBox208.Size = New System.Drawing.Size(167, 50)
+        Me.TextBox208.Size = New System.Drawing.Size(65, 24)
         Me.TextBox208.TabIndex = 503
         '
         'TextBox212
         '
         Me.TextBox212.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox212.Location = New System.Drawing.Point(2757, 215)
-        Me.TextBox212.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox212.Location = New System.Drawing.Point(1034, 90)
         Me.TextBox212.Name = "TextBox212"
-        Me.TextBox212.Size = New System.Drawing.Size(167, 50)
+        Me.TextBox212.Size = New System.Drawing.Size(65, 24)
         Me.TextBox212.TabIndex = 495
         '
         'TextBox213
         '
         Me.TextBox213.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox213.Location = New System.Drawing.Point(2432, 217)
-        Me.TextBox213.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox213.Location = New System.Drawing.Point(912, 91)
         Me.TextBox213.Name = "TextBox213"
-        Me.TextBox213.Size = New System.Drawing.Size(284, 50)
+        Me.TextBox213.Size = New System.Drawing.Size(109, 24)
         Me.TextBox213.TabIndex = 494
         '
         'TextBox214
         '
         Me.TextBox214.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox214.Location = New System.Drawing.Point(2240, 217)
-        Me.TextBox214.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox214.Location = New System.Drawing.Point(840, 91)
         Me.TextBox214.Name = "TextBox214"
-        Me.TextBox214.Size = New System.Drawing.Size(167, 50)
+        Me.TextBox214.Size = New System.Drawing.Size(65, 24)
         Me.TextBox214.TabIndex = 493
         '
         'TextBox215
         '
         Me.TextBox215.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox215.Location = New System.Drawing.Point(1733, 1009)
-        Me.TextBox215.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox215.Location = New System.Drawing.Point(650, 423)
         Me.TextBox215.Name = "TextBox215"
-        Me.TextBox215.Size = New System.Drawing.Size(167, 50)
+        Me.TextBox215.Size = New System.Drawing.Size(65, 24)
         Me.TextBox215.TabIndex = 489
         '
         'TextBox216
         '
         Me.TextBox216.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox216.Location = New System.Drawing.Point(1368, 1009)
-        Me.TextBox216.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox216.Location = New System.Drawing.Point(513, 423)
         Me.TextBox216.Name = "TextBox216"
-        Me.TextBox216.Size = New System.Drawing.Size(313, 50)
+        Me.TextBox216.Size = New System.Drawing.Size(120, 24)
         Me.TextBox216.TabIndex = 487
         '
         'TextBox217
         '
         Me.TextBox217.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox217.Location = New System.Drawing.Point(1733, 892)
-        Me.TextBox217.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox217.Location = New System.Drawing.Point(650, 374)
         Me.TextBox217.Name = "TextBox217"
-        Me.TextBox217.Size = New System.Drawing.Size(167, 50)
+        Me.TextBox217.Size = New System.Drawing.Size(65, 24)
         Me.TextBox217.TabIndex = 485
         '
         'TextBox218
         '
         Me.TextBox218.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox218.Location = New System.Drawing.Point(1368, 892)
-        Me.TextBox218.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox218.Location = New System.Drawing.Point(513, 374)
         Me.TextBox218.Name = "TextBox218"
-        Me.TextBox218.Size = New System.Drawing.Size(313, 50)
+        Me.TextBox218.Size = New System.Drawing.Size(120, 24)
         Me.TextBox218.TabIndex = 483
         '
         'TextBox219
         '
         Me.TextBox219.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox219.Location = New System.Drawing.Point(1733, 763)
-        Me.TextBox219.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox219.Location = New System.Drawing.Point(650, 320)
         Me.TextBox219.Name = "TextBox219"
-        Me.TextBox219.Size = New System.Drawing.Size(167, 50)
+        Me.TextBox219.Size = New System.Drawing.Size(65, 24)
         Me.TextBox219.TabIndex = 481
         '
         'TextBox220
         '
         Me.TextBox220.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox220.Location = New System.Drawing.Point(1368, 763)
-        Me.TextBox220.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox220.Location = New System.Drawing.Point(513, 320)
         Me.TextBox220.Name = "TextBox220"
-        Me.TextBox220.Size = New System.Drawing.Size(313, 50)
+        Me.TextBox220.Size = New System.Drawing.Size(120, 24)
         Me.TextBox220.TabIndex = 479
         '
         'TextBox221
         '
         Me.TextBox221.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox221.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox221.Location = New System.Drawing.Point(1432, 379)
-        Me.TextBox221.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox221.Location = New System.Drawing.Point(537, 159)
         Me.TextBox221.Multiline = True
         Me.TextBox221.Name = "TextBox221"
-        Me.TextBox221.Size = New System.Drawing.Size(520, 69)
+        Me.TextBox221.Size = New System.Drawing.Size(195, 29)
         Me.TextBox221.TabIndex = 476
         '
         'TextBox222
         '
         Me.TextBox222.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox222.Location = New System.Drawing.Point(1867, 100)
-        Me.TextBox222.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox222.Location = New System.Drawing.Point(700, 42)
         Me.TextBox222.Name = "TextBox222"
-        Me.TextBox222.Size = New System.Drawing.Size(167, 50)
+        Me.TextBox222.Size = New System.Drawing.Size(65, 24)
         Me.TextBox222.TabIndex = 475
         '
         'TextBox223
         '
         Me.TextBox223.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox223.Location = New System.Drawing.Point(1541, 103)
-        Me.TextBox223.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox223.Location = New System.Drawing.Point(578, 43)
         Me.TextBox223.Name = "TextBox223"
-        Me.TextBox223.Size = New System.Drawing.Size(284, 50)
+        Me.TextBox223.Size = New System.Drawing.Size(109, 24)
         Me.TextBox223.TabIndex = 474
         '
         'TextBox224
         '
         Me.TextBox224.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox224.Location = New System.Drawing.Point(1349, 103)
-        Me.TextBox224.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox224.Location = New System.Drawing.Point(506, 43)
         Me.TextBox224.Name = "TextBox224"
-        Me.TextBox224.Size = New System.Drawing.Size(167, 50)
+        Me.TextBox224.Size = New System.Drawing.Size(65, 24)
         Me.TextBox224.TabIndex = 473
         '
         'TextBox225
         '
         Me.TextBox225.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox225.Location = New System.Drawing.Point(829, 1097)
-        Me.TextBox225.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox225.Location = New System.Drawing.Point(311, 460)
         Me.TextBox225.Name = "TextBox225"
-        Me.TextBox225.Size = New System.Drawing.Size(167, 50)
+        Me.TextBox225.Size = New System.Drawing.Size(65, 24)
         Me.TextBox225.TabIndex = 469
         '
         'TextBox226
         '
         Me.TextBox226.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox226.Location = New System.Drawing.Point(504, 1099)
-        Me.TextBox226.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox226.Location = New System.Drawing.Point(189, 461)
         Me.TextBox226.Name = "TextBox226"
-        Me.TextBox226.Size = New System.Drawing.Size(284, 50)
+        Me.TextBox226.Size = New System.Drawing.Size(109, 24)
         Me.TextBox226.TabIndex = 468
         '
         'TextBox227
         '
         Me.TextBox227.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox227.Location = New System.Drawing.Point(312, 1099)
-        Me.TextBox227.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox227.Location = New System.Drawing.Point(117, 461)
         Me.TextBox227.Name = "TextBox227"
-        Me.TextBox227.Size = New System.Drawing.Size(167, 50)
+        Me.TextBox227.Size = New System.Drawing.Size(65, 24)
         Me.TextBox227.TabIndex = 467
         '
         'TextBox228
         '
         Me.TextBox228.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox228.Location = New System.Drawing.Point(829, 978)
-        Me.TextBox228.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox228.Location = New System.Drawing.Point(311, 410)
         Me.TextBox228.Name = "TextBox228"
-        Me.TextBox228.Size = New System.Drawing.Size(167, 50)
+        Me.TextBox228.Size = New System.Drawing.Size(65, 24)
         Me.TextBox228.TabIndex = 463
         '
         'TextBox229
         '
         Me.TextBox229.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox229.Location = New System.Drawing.Point(504, 980)
-        Me.TextBox229.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox229.Location = New System.Drawing.Point(189, 411)
         Me.TextBox229.Name = "TextBox229"
-        Me.TextBox229.Size = New System.Drawing.Size(284, 50)
+        Me.TextBox229.Size = New System.Drawing.Size(109, 24)
         Me.TextBox229.TabIndex = 462
         '
         'TextBox230
         '
         Me.TextBox230.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox230.Location = New System.Drawing.Point(312, 980)
-        Me.TextBox230.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox230.Location = New System.Drawing.Point(117, 411)
         Me.TextBox230.Name = "TextBox230"
-        Me.TextBox230.Size = New System.Drawing.Size(167, 50)
+        Me.TextBox230.Size = New System.Drawing.Size(65, 24)
         Me.TextBox230.TabIndex = 461
         '
         'TextBox231
         '
         Me.TextBox231.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox231.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox231.Location = New System.Drawing.Point(405, 708)
-        Me.TextBox231.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox231.Location = New System.Drawing.Point(152, 297)
         Me.TextBox231.Multiline = True
         Me.TextBox231.Name = "TextBox231"
-        Me.TextBox231.Size = New System.Drawing.Size(456, 57)
+        Me.TextBox231.Size = New System.Drawing.Size(171, 24)
         Me.TextBox231.TabIndex = 453
         '
         'TextBox232
         '
         Me.TextBox232.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox232.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox232.Location = New System.Drawing.Point(419, 389)
-        Me.TextBox232.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox232.Location = New System.Drawing.Point(157, 163)
         Me.TextBox232.Multiline = True
         Me.TextBox232.Name = "TextBox232"
-        Me.TextBox232.Size = New System.Drawing.Size(456, 57)
+        Me.TextBox232.Size = New System.Drawing.Size(171, 24)
         Me.TextBox232.TabIndex = 451
         '
         'Label67
@@ -8799,10 +8043,9 @@ Partial Class modulos
         Me.Label67.AutoSize = True
         Me.Label67.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label67.ForeColor = System.Drawing.Color.Navy
-        Me.Label67.Location = New System.Drawing.Point(2587, 720)
-        Me.Label67.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label67.Location = New System.Drawing.Point(970, 302)
         Me.Label67.Name = "Label67"
-        Me.Label67.Size = New System.Drawing.Size(334, 44)
+        Me.Label67.Size = New System.Drawing.Size(133, 18)
         Me.Label67.TabIndex = 509
         Me.Label67.Text = "Consumo en watts"
         '
@@ -8811,10 +8054,9 @@ Partial Class modulos
         Me.Label325.AutoSize = True
         Me.Label325.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label325.ForeColor = System.Drawing.Color.Navy
-        Me.Label325.Location = New System.Drawing.Point(2288, 720)
-        Me.Label325.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label325.Location = New System.Drawing.Point(858, 302)
         Me.Label325.Name = "Label325"
-        Me.Label325.Size = New System.Drawing.Size(209, 44)
+        Me.Label325.Size = New System.Drawing.Size(80, 18)
         Me.Label325.TabIndex = 508
         Me.Label325.Text = "Maquinaria"
         '
@@ -8823,20 +8065,18 @@ Partial Class modulos
         Me.Label326.AutoSize = True
         Me.Label326.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label326.ForeColor = System.Drawing.Color.Navy
-        Me.Label326.Location = New System.Drawing.Point(2269, 625)
-        Me.Label326.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label326.Location = New System.Drawing.Point(851, 262)
         Me.Label326.Name = "Label326"
-        Me.Label326.Size = New System.Drawing.Size(563, 44)
+        Me.Label326.Size = New System.Drawing.Size(220, 18)
         Me.Label326.TabIndex = 507
         Me.Label326.Text = "Consumo de energía electica. **" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'PictureBox26
         '
         Me.PictureBox26.Image = Global.saiin.My.Resources.Resources.plus_plus
-        Me.PictureBox26.Location = New System.Drawing.Point(3011, 453)
-        Me.PictureBox26.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox26.Location = New System.Drawing.Point(1129, 190)
         Me.PictureBox26.Name = "PictureBox26"
-        Me.PictureBox26.Size = New System.Drawing.Size(80, 72)
+        Me.PictureBox26.Size = New System.Drawing.Size(30, 30)
         Me.PictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox26.TabIndex = 506
         Me.PictureBox26.TabStop = False
@@ -8846,10 +8086,9 @@ Partial Class modulos
         Me.Label327.AutoSize = True
         Me.Label327.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label327.ForeColor = System.Drawing.Color.Navy
-        Me.Label327.Location = New System.Drawing.Point(2733, 415)
-        Me.Label327.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label327.Location = New System.Drawing.Point(1025, 174)
         Me.Label327.Name = "Label327"
-        Me.Label327.Size = New System.Drawing.Size(196, 44)
+        Me.Label327.Size = New System.Drawing.Size(79, 18)
         Me.Label327.TabIndex = 502
         Me.Label327.Text = "Costo MIP"
         '
@@ -8858,10 +8097,9 @@ Partial Class modulos
         Me.Label328.AutoSize = True
         Me.Label328.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label328.ForeColor = System.Drawing.Color.Navy
-        Me.Label328.Location = New System.Drawing.Point(2469, 422)
-        Me.Label328.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label328.Location = New System.Drawing.Point(926, 177)
         Me.Label328.Name = "Label328"
-        Me.Label328.Size = New System.Drawing.Size(87, 44)
+        Me.Label328.Size = New System.Drawing.Size(34, 18)
         Me.Label328.TabIndex = 501
         Me.Label328.Text = "MIP"
         '
@@ -8870,10 +8108,9 @@ Partial Class modulos
         Me.Label329.AutoSize = True
         Me.Label329.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label329.ForeColor = System.Drawing.Color.Navy
-        Me.Label329.Location = New System.Drawing.Point(2264, 422)
-        Me.Label329.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label329.Location = New System.Drawing.Point(849, 177)
         Me.Label329.Name = "Label329"
-        Me.Label329.Size = New System.Drawing.Size(113, 44)
+        Me.Label329.Size = New System.Drawing.Size(43, 18)
         Me.Label329.TabIndex = 500
         Me.Label329.Text = "Línea"
         '
@@ -8882,20 +8119,18 @@ Partial Class modulos
         Me.Label330.AutoSize = True
         Me.Label330.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label330.ForeColor = System.Drawing.Color.Navy
-        Me.Label330.Location = New System.Drawing.Point(2232, 334)
-        Me.Label330.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label330.Location = New System.Drawing.Point(837, 140)
         Me.Label330.Name = "Label330"
-        Me.Label330.Size = New System.Drawing.Size(699, 44)
+        Me.Label330.Size = New System.Drawing.Size(271, 18)
         Me.Label330.TabIndex = 499
         Me.Label330.Text = "Enlistar material indirecto de producción"
         '
         'PictureBox27
         '
         Me.PictureBox27.Image = Global.saiin.My.Resources.Resources.plus_plus
-        Me.PictureBox27.Location = New System.Drawing.Point(3011, 200)
-        Me.PictureBox27.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox27.Location = New System.Drawing.Point(1129, 84)
         Me.PictureBox27.Name = "PictureBox27"
-        Me.PictureBox27.Size = New System.Drawing.Size(80, 72)
+        Me.PictureBox27.Size = New System.Drawing.Size(30, 30)
         Me.PictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox27.TabIndex = 498
         Me.PictureBox27.TabStop = False
@@ -8903,10 +8138,9 @@ Partial Class modulos
         'PictureBox43
         '
         Me.PictureBox43.Image = Global.saiin.My.Resources.Resources.plus_plus
-        Me.PictureBox43.Location = New System.Drawing.Point(1672, 1080)
-        Me.PictureBox43.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox43.Location = New System.Drawing.Point(627, 453)
         Me.PictureBox43.Name = "PictureBox43"
-        Me.PictureBox43.Size = New System.Drawing.Size(80, 72)
+        Me.PictureBox43.Size = New System.Drawing.Size(30, 30)
         Me.PictureBox43.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox43.TabIndex = 497
         Me.PictureBox43.TabStop = False
@@ -8914,10 +8148,9 @@ Partial Class modulos
         'PictureBox64
         '
         Me.PictureBox64.Image = Global.saiin.My.Resources.Resources.plus_plus
-        Me.PictureBox64.Location = New System.Drawing.Point(1640, 169)
-        Me.PictureBox64.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox64.Location = New System.Drawing.Point(615, 71)
         Me.PictureBox64.Name = "PictureBox64"
-        Me.PictureBox64.Size = New System.Drawing.Size(80, 72)
+        Me.PictureBox64.Size = New System.Drawing.Size(30, 30)
         Me.PictureBox64.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox64.TabIndex = 496
         Me.PictureBox64.TabStop = False
@@ -8927,10 +8160,9 @@ Partial Class modulos
         Me.Label331.AutoSize = True
         Me.Label331.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label331.ForeColor = System.Drawing.Color.Navy
-        Me.Label331.Location = New System.Drawing.Point(2733, 162)
-        Me.Label331.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label331.Location = New System.Drawing.Point(1025, 68)
         Me.Label331.Name = "Label331"
-        Me.Label331.Size = New System.Drawing.Size(226, 44)
+        Me.Label331.Size = New System.Drawing.Size(90, 18)
         Me.Label331.TabIndex = 492
         Me.Label331.Text = "Costo mant."
         '
@@ -8939,10 +8171,9 @@ Partial Class modulos
         Me.Label332.AutoSize = True
         Me.Label332.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label332.ForeColor = System.Drawing.Color.Navy
-        Me.Label332.Location = New System.Drawing.Point(2469, 169)
-        Me.Label332.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label332.Location = New System.Drawing.Point(926, 71)
         Me.Label332.Name = "Label332"
-        Me.Label332.Size = New System.Drawing.Size(209, 44)
+        Me.Label332.Size = New System.Drawing.Size(80, 18)
         Me.Label332.TabIndex = 491
         Me.Label332.Text = "Maquinaria"
         '
@@ -8951,10 +8182,9 @@ Partial Class modulos
         Me.Label333.AutoSize = True
         Me.Label333.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label333.ForeColor = System.Drawing.Color.Navy
-        Me.Label333.Location = New System.Drawing.Point(2264, 169)
-        Me.Label333.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label333.Location = New System.Drawing.Point(849, 71)
         Me.Label333.Name = "Label333"
-        Me.Label333.Size = New System.Drawing.Size(113, 44)
+        Me.Label333.Size = New System.Drawing.Size(43, 18)
         Me.Label333.TabIndex = 490
         Me.Label333.Text = "Línea"
         '
@@ -8963,10 +8193,9 @@ Partial Class modulos
         Me.Label334.AutoSize = True
         Me.Label334.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label334.ForeColor = System.Drawing.Color.Navy
-        Me.Label334.Location = New System.Drawing.Point(1760, 956)
-        Me.Label334.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label334.Location = New System.Drawing.Point(660, 401)
         Me.Label334.Name = "Label334"
-        Me.Label334.Size = New System.Drawing.Size(119, 44)
+        Me.Label334.Size = New System.Drawing.Size(49, 18)
         Me.Label334.TabIndex = 488
         Me.Label334.Text = "Costo"
         '
@@ -8975,10 +8204,9 @@ Partial Class modulos
         Me.Label335.AutoSize = True
         Me.Label335.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label335.ForeColor = System.Drawing.Color.Navy
-        Me.Label335.Location = New System.Drawing.Point(1397, 961)
-        Me.Label335.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label335.Location = New System.Drawing.Point(524, 403)
         Me.Label335.Name = "Label335"
-        Me.Label335.Size = New System.Drawing.Size(231, 44)
+        Me.Label335.Size = New System.Drawing.Size(89, 18)
         Me.Label335.TabIndex = 486
         Me.Label335.Text = "Herramienta"
         '
@@ -8987,10 +8215,9 @@ Partial Class modulos
         Me.Label336.AutoSize = True
         Me.Label336.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label336.ForeColor = System.Drawing.Color.Navy
-        Me.Label336.Location = New System.Drawing.Point(1760, 839)
-        Me.Label336.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label336.Location = New System.Drawing.Point(660, 352)
         Me.Label336.Name = "Label336"
-        Me.Label336.Size = New System.Drawing.Size(119, 44)
+        Me.Label336.Size = New System.Drawing.Size(49, 18)
         Me.Label336.TabIndex = 484
         Me.Label336.Text = "Costo"
         '
@@ -8999,10 +8226,9 @@ Partial Class modulos
         Me.Label337.AutoSize = True
         Me.Label337.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label337.ForeColor = System.Drawing.Color.Navy
-        Me.Label337.Location = New System.Drawing.Point(1397, 844)
-        Me.Label337.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label337.Location = New System.Drawing.Point(524, 354)
         Me.Label337.Name = "Label337"
-        Me.Label337.Size = New System.Drawing.Size(231, 44)
+        Me.Label337.Size = New System.Drawing.Size(89, 18)
         Me.Label337.TabIndex = 482
         Me.Label337.Text = "Herramienta"
         '
@@ -9011,10 +8237,9 @@ Partial Class modulos
         Me.Label338.AutoSize = True
         Me.Label338.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label338.ForeColor = System.Drawing.Color.Navy
-        Me.Label338.Location = New System.Drawing.Point(1760, 711)
-        Me.Label338.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label338.Location = New System.Drawing.Point(660, 298)
         Me.Label338.Name = "Label338"
-        Me.Label338.Size = New System.Drawing.Size(119, 44)
+        Me.Label338.Size = New System.Drawing.Size(49, 18)
         Me.Label338.TabIndex = 480
         Me.Label338.Text = "Costo"
         '
@@ -9023,20 +8248,18 @@ Partial Class modulos
         Me.Label339.AutoSize = True
         Me.Label339.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label339.ForeColor = System.Drawing.Color.Navy
-        Me.Label339.Location = New System.Drawing.Point(1397, 715)
-        Me.Label339.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label339.Location = New System.Drawing.Point(524, 300)
         Me.Label339.Name = "Label339"
-        Me.Label339.Size = New System.Drawing.Size(231, 44)
+        Me.Label339.Size = New System.Drawing.Size(89, 18)
         Me.Label339.TabIndex = 478
         Me.Label339.Text = "Herramienta"
         '
         'PictureBox91
         '
         Me.PictureBox91.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox91.Location = New System.Drawing.Point(1419, 367)
-        Me.PictureBox91.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox91.Location = New System.Drawing.Point(532, 154)
         Me.PictureBox91.Name = "PictureBox91"
-        Me.PictureBox91.Size = New System.Drawing.Size(547, 93)
+        Me.PictureBox91.Size = New System.Drawing.Size(205, 39)
         Me.PictureBox91.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox91.TabIndex = 477
         Me.PictureBox91.TabStop = False
@@ -9046,10 +8269,9 @@ Partial Class modulos
         Me.Label340.AutoSize = True
         Me.Label340.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label340.ForeColor = System.Drawing.Color.Navy
-        Me.Label340.Location = New System.Drawing.Point(1893, 48)
-        Me.Label340.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label340.Location = New System.Drawing.Point(710, 20)
         Me.Label340.Name = "Label340"
-        Me.Label340.Size = New System.Drawing.Size(119, 44)
+        Me.Label340.Size = New System.Drawing.Size(49, 18)
         Me.Label340.TabIndex = 472
         Me.Label340.Text = "Costo"
         '
@@ -9058,10 +8280,9 @@ Partial Class modulos
         Me.Label341.AutoSize = True
         Me.Label341.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label341.ForeColor = System.Drawing.Color.Navy
-        Me.Label341.Location = New System.Drawing.Point(1579, 55)
-        Me.Label341.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label341.Location = New System.Drawing.Point(592, 23)
         Me.Label341.Name = "Label341"
-        Me.Label341.Size = New System.Drawing.Size(219, 44)
+        Me.Label341.Size = New System.Drawing.Size(87, 18)
         Me.Label341.TabIndex = 471
         Me.Label341.Text = "Descripción"
         '
@@ -9070,10 +8291,9 @@ Partial Class modulos
         Me.Label342.AutoSize = True
         Me.Label342.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label342.ForeColor = System.Drawing.Color.Navy
-        Me.Label342.Location = New System.Drawing.Point(1381, 55)
-        Me.Label342.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label342.Location = New System.Drawing.Point(518, 23)
         Me.Label342.Name = "Label342"
-        Me.Label342.Size = New System.Drawing.Size(77, 44)
+        Me.Label342.Size = New System.Drawing.Size(31, 18)
         Me.Label342.TabIndex = 470
         Me.Label342.Text = "MP"
         '
@@ -9082,10 +8302,9 @@ Partial Class modulos
         Me.Label343.AutoSize = True
         Me.Label343.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label343.ForeColor = System.Drawing.Color.Navy
-        Me.Label343.Location = New System.Drawing.Point(856, 1044)
-        Me.Label343.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label343.Location = New System.Drawing.Point(321, 438)
         Me.Label343.Name = "Label343"
-        Me.Label343.Size = New System.Drawing.Size(119, 44)
+        Me.Label343.Size = New System.Drawing.Size(49, 18)
         Me.Label343.TabIndex = 466
         Me.Label343.Text = "Costo"
         '
@@ -9094,10 +8313,9 @@ Partial Class modulos
         Me.Label344.AutoSize = True
         Me.Label344.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label344.ForeColor = System.Drawing.Color.Navy
-        Me.Label344.Location = New System.Drawing.Point(541, 1052)
-        Me.Label344.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label344.Location = New System.Drawing.Point(203, 441)
         Me.Label344.Name = "Label344"
-        Me.Label344.Size = New System.Drawing.Size(219, 44)
+        Me.Label344.Size = New System.Drawing.Size(87, 18)
         Me.Label344.TabIndex = 465
         Me.Label344.Text = "Descripción"
         '
@@ -9106,10 +8324,9 @@ Partial Class modulos
         Me.Label345.AutoSize = True
         Me.Label345.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label345.ForeColor = System.Drawing.Color.Navy
-        Me.Label345.Location = New System.Drawing.Point(344, 1052)
-        Me.Label345.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label345.Location = New System.Drawing.Point(129, 441)
         Me.Label345.Name = "Label345"
-        Me.Label345.Size = New System.Drawing.Size(77, 44)
+        Me.Label345.Size = New System.Drawing.Size(31, 18)
         Me.Label345.TabIndex = 464
         Me.Label345.Text = "MP"
         '
@@ -9118,10 +8335,9 @@ Partial Class modulos
         Me.Label346.AutoSize = True
         Me.Label346.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label346.ForeColor = System.Drawing.Color.Navy
-        Me.Label346.Location = New System.Drawing.Point(856, 925)
-        Me.Label346.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label346.Location = New System.Drawing.Point(321, 388)
         Me.Label346.Name = "Label346"
-        Me.Label346.Size = New System.Drawing.Size(119, 44)
+        Me.Label346.Size = New System.Drawing.Size(49, 18)
         Me.Label346.TabIndex = 460
         Me.Label346.Text = "Costo"
         '
@@ -9130,10 +8346,9 @@ Partial Class modulos
         Me.Label347.AutoSize = True
         Me.Label347.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label347.ForeColor = System.Drawing.Color.Navy
-        Me.Label347.Location = New System.Drawing.Point(541, 932)
-        Me.Label347.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label347.Location = New System.Drawing.Point(203, 391)
         Me.Label347.Name = "Label347"
-        Me.Label347.Size = New System.Drawing.Size(219, 44)
+        Me.Label347.Size = New System.Drawing.Size(87, 18)
         Me.Label347.TabIndex = 459
         Me.Label347.Text = "Descripción"
         '
@@ -9142,10 +8357,9 @@ Partial Class modulos
         Me.Label348.AutoSize = True
         Me.Label348.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label348.ForeColor = System.Drawing.Color.Navy
-        Me.Label348.Location = New System.Drawing.Point(344, 932)
-        Me.Label348.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label348.Location = New System.Drawing.Point(129, 391)
         Me.Label348.Name = "Label348"
-        Me.Label348.Size = New System.Drawing.Size(77, 44)
+        Me.Label348.Size = New System.Drawing.Size(31, 18)
         Me.Label348.TabIndex = 458
         Me.Label348.Text = "MP"
         '
@@ -9154,10 +8368,9 @@ Partial Class modulos
         Me.Label349.AutoSize = True
         Me.Label349.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label349.ForeColor = System.Drawing.Color.Navy
-        Me.Label349.Location = New System.Drawing.Point(1347, 255)
-        Me.Label349.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label349.Location = New System.Drawing.Point(505, 107)
         Me.Label349.Name = "Label349"
-        Me.Label349.Size = New System.Drawing.Size(667, 88)
+        Me.Label349.Size = New System.Drawing.Size(260, 36)
         Me.Label349.TabIndex = 457
         Me.Label349.Text = "Costo de Materia Prima desperdiciada" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "sin costo de recuperación. **"
         '
@@ -9166,10 +8379,9 @@ Partial Class modulos
         Me.Label350.AutoSize = True
         Me.Label350.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label350.ForeColor = System.Drawing.Color.Navy
-        Me.Label350.Location = New System.Drawing.Point(1341, 529)
-        Me.Label350.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label350.Location = New System.Drawing.Point(503, 222)
         Me.Label350.Name = "Label350"
-        Me.Label350.Size = New System.Drawing.Size(730, 132)
+        Me.Label350.Size = New System.Drawing.Size(285, 54)
         Me.Label350.TabIndex = 456
         Me.Label350.Text = "Enlista el herramental que necesitas para " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "el proceso de mantenimiento de " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "maqu" &
     "inaria o en el proceso de producción"
@@ -9179,20 +8391,18 @@ Partial Class modulos
         Me.Label351.AutoSize = True
         Me.Label351.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label351.ForeColor = System.Drawing.Color.Navy
-        Me.Label351.Location = New System.Drawing.Point(2219, 60)
-        Me.Label351.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label351.Location = New System.Drawing.Point(832, 25)
         Me.Label351.Name = "Label351"
-        Me.Label351.Size = New System.Drawing.Size(776, 88)
+        Me.Label351.Size = New System.Drawing.Size(303, 36)
         Me.Label351.TabIndex = 455
         Me.Label351.Text = "Determinar el costo promedio y periodicidad " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "de mantenimiento de maquinaria"
         '
         'PictureBox108
         '
         Me.PictureBox108.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox108.Location = New System.Drawing.Point(392, 696)
-        Me.PictureBox108.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox108.Location = New System.Drawing.Point(147, 292)
         Me.PictureBox108.Name = "PictureBox108"
-        Me.PictureBox108.Size = New System.Drawing.Size(483, 81)
+        Me.PictureBox108.Size = New System.Drawing.Size(181, 34)
         Me.PictureBox108.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox108.TabIndex = 454
         Me.PictureBox108.TabStop = False
@@ -9200,10 +8410,9 @@ Partial Class modulos
         'PictureBox126
         '
         Me.PictureBox126.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox126.Location = New System.Drawing.Point(405, 377)
-        Me.PictureBox126.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox126.Location = New System.Drawing.Point(152, 158)
         Me.PictureBox126.Name = "PictureBox126"
-        Me.PictureBox126.Size = New System.Drawing.Size(483, 81)
+        Me.PictureBox126.Size = New System.Drawing.Size(181, 34)
         Me.PictureBox126.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox126.TabIndex = 452
         Me.PictureBox126.TabStop = False
@@ -9213,10 +8422,9 @@ Partial Class modulos
         Me.Label352.AutoSize = True
         Me.Label352.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label352.ForeColor = System.Drawing.Color.Navy
-        Me.Label352.Location = New System.Drawing.Point(285, 222)
-        Me.Label352.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label352.Location = New System.Drawing.Point(107, 93)
         Me.Label352.Name = "Label352"
-        Me.Label352.Size = New System.Drawing.Size(796, 132)
+        Me.Label352.Size = New System.Drawing.Size(309, 54)
         Me.Label352.TabIndex = 450
         Me.Label352.Text = "Según el tipo de producto, ¿qué porcentaje de" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "materia prima crees que se desperd" &
     "icie " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "durante la operación? **"
@@ -9226,10 +8434,9 @@ Partial Class modulos
         Me.Label353.AutoSize = True
         Me.Label353.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label353.ForeColor = System.Drawing.Color.Navy
-        Me.Label353.Location = New System.Drawing.Point(1635, 298)
-        Me.Label353.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label353.Location = New System.Drawing.Point(613, 125)
         Me.Label353.Name = "Label353"
-        Me.Label353.Size = New System.Drawing.Size(0, 44)
+        Me.Label353.Size = New System.Drawing.Size(0, 18)
         Me.Label353.TabIndex = 449
         '
         'Label354
@@ -9237,10 +8444,9 @@ Partial Class modulos
         Me.Label354.AutoSize = True
         Me.Label354.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label354.ForeColor = System.Drawing.Color.Navy
-        Me.Label354.Location = New System.Drawing.Point(285, 849)
-        Me.Label354.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label354.Location = New System.Drawing.Point(107, 356)
         Me.Label354.Name = "Label354"
-        Me.Label354.Size = New System.Drawing.Size(712, 44)
+        Me.Label354.Size = New System.Drawing.Size(279, 18)
         Me.Label354.TabIndex = 448
         Me.Label354.Text = "Costo de recuperación por materia prima"
         '
@@ -9249,10 +8455,9 @@ Partial Class modulos
         Me.Label355.AutoSize = True
         Me.Label355.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label355.ForeColor = System.Drawing.Color.Navy
-        Me.Label355.Location = New System.Drawing.Point(285, 529)
-        Me.Label355.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label355.Location = New System.Drawing.Point(107, 222)
         Me.Label355.Name = "Label355"
-        Me.Label355.Size = New System.Drawing.Size(813, 132)
+        Me.Label355.Size = New System.Drawing.Size(312, 54)
         Me.Label355.TabIndex = 447
         Me.Label355.Text = "¿Qué porcentaje de la materia prima enviada a" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " scrap crees que puedas vender a u" &
     "na " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "recicladora? **"
@@ -9260,10 +8465,9 @@ Partial Class modulos
         'PictureBox138
         '
         Me.PictureBox138.Image = Global.saiin.My.Resources.Resources.next_arrow_
-        Me.PictureBox138.Location = New System.Drawing.Point(3240, 544)
-        Me.PictureBox138.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox138.Location = New System.Drawing.Point(1215, 228)
         Me.PictureBox138.Name = "PictureBox138"
-        Me.PictureBox138.Size = New System.Drawing.Size(93, 83)
+        Me.PictureBox138.Size = New System.Drawing.Size(35, 35)
         Me.PictureBox138.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox138.TabIndex = 446
         Me.PictureBox138.TabStop = False
@@ -9271,10 +8475,9 @@ Partial Class modulos
         'PictureBox139
         '
         Me.PictureBox139.Image = Global.saiin.My.Resources.Resources.back_arrow_
-        Me.PictureBox139.Location = New System.Drawing.Point(16, 539)
-        Me.PictureBox139.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox139.Location = New System.Drawing.Point(6, 226)
         Me.PictureBox139.Name = "PictureBox139"
-        Me.PictureBox139.Size = New System.Drawing.Size(93, 83)
+        Me.PictureBox139.Size = New System.Drawing.Size(35, 35)
         Me.PictureBox139.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox139.TabIndex = 445
         Me.PictureBox139.TabStop = False
@@ -9284,10 +8487,9 @@ Partial Class modulos
         Me.ComboBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox3.FormattingEnabled = True
         Me.ComboBox3.Items.AddRange(New Object() {"Proveedor 1", "Proveedor 2", "Proveedor 3"})
-        Me.ComboBox3.Location = New System.Drawing.Point(301, 114)
-        Me.ComboBox3.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.ComboBox3.Location = New System.Drawing.Point(113, 48)
         Me.ComboBox3.Name = "ComboBox3"
-        Me.ComboBox3.Size = New System.Drawing.Size(769, 50)
+        Me.ComboBox3.Size = New System.Drawing.Size(291, 26)
         Me.ComboBox3.TabIndex = 444
         '
         'Label356
@@ -9295,10 +8497,9 @@ Partial Class modulos
         Me.Label356.AutoSize = True
         Me.Label356.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label356.ForeColor = System.Drawing.Color.Navy
-        Me.Label356.Location = New System.Drawing.Point(309, 36)
-        Me.Label356.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label356.Location = New System.Drawing.Point(116, 15)
         Me.Label356.Name = "Label356"
-        Me.Label356.Size = New System.Drawing.Size(721, 44)
+        Me.Label356.Size = New System.Drawing.Size(283, 18)
         Me.Label356.TabIndex = 443
         Me.Label356.Text = "Selecciona tu mejor opción de proveedor."
         '
@@ -9369,11 +8570,10 @@ Partial Class modulos
         Me.TabPage19.Controls.Add(Me.PictureBox84)
         Me.TabPage19.Controls.Add(Me.PictureBox86)
         Me.TabPage19.Controls.Add(Me.PictureBox87)
-        Me.TabPage19.Location = New System.Drawing.Point(10, 16)
-        Me.TabPage19.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TabPage19.Location = New System.Drawing.Point(4, 10)
         Me.TabPage19.Name = "TabPage19"
-        Me.TabPage19.Padding = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.TabPage19.Size = New System.Drawing.Size(3351, 1202)
+        Me.TabPage19.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage19.Size = New System.Drawing.Size(1256, 501)
         Me.TabPage19.TabIndex = 4
         Me.TabPage19.Text = "TabPage19"
         Me.TabPage19.UseVisualStyleBackColor = True
@@ -9381,10 +8581,9 @@ Partial Class modulos
         'guardar_m6
         '
         Me.guardar_m6.Image = Global.saiin.My.Resources.Resources.guardar_azul
-        Me.guardar_m6.Location = New System.Drawing.Point(2611, 1044)
-        Me.guardar_m6.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.guardar_m6.Location = New System.Drawing.Point(979, 438)
         Me.guardar_m6.Name = "guardar_m6"
-        Me.guardar_m6.Size = New System.Drawing.Size(536, 117)
+        Me.guardar_m6.Size = New System.Drawing.Size(201, 49)
         Me.guardar_m6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.guardar_m6.TabIndex = 509
         Me.guardar_m6.TabStop = False
@@ -9393,44 +8592,40 @@ Partial Class modulos
         '
         Me.TextBox113.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox113.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox113.Location = New System.Drawing.Point(1952, 475)
-        Me.TextBox113.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox113.Location = New System.Drawing.Point(732, 199)
         Me.TextBox113.Multiline = True
         Me.TextBox113.Name = "TextBox113"
-        Me.TextBox113.Size = New System.Drawing.Size(253, 59)
+        Me.TextBox113.Size = New System.Drawing.Size(96, 26)
         Me.TextBox113.TabIndex = 508
         '
         'TextBox154
         '
         Me.TextBox154.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox154.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox154.Location = New System.Drawing.Point(1747, 477)
-        Me.TextBox154.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox154.Location = New System.Drawing.Point(655, 200)
         Me.TextBox154.Multiline = True
         Me.TextBox154.Name = "TextBox154"
-        Me.TextBox154.Size = New System.Drawing.Size(189, 57)
+        Me.TextBox154.Size = New System.Drawing.Size(72, 25)
         Me.TextBox154.TabIndex = 507
         '
         'TextBox91
         '
         Me.TextBox91.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox91.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox91.Location = New System.Drawing.Point(1997, 43)
-        Me.TextBox91.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox91.Location = New System.Drawing.Point(749, 18)
         Me.TextBox91.Multiline = True
         Me.TextBox91.Name = "TextBox91"
-        Me.TextBox91.Size = New System.Drawing.Size(277, 60)
+        Me.TextBox91.Size = New System.Drawing.Size(104, 25)
         Me.TextBox91.TabIndex = 504
         '
         'TextBox207
         '
         Me.TextBox207.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox207.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox207.Location = New System.Drawing.Point(2640, 801)
-        Me.TextBox207.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox207.Location = New System.Drawing.Point(990, 336)
         Me.TextBox207.Multiline = True
         Me.TextBox207.Name = "TextBox207"
-        Me.TextBox207.Size = New System.Drawing.Size(319, 54)
+        Me.TextBox207.Size = New System.Drawing.Size(121, 24)
         Me.TextBox207.TabIndex = 502
         Me.TextBox207.Text = "Define otro"
         '
@@ -9438,99 +8633,90 @@ Partial Class modulos
         '
         Me.TextBox128.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox128.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox128.Location = New System.Drawing.Point(3027, 806)
-        Me.TextBox128.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox128.Location = New System.Drawing.Point(1135, 338)
         Me.TextBox128.Multiline = True
         Me.TextBox128.Name = "TextBox128"
-        Me.TextBox128.Size = New System.Drawing.Size(235, 50)
+        Me.TextBox128.Size = New System.Drawing.Size(88, 21)
         Me.TextBox128.TabIndex = 500
         '
         'TextBox206
         '
         Me.TextBox206.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox206.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox206.Location = New System.Drawing.Point(1557, 1049)
-        Me.TextBox206.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox206.Location = New System.Drawing.Point(584, 440)
         Me.TextBox206.Multiline = True
         Me.TextBox206.Name = "TextBox206"
-        Me.TextBox206.Size = New System.Drawing.Size(555, 74)
+        Me.TextBox206.Size = New System.Drawing.Size(208, 31)
         Me.TextBox206.TabIndex = 496
         '
         'TextBox205
         '
         Me.TextBox205.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox205.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox205.Location = New System.Drawing.Point(2269, 744)
-        Me.TextBox205.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox205.Location = New System.Drawing.Point(851, 312)
         Me.TextBox205.Multiline = True
         Me.TextBox205.Name = "TextBox205"
-        Me.TextBox205.Size = New System.Drawing.Size(253, 59)
+        Me.TextBox205.Size = New System.Drawing.Size(96, 26)
         Me.TextBox205.TabIndex = 492
         '
         'TextBox114
         '
         Me.TextBox114.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox114.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox114.Location = New System.Drawing.Point(1997, 744)
-        Me.TextBox114.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox114.Location = New System.Drawing.Point(749, 312)
         Me.TextBox114.Multiline = True
         Me.TextBox114.Name = "TextBox114"
-        Me.TextBox114.Size = New System.Drawing.Size(253, 59)
+        Me.TextBox114.Size = New System.Drawing.Size(96, 26)
         Me.TextBox114.TabIndex = 490
         '
         'TextBox203
         '
         Me.TextBox203.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox203.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox203.Location = New System.Drawing.Point(1661, 746)
-        Me.TextBox203.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox203.Location = New System.Drawing.Point(623, 313)
         Me.TextBox203.Multiline = True
         Me.TextBox203.Name = "TextBox203"
-        Me.TextBox203.Size = New System.Drawing.Size(317, 57)
+        Me.TextBox203.Size = New System.Drawing.Size(120, 25)
         Me.TextBox203.TabIndex = 488
         '
         'TextBox204
         '
         Me.TextBox204.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox204.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox204.Location = New System.Drawing.Point(1323, 749)
-        Me.TextBox204.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox204.Location = New System.Drawing.Point(496, 314)
         Me.TextBox204.Multiline = True
         Me.TextBox204.Name = "TextBox204"
-        Me.TextBox204.Size = New System.Drawing.Size(319, 54)
+        Me.TextBox204.Size = New System.Drawing.Size(121, 24)
         Me.TextBox204.TabIndex = 487
         '
         'TextBox202
         '
         Me.TextBox202.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox202.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox202.Location = New System.Drawing.Point(1952, 403)
-        Me.TextBox202.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox202.Location = New System.Drawing.Point(732, 169)
         Me.TextBox202.Multiline = True
         Me.TextBox202.Name = "TextBox202"
-        Me.TextBox202.Size = New System.Drawing.Size(253, 59)
+        Me.TextBox202.Size = New System.Drawing.Size(96, 26)
         Me.TextBox202.TabIndex = 483
         '
         'TextBox200
         '
         Me.TextBox200.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox200.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox200.Location = New System.Drawing.Point(1747, 405)
-        Me.TextBox200.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox200.Location = New System.Drawing.Point(655, 170)
         Me.TextBox200.Multiline = True
         Me.TextBox200.Name = "TextBox200"
-        Me.TextBox200.Size = New System.Drawing.Size(189, 57)
+        Me.TextBox200.Size = New System.Drawing.Size(72, 25)
         Me.TextBox200.TabIndex = 481
         '
         'TextBox201
         '
         Me.TextBox201.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox201.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox201.Location = New System.Drawing.Point(1408, 479)
-        Me.TextBox201.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox201.Location = New System.Drawing.Point(528, 201)
         Me.TextBox201.Multiline = True
         Me.TextBox201.Name = "TextBox201"
-        Me.TextBox201.Size = New System.Drawing.Size(319, 54)
+        Me.TextBox201.Size = New System.Drawing.Size(121, 24)
         Me.TextBox201.TabIndex = 480
         Me.TextBox201.Text = "Define otro"
         '
@@ -9538,55 +8724,50 @@ Partial Class modulos
         '
         Me.TextBox115.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox115.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox115.Location = New System.Drawing.Point(269, 296)
-        Me.TextBox115.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox115.Location = New System.Drawing.Point(101, 124)
         Me.TextBox115.Multiline = True
         Me.TextBox115.Name = "TextBox115"
-        Me.TextBox115.Size = New System.Drawing.Size(875, 141)
+        Me.TextBox115.Size = New System.Drawing.Size(328, 59)
         Me.TextBox115.TabIndex = 472
         '
         'TextBox127
         '
         Me.TextBox127.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox127.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox127.Location = New System.Drawing.Point(3027, 708)
-        Me.TextBox127.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox127.Location = New System.Drawing.Point(1135, 297)
         Me.TextBox127.Multiline = True
         Me.TextBox127.Name = "TextBox127"
-        Me.TextBox127.Size = New System.Drawing.Size(235, 50)
+        Me.TextBox127.Size = New System.Drawing.Size(88, 21)
         Me.TextBox127.TabIndex = 454
         '
         'TextBox129
         '
         Me.TextBox129.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox129.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox129.Location = New System.Drawing.Point(2755, 520)
-        Me.TextBox129.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox129.Location = New System.Drawing.Point(1033, 218)
         Me.TextBox129.Multiline = True
         Me.TextBox129.Name = "TextBox129"
-        Me.TextBox129.Size = New System.Drawing.Size(280, 60)
+        Me.TextBox129.Size = New System.Drawing.Size(105, 25)
         Me.TextBox129.TabIndex = 452
         '
         'TextBox130
         '
         Me.TextBox130.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox130.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox130.Location = New System.Drawing.Point(2755, 320)
-        Me.TextBox130.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox130.Location = New System.Drawing.Point(1033, 134)
         Me.TextBox130.Multiline = True
         Me.TextBox130.Name = "TextBox130"
-        Me.TextBox130.Size = New System.Drawing.Size(280, 60)
+        Me.TextBox130.Size = New System.Drawing.Size(105, 25)
         Me.TextBox130.TabIndex = 450
         '
         'TextBox131
         '
         Me.TextBox131.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox131.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox131.Location = New System.Drawing.Point(2749, 138)
-        Me.TextBox131.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TextBox131.Location = New System.Drawing.Point(1031, 58)
         Me.TextBox131.Multiline = True
         Me.TextBox131.Name = "TextBox131"
-        Me.TextBox131.Size = New System.Drawing.Size(280, 60)
+        Me.TextBox131.Size = New System.Drawing.Size(105, 25)
         Me.TextBox131.TabIndex = 448
         '
         'Label221
@@ -9594,20 +8775,18 @@ Partial Class modulos
         Me.Label221.AutoSize = True
         Me.Label221.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label221.ForeColor = System.Drawing.Color.Navy
-        Me.Label221.Location = New System.Drawing.Point(1475, 31)
-        Me.Label221.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label221.Location = New System.Drawing.Point(553, 13)
         Me.Label221.Name = "Label221"
-        Me.Label221.Size = New System.Drawing.Size(458, 88)
+        Me.Label221.Size = New System.Drawing.Size(180, 36)
         Me.Label221.TabIndex = 506
         Me.Label221.Text = "Calculo automático según" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " la seleción. **"
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox1.Location = New System.Drawing.Point(1984, 31)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox1.Location = New System.Drawing.Point(744, 13)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(304, 83)
+        Me.PictureBox1.Size = New System.Drawing.Size(114, 35)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 505
         Me.PictureBox1.TabStop = False
@@ -9615,10 +8794,9 @@ Partial Class modulos
         'PictureBox141
         '
         Me.PictureBox141.Image = Global.saiin.My.Resources.Resources.plus_plus
-        Me.PictureBox141.Location = New System.Drawing.Point(2955, 892)
-        Me.PictureBox141.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox141.Location = New System.Drawing.Point(1108, 374)
         Me.PictureBox141.Name = "PictureBox141"
-        Me.PictureBox141.Size = New System.Drawing.Size(80, 72)
+        Me.PictureBox141.Size = New System.Drawing.Size(30, 30)
         Me.PictureBox141.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox141.TabIndex = 503
         Me.PictureBox141.TabStop = False
@@ -9626,10 +8804,9 @@ Partial Class modulos
         'PictureBox80
         '
         Me.PictureBox80.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox80.Location = New System.Drawing.Point(3013, 794)
-        Me.PictureBox80.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox80.Location = New System.Drawing.Point(1130, 333)
         Me.PictureBox80.Name = "PictureBox80"
-        Me.PictureBox80.Size = New System.Drawing.Size(261, 74)
+        Me.PictureBox80.Size = New System.Drawing.Size(98, 31)
         Me.PictureBox80.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox80.TabIndex = 501
         Me.PictureBox80.TabStop = False
@@ -9640,10 +8817,9 @@ Partial Class modulos
         Me.ComboBox16.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox16.FormattingEnabled = True
         Me.ComboBox16.Items.AddRange(New Object() {"Local", "Impresoras", "Maquinaria", "Otro"})
-        Me.ComboBox16.Location = New System.Drawing.Point(2640, 701)
-        Me.ComboBox16.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.ComboBox16.Location = New System.Drawing.Point(990, 294)
         Me.ComboBox16.Name = "ComboBox16"
-        Me.ComboBox16.Size = New System.Drawing.Size(316, 50)
+        Me.ComboBox16.Size = New System.Drawing.Size(121, 26)
         Me.ComboBox16.TabIndex = 499
         Me.ComboBox16.Text = "Selecciona"
         '
@@ -9652,20 +8828,18 @@ Partial Class modulos
         Me.Label323.AutoSize = True
         Me.Label323.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label323.ForeColor = System.Drawing.Color.Navy
-        Me.Label323.Location = New System.Drawing.Point(2632, 620)
-        Me.Label323.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label323.Location = New System.Drawing.Point(987, 260)
         Me.Label323.Name = "Label323"
-        Me.Label323.Size = New System.Drawing.Size(624, 44)
+        Me.Label323.Size = New System.Drawing.Size(248, 18)
         Me.Label323.TabIndex = 498
         Me.Label323.Text = "Gasto de honorarios varios por mes"
         '
         'PictureBox44
         '
         Me.PictureBox44.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox44.Location = New System.Drawing.Point(1544, 1037)
-        Me.PictureBox44.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox44.Location = New System.Drawing.Point(579, 435)
         Me.PictureBox44.Name = "PictureBox44"
-        Me.PictureBox44.Size = New System.Drawing.Size(581, 98)
+        Me.PictureBox44.Size = New System.Drawing.Size(218, 41)
         Me.PictureBox44.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox44.TabIndex = 497
         Me.PictureBox44.TabStop = False
@@ -9675,20 +8849,18 @@ Partial Class modulos
         Me.Label322.AutoSize = True
         Me.Label322.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label322.ForeColor = System.Drawing.Color.Navy
-        Me.Label322.Location = New System.Drawing.Point(1549, 978)
-        Me.Label322.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label322.Location = New System.Drawing.Point(581, 410)
         Me.Label322.Name = "Label322"
-        Me.Label322.Size = New System.Drawing.Size(545, 44)
+        Me.Label322.Size = New System.Drawing.Size(211, 18)
         Me.Label322.TabIndex = 495
         Me.Label322.Text = "Depreciación de maquinaria. **"
         '
         'PictureBox140
         '
         Me.PictureBox140.Image = Global.saiin.My.Resources.Resources.plus_plus
-        Me.PictureBox140.Location = New System.Drawing.Point(2269, 393)
-        Me.PictureBox140.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox140.Location = New System.Drawing.Point(851, 165)
         Me.PictureBox140.Name = "PictureBox140"
-        Me.PictureBox140.Size = New System.Drawing.Size(80, 72)
+        Me.PictureBox140.Size = New System.Drawing.Size(30, 30)
         Me.PictureBox140.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox140.TabIndex = 494
         Me.PictureBox140.TabStop = False
@@ -9696,10 +8868,9 @@ Partial Class modulos
         'PictureBox49
         '
         Me.PictureBox49.Image = Global.saiin.My.Resources.Resources.plus_plus
-        Me.PictureBox49.Location = New System.Drawing.Point(1845, 858)
-        Me.PictureBox49.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox49.Location = New System.Drawing.Point(692, 360)
         Me.PictureBox49.Name = "PictureBox49"
-        Me.PictureBox49.Size = New System.Drawing.Size(80, 72)
+        Me.PictureBox49.Size = New System.Drawing.Size(30, 30)
         Me.PictureBox49.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox49.TabIndex = 493
         Me.PictureBox49.TabStop = False
@@ -9709,10 +8880,9 @@ Partial Class modulos
         Me.Label321.AutoSize = True
         Me.Label321.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label321.ForeColor = System.Drawing.Color.Navy
-        Me.Label321.Location = New System.Drawing.Point(2323, 689)
-        Me.Label321.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label321.Location = New System.Drawing.Point(871, 289)
         Me.Label321.Name = "Label321"
-        Me.Label321.Size = New System.Drawing.Size(136, 44)
+        Me.Label321.Size = New System.Drawing.Size(53, 18)
         Me.Label321.TabIndex = 491
         Me.Label321.Text = "tiempo"
         '
@@ -9721,10 +8891,9 @@ Partial Class modulos
         Me.Label257.AutoSize = True
         Me.Label257.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label257.ForeColor = System.Drawing.Color.Navy
-        Me.Label257.Location = New System.Drawing.Point(2051, 689)
-        Me.Label257.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label257.Location = New System.Drawing.Point(769, 289)
         Me.Label257.Name = "Label257"
-        Me.Label257.Size = New System.Drawing.Size(130, 44)
+        Me.Label257.Size = New System.Drawing.Size(54, 18)
         Me.Label257.TabIndex = 489
         Me.Label257.Text = "costos"
         '
@@ -9733,10 +8902,9 @@ Partial Class modulos
         Me.Label293.AutoSize = True
         Me.Label293.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label293.ForeColor = System.Drawing.Color.Navy
-        Me.Label293.Location = New System.Drawing.Point(1701, 687)
-        Me.Label293.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label293.Location = New System.Drawing.Point(638, 288)
         Me.Label293.Name = "Label293"
-        Me.Label293.Size = New System.Drawing.Size(213, 44)
+        Me.Label293.Size = New System.Drawing.Size(84, 18)
         Me.Label293.TabIndex = 486
         Me.Label293.Text = "descripción"
         '
@@ -9745,10 +8913,9 @@ Partial Class modulos
         Me.Label320.AutoSize = True
         Me.Label320.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label320.ForeColor = System.Drawing.Color.Navy
-        Me.Label320.Location = New System.Drawing.Point(1432, 692)
-        Me.Label320.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label320.Location = New System.Drawing.Point(537, 290)
         Me.Label320.Name = "Label320"
-        Me.Label320.Size = New System.Drawing.Size(94, 44)
+        Me.Label320.Size = New System.Drawing.Size(37, 18)
         Me.Label320.TabIndex = 485
         Me.Label320.Text = "Tipo"
         '
@@ -9757,10 +8924,9 @@ Partial Class modulos
         Me.ComboBox8.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ComboBox8.FormattingEnabled = True
         Me.ComboBox8.Items.AddRange(New Object() {"Local", "Impresoras", "Maquinaria", "Otro"})
-        Me.ComboBox8.Location = New System.Drawing.Point(1408, 403)
-        Me.ComboBox8.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.ComboBox8.Location = New System.Drawing.Point(528, 169)
         Me.ComboBox8.Name = "ComboBox8"
-        Me.ComboBox8.Size = New System.Drawing.Size(316, 50)
+        Me.ComboBox8.Size = New System.Drawing.Size(121, 26)
         Me.ComboBox8.TabIndex = 484
         Me.ComboBox8.Text = "Selecciona"
         '
@@ -9769,10 +8935,9 @@ Partial Class modulos
         Me.Label256.AutoSize = True
         Me.Label256.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label256.ForeColor = System.Drawing.Color.Navy
-        Me.Label256.Location = New System.Drawing.Point(2005, 300)
-        Me.Label256.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label256.Location = New System.Drawing.Point(752, 126)
         Me.Label256.Name = "Label256"
-        Me.Label256.Size = New System.Drawing.Size(147, 44)
+        Me.Label256.Size = New System.Drawing.Size(58, 18)
         Me.Label256.TabIndex = 482
         Me.Label256.Text = "periodo"
         '
@@ -9781,10 +8946,9 @@ Partial Class modulos
         Me.Label254.AutoSize = True
         Me.Label254.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label254.ForeColor = System.Drawing.Color.Navy
-        Me.Label254.Location = New System.Drawing.Point(1787, 303)
-        Me.Label254.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label254.Location = New System.Drawing.Point(670, 127)
         Me.Label254.Name = "Label254"
-        Me.Label254.Size = New System.Drawing.Size(107, 44)
+        Me.Label254.Size = New System.Drawing.Size(41, 18)
         Me.Label254.TabIndex = 479
         Me.Label254.Text = "renta"
         '
@@ -9793,10 +8957,9 @@ Partial Class modulos
         Me.Label255.AutoSize = True
         Me.Label255.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label255.ForeColor = System.Drawing.Color.Navy
-        Me.Label255.Location = New System.Drawing.Point(1517, 303)
-        Me.Label255.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label255.Location = New System.Drawing.Point(569, 127)
         Me.Label255.Name = "Label255"
-        Me.Label255.Size = New System.Drawing.Size(94, 44)
+        Me.Label255.Size = New System.Drawing.Size(37, 18)
         Me.Label255.TabIndex = 478
         Me.Label255.Text = "Tipo"
         '
@@ -9805,10 +8968,9 @@ Partial Class modulos
         Me.RB_act_sociales2.AutoSize = True
         Me.RB_act_sociales2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RB_act_sociales2.ForeColor = System.Drawing.Color.Navy
-        Me.RB_act_sociales2.Location = New System.Drawing.Point(800, 684)
-        Me.RB_act_sociales2.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RB_act_sociales2.Location = New System.Drawing.Point(300, 287)
         Me.RB_act_sociales2.Name = "RB_act_sociales2"
-        Me.RB_act_sociales2.Size = New System.Drawing.Size(400, 48)
+        Me.RB_act_sociales2.Size = New System.Drawing.Size(159, 22)
         Me.RB_act_sociales2.TabIndex = 477
         Me.RB_act_sociales2.TabStop = True
         Me.RB_act_sociales2.Text = "Actividades sociales"
@@ -9819,10 +8981,9 @@ Partial Class modulos
         Me.RB_ISN2.AutoSize = True
         Me.RB_ISN2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RB_ISN2.ForeColor = System.Drawing.Color.Navy
-        Me.RB_ISN2.Location = New System.Drawing.Point(800, 625)
-        Me.RB_ISN2.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RB_ISN2.Location = New System.Drawing.Point(300, 262)
         Me.RB_ISN2.Name = "RB_ISN2"
-        Me.RB_ISN2.Size = New System.Drawing.Size(119, 48)
+        Me.RB_ISN2.Size = New System.Drawing.Size(50, 22)
         Me.RB_ISN2.TabIndex = 476
         Me.RB_ISN2.TabStop = True
         Me.RB_ISN2.Text = "ISN"
@@ -9833,10 +8994,9 @@ Partial Class modulos
         Me.RB_vacaciones2.AutoSize = True
         Me.RB_vacaciones2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RB_vacaciones2.ForeColor = System.Drawing.Color.Navy
-        Me.RB_vacaciones2.Location = New System.Drawing.Point(269, 680)
-        Me.RB_vacaciones2.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RB_vacaciones2.Location = New System.Drawing.Point(101, 285)
         Me.RB_vacaciones2.Name = "RB_vacaciones2"
-        Me.RB_vacaciones2.Size = New System.Drawing.Size(253, 48)
+        Me.RB_vacaciones2.Size = New System.Drawing.Size(103, 22)
         Me.RB_vacaciones2.TabIndex = 475
         Me.RB_vacaciones2.TabStop = True
         Me.RB_vacaciones2.Text = "Vacaciones"
@@ -9847,10 +9007,9 @@ Partial Class modulos
         Me.RB_aginaldo2.AutoSize = True
         Me.RB_aginaldo2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RB_aginaldo2.ForeColor = System.Drawing.Color.Navy
-        Me.RB_aginaldo2.Location = New System.Drawing.Point(269, 620)
-        Me.RB_aginaldo2.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RB_aginaldo2.Location = New System.Drawing.Point(101, 260)
         Me.RB_aginaldo2.Name = "RB_aginaldo2"
-        Me.RB_aginaldo2.Size = New System.Drawing.Size(226, 48)
+        Me.RB_aginaldo2.Size = New System.Drawing.Size(90, 22)
         Me.RB_aginaldo2.TabIndex = 474
         Me.RB_aginaldo2.TabStop = True
         Me.RB_aginaldo2.Text = "Aguinaldo"
@@ -9859,10 +9018,9 @@ Partial Class modulos
         'PictureBox50
         '
         Me.PictureBox50.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox50.Location = New System.Drawing.Point(256, 284)
-        Me.PictureBox50.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox50.Location = New System.Drawing.Point(96, 119)
         Me.PictureBox50.Name = "PictureBox50"
-        Me.PictureBox50.Size = New System.Drawing.Size(901, 165)
+        Me.PictureBox50.Size = New System.Drawing.Size(338, 69)
         Me.PictureBox50.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox50.TabIndex = 473
         Me.PictureBox50.TabStop = False
@@ -9872,10 +9030,9 @@ Partial Class modulos
         Me.Label217.AutoSize = True
         Me.Label217.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label217.ForeColor = System.Drawing.Color.Navy
-        Me.Label217.Location = New System.Drawing.Point(261, 486)
-        Me.Label217.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label217.Location = New System.Drawing.Point(98, 204)
         Me.Label217.Name = "Label217"
-        Me.Label217.Size = New System.Drawing.Size(901, 88)
+        Me.Label217.Size = New System.Drawing.Size(351, 36)
         Me.Label217.TabIndex = 471
         Me.Label217.Text = "¿Qué tipo de beneficio y/o prestaciones" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " recibirá cada uno de los empleados de l" &
     "a empresa?"
@@ -9885,10 +9042,9 @@ Partial Class modulos
         Me.Label218.AutoSize = True
         Me.Label218.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label218.ForeColor = System.Drawing.Color.Navy
-        Me.Label218.Location = New System.Drawing.Point(261, 138)
-        Me.Label218.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label218.Location = New System.Drawing.Point(98, 58)
         Me.Label218.Name = "Label218"
-        Me.Label218.Size = New System.Drawing.Size(785, 132)
+        Me.Label218.Size = New System.Drawing.Size(306, 54)
         Me.Label218.TabIndex = 470
         Me.Label218.Text = "De acuerdo al personal por áreas determinar " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "gasto de nómina mensual del persona" &
     "l fijo o " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "administrativo" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
@@ -9898,10 +9054,9 @@ Partial Class modulos
         Me.Label219.AutoSize = True
         Me.Label219.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label219.ForeColor = System.Drawing.Color.Navy
-        Me.Label219.Location = New System.Drawing.Point(245, 33)
-        Me.Label219.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label219.Location = New System.Drawing.Point(92, 14)
         Me.Label219.Name = "Label219"
-        Me.Label219.Size = New System.Drawing.Size(299, 55)
+        Me.Label219.Size = New System.Drawing.Size(124, 24)
         Me.Label219.TabIndex = 469
         Me.Label219.Text = "Costos Fijos"
         '
@@ -9910,10 +9065,9 @@ Partial Class modulos
         Me.RB_capacitacion2.AutoSize = True
         Me.RB_capacitacion2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RB_capacitacion2.ForeColor = System.Drawing.Color.Navy
-        Me.RB_capacitacion2.Location = New System.Drawing.Point(811, 911)
-        Me.RB_capacitacion2.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RB_capacitacion2.Location = New System.Drawing.Point(304, 382)
         Me.RB_capacitacion2.Name = "RB_capacitacion2"
-        Me.RB_capacitacion2.Size = New System.Drawing.Size(277, 48)
+        Me.RB_capacitacion2.Size = New System.Drawing.Size(112, 22)
         Me.RB_capacitacion2.TabIndex = 468
         Me.RB_capacitacion2.TabStop = True
         Me.RB_capacitacion2.Text = "Capacitación"
@@ -9924,10 +9078,9 @@ Partial Class modulos
         Me.RB_enfermeria2.AutoSize = True
         Me.RB_enfermeria2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RB_enfermeria2.ForeColor = System.Drawing.Color.Navy
-        Me.RB_enfermeria2.Location = New System.Drawing.Point(808, 804)
-        Me.RB_enfermeria2.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RB_enfermeria2.Location = New System.Drawing.Point(303, 337)
         Me.RB_enfermeria2.Name = "RB_enfermeria2"
-        Me.RB_enfermeria2.Size = New System.Drawing.Size(307, 92)
+        Me.RB_enfermeria2.Size = New System.Drawing.Size(124, 40)
         Me.RB_enfermeria2.TabIndex = 467
         Me.RB_enfermeria2.TabStop = True
         Me.RB_enfermeria2.Text = "Enfermería o " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "medicamentos"
@@ -9938,10 +9091,9 @@ Partial Class modulos
         Me.RB_act_deportivas2.AutoSize = True
         Me.RB_act_deportivas2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RB_act_deportivas2.ForeColor = System.Drawing.Color.Navy
-        Me.RB_act_deportivas2.Location = New System.Drawing.Point(803, 744)
-        Me.RB_act_deportivas2.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RB_act_deportivas2.Location = New System.Drawing.Point(301, 312)
         Me.RB_act_deportivas2.Name = "RB_act_deportivas2"
-        Me.RB_act_deportivas2.Size = New System.Drawing.Size(438, 48)
+        Me.RB_act_deportivas2.Size = New System.Drawing.Size(172, 22)
         Me.RB_act_deportivas2.TabIndex = 466
         Me.RB_act_deportivas2.TabStop = True
         Me.RB_act_deportivas2.Text = "Actividades deportivas"
@@ -9952,10 +9104,9 @@ Partial Class modulos
         Me.RB_prima2.AutoSize = True
         Me.RB_prima2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RB_prima2.ForeColor = System.Drawing.Color.Navy
-        Me.RB_prima2.Location = New System.Drawing.Point(269, 737)
-        Me.RB_prima2.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RB_prima2.Location = New System.Drawing.Point(101, 309)
         Me.RB_prima2.Name = "RB_prima2"
-        Me.RB_prima2.Size = New System.Drawing.Size(354, 48)
+        Me.RB_prima2.Size = New System.Drawing.Size(141, 22)
         Me.RB_prima2.TabIndex = 465
         Me.RB_prima2.TabStop = True
         Me.RB_prima2.Text = "Prima Vacacional"
@@ -9966,10 +9117,9 @@ Partial Class modulos
         Me.RB_antiguedad2.AutoSize = True
         Me.RB_antiguedad2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RB_antiguedad2.ForeColor = System.Drawing.Color.Navy
-        Me.RB_antiguedad2.Location = New System.Drawing.Point(269, 804)
-        Me.RB_antiguedad2.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RB_antiguedad2.Location = New System.Drawing.Point(101, 337)
         Me.RB_antiguedad2.Name = "RB_antiguedad2"
-        Me.RB_antiguedad2.Size = New System.Drawing.Size(408, 48)
+        Me.RB_antiguedad2.Size = New System.Drawing.Size(160, 22)
         Me.RB_antiguedad2.TabIndex = 464
         Me.RB_antiguedad2.TabStop = True
         Me.RB_antiguedad2.Text = "Prima de antiguedad"
@@ -9980,10 +9130,9 @@ Partial Class modulos
         Me.RB_seguro2.AutoSize = True
         Me.RB_seguro2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RB_seguro2.ForeColor = System.Drawing.Color.Navy
-        Me.RB_seguro2.Location = New System.Drawing.Point(269, 878)
-        Me.RB_seguro2.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RB_seguro2.Location = New System.Drawing.Point(101, 368)
         Me.RB_seguro2.Name = "RB_seguro2"
-        Me.RB_seguro2.Size = New System.Drawing.Size(293, 48)
+        Me.RB_seguro2.Size = New System.Drawing.Size(119, 22)
         Me.RB_seguro2.TabIndex = 463
         Me.RB_seguro2.TabStop = True
         Me.RB_seguro2.Text = "Seguro Social"
@@ -9994,10 +9143,9 @@ Partial Class modulos
         Me.RB_infonavit2.AutoSize = True
         Me.RB_infonavit2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RB_infonavit2.ForeColor = System.Drawing.Color.Navy
-        Me.RB_infonavit2.Location = New System.Drawing.Point(813, 978)
-        Me.RB_infonavit2.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RB_infonavit2.Location = New System.Drawing.Point(305, 410)
         Me.RB_infonavit2.Name = "RB_infonavit2"
-        Me.RB_infonavit2.Size = New System.Drawing.Size(201, 48)
+        Me.RB_infonavit2.Size = New System.Drawing.Size(80, 22)
         Me.RB_infonavit2.TabIndex = 462
         Me.RB_infonavit2.TabStop = True
         Me.RB_infonavit2.Text = "Infonavit"
@@ -10008,10 +9156,9 @@ Partial Class modulos
         Me.RB_RCV2.AutoSize = True
         Me.RB_RCV2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RB_RCV2.ForeColor = System.Drawing.Color.Navy
-        Me.RB_RCV2.Location = New System.Drawing.Point(816, 1044)
-        Me.RB_RCV2.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RB_RCV2.Location = New System.Drawing.Point(306, 438)
         Me.RB_RCV2.Name = "RB_RCV2"
-        Me.RB_RCV2.Size = New System.Drawing.Size(136, 48)
+        Me.RB_RCV2.Size = New System.Drawing.Size(57, 22)
         Me.RB_RCV2.TabIndex = 461
         Me.RB_RCV2.TabStop = True
         Me.RB_RCV2.Text = "RCV"
@@ -10022,10 +9169,9 @@ Partial Class modulos
         Me.RB_transporte2.AutoSize = True
         Me.RB_transporte2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RB_transporte2.ForeColor = System.Drawing.Color.Navy
-        Me.RB_transporte2.Location = New System.Drawing.Point(275, 944)
-        Me.RB_transporte2.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RB_transporte2.Location = New System.Drawing.Point(103, 396)
         Me.RB_transporte2.Name = "RB_transporte2"
-        Me.RB_transporte2.Size = New System.Drawing.Size(241, 48)
+        Me.RB_transporte2.Size = New System.Drawing.Size(98, 22)
         Me.RB_transporte2.TabIndex = 460
         Me.RB_transporte2.TabStop = True
         Me.RB_transporte2.Text = "Transporte"
@@ -10036,10 +9182,9 @@ Partial Class modulos
         Me.RB_ropa_y_equipo2.AutoSize = True
         Me.RB_ropa_y_equipo2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.RB_ropa_y_equipo2.ForeColor = System.Drawing.Color.Navy
-        Me.RB_ropa_y_equipo2.Location = New System.Drawing.Point(275, 1011)
-        Me.RB_ropa_y_equipo2.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.RB_ropa_y_equipo2.Location = New System.Drawing.Point(103, 424)
         Me.RB_ropa_y_equipo2.Name = "RB_ropa_y_equipo2"
-        Me.RB_ropa_y_equipo2.Size = New System.Drawing.Size(362, 92)
+        Me.RB_ropa_y_equipo2.Size = New System.Drawing.Size(145, 40)
         Me.RB_ropa_y_equipo2.TabIndex = 459
         Me.RB_ropa_y_equipo2.TabStop = True
         Me.RB_ropa_y_equipo2.Text = "Ropa y equipo de " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "proteccion"
@@ -10050,10 +9195,9 @@ Partial Class modulos
         Me.Label215.AutoSize = True
         Me.Label215.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label215.ForeColor = System.Drawing.Color.Navy
-        Me.Label215.Location = New System.Drawing.Point(1488, 587)
-        Me.Label215.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label215.Location = New System.Drawing.Point(558, 246)
         Me.Label215.Name = "Label215"
-        Me.Label215.Size = New System.Drawing.Size(656, 88)
+        Me.Label215.Size = New System.Drawing.Size(252, 36)
         Me.Label215.TabIndex = 458
         Me.Label215.Text = "¿Qué tipo de maquinaria tendrías que" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " comprar para la operación?"
         '
@@ -10062,10 +9206,9 @@ Partial Class modulos
         Me.Label216.AutoSize = True
         Me.Label216.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label216.ForeColor = System.Drawing.Color.Navy
-        Me.Label216.Location = New System.Drawing.Point(1467, 162)
-        Me.Label216.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label216.Location = New System.Drawing.Point(550, 68)
         Me.Label216.Name = "Label216"
-        Me.Label216.Size = New System.Drawing.Size(713, 88)
+        Me.Label216.Size = New System.Drawing.Size(278, 36)
         Me.Label216.TabIndex = 457
         Me.Label216.Text = "¿Qué tipo de contratos de arrendamiento" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " ocuparías para tu empresa?"
         '
@@ -10074,10 +9217,9 @@ Partial Class modulos
         Me.Label223.AutoSize = True
         Me.Label223.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label223.ForeColor = System.Drawing.Color.Navy
-        Me.Label223.Location = New System.Drawing.Point(2632, 427)
-        Me.Label223.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label223.Location = New System.Drawing.Point(987, 179)
         Me.Label223.Name = "Label223"
-        Me.Label223.Size = New System.Drawing.Size(479, 44)
+        Me.Label223.Size = New System.Drawing.Size(188, 18)
         Me.Label223.TabIndex = 447
         Me.Label223.Text = "Gastos de internet por mes"
         '
@@ -10086,10 +9228,9 @@ Partial Class modulos
         Me.Label224.AutoSize = True
         Me.Label224.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label224.ForeColor = System.Drawing.Color.Navy
-        Me.Label224.Location = New System.Drawing.Point(2632, 238)
-        Me.Label224.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label224.Location = New System.Drawing.Point(987, 100)
         Me.Label224.Name = "Label224"
-        Me.Label224.Size = New System.Drawing.Size(487, 44)
+        Me.Label224.Size = New System.Drawing.Size(193, 18)
         Me.Label224.TabIndex = 446
         Me.Label224.Text = "Gastos de telefono por mes"
         '
@@ -10098,20 +9239,18 @@ Partial Class modulos
         Me.Label225.AutoSize = True
         Me.Label225.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label225.ForeColor = System.Drawing.Color.Navy
-        Me.Label225.Location = New System.Drawing.Point(2645, 64)
-        Me.Label225.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.Label225.Location = New System.Drawing.Point(992, 27)
         Me.Label225.Name = "Label225"
-        Me.Label225.Size = New System.Drawing.Size(435, 44)
+        Me.Label225.Size = New System.Drawing.Size(172, 18)
         Me.Label225.TabIndex = 445
         Me.Label225.Text = "Gastos de agua por mes"
         '
         'anterior2_m6
         '
         Me.anterior2_m6.Image = Global.saiin.My.Resources.Resources.back_arrow_
-        Me.anterior2_m6.Location = New System.Drawing.Point(59, 520)
-        Me.anterior2_m6.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.anterior2_m6.Location = New System.Drawing.Point(22, 218)
         Me.anterior2_m6.Name = "anterior2_m6"
-        Me.anterior2_m6.Size = New System.Drawing.Size(93, 83)
+        Me.anterior2_m6.Size = New System.Drawing.Size(35, 35)
         Me.anterior2_m6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.anterior2_m6.TabIndex = 456
         Me.anterior2_m6.TabStop = False
@@ -10119,10 +9258,9 @@ Partial Class modulos
         'PictureBox79
         '
         Me.PictureBox79.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox79.Location = New System.Drawing.Point(3013, 696)
-        Me.PictureBox79.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox79.Location = New System.Drawing.Point(1130, 292)
         Me.PictureBox79.Name = "PictureBox79"
-        Me.PictureBox79.Size = New System.Drawing.Size(261, 74)
+        Me.PictureBox79.Size = New System.Drawing.Size(98, 31)
         Me.PictureBox79.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox79.TabIndex = 455
         Me.PictureBox79.TabStop = False
@@ -10130,10 +9268,9 @@ Partial Class modulos
         'PictureBox84
         '
         Me.PictureBox84.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox84.Location = New System.Drawing.Point(2741, 508)
-        Me.PictureBox84.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox84.Location = New System.Drawing.Point(1028, 213)
         Me.PictureBox84.Name = "PictureBox84"
-        Me.PictureBox84.Size = New System.Drawing.Size(307, 83)
+        Me.PictureBox84.Size = New System.Drawing.Size(115, 35)
         Me.PictureBox84.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox84.TabIndex = 453
         Me.PictureBox84.TabStop = False
@@ -10141,10 +9278,9 @@ Partial Class modulos
         'PictureBox86
         '
         Me.PictureBox86.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox86.Location = New System.Drawing.Point(2741, 308)
-        Me.PictureBox86.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox86.Location = New System.Drawing.Point(1028, 129)
         Me.PictureBox86.Name = "PictureBox86"
-        Me.PictureBox86.Size = New System.Drawing.Size(307, 83)
+        Me.PictureBox86.Size = New System.Drawing.Size(115, 35)
         Me.PictureBox86.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox86.TabIndex = 451
         Me.PictureBox86.TabStop = False
@@ -10152,24 +9288,394 @@ Partial Class modulos
         'PictureBox87
         '
         Me.PictureBox87.Image = Global.saiin.My.Resources.Resources.texbox_blanco
-        Me.PictureBox87.Location = New System.Drawing.Point(2736, 126)
-        Me.PictureBox87.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox87.Location = New System.Drawing.Point(1026, 53)
         Me.PictureBox87.Name = "PictureBox87"
-        Me.PictureBox87.Size = New System.Drawing.Size(307, 83)
+        Me.PictureBox87.Size = New System.Drawing.Size(115, 35)
         Me.PictureBox87.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox87.TabIndex = 449
         Me.PictureBox87.TabStop = False
         '
         'TabPage20
         '
-        Me.TabPage20.Location = New System.Drawing.Point(10, 16)
-        Me.TabPage20.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TabPage20.Controls.Add(Me.Label12)
+        Me.TabPage20.Controls.Add(Me.TextBox182)
+        Me.TabPage20.Controls.Add(Me.PictureBox145)
+        Me.TabPage20.Controls.Add(Me.TextBox181)
+        Me.TabPage20.Controls.Add(Me.PictureBox144)
+        Me.TabPage20.Controls.Add(Me.TextBox180)
+        Me.TabPage20.Controls.Add(Me.PictureBox143)
+        Me.TabPage20.Controls.Add(Me.TextBox179)
+        Me.TabPage20.Controls.Add(Me.TextBox99)
+        Me.TabPage20.Controls.Add(Me.PictureBox10)
+        Me.TabPage20.Controls.Add(Me.PictureBox59)
+        Me.TabPage20.Controls.Add(Me.PictureBox2)
+        Me.TabPage20.Controls.Add(Me.PictureBox51)
+        Me.TabPage20.Controls.Add(Me.TextBox102)
+        Me.TabPage20.Controls.Add(Me.TextBox101)
+        Me.TabPage20.Controls.Add(Me.TextBox100)
+        Me.TabPage20.Controls.Add(Me.TextBox98)
+        Me.TabPage20.Controls.Add(Me.TextBox97)
+        Me.TabPage20.Controls.Add(Me.Label22)
+        Me.TabPage20.Controls.Add(Me.Label33)
+        Me.TabPage20.Controls.Add(Me.Label32)
+        Me.TabPage20.Controls.Add(Me.Label31)
+        Me.TabPage20.Controls.Add(Me.Label30)
+        Me.TabPage20.Controls.Add(Me.Label21)
+        Me.TabPage20.Controls.Add(Me.Label28)
+        Me.TabPage20.Controls.Add(Me.Label27)
+        Me.TabPage20.Controls.Add(Me.CB1)
+        Me.TabPage20.Controls.Add(Me.PictureBox62)
+        Me.TabPage20.Controls.Add(Me.PictureBox61)
+        Me.TabPage20.Controls.Add(Me.PictureBox60)
+        Me.TabPage20.Controls.Add(Me.PictureBox58)
+        Me.TabPage20.Controls.Add(Me.PictureBox57)
+        Me.TabPage20.Location = New System.Drawing.Point(4, 10)
         Me.TabPage20.Name = "TabPage20"
-        Me.TabPage20.Padding = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.TabPage20.Size = New System.Drawing.Size(3351, 1202)
+        Me.TabPage20.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage20.Size = New System.Drawing.Size(1256, 501)
         Me.TabPage20.TabIndex = 5
-        Me.TabPage20.Text = "TabPage20"
+        Me.TabPage20.Text = "Nombre"
         Me.TabPage20.UseVisualStyleBackColor = True
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.ForeColor = System.Drawing.Color.MidnightBlue
+        Me.Label12.Location = New System.Drawing.Point(296, 104)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(62, 18)
+        Me.Label12.TabIndex = 464
+        Me.Label12.Text = "Nombre"
+        '
+        'TextBox182
+        '
+        Me.TextBox182.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox182.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox182.ForeColor = System.Drawing.Color.Navy
+        Me.TextBox182.Location = New System.Drawing.Point(236, 363)
+        Me.TextBox182.Multiline = True
+        Me.TextBox182.Name = "TextBox182"
+        Me.TextBox182.Size = New System.Drawing.Size(197, 18)
+        Me.TextBox182.TabIndex = 462
+        '
+        'PictureBox145
+        '
+        Me.PictureBox145.Image = Global.saiin.My.Resources.Resources.texbox_blanco
+        Me.PictureBox145.Location = New System.Drawing.Point(231, 358)
+        Me.PictureBox145.Name = "PictureBox145"
+        Me.PictureBox145.Size = New System.Drawing.Size(207, 28)
+        Me.PictureBox145.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox145.TabIndex = 463
+        Me.PictureBox145.TabStop = False
+        '
+        'TextBox181
+        '
+        Me.TextBox181.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox181.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox181.ForeColor = System.Drawing.Color.Navy
+        Me.TextBox181.Location = New System.Drawing.Point(236, 280)
+        Me.TextBox181.Multiline = True
+        Me.TextBox181.Name = "TextBox181"
+        Me.TextBox181.Size = New System.Drawing.Size(197, 18)
+        Me.TextBox181.TabIndex = 460
+        '
+        'PictureBox144
+        '
+        Me.PictureBox144.Image = Global.saiin.My.Resources.Resources.texbox_blanco
+        Me.PictureBox144.Location = New System.Drawing.Point(231, 275)
+        Me.PictureBox144.Name = "PictureBox144"
+        Me.PictureBox144.Size = New System.Drawing.Size(207, 28)
+        Me.PictureBox144.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox144.TabIndex = 461
+        Me.PictureBox144.TabStop = False
+        '
+        'TextBox180
+        '
+        Me.TextBox180.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox180.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox180.ForeColor = System.Drawing.Color.Navy
+        Me.TextBox180.Location = New System.Drawing.Point(236, 226)
+        Me.TextBox180.Multiline = True
+        Me.TextBox180.Name = "TextBox180"
+        Me.TextBox180.Size = New System.Drawing.Size(197, 18)
+        Me.TextBox180.TabIndex = 458
+        '
+        'PictureBox143
+        '
+        Me.PictureBox143.Image = Global.saiin.My.Resources.Resources.texbox_blanco
+        Me.PictureBox143.Location = New System.Drawing.Point(231, 221)
+        Me.PictureBox143.Name = "PictureBox143"
+        Me.PictureBox143.Size = New System.Drawing.Size(207, 28)
+        Me.PictureBox143.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox143.TabIndex = 459
+        Me.PictureBox143.TabStop = False
+        '
+        'TextBox179
+        '
+        Me.TextBox179.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox179.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox179.ForeColor = System.Drawing.Color.Navy
+        Me.TextBox179.Location = New System.Drawing.Point(231, 243)
+        Me.TextBox179.Multiline = True
+        Me.TextBox179.Name = "TextBox179"
+        Me.TextBox179.Size = New System.Drawing.Size(197, 18)
+        Me.TextBox179.TabIndex = 457
+        '
+        'TextBox99
+        '
+        Me.TextBox99.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox99.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox99.ForeColor = System.Drawing.Color.Navy
+        Me.TextBox99.Location = New System.Drawing.Point(236, 157)
+        Me.TextBox99.Multiline = True
+        Me.TextBox99.Name = "TextBox99"
+        Me.TextBox99.Size = New System.Drawing.Size(197, 18)
+        Me.TextBox99.TabIndex = 454
+        '
+        'PictureBox10
+        '
+        Me.PictureBox10.Image = Global.saiin.My.Resources.Resources.texbox_blanco
+        Me.PictureBox10.Location = New System.Drawing.Point(231, 152)
+        Me.PictureBox10.Name = "PictureBox10"
+        Me.PictureBox10.Size = New System.Drawing.Size(207, 28)
+        Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox10.TabIndex = 455
+        Me.PictureBox10.TabStop = False
+        '
+        'PictureBox59
+        '
+        Me.PictureBox59.Image = Global.saiin.My.Resources.Resources.plus_plus
+        Me.PictureBox59.Location = New System.Drawing.Point(949, 226)
+        Me.PictureBox59.Name = "PictureBox59"
+        Me.PictureBox59.Size = New System.Drawing.Size(30, 30)
+        Me.PictureBox59.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox59.TabIndex = 452
+        Me.PictureBox59.TabStop = False
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = Global.saiin.My.Resources.Resources.plus_plus
+        Me.PictureBox2.Location = New System.Drawing.Point(949, 150)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(30, 30)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 451
+        Me.PictureBox2.TabStop = False
+        '
+        'PictureBox51
+        '
+        Me.PictureBox51.Image = Global.saiin.My.Resources.Resources.plus_plus
+        Me.PictureBox51.Location = New System.Drawing.Point(741, 356)
+        Me.PictureBox51.Name = "PictureBox51"
+        Me.PictureBox51.Size = New System.Drawing.Size(30, 30)
+        Me.PictureBox51.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox51.TabIndex = 450
+        Me.PictureBox51.TabStop = False
+        '
+        'TextBox102
+        '
+        Me.TextBox102.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox102.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox102.ForeColor = System.Drawing.Color.Navy
+        Me.TextBox102.Location = New System.Drawing.Point(473, 363)
+        Me.TextBox102.Multiline = True
+        Me.TextBox102.Name = "TextBox102"
+        Me.TextBox102.Size = New System.Drawing.Size(243, 18)
+        Me.TextBox102.TabIndex = 448
+        '
+        'TextBox101
+        '
+        Me.TextBox101.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox101.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox101.ForeColor = System.Drawing.Color.Navy
+        Me.TextBox101.Location = New System.Drawing.Point(755, 231)
+        Me.TextBox101.Multiline = True
+        Me.TextBox101.Name = "TextBox101"
+        Me.TextBox101.Size = New System.Drawing.Size(171, 18)
+        Me.TextBox101.TabIndex = 446
+        '
+        'TextBox100
+        '
+        Me.TextBox100.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox100.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox100.ForeColor = System.Drawing.Color.Navy
+        Me.TextBox100.Location = New System.Drawing.Point(755, 156)
+        Me.TextBox100.Multiline = True
+        Me.TextBox100.Name = "TextBox100"
+        Me.TextBox100.Size = New System.Drawing.Size(171, 18)
+        Me.TextBox100.TabIndex = 444
+        '
+        'TextBox98
+        '
+        Me.TextBox98.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox98.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox98.ForeColor = System.Drawing.Color.Navy
+        Me.TextBox98.Location = New System.Drawing.Point(470, 226)
+        Me.TextBox98.Multiline = True
+        Me.TextBox98.Name = "TextBox98"
+        Me.TextBox98.Size = New System.Drawing.Size(243, 18)
+        Me.TextBox98.TabIndex = 442
+        '
+        'TextBox97
+        '
+        Me.TextBox97.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.TextBox97.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox97.ForeColor = System.Drawing.Color.Navy
+        Me.TextBox97.Location = New System.Drawing.Point(465, 156)
+        Me.TextBox97.Multiline = True
+        Me.TextBox97.Name = "TextBox97"
+        Me.TextBox97.Size = New System.Drawing.Size(243, 18)
+        Me.TextBox97.TabIndex = 440
+        '
+        'Label22
+        '
+        Me.Label22.AutoSize = True
+        Me.Label22.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label22.ForeColor = System.Drawing.Color.MidnightBlue
+        Me.Label22.Location = New System.Drawing.Point(478, 328)
+        Me.Label22.Name = "Label22"
+        Me.Label22.Size = New System.Drawing.Size(214, 18)
+        Me.Label22.TabIndex = 439
+        Me.Label22.Text = "Tiempo de contrato o convenio"
+        '
+        'Label33
+        '
+        Me.Label33.AutoSize = True
+        Me.Label33.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label33.ForeColor = System.Drawing.Color.MidnightBlue
+        Me.Label33.Location = New System.Drawing.Point(56, 363)
+        Me.Label33.Name = "Label33"
+        Me.Label33.Size = New System.Drawing.Size(96, 18)
+        Me.Label33.TabIndex = 438
+        Me.Label33.Text = "Arrendatarios"
+        '
+        'Label32
+        '
+        Me.Label32.AutoSize = True
+        Me.Label32.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label32.ForeColor = System.Drawing.Color.MidnightBlue
+        Me.Label32.Location = New System.Drawing.Point(56, 283)
+        Me.Label32.Name = "Label32"
+        Me.Label32.Size = New System.Drawing.Size(83, 18)
+        Me.Label32.TabIndex = 437
+        Me.Label32.Text = "Empleados"
+        '
+        'Label31
+        '
+        Me.Label31.AutoSize = True
+        Me.Label31.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label31.ForeColor = System.Drawing.Color.MidnightBlue
+        Me.Label31.Location = New System.Drawing.Point(56, 221)
+        Me.Label31.Name = "Label31"
+        Me.Label31.Size = New System.Drawing.Size(61, 18)
+        Me.Label31.TabIndex = 436
+        Me.Label31.Text = "Clientes"
+        '
+        'Label30
+        '
+        Me.Label30.AutoSize = True
+        Me.Label30.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label30.ForeColor = System.Drawing.Color.MidnightBlue
+        Me.Label30.Location = New System.Drawing.Point(56, 157)
+        Me.Label30.Name = "Label30"
+        Me.Label30.Size = New System.Drawing.Size(88, 18)
+        Me.Label30.TabIndex = 435
+        Me.Label30.Text = " Acreedores"
+        '
+        'Label21
+        '
+        Me.Label21.AutoSize = True
+        Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label21.ForeColor = System.Drawing.Color.MidnightBlue
+        Me.Label21.Location = New System.Drawing.Point(786, 104)
+        Me.Label21.Name = "Label21"
+        Me.Label21.Size = New System.Drawing.Size(117, 18)
+        Me.Label21.TabIndex = 434
+        Me.Label21.Text = "Periodo de pago"
+        '
+        'Label28
+        '
+        Me.Label28.AutoSize = True
+        Me.Label28.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label28.ForeColor = System.Drawing.Color.MidnightBlue
+        Me.Label28.Location = New System.Drawing.Point(478, 104)
+        Me.Label28.Name = "Label28"
+        Me.Label28.Size = New System.Drawing.Size(193, 18)
+        Me.Label28.TabIndex = 433
+        Me.Label28.Text = "Tipo de contrato o convenio"
+        '
+        'Label27
+        '
+        Me.Label27.AutoSize = True
+        Me.Label27.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label27.ForeColor = System.Drawing.Color.Navy
+        Me.Label27.Location = New System.Drawing.Point(32, 51)
+        Me.Label27.Name = "Label27"
+        Me.Label27.Size = New System.Drawing.Size(224, 24)
+        Me.Label27.TabIndex = 432
+        Me.Label27.Text = "Contratos o convenios "
+        '
+        'CB1
+        '
+        Me.CB1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CB1.ForeColor = System.Drawing.Color.Navy
+        Me.CB1.FormattingEnabled = True
+        Me.CB1.Items.AddRange(New Object() {"Permanente", "Eventual", "Mixto"})
+        Me.CB1.Location = New System.Drawing.Point(465, 275)
+        Me.CB1.Name = "CB1"
+        Me.CB1.Size = New System.Drawing.Size(251, 26)
+        Me.CB1.TabIndex = 431
+        '
+        'PictureBox62
+        '
+        Me.PictureBox62.Image = Global.saiin.My.Resources.Resources.texbox_blanco
+        Me.PictureBox62.Location = New System.Drawing.Point(468, 358)
+        Me.PictureBox62.Name = "PictureBox62"
+        Me.PictureBox62.Size = New System.Drawing.Size(253, 28)
+        Me.PictureBox62.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox62.TabIndex = 449
+        Me.PictureBox62.TabStop = False
+        '
+        'PictureBox61
+        '
+        Me.PictureBox61.Image = Global.saiin.My.Resources.Resources.texbox_blanco
+        Me.PictureBox61.Location = New System.Drawing.Point(750, 226)
+        Me.PictureBox61.Name = "PictureBox61"
+        Me.PictureBox61.Size = New System.Drawing.Size(181, 28)
+        Me.PictureBox61.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox61.TabIndex = 447
+        Me.PictureBox61.TabStop = False
+        '
+        'PictureBox60
+        '
+        Me.PictureBox60.Image = Global.saiin.My.Resources.Resources.texbox_blanco
+        Me.PictureBox60.Location = New System.Drawing.Point(750, 151)
+        Me.PictureBox60.Name = "PictureBox60"
+        Me.PictureBox60.Size = New System.Drawing.Size(181, 28)
+        Me.PictureBox60.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox60.TabIndex = 445
+        Me.PictureBox60.TabStop = False
+        '
+        'PictureBox58
+        '
+        Me.PictureBox58.Image = Global.saiin.My.Resources.Resources.texbox_blanco
+        Me.PictureBox58.Location = New System.Drawing.Point(465, 221)
+        Me.PictureBox58.Name = "PictureBox58"
+        Me.PictureBox58.Size = New System.Drawing.Size(253, 28)
+        Me.PictureBox58.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox58.TabIndex = 443
+        Me.PictureBox58.TabStop = False
+        '
+        'PictureBox57
+        '
+        Me.PictureBox57.Image = Global.saiin.My.Resources.Resources.texbox_blanco
+        Me.PictureBox57.Location = New System.Drawing.Point(460, 151)
+        Me.PictureBox57.Name = "PictureBox57"
+        Me.PictureBox57.Size = New System.Drawing.Size(253, 28)
+        Me.PictureBox57.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox57.TabIndex = 441
+        Me.PictureBox57.TabStop = False
         '
         'TabPage13
         '
@@ -10356,7 +9862,7 @@ Partial Class modulos
         Me.TextBox78.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox78.Location = New System.Drawing.Point(205, 22)
         Me.TextBox78.Name = "TextBox78"
-        Me.TextBox78.Size = New System.Drawing.Size(160, 50)
+        Me.TextBox78.Size = New System.Drawing.Size(160, 24)
         Me.TextBox78.TabIndex = 260
         '
         'Label155
@@ -10376,7 +9882,7 @@ Partial Class modulos
         Me.ComboBox11.Items.AddRange(New Object() {"Proveedor 1", "Proveedor 2", "Proveedor 3"})
         Me.ComboBox11.Location = New System.Drawing.Point(101, 292)
         Me.ComboBox11.Name = "ComboBox11"
-        Me.ComboBox11.Size = New System.Drawing.Size(291, 52)
+        Me.ComboBox11.Size = New System.Drawing.Size(291, 26)
         Me.ComboBox11.TabIndex = 262
         '
         'Label137
@@ -10414,7 +9920,7 @@ Partial Class modulos
         Me.TextBox58.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox58.Location = New System.Drawing.Point(133, 95)
         Me.TextBox58.Name = "TextBox58"
-        Me.TextBox58.Size = New System.Drawing.Size(65, 50)
+        Me.TextBox58.Size = New System.Drawing.Size(65, 24)
         Me.TextBox58.TabIndex = 285
         '
         'TextBox57
@@ -10422,7 +9928,7 @@ Partial Class modulos
         Me.TextBox57.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox57.Location = New System.Drawing.Point(205, 95)
         Me.TextBox57.Name = "TextBox57"
-        Me.TextBox57.Size = New System.Drawing.Size(109, 50)
+        Me.TextBox57.Size = New System.Drawing.Size(109, 24)
         Me.TextBox57.TabIndex = 286
         '
         'TextBox56
@@ -10430,7 +9936,7 @@ Partial Class modulos
         Me.TextBox56.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox56.Location = New System.Drawing.Point(327, 95)
         Me.TextBox56.Name = "TextBox56"
-        Me.TextBox56.Size = New System.Drawing.Size(65, 50)
+        Me.TextBox56.Size = New System.Drawing.Size(65, 24)
         Me.TextBox56.TabIndex = 287
         '
         'Label134
@@ -10468,7 +9974,7 @@ Partial Class modulos
         Me.TextBox55.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox55.Location = New System.Drawing.Point(133, 146)
         Me.TextBox55.Name = "TextBox55"
-        Me.TextBox55.Size = New System.Drawing.Size(65, 50)
+        Me.TextBox55.Size = New System.Drawing.Size(65, 24)
         Me.TextBox55.TabIndex = 291
         '
         'TextBox54
@@ -10476,7 +9982,7 @@ Partial Class modulos
         Me.TextBox54.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox54.Location = New System.Drawing.Point(208, 146)
         Me.TextBox54.Name = "TextBox54"
-        Me.TextBox54.Size = New System.Drawing.Size(109, 50)
+        Me.TextBox54.Size = New System.Drawing.Size(109, 24)
         Me.TextBox54.TabIndex = 292
         '
         'TextBox53
@@ -10484,7 +9990,7 @@ Partial Class modulos
         Me.TextBox53.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox53.Location = New System.Drawing.Point(327, 146)
         Me.TextBox53.Name = "TextBox53"
-        Me.TextBox53.Size = New System.Drawing.Size(65, 50)
+        Me.TextBox53.Size = New System.Drawing.Size(65, 24)
         Me.TextBox53.TabIndex = 293
         '
         'Label131
@@ -10522,7 +10028,7 @@ Partial Class modulos
         Me.TextBox52.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox52.Location = New System.Drawing.Point(133, 205)
         Me.TextBox52.Name = "TextBox52"
-        Me.TextBox52.Size = New System.Drawing.Size(65, 50)
+        Me.TextBox52.Size = New System.Drawing.Size(65, 24)
         Me.TextBox52.TabIndex = 297
         '
         'TextBox51
@@ -10530,7 +10036,7 @@ Partial Class modulos
         Me.TextBox51.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox51.Location = New System.Drawing.Point(208, 205)
         Me.TextBox51.Name = "TextBox51"
-        Me.TextBox51.Size = New System.Drawing.Size(109, 50)
+        Me.TextBox51.Size = New System.Drawing.Size(109, 24)
         Me.TextBox51.TabIndex = 298
         '
         'TextBox50
@@ -10538,7 +10044,7 @@ Partial Class modulos
         Me.TextBox50.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox50.Location = New System.Drawing.Point(327, 205)
         Me.TextBox50.Name = "TextBox50"
-        Me.TextBox50.Size = New System.Drawing.Size(65, 50)
+        Me.TextBox50.Size = New System.Drawing.Size(65, 24)
         Me.TextBox50.TabIndex = 299
         '
         'TextBox105
@@ -10830,7 +10336,7 @@ Partial Class modulos
         Me.ComboBox13.Items.AddRange(New Object() {"Directo", "Indirecto"})
         Me.ComboBox13.Location = New System.Drawing.Point(55, 153)
         Me.ComboBox13.Name = "ComboBox13"
-        Me.ComboBox13.Size = New System.Drawing.Size(121, 40)
+        Me.ComboBox13.Size = New System.Drawing.Size(121, 21)
         Me.ComboBox13.TabIndex = 184
         '
         'Label164
@@ -10878,7 +10384,7 @@ Partial Class modulos
         Me.TextBox80.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox80.Location = New System.Drawing.Point(625, 225)
         Me.TextBox80.Name = "TextBox80"
-        Me.TextBox80.Size = New System.Drawing.Size(160, 50)
+        Me.TextBox80.Size = New System.Drawing.Size(160, 24)
         Me.TextBox80.TabIndex = 191
         '
         'Label160
@@ -10896,7 +10402,7 @@ Partial Class modulos
         Me.TextBox79.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox79.Location = New System.Drawing.Point(957, 220)
         Me.TextBox79.Name = "TextBox79"
-        Me.TextBox79.Size = New System.Drawing.Size(160, 50)
+        Me.TextBox79.Size = New System.Drawing.Size(160, 24)
         Me.TextBox79.TabIndex = 193
         '
         'Label158
@@ -10934,7 +10440,7 @@ Partial Class modulos
         Me.TextBox77.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox77.Location = New System.Drawing.Point(544, 297)
         Me.TextBox77.Name = "TextBox77"
-        Me.TextBox77.Size = New System.Drawing.Size(65, 50)
+        Me.TextBox77.Size = New System.Drawing.Size(65, 24)
         Me.TextBox77.TabIndex = 199
         '
         'TextBox76
@@ -10942,7 +10448,7 @@ Partial Class modulos
         Me.TextBox76.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox76.Location = New System.Drawing.Point(616, 297)
         Me.TextBox76.Name = "TextBox76"
-        Me.TextBox76.Size = New System.Drawing.Size(109, 50)
+        Me.TextBox76.Size = New System.Drawing.Size(109, 24)
         Me.TextBox76.TabIndex = 200
         '
         'TextBox75
@@ -10950,7 +10456,7 @@ Partial Class modulos
         Me.TextBox75.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox75.Location = New System.Drawing.Point(738, 297)
         Me.TextBox75.Name = "TextBox75"
-        Me.TextBox75.Size = New System.Drawing.Size(65, 50)
+        Me.TextBox75.Size = New System.Drawing.Size(65, 24)
         Me.TextBox75.TabIndex = 201
         '
         'Label153
@@ -10998,7 +10504,7 @@ Partial Class modulos
         Me.TextBox73.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox73.Location = New System.Drawing.Point(544, 348)
         Me.TextBox73.Name = "TextBox73"
-        Me.TextBox73.Size = New System.Drawing.Size(65, 50)
+        Me.TextBox73.Size = New System.Drawing.Size(65, 24)
         Me.TextBox73.TabIndex = 211
         '
         'TextBox72
@@ -11006,7 +10512,7 @@ Partial Class modulos
         Me.TextBox72.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox72.Location = New System.Drawing.Point(619, 348)
         Me.TextBox72.Name = "TextBox72"
-        Me.TextBox72.Size = New System.Drawing.Size(109, 50)
+        Me.TextBox72.Size = New System.Drawing.Size(109, 24)
         Me.TextBox72.TabIndex = 212
         '
         'TextBox71
@@ -11014,7 +10520,7 @@ Partial Class modulos
         Me.TextBox71.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox71.Location = New System.Drawing.Point(738, 348)
         Me.TextBox71.Name = "TextBox71"
-        Me.TextBox71.Size = New System.Drawing.Size(65, 50)
+        Me.TextBox71.Size = New System.Drawing.Size(65, 24)
         Me.TextBox71.TabIndex = 213
         '
         'Label149
@@ -11052,7 +10558,7 @@ Partial Class modulos
         Me.TextBox70.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox70.Location = New System.Drawing.Point(544, 407)
         Me.TextBox70.Name = "TextBox70"
-        Me.TextBox70.Size = New System.Drawing.Size(65, 50)
+        Me.TextBox70.Size = New System.Drawing.Size(65, 24)
         Me.TextBox70.TabIndex = 217
         '
         'TextBox69
@@ -11060,7 +10566,7 @@ Partial Class modulos
         Me.TextBox69.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox69.Location = New System.Drawing.Point(619, 407)
         Me.TextBox69.Name = "TextBox69"
-        Me.TextBox69.Size = New System.Drawing.Size(109, 50)
+        Me.TextBox69.Size = New System.Drawing.Size(109, 24)
         Me.TextBox69.TabIndex = 218
         '
         'TextBox68
@@ -11068,7 +10574,7 @@ Partial Class modulos
         Me.TextBox68.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox68.Location = New System.Drawing.Point(738, 407)
         Me.TextBox68.Name = "TextBox68"
-        Me.TextBox68.Size = New System.Drawing.Size(65, 50)
+        Me.TextBox68.Size = New System.Drawing.Size(65, 24)
         Me.TextBox68.TabIndex = 219
         '
         'RadioButton29
@@ -11284,7 +10790,7 @@ Partial Class modulos
         Me.TextBox67.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox67.Location = New System.Drawing.Point(882, 293)
         Me.TextBox67.Name = "TextBox67"
-        Me.TextBox67.Size = New System.Drawing.Size(65, 50)
+        Me.TextBox67.Size = New System.Drawing.Size(65, 24)
         Me.TextBox67.TabIndex = 287
         '
         'TextBox66
@@ -11292,7 +10798,7 @@ Partial Class modulos
         Me.TextBox66.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox66.Location = New System.Drawing.Point(954, 293)
         Me.TextBox66.Name = "TextBox66"
-        Me.TextBox66.Size = New System.Drawing.Size(109, 50)
+        Me.TextBox66.Size = New System.Drawing.Size(109, 24)
         Me.TextBox66.TabIndex = 288
         '
         'TextBox65
@@ -11300,7 +10806,7 @@ Partial Class modulos
         Me.TextBox65.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox65.Location = New System.Drawing.Point(1076, 293)
         Me.TextBox65.Name = "TextBox65"
-        Me.TextBox65.Size = New System.Drawing.Size(65, 50)
+        Me.TextBox65.Size = New System.Drawing.Size(65, 24)
         Me.TextBox65.TabIndex = 289
         '
         'Label140
@@ -11338,7 +10844,7 @@ Partial Class modulos
         Me.TextBox64.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox64.Location = New System.Drawing.Point(882, 344)
         Me.TextBox64.Name = "TextBox64"
-        Me.TextBox64.Size = New System.Drawing.Size(65, 50)
+        Me.TextBox64.Size = New System.Drawing.Size(65, 24)
         Me.TextBox64.TabIndex = 293
         '
         'TextBox63
@@ -11346,7 +10852,7 @@ Partial Class modulos
         Me.TextBox63.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox63.Location = New System.Drawing.Point(957, 344)
         Me.TextBox63.Name = "TextBox63"
-        Me.TextBox63.Size = New System.Drawing.Size(109, 50)
+        Me.TextBox63.Size = New System.Drawing.Size(109, 24)
         Me.TextBox63.TabIndex = 294
         '
         'TextBox62
@@ -11354,7 +10860,7 @@ Partial Class modulos
         Me.TextBox62.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox62.Location = New System.Drawing.Point(1076, 344)
         Me.TextBox62.Name = "TextBox62"
-        Me.TextBox62.Size = New System.Drawing.Size(65, 50)
+        Me.TextBox62.Size = New System.Drawing.Size(65, 24)
         Me.TextBox62.TabIndex = 295
         '
         'Label84
@@ -11392,7 +10898,7 @@ Partial Class modulos
         Me.TextBox61.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox61.Location = New System.Drawing.Point(882, 403)
         Me.TextBox61.Name = "TextBox61"
-        Me.TextBox61.Size = New System.Drawing.Size(65, 50)
+        Me.TextBox61.Size = New System.Drawing.Size(65, 24)
         Me.TextBox61.TabIndex = 299
         '
         'TextBox60
@@ -11400,7 +10906,7 @@ Partial Class modulos
         Me.TextBox60.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox60.Location = New System.Drawing.Point(957, 403)
         Me.TextBox60.Name = "TextBox60"
-        Me.TextBox60.Size = New System.Drawing.Size(109, 50)
+        Me.TextBox60.Size = New System.Drawing.Size(109, 24)
         Me.TextBox60.TabIndex = 300
         '
         'TextBox59
@@ -11408,7 +10914,7 @@ Partial Class modulos
         Me.TextBox59.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox59.Location = New System.Drawing.Point(1076, 403)
         Me.TextBox59.Name = "TextBox59"
-        Me.TextBox59.Size = New System.Drawing.Size(65, 50)
+        Me.TextBox59.Size = New System.Drawing.Size(65, 24)
         Me.TextBox59.TabIndex = 301
         '
         'PictureBox75
@@ -11563,14 +11069,13 @@ Partial Class modulos
         '
         'modulos
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(16.0!, 31.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(3360, 1483)
+        Me.ClientSize = New System.Drawing.Size(1195, 528)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.TabControl1)
         Me.ForeColor = System.Drawing.Color.WhiteSmoke
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
         Me.Name = "modulos"
         Me.Text = "modulos"
         Me.Panel1.ResumeLayout(False)
@@ -11637,16 +11142,9 @@ Partial Class modulos
         CType(Me.PictureBox81, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPage4.ResumeLayout(False)
         Me.TabPage4.PerformLayout()
-        CType(Me.PictureBox59, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox51, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox142, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox25, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox63, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox62, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox61, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox60, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox58, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox57, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.btn_guardar_m4, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPage3.ResumeLayout(False)
         Me.m3TabControl1.ResumeLayout(False)
@@ -11778,6 +11276,20 @@ Partial Class modulos
         CType(Me.PictureBox84, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox86, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox87, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabPage20.ResumeLayout(False)
+        Me.TabPage20.PerformLayout()
+        CType(Me.PictureBox145, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox144, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox143, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox59, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox51, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox62, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox61, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox60, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox58, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox57, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox75, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox76, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox77, System.ComponentModel.ISupportInitialize).EndInit()
@@ -11804,32 +11316,13 @@ Partial Class modulos
     Friend WithEvents PictureBox81 As PictureBox
     Friend WithEvents TabPage4 As TabPage
     Friend WithEvents TextBox103 As TextBox
-    Friend WithEvents TextBox102 As TextBox
-    Friend WithEvents TextBox101 As TextBox
-    Friend WithEvents TextBox100 As TextBox
-    Friend WithEvents TextBox98 As TextBox
-    Friend WithEvents TextBox97 As TextBox
     Friend WithEvents Label16 As Label
     Friend WithEvents Label19 As Label
     Friend WithEvents Label15 As Label
-    Friend WithEvents Label22 As Label
-    Friend WithEvents Label33 As Label
-    Friend WithEvents Label32 As Label
-    Friend WithEvents Label31 As Label
-    Friend WithEvents Label30 As Label
-    Friend WithEvents Label21 As Label
-    Friend WithEvents Label28 As Label
-    Friend WithEvents Label27 As Label
     Friend WithEvents Label29 As Label
     Friend WithEvents CB2 As ComboBox
     Friend WithEvents Label18 As Label
-    Friend WithEvents CB1 As ComboBox
     Friend WithEvents PictureBox63 As PictureBox
-    Friend WithEvents PictureBox62 As PictureBox
-    Friend WithEvents PictureBox61 As PictureBox
-    Friend WithEvents PictureBox60 As PictureBox
-    Friend WithEvents PictureBox58 As PictureBox
-    Friend WithEvents PictureBox57 As PictureBox
     Friend WithEvents btn_guardar_m4 As PictureBox
     Friend WithEvents TabPage3 As TabPage
     Friend WithEvents m3TabControl1 As TabControl
@@ -12627,7 +12120,6 @@ Partial Class modulos
     Friend WithEvents Label184 As Label
     Friend WithEvents Label191 As Label
     Friend WithEvents Label195 As Label
-    Friend WithEvents PictureBox51 As PictureBox
     Friend WithEvents TextBox177 As TextBox
     Friend WithEvents TextBox178 As TextBox
     Friend WithEvents Label250 As Label
@@ -12646,17 +12138,53 @@ Partial Class modulos
     Friend WithEvents Label222 As Label
     Friend WithEvents PictureBox56 As PictureBox
     Friend WithEvents PictureBox130 As PictureBox
-    Friend WithEvents PictureBox59 As PictureBox
-    Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents TabPage20 As TabPage
     Friend WithEvents no_RadioBtn_habilidad_m1 As RadioButton
     Friend WithEvents si_RadioBtn_habilidad_m1 As RadioButton
     Friend WithEvents PictureBoxCanva As PictureBox
-    Friend WithEvents cargarcanva As Button
     Friend WithEvents Label20 As Label
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents GroupBox3 As GroupBox
     Friend WithEvents GroupBox5 As GroupBox
     Friend WithEvents GroupBox6 As GroupBox
     Friend WithEvents GroupBox2 As GroupBox
+    Friend WithEvents TextBox96 As TextBox
+    Friend WithEvents PictureBox142 As PictureBox
+    Friend WithEvents PictureBox59 As PictureBox
+    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents PictureBox51 As PictureBox
+    Friend WithEvents TextBox102 As TextBox
+    Friend WithEvents TextBox101 As TextBox
+    Friend WithEvents TextBox100 As TextBox
+    Friend WithEvents TextBox98 As TextBox
+    Friend WithEvents TextBox97 As TextBox
+    Friend WithEvents Label22 As Label
+    Friend WithEvents Label33 As Label
+    Friend WithEvents Label32 As Label
+    Friend WithEvents Label31 As Label
+    Friend WithEvents Label30 As Label
+    Friend WithEvents Label21 As Label
+    Friend WithEvents Label28 As Label
+    Friend WithEvents Label27 As Label
+    Friend WithEvents CB1 As ComboBox
+    Friend WithEvents PictureBox62 As PictureBox
+    Friend WithEvents PictureBox61 As PictureBox
+    Friend WithEvents PictureBox60 As PictureBox
+    Friend WithEvents PictureBox58 As PictureBox
+    Friend WithEvents PictureBox57 As PictureBox
+    Friend WithEvents Label11 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents TextBox99 As TextBox
+    Friend WithEvents PictureBox10 As PictureBox
+    Friend WithEvents TextBox179 As TextBox
+    Friend WithEvents TextBox182 As TextBox
+    Friend WithEvents PictureBox145 As PictureBox
+    Friend WithEvents TextBox181 As TextBox
+    Friend WithEvents PictureBox144 As PictureBox
+    Friend WithEvents TextBox180 As TextBox
+    Friend WithEvents PictureBox143 As PictureBox
+    Friend WithEvents Label12 As Label
+    Friend WithEvents Button4 As Button
+    Friend WithEvents cargarcanva As Button
+    Friend WithEvents M3empladosnecesarios As ComboBox
 End Class

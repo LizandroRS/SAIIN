@@ -361,6 +361,7 @@ Public Class principal
                     Else
                         'alumnos regulares de otras instituciones
                         IdEmprendedor = IDEmp() 'genera ID aleatorio
+                        MsgBox(IdEmprendedor)
                         comando = New OleDb.OleDbCommand("INSERT INTO emprendedor VALUES(@id, @nombre, @apellido, @matricula, @carrera, @grado, @telefono, @ocupacion, @domicilio, @institucion, @curp)", conexion)
                         comando.Parameters.AddWithValue("@id", IdEmprendedor)
                         comando.Parameters.AddWithValue("@nombre", nombre.Text)

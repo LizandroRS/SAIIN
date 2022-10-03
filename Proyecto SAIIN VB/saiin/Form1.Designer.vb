@@ -125,18 +125,16 @@ Partial Class principal
         Me.Panel1.Controls.Add(Me.minimizar)
         Me.Panel1.Controls.Add(Me.cerrar)
         Me.Panel1.Location = New System.Drawing.Point(0, 0)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(3379, 105)
+        Me.Panel1.Size = New System.Drawing.Size(1267, 44)
         Me.Panel1.TabIndex = 1
         '
         'minimizar
         '
         Me.minimizar.Image = Global.saiin.My.Resources.Resources.minimizar_blanco
-        Me.minimizar.Location = New System.Drawing.Point(3203, 31)
-        Me.minimizar.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.minimizar.Location = New System.Drawing.Point(1201, 13)
         Me.minimizar.Name = "minimizar"
-        Me.minimizar.Size = New System.Drawing.Size(51, 45)
+        Me.minimizar.Size = New System.Drawing.Size(19, 19)
         Me.minimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.minimizar.TabIndex = 53
         Me.minimizar.TabStop = False
@@ -144,10 +142,9 @@ Partial Class principal
         'cerrar
         '
         Me.cerrar.Image = Global.saiin.My.Resources.Resources.cerrar_blanco
-        Me.cerrar.Location = New System.Drawing.Point(3280, 29)
-        Me.cerrar.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.cerrar.Location = New System.Drawing.Point(1230, 12)
         Me.cerrar.Name = "cerrar"
-        Me.cerrar.Size = New System.Drawing.Size(59, 52)
+        Me.cerrar.Size = New System.Drawing.Size(22, 22)
         Me.cerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.cerrar.TabIndex = 52
         Me.cerrar.TabStop = False
@@ -173,18 +170,16 @@ Partial Class principal
         Me.PanelMenu.Controls.Add(Me.PictureBox2)
         Me.PanelMenu.Dock = System.Windows.Forms.DockStyle.Left
         Me.PanelMenu.Location = New System.Drawing.Point(0, 0)
-        Me.PanelMenu.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
         Me.PanelMenu.Name = "PanelMenu"
-        Me.PanelMenu.Size = New System.Drawing.Size(587, 1607)
+        Me.PanelMenu.Size = New System.Drawing.Size(220, 488)
         Me.PanelMenu.TabIndex = 4
         '
         'icon_reporte
         '
         Me.icon_reporte.Image = Global.saiin.My.Resources.Resources.reporte_blanco
-        Me.icon_reporte.Location = New System.Drawing.Point(16, 1099)
-        Me.icon_reporte.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.icon_reporte.Location = New System.Drawing.Point(6, 461)
         Me.icon_reporte.Name = "icon_reporte"
-        Me.icon_reporte.Size = New System.Drawing.Size(77, 72)
+        Me.icon_reporte.Size = New System.Drawing.Size(29, 30)
         Me.icon_reporte.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.icon_reporte.TabIndex = 18
         Me.icon_reporte.TabStop = False
@@ -192,10 +187,9 @@ Partial Class principal
         'icon_finanzas
         '
         Me.icon_finanzas.Image = Global.saiin.My.Resources.Resources.finanzas_blanco
-        Me.icon_finanzas.Location = New System.Drawing.Point(11, 961)
-        Me.icon_finanzas.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.icon_finanzas.Location = New System.Drawing.Point(4, 403)
         Me.icon_finanzas.Name = "icon_finanzas"
-        Me.icon_finanzas.Size = New System.Drawing.Size(80, 72)
+        Me.icon_finanzas.Size = New System.Drawing.Size(30, 30)
         Me.icon_finanzas.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.icon_finanzas.TabIndex = 17
         Me.icon_finanzas.TabStop = False
@@ -203,10 +197,9 @@ Partial Class principal
         'icon_produccion
         '
         Me.icon_produccion.Image = Global.saiin.My.Resources.Resources.produccion_blanco
-        Me.icon_produccion.Location = New System.Drawing.Point(11, 827)
-        Me.icon_produccion.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.icon_produccion.Location = New System.Drawing.Point(4, 347)
         Me.icon_produccion.Name = "icon_produccion"
-        Me.icon_produccion.Size = New System.Drawing.Size(80, 72)
+        Me.icon_produccion.Size = New System.Drawing.Size(30, 30)
         Me.icon_produccion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.icon_produccion.TabIndex = 16
         Me.icon_produccion.TabStop = False
@@ -214,10 +207,9 @@ Partial Class principal
         'icon_legalyfiscal
         '
         Me.icon_legalyfiscal.Image = Global.saiin.My.Resources.Resources.LegalyFiscal_blanco
-        Me.icon_legalyfiscal.Location = New System.Drawing.Point(8, 680)
-        Me.icon_legalyfiscal.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.icon_legalyfiscal.Location = New System.Drawing.Point(3, 285)
         Me.icon_legalyfiscal.Name = "icon_legalyfiscal"
-        Me.icon_legalyfiscal.Size = New System.Drawing.Size(80, 72)
+        Me.icon_legalyfiscal.Size = New System.Drawing.Size(30, 30)
         Me.icon_legalyfiscal.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.icon_legalyfiscal.TabIndex = 15
         Me.icon_legalyfiscal.TabStop = False
@@ -225,10 +217,9 @@ Partial Class principal
         'icon_administracion
         '
         Me.icon_administracion.Image = Global.saiin.My.Resources.Resources.administracion_blanco
-        Me.icon_administracion.Location = New System.Drawing.Point(8, 546)
-        Me.icon_administracion.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.icon_administracion.Location = New System.Drawing.Point(3, 229)
         Me.icon_administracion.Name = "icon_administracion"
-        Me.icon_administracion.Size = New System.Drawing.Size(80, 72)
+        Me.icon_administracion.Size = New System.Drawing.Size(30, 30)
         Me.icon_administracion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.icon_administracion.TabIndex = 14
         Me.icon_administracion.TabStop = False
@@ -236,10 +227,9 @@ Partial Class principal
         'icon_mercadotecnia
         '
         Me.icon_mercadotecnia.Image = Global.saiin.My.Resources.Resources.Mercadotecnia_blanco
-        Me.icon_mercadotecnia.Location = New System.Drawing.Point(11, 427)
-        Me.icon_mercadotecnia.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.icon_mercadotecnia.Location = New System.Drawing.Point(4, 179)
         Me.icon_mercadotecnia.Name = "icon_mercadotecnia"
-        Me.icon_mercadotecnia.Size = New System.Drawing.Size(80, 72)
+        Me.icon_mercadotecnia.Size = New System.Drawing.Size(30, 30)
         Me.icon_mercadotecnia.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.icon_mercadotecnia.TabIndex = 13
         Me.icon_mercadotecnia.TabStop = False
@@ -247,10 +237,9 @@ Partial Class principal
         'icon_diagnostico
         '
         Me.icon_diagnostico.Image = Global.saiin.My.Resources.Resources.DiagnosticoDeLaIdea_blanco
-        Me.icon_diagnostico.Location = New System.Drawing.Point(11, 279)
-        Me.icon_diagnostico.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.icon_diagnostico.Location = New System.Drawing.Point(4, 117)
         Me.icon_diagnostico.Name = "icon_diagnostico"
-        Me.icon_diagnostico.Size = New System.Drawing.Size(80, 72)
+        Me.icon_diagnostico.Size = New System.Drawing.Size(30, 30)
         Me.icon_diagnostico.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.icon_diagnostico.TabIndex = 5
         Me.icon_diagnostico.TabStop = False
@@ -262,10 +251,9 @@ Partial Class principal
         Me.Button8.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button8.ForeColor = System.Drawing.SystemColors.Control
         Me.Button8.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.Button8.Location = New System.Drawing.Point(0, 1419)
-        Me.Button8.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.Button8.Location = New System.Drawing.Point(0, 595)
         Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(587, 119)
+        Me.Button8.Size = New System.Drawing.Size(220, 50)
         Me.Button8.TabIndex = 12
         Me.Button8.Text = "Tutorial"
         Me.Button8.UseVisualStyleBackColor = True
@@ -278,10 +266,9 @@ Partial Class principal
         Me.reporte_btn.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.reporte_btn.ForeColor = System.Drawing.Color.Transparent
         Me.reporte_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.reporte_btn.Location = New System.Drawing.Point(0, 1075)
-        Me.reporte_btn.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.reporte_btn.Location = New System.Drawing.Point(0, 451)
         Me.reporte_btn.Name = "reporte_btn"
-        Me.reporte_btn.Size = New System.Drawing.Size(587, 119)
+        Me.reporte_btn.Size = New System.Drawing.Size(220, 50)
         Me.reporte_btn.TabIndex = 11
         Me.reporte_btn.Text = "Reporte"
         Me.reporte_btn.UseVisualStyleBackColor = True
@@ -294,10 +281,9 @@ Partial Class principal
         Me.finanzas_btn.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.finanzas_btn.ForeColor = System.Drawing.SystemColors.Control
         Me.finanzas_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.finanzas_btn.Location = New System.Drawing.Point(0, 937)
-        Me.finanzas_btn.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.finanzas_btn.Location = New System.Drawing.Point(0, 393)
         Me.finanzas_btn.Name = "finanzas_btn"
-        Me.finanzas_btn.Size = New System.Drawing.Size(587, 119)
+        Me.finanzas_btn.Size = New System.Drawing.Size(220, 50)
         Me.finanzas_btn.TabIndex = 10
         Me.finanzas_btn.Text = "Finanzas"
         Me.finanzas_btn.UseVisualStyleBackColor = False
@@ -310,10 +296,9 @@ Partial Class principal
         Me.produccion_btn.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.produccion_btn.ForeColor = System.Drawing.SystemColors.Control
         Me.produccion_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.produccion_btn.Location = New System.Drawing.Point(0, 804)
-        Me.produccion_btn.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.produccion_btn.Location = New System.Drawing.Point(0, 337)
         Me.produccion_btn.Name = "produccion_btn"
-        Me.produccion_btn.Size = New System.Drawing.Size(587, 119)
+        Me.produccion_btn.Size = New System.Drawing.Size(220, 50)
         Me.produccion_btn.TabIndex = 9
         Me.produccion_btn.Text = "Producción"
         Me.produccion_btn.UseVisualStyleBackColor = False
@@ -326,10 +311,9 @@ Partial Class principal
         Me.legalyfiscal_btn.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.legalyfiscal_btn.ForeColor = System.Drawing.SystemColors.Control
         Me.legalyfiscal_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.legalyfiscal_btn.Location = New System.Drawing.Point(0, 656)
-        Me.legalyfiscal_btn.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.legalyfiscal_btn.Location = New System.Drawing.Point(0, 275)
         Me.legalyfiscal_btn.Name = "legalyfiscal_btn"
-        Me.legalyfiscal_btn.Size = New System.Drawing.Size(587, 119)
+        Me.legalyfiscal_btn.Size = New System.Drawing.Size(220, 50)
         Me.legalyfiscal_btn.TabIndex = 8
         Me.legalyfiscal_btn.Text = "Constitucion" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " legal y fiscal"
         Me.legalyfiscal_btn.UseVisualStyleBackColor = False
@@ -342,10 +326,9 @@ Partial Class principal
         Me.administracion_btn.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.administracion_btn.ForeColor = System.Drawing.SystemColors.Control
         Me.administracion_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.administracion_btn.Location = New System.Drawing.Point(0, 522)
-        Me.administracion_btn.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.administracion_btn.Location = New System.Drawing.Point(0, 219)
         Me.administracion_btn.Name = "administracion_btn"
-        Me.administracion_btn.Size = New System.Drawing.Size(587, 119)
+        Me.administracion_btn.Size = New System.Drawing.Size(220, 50)
         Me.administracion_btn.TabIndex = 7
         Me.administracion_btn.Text = "Administracion"
         Me.administracion_btn.UseVisualStyleBackColor = False
@@ -358,10 +341,9 @@ Partial Class principal
         Me.mecadotecnia_btn.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.mecadotecnia_btn.ForeColor = System.Drawing.SystemColors.Control
         Me.mecadotecnia_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.mecadotecnia_btn.Location = New System.Drawing.Point(0, 403)
-        Me.mecadotecnia_btn.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.mecadotecnia_btn.Location = New System.Drawing.Point(0, 169)
         Me.mecadotecnia_btn.Name = "mecadotecnia_btn"
-        Me.mecadotecnia_btn.Size = New System.Drawing.Size(587, 119)
+        Me.mecadotecnia_btn.Size = New System.Drawing.Size(220, 50)
         Me.mecadotecnia_btn.TabIndex = 6
         Me.mecadotecnia_btn.Text = "Mercadotecnia"
         Me.mecadotecnia_btn.UseVisualStyleBackColor = False
@@ -375,10 +357,9 @@ Partial Class principal
         Me.diagnostico_btn.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.diagnostico_btn.ForeColor = System.Drawing.SystemColors.Control
         Me.diagnostico_btn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.diagnostico_btn.Location = New System.Drawing.Point(0, 255)
-        Me.diagnostico_btn.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.diagnostico_btn.Location = New System.Drawing.Point(0, 107)
         Me.diagnostico_btn.Name = "diagnostico_btn"
-        Me.diagnostico_btn.Size = New System.Drawing.Size(587, 119)
+        Me.diagnostico_btn.Size = New System.Drawing.Size(220, 50)
         Me.diagnostico_btn.TabIndex = 5
         Me.diagnostico_btn.Text = "Diagnostico de la" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " idea de negocio" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         Me.diagnostico_btn.UseVisualStyleBackColor = False
@@ -387,10 +368,9 @@ Partial Class principal
         '
         Me.PictureBox2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureBox2.Image = Global.saiin.My.Resources.Resources.menu_blanco
-        Me.PictureBox2.Location = New System.Drawing.Point(461, 119)
-        Me.PictureBox2.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox2.Location = New System.Drawing.Point(173, 50)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(117, 98)
+        Me.PictureBox2.Size = New System.Drawing.Size(44, 41)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 3
         Me.PictureBox2.TabStop = False
@@ -406,10 +386,9 @@ Partial Class principal
         Me.BunifuCustomLabel10.AutoSize = True
         Me.BunifuCustomLabel10.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BunifuCustomLabel10.ForeColor = System.Drawing.Color.Navy
-        Me.BunifuCustomLabel10.Location = New System.Drawing.Point(1093, 439)
-        Me.BunifuCustomLabel10.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.BunifuCustomLabel10.Location = New System.Drawing.Point(410, 184)
         Me.BunifuCustomLabel10.Name = "BunifuCustomLabel10"
-        Me.BunifuCustomLabel10.Size = New System.Drawing.Size(418, 55)
+        Me.BunifuCustomLabel10.Size = New System.Drawing.Size(174, 24)
         Me.BunifuCustomLabel10.TabIndex = 34
         Me.BunifuCustomLabel10.Text = "Registro personal"
         '
@@ -418,10 +397,9 @@ Partial Class principal
         Me.BunifuCustomLabel11.AutoSize = True
         Me.BunifuCustomLabel11.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BunifuCustomLabel11.ForeColor = System.Drawing.Color.Navy
-        Me.BunifuCustomLabel11.Location = New System.Drawing.Point(2461, 441)
-        Me.BunifuCustomLabel11.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.BunifuCustomLabel11.Location = New System.Drawing.Point(923, 185)
         Me.BunifuCustomLabel11.Name = "BunifuCustomLabel11"
-        Me.BunifuCustomLabel11.Size = New System.Drawing.Size(488, 55)
+        Me.BunifuCustomLabel11.Size = New System.Drawing.Size(204, 24)
         Me.BunifuCustomLabel11.TabIndex = 35
         Me.BunifuCustomLabel11.Text = "Registro de proyecto"
         '
@@ -429,11 +407,10 @@ Partial Class principal
         '
         Me.participante_grupo.BorderColor = System.Drawing.Color.Navy
         Me.participante_grupo.ForeColor = System.Drawing.Color.Navy
-        Me.participante_grupo.Location = New System.Drawing.Point(2165, 608)
-        Me.participante_grupo.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.participante_grupo.Location = New System.Drawing.Point(812, 255)
         Me.participante_grupo.MaxLength = 18
         Me.participante_grupo.Name = "participante_grupo"
-        Me.participante_grupo.Size = New System.Drawing.Size(401, 38)
+        Me.participante_grupo.Size = New System.Drawing.Size(153, 20)
         Me.participante_grupo.TabIndex = 12
         '
         'BunifuCustomLabel12
@@ -441,10 +418,9 @@ Partial Class principal
         Me.BunifuCustomLabel12.AutoSize = True
         Me.BunifuCustomLabel12.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BunifuCustomLabel12.ForeColor = System.Drawing.Color.Navy
-        Me.BunifuCustomLabel12.Location = New System.Drawing.Point(2157, 546)
-        Me.BunifuCustomLabel12.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.BunifuCustomLabel12.Location = New System.Drawing.Point(809, 229)
         Me.BunifuCustomLabel12.Name = "BunifuCustomLabel12"
-        Me.BunifuCustomLabel12.Size = New System.Drawing.Size(115, 38)
+        Me.BunifuCustomLabel12.Size = New System.Drawing.Size(50, 16)
         Me.BunifuCustomLabel12.TabIndex = 36
         Me.BunifuCustomLabel12.Text = "CURP"
         '
@@ -452,11 +428,10 @@ Partial Class principal
         '
         Me.asesor_grupo.BorderColor = System.Drawing.Color.Navy
         Me.asesor_grupo.ForeColor = System.Drawing.Color.Navy
-        Me.asesor_grupo.Location = New System.Drawing.Point(2741, 608)
-        Me.asesor_grupo.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.asesor_grupo.Location = New System.Drawing.Point(1028, 255)
         Me.asesor_grupo.MaxLength = 50
         Me.asesor_grupo.Name = "asesor_grupo"
-        Me.asesor_grupo.Size = New System.Drawing.Size(401, 38)
+        Me.asesor_grupo.Size = New System.Drawing.Size(153, 20)
         Me.asesor_grupo.TabIndex = 13
         '
         'BunifuCustomLabel13
@@ -464,10 +439,9 @@ Partial Class principal
         Me.BunifuCustomLabel13.AutoSize = True
         Me.BunifuCustomLabel13.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BunifuCustomLabel13.ForeColor = System.Drawing.Color.Navy
-        Me.BunifuCustomLabel13.Location = New System.Drawing.Point(2733, 546)
-        Me.BunifuCustomLabel13.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.BunifuCustomLabel13.Location = New System.Drawing.Point(1025, 229)
         Me.BunifuCustomLabel13.Name = "BunifuCustomLabel13"
-        Me.BunifuCustomLabel13.Size = New System.Drawing.Size(307, 38)
+        Me.BunifuCustomLabel13.Size = New System.Drawing.Size(139, 16)
         Me.BunifuCustomLabel13.TabIndex = 39
         Me.BunifuCustomLabel13.Text = "Asesor Académico"
         '
@@ -476,10 +450,9 @@ Partial Class principal
         Me.nombreCompleto.BorderColor = System.Drawing.Color.Navy
         Me.nombreCompleto.Enabled = False
         Me.nombreCompleto.ForeColor = System.Drawing.Color.Navy
-        Me.nombreCompleto.Location = New System.Drawing.Point(2165, 744)
-        Me.nombreCompleto.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.nombreCompleto.Location = New System.Drawing.Point(812, 312)
         Me.nombreCompleto.Name = "nombreCompleto"
-        Me.nombreCompleto.Size = New System.Drawing.Size(412, 38)
+        Me.nombreCompleto.Size = New System.Drawing.Size(157, 20)
         Me.nombreCompleto.TabIndex = 49
         '
         'BunifuCustomLabel17
@@ -487,20 +460,18 @@ Partial Class principal
         Me.BunifuCustomLabel17.AutoSize = True
         Me.BunifuCustomLabel17.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BunifuCustomLabel17.ForeColor = System.Drawing.Color.Navy
-        Me.BunifuCustomLabel17.Location = New System.Drawing.Point(2157, 696)
-        Me.BunifuCustomLabel17.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.BunifuCustomLabel17.Location = New System.Drawing.Point(809, 292)
         Me.BunifuCustomLabel17.Name = "BunifuCustomLabel17"
-        Me.BunifuCustomLabel17.Size = New System.Drawing.Size(289, 38)
+        Me.BunifuCustomLabel17.Size = New System.Drawing.Size(131, 16)
         Me.BunifuCustomLabel17.TabIndex = 48
         Me.BunifuCustomLabel17.Text = "Nombre completo"
         '
         'PictureBox11
         '
         Me.PictureBox11.Image = CType(resources.GetObject("PictureBox11.Image"), System.Drawing.Image)
-        Me.PictureBox11.Location = New System.Drawing.Point(2069, 403)
-        Me.PictureBox11.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox11.Location = New System.Drawing.Point(776, 169)
         Me.PictureBox11.Name = "PictureBox11"
-        Me.PictureBox11.Size = New System.Drawing.Size(1165, 1192)
+        Me.PictureBox11.Size = New System.Drawing.Size(437, 500)
         Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox11.TabIndex = 16
         Me.PictureBox11.TabStop = False
@@ -509,10 +480,9 @@ Partial Class principal
         '
         Me.PictureBox1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.PictureBox1.Image = Global.saiin.My.Resources.Resources.start_desplegado_azul
-        Me.PictureBox1.Location = New System.Drawing.Point(1445, 172)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox1.Location = New System.Drawing.Point(542, 72)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(1083, 131)
+        Me.PictureBox1.Size = New System.Drawing.Size(406, 55)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 2
         Me.PictureBox1.TabStop = False
@@ -520,10 +490,9 @@ Partial Class principal
         'PictureBox7
         '
         Me.PictureBox7.Image = CType(resources.GetObject("PictureBox7.Image"), System.Drawing.Image)
-        Me.PictureBox7.Location = New System.Drawing.Point(645, 403)
-        Me.PictureBox7.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.PictureBox7.Location = New System.Drawing.Point(242, 169)
         Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(1336, 1192)
+        Me.PictureBox7.Size = New System.Drawing.Size(501, 500)
         Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox7.TabIndex = 15
         Me.PictureBox7.TabStop = False
@@ -532,10 +501,9 @@ Partial Class principal
         '
         Me.btn_agregar_participante.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btn_agregar_participante.Image = Global.saiin.My.Resources.Resources.agregar
-        Me.btn_agregar_participante.Location = New System.Drawing.Point(2243, 1191)
-        Me.btn_agregar_participante.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.btn_agregar_participante.Location = New System.Drawing.Point(841, 499)
         Me.btn_agregar_participante.Name = "btn_agregar_participante"
-        Me.btn_agregar_participante.Size = New System.Drawing.Size(251, 69)
+        Me.btn_agregar_participante.Size = New System.Drawing.Size(94, 29)
         Me.btn_agregar_participante.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.btn_agregar_participante.TabIndex = 52
         Me.btn_agregar_participante.TabStop = False
@@ -544,11 +512,10 @@ Partial Class principal
         '
         Me.AsesorIncubadora.BorderColor = System.Drawing.Color.Navy
         Me.AsesorIncubadora.ForeColor = System.Drawing.Color.Navy
-        Me.AsesorIncubadora.Location = New System.Drawing.Point(2741, 742)
-        Me.AsesorIncubadora.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.AsesorIncubadora.Location = New System.Drawing.Point(1028, 311)
         Me.AsesorIncubadora.MaxLength = 50
         Me.AsesorIncubadora.Name = "AsesorIncubadora"
-        Me.AsesorIncubadora.Size = New System.Drawing.Size(401, 38)
+        Me.AsesorIncubadora.Size = New System.Drawing.Size(153, 20)
         Me.AsesorIncubadora.TabIndex = 14
         '
         'BunifuCustomLabel19
@@ -556,10 +523,9 @@ Partial Class principal
         Me.BunifuCustomLabel19.AutoSize = True
         Me.BunifuCustomLabel19.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BunifuCustomLabel19.ForeColor = System.Drawing.Color.Navy
-        Me.BunifuCustomLabel19.Location = New System.Drawing.Point(2733, 680)
-        Me.BunifuCustomLabel19.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.BunifuCustomLabel19.Location = New System.Drawing.Point(1025, 285)
         Me.BunifuCustomLabel19.Name = "BunifuCustomLabel19"
-        Me.BunifuCustomLabel19.Size = New System.Drawing.Size(308, 38)
+        Me.BunifuCustomLabel19.Size = New System.Drawing.Size(139, 16)
         Me.BunifuCustomLabel19.TabIndex = 55
         Me.BunifuCustomLabel19.Text = "Asesor Incubadora"
         '
@@ -576,11 +542,10 @@ Partial Class principal
         Me.TabPage2.Controls.Add(Me.BunifuCustomLabel22)
         Me.TabPage2.Controls.Add(Me.BunifuCustomLabel23)
         Me.TabPage2.Controls.Add(Me.BunifuCustomLabel24)
-        Me.TabPage2.Location = New System.Drawing.Point(10, 48)
-        Me.TabPage2.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
         Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.TabPage2.Size = New System.Drawing.Size(1260, 1003)
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3, 3, 3, 3)
+        Me.TabPage2.Size = New System.Drawing.Size(472, 419)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "Ciudadano"
         '
@@ -588,60 +553,55 @@ Partial Class principal
         '
         Me.telefonoc.BorderColor = System.Drawing.Color.Navy
         Me.telefonoc.ForeColor = System.Drawing.Color.Navy
-        Me.telefonoc.Location = New System.Drawing.Point(701, 312)
-        Me.telefonoc.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.telefonoc.Location = New System.Drawing.Point(263, 131)
         Me.telefonoc.MaxLength = 10
         Me.telefonoc.Multiline = True
         Me.telefonoc.Name = "telefonoc"
-        Me.telefonoc.Size = New System.Drawing.Size(412, 92)
+        Me.telefonoc.Size = New System.Drawing.Size(157, 41)
         Me.telefonoc.TabIndex = 4
         '
         'ocupacionc
         '
         Me.ocupacionc.BorderColor = System.Drawing.Color.Navy
         Me.ocupacionc.ForeColor = System.Drawing.Color.Navy
-        Me.ocupacionc.Location = New System.Drawing.Point(117, 312)
-        Me.ocupacionc.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.ocupacionc.Location = New System.Drawing.Point(44, 131)
         Me.ocupacionc.MaxLength = 50
         Me.ocupacionc.Multiline = True
         Me.ocupacionc.Name = "ocupacionc"
-        Me.ocupacionc.Size = New System.Drawing.Size(401, 92)
+        Me.ocupacionc.Size = New System.Drawing.Size(153, 41)
         Me.ocupacionc.TabIndex = 3
         '
         'curpc
         '
         Me.curpc.BorderColor = System.Drawing.Color.Navy
         Me.curpc.ForeColor = System.Drawing.Color.Navy
-        Me.curpc.Location = New System.Drawing.Point(117, 525)
-        Me.curpc.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.curpc.Location = New System.Drawing.Point(44, 220)
         Me.curpc.MaxLength = 18
         Me.curpc.Multiline = True
         Me.curpc.Name = "curpc"
-        Me.curpc.Size = New System.Drawing.Size(401, 85)
+        Me.curpc.Size = New System.Drawing.Size(153, 38)
         Me.curpc.TabIndex = 5
         '
         'apellidoc
         '
         Me.apellidoc.BorderColor = System.Drawing.Color.Navy
         Me.apellidoc.ForeColor = System.Drawing.Color.Navy
-        Me.apellidoc.Location = New System.Drawing.Point(715, 124)
-        Me.apellidoc.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.apellidoc.Location = New System.Drawing.Point(268, 52)
         Me.apellidoc.MaxLength = 40
         Me.apellidoc.Multiline = True
         Me.apellidoc.Name = "apellidoc"
-        Me.apellidoc.Size = New System.Drawing.Size(412, 87)
+        Me.apellidoc.Size = New System.Drawing.Size(157, 39)
         Me.apellidoc.TabIndex = 2
         '
         'nombrec
         '
         Me.nombrec.BorderColor = System.Drawing.Color.Navy
         Me.nombrec.ForeColor = System.Drawing.Color.Navy
-        Me.nombrec.Location = New System.Drawing.Point(117, 124)
-        Me.nombrec.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.nombrec.Location = New System.Drawing.Point(44, 52)
         Me.nombrec.MaxLength = 40
         Me.nombrec.Multiline = True
         Me.nombrec.Name = "nombrec"
-        Me.nombrec.Size = New System.Drawing.Size(401, 92)
+        Me.nombrec.Size = New System.Drawing.Size(153, 41)
         Me.nombrec.TabIndex = 1
         '
         'BunifuCustomLabel20
@@ -649,10 +609,9 @@ Partial Class principal
         Me.BunifuCustomLabel20.AutoSize = True
         Me.BunifuCustomLabel20.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BunifuCustomLabel20.ForeColor = System.Drawing.Color.Navy
-        Me.BunifuCustomLabel20.Location = New System.Drawing.Point(707, 255)
-        Me.BunifuCustomLabel20.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.BunifuCustomLabel20.Location = New System.Drawing.Point(265, 107)
         Me.BunifuCustomLabel20.Name = "BunifuCustomLabel20"
-        Me.BunifuCustomLabel20.Size = New System.Drawing.Size(151, 38)
+        Me.BunifuCustomLabel20.Size = New System.Drawing.Size(70, 16)
         Me.BunifuCustomLabel20.TabIndex = 75
         Me.BunifuCustomLabel20.Text = "Telefono"
         '
@@ -661,10 +620,9 @@ Partial Class principal
         Me.BunifuCustomLabel21.AutoSize = True
         Me.BunifuCustomLabel21.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BunifuCustomLabel21.ForeColor = System.Drawing.Color.Navy
-        Me.BunifuCustomLabel21.Location = New System.Drawing.Point(109, 255)
-        Me.BunifuCustomLabel21.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.BunifuCustomLabel21.Location = New System.Drawing.Point(41, 107)
         Me.BunifuCustomLabel21.Name = "BunifuCustomLabel21"
-        Me.BunifuCustomLabel21.Size = New System.Drawing.Size(183, 38)
+        Me.BunifuCustomLabel21.Size = New System.Drawing.Size(82, 16)
         Me.BunifuCustomLabel21.TabIndex = 74
         Me.BunifuCustomLabel21.Text = "Ocupación"
         '
@@ -673,10 +631,9 @@ Partial Class principal
         Me.BunifuCustomLabel22.AutoSize = True
         Me.BunifuCustomLabel22.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BunifuCustomLabel22.ForeColor = System.Drawing.Color.Navy
-        Me.BunifuCustomLabel22.Location = New System.Drawing.Point(109, 463)
-        Me.BunifuCustomLabel22.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.BunifuCustomLabel22.Location = New System.Drawing.Point(41, 194)
         Me.BunifuCustomLabel22.Name = "BunifuCustomLabel22"
-        Me.BunifuCustomLabel22.Size = New System.Drawing.Size(92, 38)
+        Me.BunifuCustomLabel22.Size = New System.Drawing.Size(40, 16)
         Me.BunifuCustomLabel22.TabIndex = 73
         Me.BunifuCustomLabel22.Text = "Curp"
         '
@@ -685,10 +642,9 @@ Partial Class principal
         Me.BunifuCustomLabel23.AutoSize = True
         Me.BunifuCustomLabel23.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BunifuCustomLabel23.ForeColor = System.Drawing.Color.Navy
-        Me.BunifuCustomLabel23.Location = New System.Drawing.Point(707, 62)
-        Me.BunifuCustomLabel23.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.BunifuCustomLabel23.Location = New System.Drawing.Point(265, 26)
         Me.BunifuCustomLabel23.Name = "BunifuCustomLabel23"
-        Me.BunifuCustomLabel23.Size = New System.Drawing.Size(140, 38)
+        Me.BunifuCustomLabel23.Size = New System.Drawing.Size(66, 16)
         Me.BunifuCustomLabel23.TabIndex = 72
         Me.BunifuCustomLabel23.Text = "Apellido"
         '
@@ -697,10 +653,9 @@ Partial Class principal
         Me.BunifuCustomLabel24.AutoSize = True
         Me.BunifuCustomLabel24.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BunifuCustomLabel24.ForeColor = System.Drawing.Color.Navy
-        Me.BunifuCustomLabel24.Location = New System.Drawing.Point(109, 62)
-        Me.BunifuCustomLabel24.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.BunifuCustomLabel24.Location = New System.Drawing.Point(41, 26)
         Me.BunifuCustomLabel24.Name = "BunifuCustomLabel24"
-        Me.BunifuCustomLabel24.Size = New System.Drawing.Size(139, 38)
+        Me.BunifuCustomLabel24.Size = New System.Drawing.Size(63, 16)
         Me.BunifuCustomLabel24.TabIndex = 71
         Me.BunifuCustomLabel24.Text = "Nombre"
         '
@@ -728,11 +683,10 @@ Partial Class principal
         Me.TabPage1.Controls.Add(Me.BunifuCustomLabel3)
         Me.TabPage1.Controls.Add(Me.BunifuCustomLabel2)
         Me.TabPage1.Controls.Add(Me.BunifuCustomLabel1)
-        Me.TabPage1.Location = New System.Drawing.Point(10, 48)
-        Me.TabPage1.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TabPage1.Location = New System.Drawing.Point(4, 22)
         Me.TabPage1.Name = "TabPage1"
-        Me.TabPage1.Padding = New System.Windows.Forms.Padding(8, 7, 8, 7)
-        Me.TabPage1.Size = New System.Drawing.Size(1260, 1003)
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(3, 3, 3, 3)
+        Me.TabPage1.Size = New System.Drawing.Size(472, 419)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "Alumno"
         '
@@ -741,12 +695,11 @@ Partial Class principal
         Me.curpAlumno.BorderColor = System.Drawing.Color.Navy
         Me.curpAlumno.Enabled = False
         Me.curpAlumno.ForeColor = System.Drawing.Color.Navy
-        Me.curpAlumno.Location = New System.Drawing.Point(124, 548)
-        Me.curpAlumno.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.curpAlumno.Location = New System.Drawing.Point(46, 230)
         Me.curpAlumno.MaxLength = 18
         Me.curpAlumno.Multiline = True
         Me.curpAlumno.Name = "curpAlumno"
-        Me.curpAlumno.Size = New System.Drawing.Size(434, 85)
+        Me.curpAlumno.Size = New System.Drawing.Size(165, 38)
         Me.curpAlumno.TabIndex = 6
         '
         'BunifuCustomLabel25
@@ -754,10 +707,9 @@ Partial Class principal
         Me.BunifuCustomLabel25.AutoSize = True
         Me.BunifuCustomLabel25.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BunifuCustomLabel25.ForeColor = System.Drawing.Color.Navy
-        Me.BunifuCustomLabel25.Location = New System.Drawing.Point(117, 503)
-        Me.BunifuCustomLabel25.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.BunifuCustomLabel25.Location = New System.Drawing.Point(44, 211)
         Me.BunifuCustomLabel25.Name = "BunifuCustomLabel25"
-        Me.BunifuCustomLabel25.Size = New System.Drawing.Size(92, 38)
+        Me.BunifuCustomLabel25.Size = New System.Drawing.Size(40, 16)
         Me.BunifuCustomLabel25.TabIndex = 79
         Me.BunifuCustomLabel25.Text = "Curp"
         '
@@ -765,9 +717,10 @@ Partial Class principal
         '
         Me.botonITSA.AutoSize = True
         Me.botonITSA.Enabled = False
-        Me.botonITSA.Location = New System.Drawing.Point(876, 642)
+        Me.botonITSA.Location = New System.Drawing.Point(328, 269)
+        Me.botonITSA.Margin = New System.Windows.Forms.Padding(1, 1, 1, 1)
         Me.botonITSA.Name = "botonITSA"
-        Me.botonITSA.Size = New System.Drawing.Size(219, 36)
+        Me.botonITSA.Size = New System.Drawing.Size(88, 17)
         Me.botonITSA.TabIndex = 9
         Me.botonITSA.Text = "Alumno ITSA"
         Me.botonITSA.UseVisualStyleBackColor = True
@@ -777,12 +730,11 @@ Partial Class principal
         Me.grado.BorderColor = System.Drawing.Color.Navy
         Me.grado.Enabled = False
         Me.grado.ForeColor = System.Drawing.Color.Navy
-        Me.grado.Location = New System.Drawing.Point(712, 868)
-        Me.grado.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.grado.Location = New System.Drawing.Point(267, 364)
         Me.grado.MaxLength = 25
         Me.grado.Multiline = True
         Me.grado.Name = "grado"
-        Me.grado.Size = New System.Drawing.Size(412, 85)
+        Me.grado.Size = New System.Drawing.Size(157, 38)
         Me.grado.TabIndex = 11
         '
         'domicilio
@@ -790,12 +742,11 @@ Partial Class principal
         Me.domicilio.BorderColor = System.Drawing.Color.Navy
         Me.domicilio.Enabled = False
         Me.domicilio.ForeColor = System.Drawing.Color.Navy
-        Me.domicilio.Location = New System.Drawing.Point(125, 396)
-        Me.domicilio.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.domicilio.Location = New System.Drawing.Point(47, 166)
         Me.domicilio.MaxLength = 50
         Me.domicilio.Multiline = True
         Me.domicilio.Name = "domicilio"
-        Me.domicilio.Size = New System.Drawing.Size(1000, 85)
+        Me.domicilio.Size = New System.Drawing.Size(378, 38)
         Me.domicilio.TabIndex = 5
         '
         'telefono
@@ -803,12 +754,11 @@ Partial Class principal
         Me.telefono.BorderColor = System.Drawing.Color.Navy
         Me.telefono.Enabled = False
         Me.telefono.ForeColor = System.Drawing.Color.Navy
-        Me.telefono.Location = New System.Drawing.Point(709, 236)
-        Me.telefono.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.telefono.Location = New System.Drawing.Point(266, 99)
         Me.telefono.MaxLength = 10
         Me.telefono.Multiline = True
         Me.telefono.Name = "telefono"
-        Me.telefono.Size = New System.Drawing.Size(412, 92)
+        Me.telefono.Size = New System.Drawing.Size(157, 41)
         Me.telefono.TabIndex = 4
         '
         'ocupacion
@@ -816,12 +766,11 @@ Partial Class principal
         Me.ocupacion.BorderColor = System.Drawing.Color.Navy
         Me.ocupacion.Enabled = False
         Me.ocupacion.ForeColor = System.Drawing.Color.Navy
-        Me.ocupacion.Location = New System.Drawing.Point(125, 236)
-        Me.ocupacion.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.ocupacion.Location = New System.Drawing.Point(47, 99)
         Me.ocupacion.MaxLength = 50
         Me.ocupacion.Multiline = True
         Me.ocupacion.Name = "ocupacion"
-        Me.ocupacion.Size = New System.Drawing.Size(433, 92)
+        Me.ocupacion.Size = New System.Drawing.Size(165, 41)
         Me.ocupacion.TabIndex = 3
         '
         'instituto
@@ -829,12 +778,11 @@ Partial Class principal
         Me.instituto.BorderColor = System.Drawing.Color.Navy
         Me.instituto.Enabled = False
         Me.instituto.ForeColor = System.Drawing.Color.Navy
-        Me.instituto.Location = New System.Drawing.Point(712, 704)
-        Me.instituto.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.instituto.Location = New System.Drawing.Point(267, 295)
         Me.instituto.MaxLength = 50
         Me.instituto.Multiline = True
         Me.instituto.Name = "instituto"
-        Me.instituto.Size = New System.Drawing.Size(413, 92)
+        Me.instituto.Size = New System.Drawing.Size(157, 41)
         Me.instituto.TabIndex = 8
         '
         'matricula
@@ -842,12 +790,11 @@ Partial Class principal
         Me.matricula.BorderColor = System.Drawing.Color.Navy
         Me.matricula.Enabled = False
         Me.matricula.ForeColor = System.Drawing.Color.Navy
-        Me.matricula.Location = New System.Drawing.Point(125, 868)
-        Me.matricula.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.matricula.Location = New System.Drawing.Point(47, 364)
         Me.matricula.MaxLength = 10
         Me.matricula.Multiline = True
         Me.matricula.Name = "matricula"
-        Me.matricula.Size = New System.Drawing.Size(433, 85)
+        Me.matricula.Size = New System.Drawing.Size(165, 38)
         Me.matricula.TabIndex = 10
         '
         'carrera
@@ -855,12 +802,11 @@ Partial Class principal
         Me.carrera.BorderColor = System.Drawing.Color.Navy
         Me.carrera.Enabled = False
         Me.carrera.ForeColor = System.Drawing.Color.Navy
-        Me.carrera.Location = New System.Drawing.Point(124, 704)
-        Me.carrera.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.carrera.Location = New System.Drawing.Point(46, 295)
         Me.carrera.MaxLength = 60
         Me.carrera.Multiline = True
         Me.carrera.Name = "carrera"
-        Me.carrera.Size = New System.Drawing.Size(434, 85)
+        Me.carrera.Size = New System.Drawing.Size(165, 38)
         Me.carrera.TabIndex = 7
         '
         'apellido
@@ -868,12 +814,11 @@ Partial Class principal
         Me.apellido.BorderColor = System.Drawing.Color.Navy
         Me.apellido.Enabled = False
         Me.apellido.ForeColor = System.Drawing.Color.Navy
-        Me.apellido.Location = New System.Drawing.Point(709, 74)
-        Me.apellido.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.apellido.Location = New System.Drawing.Point(266, 31)
         Me.apellido.MaxLength = 40
         Me.apellido.Multiline = True
         Me.apellido.Name = "apellido"
-        Me.apellido.Size = New System.Drawing.Size(416, 87)
+        Me.apellido.Size = New System.Drawing.Size(158, 39)
         Me.apellido.TabIndex = 2
         '
         'nombre
@@ -881,12 +826,11 @@ Partial Class principal
         Me.nombre.BorderColor = System.Drawing.Color.Navy
         Me.nombre.Enabled = False
         Me.nombre.ForeColor = System.Drawing.Color.Navy
-        Me.nombre.Location = New System.Drawing.Point(125, 74)
-        Me.nombre.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.nombre.Location = New System.Drawing.Point(47, 31)
         Me.nombre.MaxLength = 40
         Me.nombre.Multiline = True
         Me.nombre.Name = "nombre"
-        Me.nombre.Size = New System.Drawing.Size(433, 92)
+        Me.nombre.Size = New System.Drawing.Size(165, 41)
         Me.nombre.TabIndex = 1
         '
         'BunifuCustomLabel9
@@ -894,10 +838,9 @@ Partial Class principal
         Me.BunifuCustomLabel9.AutoSize = True
         Me.BunifuCustomLabel9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BunifuCustomLabel9.ForeColor = System.Drawing.Color.Navy
-        Me.BunifuCustomLabel9.Location = New System.Drawing.Point(705, 191)
-        Me.BunifuCustomLabel9.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.BunifuCustomLabel9.Location = New System.Drawing.Point(264, 80)
         Me.BunifuCustomLabel9.Name = "BunifuCustomLabel9"
-        Me.BunifuCustomLabel9.Size = New System.Drawing.Size(151, 38)
+        Me.BunifuCustomLabel9.Size = New System.Drawing.Size(70, 16)
         Me.BunifuCustomLabel9.TabIndex = 63
         Me.BunifuCustomLabel9.Text = "Telefono"
         '
@@ -906,10 +849,9 @@ Partial Class principal
         Me.BunifuCustomLabel8.AutoSize = True
         Me.BunifuCustomLabel8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BunifuCustomLabel8.ForeColor = System.Drawing.Color.Navy
-        Me.BunifuCustomLabel8.Location = New System.Drawing.Point(705, 823)
-        Me.BunifuCustomLabel8.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.BunifuCustomLabel8.Location = New System.Drawing.Point(264, 345)
         Me.BunifuCustomLabel8.Name = "BunifuCustomLabel8"
-        Me.BunifuCustomLabel8.Size = New System.Drawing.Size(301, 38)
+        Me.BunifuCustomLabel8.Size = New System.Drawing.Size(136, 16)
         Me.BunifuCustomLabel8.TabIndex = 62
         Me.BunifuCustomLabel8.Text = "Grado de estudios"
         '
@@ -918,10 +860,9 @@ Partial Class principal
         Me.BunifuCustomLabel7.AutoSize = True
         Me.BunifuCustomLabel7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BunifuCustomLabel7.ForeColor = System.Drawing.Color.Navy
-        Me.BunifuCustomLabel7.Location = New System.Drawing.Point(118, 351)
-        Me.BunifuCustomLabel7.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.BunifuCustomLabel7.Location = New System.Drawing.Point(44, 147)
         Me.BunifuCustomLabel7.Name = "BunifuCustomLabel7"
-        Me.BunifuCustomLabel7.Size = New System.Drawing.Size(158, 38)
+        Me.BunifuCustomLabel7.Size = New System.Drawing.Size(73, 16)
         Me.BunifuCustomLabel7.TabIndex = 61
         Me.BunifuCustomLabel7.Text = "Domicilio"
         '
@@ -930,10 +871,9 @@ Partial Class principal
         Me.BunifuCustomLabel6.AutoSize = True
         Me.BunifuCustomLabel6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BunifuCustomLabel6.ForeColor = System.Drawing.Color.Navy
-        Me.BunifuCustomLabel6.Location = New System.Drawing.Point(117, 191)
-        Me.BunifuCustomLabel6.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.BunifuCustomLabel6.Location = New System.Drawing.Point(44, 80)
         Me.BunifuCustomLabel6.Name = "BunifuCustomLabel6"
-        Me.BunifuCustomLabel6.Size = New System.Drawing.Size(183, 38)
+        Me.BunifuCustomLabel6.Size = New System.Drawing.Size(82, 16)
         Me.BunifuCustomLabel6.TabIndex = 60
         Me.BunifuCustomLabel6.Text = "Ocupación"
         '
@@ -942,10 +882,9 @@ Partial Class principal
         Me.BunifuCustomLabel5.AutoSize = True
         Me.BunifuCustomLabel5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BunifuCustomLabel5.ForeColor = System.Drawing.Color.Navy
-        Me.BunifuCustomLabel5.Location = New System.Drawing.Point(705, 659)
-        Me.BunifuCustomLabel5.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.BunifuCustomLabel5.Location = New System.Drawing.Point(264, 276)
         Me.BunifuCustomLabel5.Name = "BunifuCustomLabel5"
-        Me.BunifuCustomLabel5.Size = New System.Drawing.Size(139, 38)
+        Me.BunifuCustomLabel5.Size = New System.Drawing.Size(61, 16)
         Me.BunifuCustomLabel5.TabIndex = 59
         Me.BunifuCustomLabel5.Text = "Instituto"
         '
@@ -954,10 +893,9 @@ Partial Class principal
         Me.BunifuCustomLabel4.AutoSize = True
         Me.BunifuCustomLabel4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BunifuCustomLabel4.ForeColor = System.Drawing.Color.Navy
-        Me.BunifuCustomLabel4.Location = New System.Drawing.Point(118, 820)
-        Me.BunifuCustomLabel4.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.BunifuCustomLabel4.Location = New System.Drawing.Point(44, 344)
         Me.BunifuCustomLabel4.Name = "BunifuCustomLabel4"
-        Me.BunifuCustomLabel4.Size = New System.Drawing.Size(158, 38)
+        Me.BunifuCustomLabel4.Size = New System.Drawing.Size(71, 16)
         Me.BunifuCustomLabel4.TabIndex = 58
         Me.BunifuCustomLabel4.Text = "Matricula"
         '
@@ -966,10 +904,9 @@ Partial Class principal
         Me.BunifuCustomLabel3.AutoSize = True
         Me.BunifuCustomLabel3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BunifuCustomLabel3.ForeColor = System.Drawing.Color.Navy
-        Me.BunifuCustomLabel3.Location = New System.Drawing.Point(117, 659)
-        Me.BunifuCustomLabel3.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.BunifuCustomLabel3.Location = New System.Drawing.Point(44, 276)
         Me.BunifuCustomLabel3.Name = "BunifuCustomLabel3"
-        Me.BunifuCustomLabel3.Size = New System.Drawing.Size(135, 38)
+        Me.BunifuCustomLabel3.Size = New System.Drawing.Size(60, 16)
         Me.BunifuCustomLabel3.TabIndex = 57
         Me.BunifuCustomLabel3.Text = "Carrera"
         '
@@ -978,10 +915,9 @@ Partial Class principal
         Me.BunifuCustomLabel2.AutoSize = True
         Me.BunifuCustomLabel2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BunifuCustomLabel2.ForeColor = System.Drawing.Color.Navy
-        Me.BunifuCustomLabel2.Location = New System.Drawing.Point(705, 29)
-        Me.BunifuCustomLabel2.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.BunifuCustomLabel2.Location = New System.Drawing.Point(264, 12)
         Me.BunifuCustomLabel2.Name = "BunifuCustomLabel2"
-        Me.BunifuCustomLabel2.Size = New System.Drawing.Size(140, 38)
+        Me.BunifuCustomLabel2.Size = New System.Drawing.Size(66, 16)
         Me.BunifuCustomLabel2.TabIndex = 56
         Me.BunifuCustomLabel2.Text = "Apellido"
         '
@@ -990,10 +926,9 @@ Partial Class principal
         Me.BunifuCustomLabel1.AutoSize = True
         Me.BunifuCustomLabel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BunifuCustomLabel1.ForeColor = System.Drawing.Color.Navy
-        Me.BunifuCustomLabel1.Location = New System.Drawing.Point(117, 29)
-        Me.BunifuCustomLabel1.Margin = New System.Windows.Forms.Padding(8, 0, 8, 0)
+        Me.BunifuCustomLabel1.Location = New System.Drawing.Point(44, 12)
         Me.BunifuCustomLabel1.Name = "BunifuCustomLabel1"
-        Me.BunifuCustomLabel1.Size = New System.Drawing.Size(139, 38)
+        Me.BunifuCustomLabel1.Size = New System.Drawing.Size(63, 16)
         Me.BunifuCustomLabel1.TabIndex = 55
         Me.BunifuCustomLabel1.Text = "Nombre"
         '
@@ -1001,19 +936,19 @@ Partial Class principal
         '
         Me.TabControl1.Controls.Add(Me.TabPage1)
         Me.TabControl1.Controls.Add(Me.TabPage2)
-        Me.TabControl1.Location = New System.Drawing.Point(664, 503)
-        Me.TabControl1.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.TabControl1.Location = New System.Drawing.Point(249, 211)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(1280, 1061)
+        Me.TabControl1.Size = New System.Drawing.Size(480, 445)
         Me.TabControl1.TabIndex = 57
         '
         'botonAlumno
         '
         Me.botonAlumno.AutoSize = True
-        Me.botonAlumno.Location = New System.Drawing.Point(1522, 486)
+        Me.botonAlumno.Location = New System.Drawing.Point(571, 204)
+        Me.botonAlumno.Margin = New System.Windows.Forms.Padding(1, 1, 1, 1)
         Me.botonAlumno.Name = "botonAlumno"
-        Me.botonAlumno.Size = New System.Drawing.Size(384, 36)
+        Me.botonAlumno.Size = New System.Drawing.Size(149, 17)
         Me.botonAlumno.TabIndex = 59
         Me.botonAlumno.Text = "Marca aqui si eres alumno"
         Me.botonAlumno.UseVisualStyleBackColor = True
@@ -1021,31 +956,30 @@ Partial Class principal
         'listaPart
         '
         Me.listaPart.FormattingEnabled = True
-        Me.listaPart.ItemHeight = 31
-        Me.listaPart.Location = New System.Drawing.Point(2165, 856)
+        Me.listaPart.Location = New System.Drawing.Point(812, 359)
+        Me.listaPart.Margin = New System.Windows.Forms.Padding(1, 1, 1, 1)
         Me.listaPart.Name = "listaPart"
-        Me.listaPart.Size = New System.Drawing.Size(426, 252)
+        Me.listaPart.Size = New System.Drawing.Size(162, 108)
         Me.listaPart.TabIndex = 60
         '
         'btn_agregar_emp
         '
         Me.btn_agregar_emp.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btn_agregar_emp.Image = Global.saiin.My.Resources.Resources.agregar
-        Me.btn_agregar_emp.Location = New System.Drawing.Point(664, 320)
-        Me.btn_agregar_emp.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
+        Me.btn_agregar_emp.Location = New System.Drawing.Point(249, 134)
         Me.btn_agregar_emp.Name = "btn_agregar_emp"
-        Me.btn_agregar_emp.Size = New System.Drawing.Size(251, 69)
+        Me.btn_agregar_emp.Size = New System.Drawing.Size(94, 29)
         Me.btn_agregar_emp.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.btn_agregar_emp.TabIndex = 61
         Me.btn_agregar_emp.TabStop = False
         '
         'principal
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(16.0!, 31.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoSize = True
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
-        Me.ClientSize = New System.Drawing.Size(3365, 1607)
+        Me.ClientSize = New System.Drawing.Size(800, 488)
         Me.Controls.Add(Me.btn_agregar_emp)
         Me.Controls.Add(Me.listaPart)
         Me.Controls.Add(Me.botonAlumno)
@@ -1067,7 +1001,6 @@ Partial Class principal
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.PictureBox7)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Margin = New System.Windows.Forms.Padding(8, 7, 8, 7)
         Me.Name = "principal"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form1"

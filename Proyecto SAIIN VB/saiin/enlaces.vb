@@ -10,7 +10,7 @@ Module enlaces
 
     Sub enlace()
         Try
-            conexion.ConnectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=|DataDirectory|\SimuladorDatos.mdb"
+            conexion.ConnectionString = " Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\SimuladorDatosV2.1.accdb"
             conexion.Open()
 
         Catch ex As Exception
@@ -22,5 +22,7 @@ Module enlaces
         conexion.Close()
         conexion.Open()
     End Sub
+
+    Public Const cs As String = " Provider=Microsoft.ACE.OLEDB.12.0;Data Source=|DataDirectory|\SimuladorDatosV2.1.accdb"
 
 End Module
